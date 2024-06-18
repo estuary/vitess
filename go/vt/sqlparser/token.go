@@ -134,7 +134,7 @@ func (tkn *Tokenizer) Scan() (int, string) {
 		}
 		var tID int
 		var tBytes string
-		if tkn.cur() == '`' {
+		if tkn.cur() == '"' {
 			tkn.skip(1)
 			tID, tBytes = tkn.scanLiteralIdentifier()
 		} else if tkn.cur() == eofChar {
@@ -162,7 +162,7 @@ func (tkn *Tokenizer) Scan() (int, string) {
 		// N\'literal' is used to create a string in the national character set
 		if ch == 'N' || ch == 'n' {
 			nxt := tkn.peek(1)
-			if nxt == '\'' || nxt == '"' {
+			if nxt == '\'' {
 				tkn.skip(2)
 				return tkn.scanString(nxt, NCHAR_STRING)
 			}
@@ -283,9 +283,9 @@ func (tkn *Tokenizer) Scan() (int, string) {
 				return NE, ""
 			}
 			return int(ch), ""
-		case '\'', '"':
+		case '\'':
 			return tkn.scanString(ch, STRING)
-		case '`':
+		case '"':
 			return tkn.scanLiteralIdentifier()
 		default:
 			return LEX_ERROR, string(byte(ch))
@@ -366,23 +366,23 @@ func (tkn *Tokenizer) scanBitLiteral() (int, string) {
 // scanLiteralIdentifierSlow scans an identifier surrounded by backticks which may
 // contain escape sequences instead of it. This method is only called from
 // scanLiteralIdentifier once the first escape sequence is found in the identifier.
-// The provided `buf` contains the contents of the identifier that have been scanned
+// The provided "buf" contains the contents of the identifier that have been scanned
 // so far.
 func (tkn *Tokenizer) scanLiteralIdentifierSlow(buf *strings.Builder) (int, string) {
 	backTickSeen := true
 	for {
 		if backTickSeen {
-			if tkn.cur() != '`' {
+			if tkn.cur() != '"' {
 				break
 			}
 			backTickSeen = false
-			buf.WriteByte('`')
+			buf.WriteByte('"')
 			tkn.skip(1)
 			continue
 		}
 		// The previous char was not a backtick.
 		switch tkn.cur() {
-		case '`':
+		case '"':
 			backTickSeen = true
 		case eofChar:
 			// Premature EOF.
@@ -403,8 +403,8 @@ func (tkn *Tokenizer) scanLiteralIdentifier() (int, string) {
 	start := tkn.Pos
 	for {
 		switch tkn.cur() {
-		case '`':
-			if tkn.peek(1) != '`' {
+		case '"':
+			if tkn.peek(1) != '"' {
 				if tkn.Pos == start {
 					return LEX_ERROR, ""
 				}
@@ -538,7 +538,7 @@ exit:
 	return token, tkn.buf[start:tkn.Pos]
 }
 
-// scanString scans a string surrounded by the given `delim`, which can be
+// scanString scans a string surrounded by the given "delim", which can be
 // either single or double quotes. Assumes that the given delimiter has just
 // been scanned. If the skin contains any escape sequences, this function
 // will fall back to scanStringSlow
@@ -567,8 +567,8 @@ func (tkn *Tokenizer) scanString(delim uint16, typ int) (int, string) {
 	}
 }
 
-// scanString scans a string surrounded by the given `delim` and containing escape
-// sequencse. The given `buffer` contains the contents of the string that have
+// scanString scans a string surrounded by the given "delim" and containing escape
+// sequencse. The given "buffer" contains the contents of the string that have
 // been scanned so far.
 func (tkn *Tokenizer) scanStringSlow(buffer *strings.Builder, delim uint16, typ int) (int, string) {
 	for {
@@ -660,7 +660,7 @@ func (tkn *Tokenizer) scanCommentType2() (int, string) {
 	return COMMENT, tkn.buf[start:tkn.Pos]
 }
 
-// scanMySQLSpecificComment scans a MySQL comment pragma, which always starts with '//*`
+// scanMySQLSpecificComment scans a MySQL comment pragma, which always starts with '//*"
 func (tkn *Tokenizer) scanMySQLSpecificComment() (int, string) {
 	start := tkn.Pos - 3
 	for {
@@ -717,7 +717,7 @@ func isLetter(ch uint16) bool {
 }
 
 func isCarat(ch uint16) bool {
-	return ch == '.' || ch == '\'' || ch == '"' || ch == '`'
+	return ch == '.' || ch == '\'' || ch == '"'
 }
 
 func digitVal(ch uint16) int {
