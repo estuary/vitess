@@ -22,7 +22,7 @@ import (
 
 	"context"
 
-	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo"
 )
 
 // ListDir is part of the topo.Conn interface.

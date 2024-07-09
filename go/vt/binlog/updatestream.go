@@ -19,8 +19,8 @@ package binlog
 import (
 	"context"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // UpdateStream is the interface for the binlog server

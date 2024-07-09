@@ -22,12 +22,12 @@ import (
 	"sync"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/constants/sidecar"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/binlog/binlogplayer"
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/topo/memorytopo"
+	"mdibaiee/vitess/go/constants/sidecar"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/binlog/binlogplayer"
+	"mdibaiee/vitess/go/vt/mysqlctl"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/topo/memorytopo"
 
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 )

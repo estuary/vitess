@@ -22,9 +22,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
+	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 var parentTbl = &vindexes.Table{

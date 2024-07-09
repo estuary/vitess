@@ -24,13 +24,13 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/vtgate/vindexes"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // CopyKeyspaces will create the keyspaces in the destination topo.

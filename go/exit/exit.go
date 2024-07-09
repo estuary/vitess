@@ -50,8 +50,8 @@ package exit
 import (
 	"os"
 
-	"mdibaiee/vitess/oracle/go/tb"
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/tb"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 type exitCode int

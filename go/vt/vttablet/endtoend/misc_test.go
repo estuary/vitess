@@ -31,14 +31,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/test/utils"
-	"mdibaiee/vitess/oracle/go/vt/callerid"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/endtoend/framework"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/test/utils"
+	"mdibaiee/vitess/go/vt/callerid"
+	"mdibaiee/vitess/go/vt/log"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/vttablet/endtoend/framework"
 )
 
 func TestSimpleRead(t *testing.T) {

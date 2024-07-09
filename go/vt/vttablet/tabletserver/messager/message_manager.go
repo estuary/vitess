@@ -27,18 +27,18 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"mdibaiee/vitess/oracle/go/mysql/replication"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/stats"
-	"mdibaiee/vitess/oracle/go/timer"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/schema"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tabletenv"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"mdibaiee/vitess/go/mysql/replication"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/stats"
+	"mdibaiee/vitess/go/timer"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/schema"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
 )
 
 var (

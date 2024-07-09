@@ -21,10 +21,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/key"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtgatepb "mdibaiee/vitess/oracle/go/vt/proto/vtgate"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/key"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
 )
 
 const (

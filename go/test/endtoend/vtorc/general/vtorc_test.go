@@ -25,12 +25,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
-	"mdibaiee/vitess/oracle/go/test/endtoend/vtorc/utils"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/inst"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/logic"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/test/endtoend/vtorc/utils"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/vtorc/inst"
+	"mdibaiee/vitess/go/vt/vtorc/logic"
 )
 
 // Cases to test:

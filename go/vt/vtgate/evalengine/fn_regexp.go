@@ -20,14 +20,14 @@ import (
 	"errors"
 	"strings"
 
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	"mdibaiee/vitess/oracle/go/mysql/collations/charset"
-	"mdibaiee/vitess/oracle/go/mysql/collations/colldata"
-	"mdibaiee/vitess/oracle/go/mysql/icuregex"
-	icuerrors "mdibaiee/vitess/oracle/go/mysql/icuregex/errors"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/mysql/collations"
+	"mdibaiee/vitess/go/mysql/collations/charset"
+	"mdibaiee/vitess/go/mysql/collations/colldata"
+	"mdibaiee/vitess/go/mysql/icuregex"
+	icuerrors "mdibaiee/vitess/go/mysql/icuregex/errors"
+	"mdibaiee/vitess/go/sqltypes"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/vterrors"
 )
 
 func regexpFlags(m eval, flags icuregex.RegexpFlag, f string) (icuregex.RegexpFlag, error) {

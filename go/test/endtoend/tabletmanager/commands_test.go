@@ -27,12 +27,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tidwall/gjson"
 
-	"mdibaiee/vitess/oracle/go/json2"
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
-	"mdibaiee/vitess/oracle/go/test/endtoend/utils"
+	"mdibaiee/vitess/go/json2"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/test/endtoend/utils"
 
-	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
+	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
 )
 
 var (

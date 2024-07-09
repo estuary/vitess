@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 
 	"github.com/hashicorp/consul/api"
 
-	"mdibaiee/vitess/oracle/go/testfiles"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/topo/test"
+	"mdibaiee/vitess/go/testfiles"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo/test"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // startConsul starts a consul subprocess, and waits for it to be ready.

@@ -19,11 +19,11 @@ limitations under the License.
 package schematest
 
 import (
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/mysql/fakesqldb"
-	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/mysql/fakesqldb"
+	"mdibaiee/vitess/go/sqltypes"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
 )
 
 // AddDefaultQueries returns a default set of queries that can

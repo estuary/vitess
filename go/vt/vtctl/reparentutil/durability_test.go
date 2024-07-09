@@ -22,10 +22,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
 
-	"mdibaiee/vitess/oracle/go/vt/vtctl/reparentutil/promotionrule"
+	"mdibaiee/vitess/go/vt/vtctl/reparentutil/promotionrule"
 )
 
 func TestDurabilityNone(t *testing.T) {

@@ -25,15 +25,15 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/oracle/go/cmd/vtctldclient/cli"
-	"mdibaiee/vitess/oracle/go/protoutil"
-	"mdibaiee/vitess/oracle/go/vt/logutil"
-	"mdibaiee/vitess/oracle/go/vt/schema"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/grpcvtctldserver"
+	"mdibaiee/vitess/go/cmd/vtctldclient/cli"
+	"mdibaiee/vitess/go/protoutil"
+	"mdibaiee/vitess/go/vt/logutil"
+	"mdibaiee/vitess/go/vt/schema"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/vtctl/grpcvtctldserver"
 
-	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
-	"mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
+	"mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 var (

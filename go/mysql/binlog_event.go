@@ -19,10 +19,10 @@ package mysql
 import (
 	"fmt"
 
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	"mdibaiee/vitess/oracle/go/mysql/replication"
+	"mdibaiee/vitess/go/mysql/collations"
+	"mdibaiee/vitess/go/mysql/replication"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
 )
 
 // BinlogEvent represents a single event from a raw MySQL binlog dump stream.

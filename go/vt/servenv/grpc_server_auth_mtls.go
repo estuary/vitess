@@ -26,7 +26,7 @@ import (
 	"google.golang.org/grpc/peer"
 	"google.golang.org/grpc/status"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 var (

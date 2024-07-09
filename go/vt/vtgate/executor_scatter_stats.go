@@ -24,11 +24,11 @@ import (
 
 	"github.com/google/safehtml/template"
 
-	"mdibaiee/vitess/oracle/go/vt/logz"
+	"mdibaiee/vitess/go/vt/logz"
 
-	"mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/engine"
+	"mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vtgate/engine"
 )
 
 type statsResults struct {

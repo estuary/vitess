@@ -22,8 +22,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"mdibaiee/vitess/oracle/go/mysql/decimal"
-	"mdibaiee/vitess/oracle/go/vt/vthash"
+	"mdibaiee/vitess/go/mysql/decimal"
+	"mdibaiee/vitess/go/vt/vthash"
 )
 
 var testGoTime = time.Date(2024, 03, 12, 12, 30, 20, 987654321, time.UTC)

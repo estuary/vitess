@@ -11,7 +11,7 @@ import (
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
-	vtgate "mdibaiee/vitess/oracle/go/vt/proto/vtgate"
+	vtgate "mdibaiee/vitess/go/vt/proto/vtgate"
 )
 
 // This is a compile-time assertion to ensure that this generated file

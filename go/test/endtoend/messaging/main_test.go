@@ -22,8 +22,8 @@ import (
 	"os"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
-	_ "mdibaiee/vitess/oracle/go/vt/vtgate/grpcvtgateconn"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
+	_ "mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
 )
 
 var (

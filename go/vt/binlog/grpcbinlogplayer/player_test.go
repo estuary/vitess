@@ -23,11 +23,11 @@ import (
 
 	"google.golang.org/grpc"
 
-	"mdibaiee/vitess/oracle/go/vt/binlog/binlogplayertest"
-	"mdibaiee/vitess/oracle/go/vt/binlog/grpcbinlogstreamer"
+	"mdibaiee/vitess/go/vt/binlog/binlogplayertest"
+	"mdibaiee/vitess/go/vt/binlog/grpcbinlogstreamer"
 
-	binlogservicepb "mdibaiee/vitess/oracle/go/vt/proto/binlogservice"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	binlogservicepb "mdibaiee/vitess/go/vt/proto/binlogservice"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // the test here creates a fake server implementation, a fake client

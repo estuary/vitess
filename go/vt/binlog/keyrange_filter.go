@@ -19,12 +19,12 @@ package binlog
 import (
 	"fmt"
 
-	"mdibaiee/vitess/oracle/go/vt/key"
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/key"
+	"mdibaiee/vitess/go/vt/log"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // keyRangeFilterFunc returns a function that calls callback only if statements

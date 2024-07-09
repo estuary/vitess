@@ -23,13 +23,13 @@ import (
 	"github.com/spf13/pflag"
 	"google.golang.org/grpc"
 
-	"mdibaiee/vitess/oracle/go/vt/grpcclient"
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/cluster/discovery"
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/cluster/resolver"
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/credentials"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/vtctldclient"
+	"mdibaiee/vitess/go/vt/grpcclient"
+	"mdibaiee/vitess/go/vt/vtadmin/cluster/discovery"
+	"mdibaiee/vitess/go/vt/vtadmin/cluster/resolver"
+	"mdibaiee/vitess/go/vt/vtadmin/credentials"
+	"mdibaiee/vitess/go/vt/vtctl/vtctldclient"
 
-	vtadminpb "mdibaiee/vitess/oracle/go/vt/proto/vtadmin"
+	vtadminpb "mdibaiee/vitess/go/vt/proto/vtadmin"
 )
 
 // Config represents the options that modify the behavior of a Proxy.

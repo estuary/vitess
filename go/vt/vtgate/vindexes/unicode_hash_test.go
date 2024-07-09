@@ -26,8 +26,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/mysql/collations/testutil"
-	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/go/mysql/collations/testutil"
+	"mdibaiee/vitess/go/sqltypes"
 )
 
 type GoldenUnicodeHash struct {

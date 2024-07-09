@@ -23,13 +23,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/vt/vtgate/evalengine"
+	"mdibaiee/vitess/go/vt/vtgate/evalengine"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/key"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/key"
+	"mdibaiee/vitess/go/vt/vtgate/vindexes"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // uvindex is Unique.

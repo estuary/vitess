@@ -21,14 +21,14 @@ import (
 	"errors"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/vt/vtgate/evalengine"
+	"mdibaiee/vitess/go/vt/vtgate/evalengine"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/vtgate/vindexes"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
 )
 
 func TestDeleteUnsharded(t *testing.T) {

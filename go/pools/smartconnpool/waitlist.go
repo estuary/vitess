@@ -20,7 +20,7 @@ import (
 	"context"
 	"sync"
 
-	"mdibaiee/vitess/oracle/go/list"
+	"mdibaiee/vitess/go/list"
 )
 
 // waiter represents a client waiting for a connection in the waitlist

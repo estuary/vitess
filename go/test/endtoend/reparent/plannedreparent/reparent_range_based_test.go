@@ -20,11 +20,11 @@ import (
 	"context"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/test/endtoend/reparent/utils"
+	"mdibaiee/vitess/go/test/endtoend/reparent/utils"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
 )
 
 func TestReparentGracefulRangeBased(t *testing.T) {

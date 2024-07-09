@@ -26,17 +26,17 @@ import (
 	"io"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/hook"
-	"mdibaiee/vitess/oracle/go/vt/logutil"
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl/tmutils"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tmclient"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/hook"
+	"mdibaiee/vitess/go/vt/logutil"
+	"mdibaiee/vitess/go/vt/mysqlctl/tmutils"
+	"mdibaiee/vitess/go/vt/vttablet/tmclient"
 
-	logutilpb "mdibaiee/vitess/oracle/go/vt/proto/logutil"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	replicationdatapb "mdibaiee/vitess/oracle/go/vt/proto/replicationdata"
-	tabletmanagerdatapb "mdibaiee/vitess/oracle/go/vt/proto/tabletmanagerdata"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	logutilpb "mdibaiee/vitess/go/vt/proto/logutil"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	replicationdatapb "mdibaiee/vitess/go/vt/proto/replicationdata"
+	tabletmanagerdatapb "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // NewFakeTabletManagerClient should be used to create a new FakeTabletManagerClient.

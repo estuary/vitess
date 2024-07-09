@@ -25,10 +25,10 @@ import (
 	"strconv"
 	"strings"
 
-	"mdibaiee/vitess/oracle/go/vt/proto/vttest"
+	"mdibaiee/vitess/go/vt/proto/vttest"
 
 	// we use gRPC everywhere, so import the vtgate client.
-	_ "mdibaiee/vitess/oracle/go/vt/vtgate/grpcvtgateconn"
+	_ "mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
 )
 
 // Environment is the interface that customizes the global settings for

@@ -19,7 +19,7 @@ package topoproto
 import (
 	"strings"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // TabletTypeListFlag implements the pflag.Value interface, for parsing a command-line comma-separated

@@ -16,7 +16,7 @@ limitations under the License.
 
 package sidecar
 
-import "mdibaiee/vitess/oracle/go/vt/sqlparser"
+import "mdibaiee/vitess/go/vt/sqlparser"
 
 // region unit-test-only
 // This section uses helpers used in tests, but also in

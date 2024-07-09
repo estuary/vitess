@@ -21,9 +21,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/oracle/go/cmd/vtctldclient/command/vreplication/common"
-	"mdibaiee/vitess/oracle/go/mysql/config"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/cmd/vtctldclient/command/vreplication/common"
+	"mdibaiee/vitess/go/mysql/config"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
 )
 
 var (

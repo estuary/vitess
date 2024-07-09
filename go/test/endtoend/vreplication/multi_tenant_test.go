@@ -40,11 +40,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/proto/vtctldata"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
 )
 
 type tenantMigrationStatus int

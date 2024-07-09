@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"sync"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/vterrors"
 
-	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
+	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
 )
 
 // This file contains the utility methods to manage SrvVSchema objects.

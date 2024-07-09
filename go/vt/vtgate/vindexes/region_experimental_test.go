@@ -21,15 +21,15 @@ import (
 	"strconv"
 	"testing"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	"mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	"mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/vterrors"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/key"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/key"
 )
 
 func regionExperimentalCreateVindexTestCase(

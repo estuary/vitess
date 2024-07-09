@@ -22,10 +22,10 @@ import (
 
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 
-	"mdibaiee/vitess/oracle/go/json2"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
+	"mdibaiee/vitess/go/json2"
+	"mdibaiee/vitess/go/sqltypes"
+	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
+	"mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 var initter sync.Once

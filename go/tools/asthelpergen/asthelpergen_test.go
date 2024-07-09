@@ -27,7 +27,7 @@ import (
 func TestFullGeneration(t *testing.T) {
 	result, err := GenerateASTHelpers(&Options{
 		Packages:      []string{"./integration/..."},
-		RootInterface: "mdibaiee/vitess/oracle/go/tools/asthelpergen/integration.AST",
+		RootInterface: "mdibaiee/vitess/go/tools/asthelpergen/integration.AST",
 		Clone: CloneOptions{
 			Exclude: []string{"*NoCloneType"},
 		},

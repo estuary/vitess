@@ -24,9 +24,9 @@ import (
 	"strings"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/mysql/datetime"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	"mdibaiee/vitess/go/mysql/datetime"
+	"mdibaiee/vitess/go/sqltypes"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
 )
 
 type Query func(query string, row []sqltypes.Value)

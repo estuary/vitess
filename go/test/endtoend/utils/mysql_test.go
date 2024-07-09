@@ -27,11 +27,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/mysql/replication"
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/mysql/replication"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/vt/mysqlctl"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
 )
 
 var (

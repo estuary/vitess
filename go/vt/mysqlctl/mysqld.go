@@ -43,22 +43,22 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/oracle/config"
+	"mdibaiee/vitess/config"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/mysql/sqlerror"
-	"mdibaiee/vitess/oracle/go/protoutil"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
-	"mdibaiee/vitess/oracle/go/vt/dbconnpool"
-	vtenv "mdibaiee/vitess/oracle/go/vt/env"
-	"mdibaiee/vitess/oracle/go/vt/hook"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl/mysqlctlclient"
-	mysqlctlpb "mdibaiee/vitess/oracle/go/vt/proto/mysqlctl"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/mysql/sqlerror"
+	"mdibaiee/vitess/go/protoutil"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/dbconfigs"
+	"mdibaiee/vitess/go/vt/dbconnpool"
+	vtenv "mdibaiee/vitess/go/vt/env"
+	"mdibaiee/vitess/go/vt/hook"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/mysqlctl/mysqlctlclient"
+	mysqlctlpb "mdibaiee/vitess/go/vt/proto/mysqlctl"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/vterrors"
 )
 
 // The string we expect before the MySQL version number

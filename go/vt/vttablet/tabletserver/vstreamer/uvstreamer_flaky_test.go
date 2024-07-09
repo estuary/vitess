@@ -51,17 +51,17 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"mdibaiee/vitess/go/mysql/collations"
+	"mdibaiee/vitess/go/vt/dbconfigs"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/proto/query"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/proto/query"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	"mdibaiee/vitess/go/vt/log"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
 )
 
 const (

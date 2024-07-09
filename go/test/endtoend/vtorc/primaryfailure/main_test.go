@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
-	"mdibaiee/vitess/oracle/go/test/endtoend/vtorc/utils"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/test/endtoend/vtorc/utils"
 )
 
 var clusterInfo *utils.VTOrcClusterInfo

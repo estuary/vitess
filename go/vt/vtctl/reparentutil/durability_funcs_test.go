@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 var (

@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/stats"
+	"mdibaiee/vitess/go/stats"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 const (

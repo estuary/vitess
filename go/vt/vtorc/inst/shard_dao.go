@@ -19,11 +19,11 @@ package inst
 import (
 	"errors"
 
-	"mdibaiee/vitess/oracle/go/protoutil"
-	"mdibaiee/vitess/oracle/go/vt/external/golib/sqlutils"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/db"
+	"mdibaiee/vitess/go/protoutil"
+	"mdibaiee/vitess/go/vt/external/golib/sqlutils"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/vtorc/db"
 )
 
 // ErrShardNotFound is a fixed error message used when a shard is not found in the database.

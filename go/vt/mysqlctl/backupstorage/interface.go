@@ -25,8 +25,8 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/oracle/go/vt/concurrency"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/concurrency"
+	"mdibaiee/vitess/go/vt/servenv"
 )
 
 var (

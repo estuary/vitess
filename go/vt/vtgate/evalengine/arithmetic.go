@@ -19,10 +19,10 @@ package evalengine
 import (
 	"math"
 
-	"mdibaiee/vitess/oracle/go/mysql/decimal"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/mysql/decimal"
+	"mdibaiee/vitess/go/sqltypes"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/vterrors"
 )
 
 func dataOutOfRangeError[N1, N2 int64 | uint64 | float64](v1 N1, v2 N2, typ, sign string) error {

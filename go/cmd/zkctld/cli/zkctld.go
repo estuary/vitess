@@ -25,11 +25,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/oracle/go/acl"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/logutil"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
-	"mdibaiee/vitess/oracle/go/vt/zkctl"
+	"mdibaiee/vitess/go/acl"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/logutil"
+	"mdibaiee/vitess/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/zkctl"
 )
 
 var (

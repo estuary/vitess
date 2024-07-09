@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/stats"
+	"mdibaiee/vitess/go/stats"
 )
 
 // varType is used to specify what type of var to create.

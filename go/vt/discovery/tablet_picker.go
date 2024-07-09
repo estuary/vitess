@@ -26,18 +26,18 @@ import (
 	"sync"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/stats"
-	"mdibaiee/vitess/oracle/go/vt/grpcclient"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletconn"
+	"mdibaiee/vitess/go/stats"
+	"mdibaiee/vitess/go/vt/grpcclient"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vttablet/tabletconn"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	tabletmanagerdatapb "mdibaiee/vitess/oracle/go/vt/proto/tabletmanagerdata"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	tabletmanagerdatapb "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 type TabletPickerCellPreference int

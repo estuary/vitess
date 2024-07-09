@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/test/utils"
+	"mdibaiee/vitess/go/test/utils"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	"mdibaiee/vitess/oracle/go/vt/topo"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	"mdibaiee/vitess/go/vt/topo"
 )
 
 func init() {

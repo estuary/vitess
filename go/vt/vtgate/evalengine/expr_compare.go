@@ -19,12 +19,12 @@ package evalengine
 import (
 	"bytes"
 
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	"mdibaiee/vitess/oracle/go/mysql/collations/colldata"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vthash"
+	"mdibaiee/vitess/go/mysql/collations"
+	"mdibaiee/vitess/go/mysql/collations/colldata"
+	"mdibaiee/vitess/go/sqltypes"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vthash"
 )
 
 type (

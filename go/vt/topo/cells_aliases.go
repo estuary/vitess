@@ -22,7 +22,7 @@ import (
 
 	"context"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // This file provides the utility methods to save / retrieve CellsAliases

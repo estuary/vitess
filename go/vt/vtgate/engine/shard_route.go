@@ -19,10 +19,10 @@ package engine
 import (
 	"context"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	"mdibaiee/vitess/oracle/go/vt/srvtopo"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/sqltypes"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	"mdibaiee/vitess/go/vt/srvtopo"
+	"mdibaiee/vitess/go/vt/vterrors"
 )
 
 var _ StreamExecutor = (*shardRoute)(nil)

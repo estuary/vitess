@@ -25,7 +25,7 @@ import (
 
 	"context"
 
-	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo"
 )
 
 // backendExplorer is a class that uses the Backend interface of a

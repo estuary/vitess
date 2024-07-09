@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/streamlog"
-	"mdibaiee/vitess/oracle/go/vt/vtenv"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tabletenv"
+	"mdibaiee/vitess/go/streamlog"
+	"mdibaiee/vitess/go/vt/vtenv"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
 
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 func resetVariables(txs *TxSerializer) {

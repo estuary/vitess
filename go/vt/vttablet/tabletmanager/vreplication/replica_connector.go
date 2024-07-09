@@ -17,17 +17,17 @@ limitations under the License.
 package vreplication
 
 import (
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
-	"mdibaiee/vitess/oracle/go/vt/vtenv"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tabletenv"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/vt/dbconfigs"
+	"mdibaiee/vitess/go/vt/vtenv"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 
 	"context"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/schema"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/vstreamer"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/schema"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/vstreamer"
 )
 
 // NewReplicaConnector returns replica connector

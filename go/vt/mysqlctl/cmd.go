@@ -23,8 +23,8 @@ package mysqlctl
 import (
 	"fmt"
 
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
+	"mdibaiee/vitess/go/mysql/collations"
+	"mdibaiee/vitess/go/vt/dbconfigs"
 )
 
 // CreateMysqldAndMycnf returns a Mysqld and a Mycnf object to use for working with a MySQL

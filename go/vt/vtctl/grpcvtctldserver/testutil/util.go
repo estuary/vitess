@@ -28,13 +28,13 @@ import (
 	"golang.org/x/net/nettest"
 	"google.golang.org/grpc"
 
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/vtctldclient"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/vtctl/vtctldclient"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
-	vtctlservicepb "mdibaiee/vitess/oracle/go/vt/proto/vtctlservice"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
+	vtctlservicepb "mdibaiee/vitess/go/vt/proto/vtctlservice"
 )
 
 // WithTestServer creates a gRPC server listening locally with the given RPC

@@ -21,17 +21,17 @@ import (
 	"fmt"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/vt/topotools"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/reparentutil"
+	"mdibaiee/vitess/go/vt/topotools"
+	"mdibaiee/vitess/go/vt/vtctl/reparentutil"
 
-	"mdibaiee/vitess/oracle/go/vt/logutil"
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl"
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl/backupstats"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/logutil"
+	"mdibaiee/vitess/go/vt/mysqlctl"
+	"mdibaiee/vitess/go/vt/mysqlctl/backupstats"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/vterrors"
 
-	tabletmanagerdatapb "mdibaiee/vitess/oracle/go/vt/proto/tabletmanagerdata"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	tabletmanagerdatapb "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 const (

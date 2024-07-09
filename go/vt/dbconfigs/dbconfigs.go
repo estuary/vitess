@@ -26,14 +26,14 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vttls"
-	"mdibaiee/vitess/oracle/go/yaml2"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/mysql/collations"
+	"mdibaiee/vitess/go/vt/log"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vttls"
+	"mdibaiee/vitess/go/yaml2"
 )
 
 // config flags

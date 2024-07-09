@@ -22,8 +22,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/go/mysql/collations"
+	"mdibaiee/vitess/go/sqltypes"
 )
 
 func TestEvalengineTypeAggregations(t *testing.T) {

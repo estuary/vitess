@@ -24,11 +24,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"mdibaiee/vitess/oracle/go/stats"
-	"mdibaiee/vitess/oracle/go/vt/topo/memorytopo"
+	"mdibaiee/vitess/go/stats"
+	"mdibaiee/vitess/go/vt/topo/memorytopo"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // To sort []*querypb.Target for comparison.

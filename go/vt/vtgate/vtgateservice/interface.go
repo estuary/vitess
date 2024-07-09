@@ -21,11 +21,11 @@ package vtgateservice
 import (
 	"context"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtgatepb "mdibaiee/vitess/oracle/go/vt/proto/vtgate"
+	"mdibaiee/vitess/go/sqltypes"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
 )
 
 // VTGateService is the interface implemented by the VTGate service,

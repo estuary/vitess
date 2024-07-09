@@ -20,7 +20,7 @@ import (
 	"sort"
 	"strings"
 
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 // A list of all vtrpcpb.Code, ordered by priority. These priorities are

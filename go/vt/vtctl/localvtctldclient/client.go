@@ -21,9 +21,9 @@ import (
 	"errors"
 	"sync"
 
-	"mdibaiee/vitess/oracle/go/vt/vtctl/vtctldclient"
+	"mdibaiee/vitess/go/vt/vtctl/vtctldclient"
 
-	vtctlservicepb "mdibaiee/vitess/oracle/go/vt/proto/vtctlservice"
+	vtctlservicepb "mdibaiee/vitess/go/vt/proto/vtctlservice"
 )
 
 var (

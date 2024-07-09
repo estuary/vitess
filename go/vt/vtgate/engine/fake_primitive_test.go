@@ -25,8 +25,8 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	"mdibaiee/vitess/go/sqltypes"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
 )
 
 // fakePrimitive fakes a primitive. For every call, it sends the

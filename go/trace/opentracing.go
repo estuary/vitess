@@ -25,7 +25,7 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"google.golang.org/grpc"
 
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vterrors"
 )
 
 var _ Span = (*openTracingSpan)(nil)

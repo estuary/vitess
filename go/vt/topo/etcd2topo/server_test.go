@@ -28,12 +28,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/testfiles"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	"mdibaiee/vitess/oracle/go/vt/tlstest"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/topo/test"
+	"mdibaiee/vitess/go/testfiles"
+	"mdibaiee/vitess/go/vt/log"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	"mdibaiee/vitess/go/vt/tlstest"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo/test"
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 )

@@ -7,7 +7,7 @@ package norm
 import (
 	"unicode/utf8"
 
-	"mdibaiee/vitess/oracle/go/hack"
+	"mdibaiee/vitess/go/hack"
 )
 
 const (

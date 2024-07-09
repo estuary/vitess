@@ -17,7 +17,7 @@ limitations under the License.
 package servenv
 
 import (
-	"mdibaiee/vitess/oracle/go/vt/logutil"
+	"mdibaiee/vitess/go/vt/logutil"
 )
 
 func init() {

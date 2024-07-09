@@ -19,9 +19,9 @@ package cli
 // This plugin imports ldapauthserver to register the LDAP implementation of AuthServer.
 
 import (
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/mysql/ldapauthserver"
-	"mdibaiee/vitess/oracle/go/vt/vtgate"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/mysql/ldapauthserver"
+	"mdibaiee/vitess/go/vt/vtgate"
 )
 
 var (

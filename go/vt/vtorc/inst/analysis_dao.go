@@ -24,16 +24,16 @@ import (
 	"github.com/patrickmn/go-cache"
 	"google.golang.org/protobuf/encoding/prototext"
 
-	"mdibaiee/vitess/oracle/go/stats"
-	"mdibaiee/vitess/oracle/go/vt/external/golib/sqlutils"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/reparentutil"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/config"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/db"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/util"
+	"mdibaiee/vitess/go/stats"
+	"mdibaiee/vitess/go/vt/external/golib/sqlutils"
+	"mdibaiee/vitess/go/vt/log"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/vtctl/reparentutil"
+	"mdibaiee/vitess/go/vt/vtorc/config"
+	"mdibaiee/vitess/go/vt/vtorc/db"
+	"mdibaiee/vitess/go/vt/vtorc/util"
 )
 
 var analysisChangeWriteCounter = stats.NewCounter("AnalysisChangeWrite", "Number of times analysis has changed")

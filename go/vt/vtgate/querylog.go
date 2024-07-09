@@ -19,9 +19,9 @@ package vtgate
 import (
 	"net/http"
 
-	"mdibaiee/vitess/oracle/go/streamlog"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/logstats"
+	"mdibaiee/vitess/go/streamlog"
+	"mdibaiee/vitess/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/vtgate/logstats"
 )
 
 var (

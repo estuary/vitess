@@ -21,20 +21,20 @@ import (
 	"fmt"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/constants/sidecar"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tx"
+	"mdibaiee/vitess/go/constants/sidecar"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tx"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
-	"mdibaiee/vitess/oracle/go/vt/dbconnpool"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/connpool"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/dbconfigs"
+	"mdibaiee/vitess/go/vt/dbconnpool"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/connpool"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 const (

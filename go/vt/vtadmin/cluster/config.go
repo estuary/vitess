@@ -27,12 +27,12 @@ import (
 
 	"github.com/spf13/viper"
 
-	"mdibaiee/vitess/oracle/go/pools"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/cache"
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/errors"
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/vtctldclient"
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/vtsql"
+	"mdibaiee/vitess/go/pools"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/vtadmin/cache"
+	"mdibaiee/vitess/go/vt/vtadmin/errors"
+	"mdibaiee/vitess/go/vt/vtadmin/vtctldclient"
+	"mdibaiee/vitess/go/vt/vtadmin/vtsql"
 )
 
 var (

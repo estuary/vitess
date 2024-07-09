@@ -25,18 +25,18 @@ import (
 	"github.com/spf13/pflag"
 	"golang.org/x/sync/errgroup"
 
-	"mdibaiee/vitess/oracle/go/constants/sidecar"
-	"mdibaiee/vitess/oracle/go/sqlescape"
-	"mdibaiee/vitess/oracle/go/vt/key"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/constants/sidecar"
+	"mdibaiee/vitess/go/sqlescape"
+	"mdibaiee/vitess/go/vt/key"
+	"mdibaiee/vitess/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/vterrors"
 
-	"mdibaiee/vitess/oracle/go/event"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/topo/events"
+	"mdibaiee/vitess/go/event"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/topo/events"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 // This file contains keyspace utility functions.

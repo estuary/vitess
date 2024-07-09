@@ -24,13 +24,13 @@ import (
 
 	"google.golang.org/grpc"
 
-	"mdibaiee/vitess/oracle/go/vt/vttablet/grpctmclient"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/grpctmserver"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tmrpctest"
+	"mdibaiee/vitess/go/vt/vttablet/grpctmclient"
+	"mdibaiee/vitess/go/vt/vttablet/grpctmserver"
+	"mdibaiee/vitess/go/vt/vttablet/tmrpctest"
 
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 func onceInit() {

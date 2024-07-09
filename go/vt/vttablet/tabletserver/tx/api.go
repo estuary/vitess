@@ -21,10 +21,10 @@ import (
 	"strings"
 	"time"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/sqlparser"
 )
 
 type (

@@ -5,11 +5,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/test/utils"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
+	"mdibaiee/vitess/go/test/utils"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 func TestVSchemaUpdate(t *testing.T) {

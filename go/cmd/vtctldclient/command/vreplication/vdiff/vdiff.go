@@ -31,17 +31,17 @@ import (
 	"github.com/google/uuid"
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/oracle/go/cmd/vtctldclient/cli"
-	"mdibaiee/vitess/oracle/go/cmd/vtctldclient/command/vreplication/common"
-	"mdibaiee/vitess/oracle/go/protoutil"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletmanager/vdiff"
+	"mdibaiee/vitess/go/cmd/vtctldclient/cli"
+	"mdibaiee/vitess/go/cmd/vtctldclient/command/vreplication/common"
+	"mdibaiee/vitess/go/protoutil"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vttablet/tabletmanager/vdiff"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	topoprotopb "mdibaiee/vitess/oracle/go/vt/topo/topoproto"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	topoprotopb "mdibaiee/vitess/go/vt/topo/topoproto"
 )
 
 var (

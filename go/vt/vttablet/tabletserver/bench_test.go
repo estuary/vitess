@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/go/sqltypes"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // Benchmark run on 6/27/17, with optimized byte-level operations

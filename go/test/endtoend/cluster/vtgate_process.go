@@ -30,10 +30,10 @@ import (
 	"syscall"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/planbuilder"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/planbuilder/plancontext"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/mysqlctl"
+	"mdibaiee/vitess/go/vt/vtgate/planbuilder"
+	"mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
 )
 
 // VtgateProcess is a generic handle for a running vtgate .

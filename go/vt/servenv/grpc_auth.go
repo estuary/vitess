@@ -25,7 +25,7 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 var grpcAuthServerFlagHooks []func(*pflag.FlagSet)

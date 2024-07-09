@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/vt/discovery"
+	"mdibaiee/vitess/go/vt/discovery"
 )
 
 // TestReplicationLagCache tests that the ring buffer in "replicationLagHistory"

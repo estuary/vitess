@@ -25,7 +25,7 @@ import (
 	"github.com/stretchr/testify/require"
 	clientv3 "go.etcd.io/etcd/client/v3"
 
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
 )
 
 func TestEtcdServer(t *testing.T) {

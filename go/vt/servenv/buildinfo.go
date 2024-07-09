@@ -24,7 +24,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/oracle/go/stats"
+	"mdibaiee/vitess/go/stats"
 )
 
 var (

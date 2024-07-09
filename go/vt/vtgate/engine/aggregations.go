@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"strconv"
 
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	"mdibaiee/vitess/oracle/go/slice"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	. "mdibaiee/vitess/oracle/go/vt/vtgate/engine/opcode"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/evalengine"
+	"mdibaiee/vitess/go/mysql/collations"
+	"mdibaiee/vitess/go/slice"
+	"mdibaiee/vitess/go/sqltypes"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vterrors"
+	. "mdibaiee/vitess/go/vt/vtgate/engine/opcode"
+	"mdibaiee/vitess/go/vt/vtgate/evalengine"
 )
 
 // AggregateParams specify the parameters for each aggregation.

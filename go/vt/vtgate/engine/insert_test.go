@@ -23,13 +23,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/evalengine"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
+	"mdibaiee/vitess/go/sqltypes"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vtgate/evalengine"
+	"mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 func TestInsertUnsharded(t *testing.T) {

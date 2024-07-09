@@ -20,10 +20,10 @@ import (
 	"context"
 	"fmt"
 
-	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
 )
 
 // shard related methods for Wrangler

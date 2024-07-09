@@ -25,15 +25,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/test/utils"
-	"mdibaiee/vitess/oracle/go/vt/callerid"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vschemaacl"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/test/utils"
+	"mdibaiee/vitess/go/vt/callerid"
+	"mdibaiee/vitess/go/vt/vtgate/vschemaacl"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
-	vtgatepb "mdibaiee/vitess/oracle/go/vt/proto/vtgate"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
+	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 func waitForVindex(t *testing.T, ks, name string, watch chan *vschemapb.SrvVSchema, executor *Executor) (*vschemapb.SrvVSchema, *vschemapb.Vindex) {

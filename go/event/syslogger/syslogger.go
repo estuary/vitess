@@ -56,9 +56,9 @@ import (
 	"os"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/event"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/go/event"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/servenv"
 )
 
 // Syslogger is the interface that events should implement if they want to be

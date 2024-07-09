@@ -28,22 +28,22 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/oracle/go/stats"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/vtenv"
+	"mdibaiee/vitess/go/stats"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/vtenv"
 
-	"mdibaiee/vitess/oracle/go/vt/discovery"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
-	"mdibaiee/vitess/oracle/go/vt/vtgate"
+	"mdibaiee/vitess/go/vt/discovery"
+	"mdibaiee/vitess/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/vtgate"
 
-	"mdibaiee/vitess/oracle/go/jsonutil"
-	"mdibaiee/vitess/oracle/go/sync2"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/engine"
+	"mdibaiee/vitess/go/jsonutil"
+	"mdibaiee/vitess/go/sync2"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vtgate/engine"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	vtgatepb "mdibaiee/vitess/oracle/go/vt/proto/vtgate"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
 )
 
 var batchInterval = 10 * time.Millisecond

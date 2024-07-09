@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/mysql/capabilities"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/go/mysql/capabilities"
+	"mdibaiee/vitess/go/vt/sqlparser"
 )
 
 func TestAlterTableCapableOfInstantDDL(t *testing.T) {

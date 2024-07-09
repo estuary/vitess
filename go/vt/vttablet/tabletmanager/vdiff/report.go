@@ -21,8 +21,8 @@ import (
 	"sort"
 	"strings"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/sqlparser"
 )
 
 const (

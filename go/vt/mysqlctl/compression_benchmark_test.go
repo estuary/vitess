@@ -19,9 +19,9 @@ import (
 	"github.com/klauspost/compress/zstd"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/hack"
+	"mdibaiee/vitess/go/hack"
 
-	"mdibaiee/vitess/oracle/go/vt/logutil"
+	"mdibaiee/vitess/go/vt/logutil"
 )
 
 type (

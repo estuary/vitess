@@ -24,11 +24,11 @@ import (
 	"strings"
 	"sync"
 
-	"mdibaiee/vitess/oracle/go/mysql/config"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/mysql/config"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/vterrors"
 
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 // parserPool is a pool for parser objects.

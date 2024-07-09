@@ -24,14 +24,14 @@ import (
 	"os"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/vt/tableacl"
-	"mdibaiee/vitess/oracle/go/vt/tableacl/simpleacl"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/endtoend/framework"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tabletenv"
-	"mdibaiee/vitess/oracle/go/vt/vttest"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/vt/tableacl"
+	"mdibaiee/vitess/go/vt/tableacl/simpleacl"
+	"mdibaiee/vitess/go/vt/vttablet/endtoend/framework"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"mdibaiee/vitess/go/vt/vttest"
 
-	vttestpb "mdibaiee/vitess/oracle/go/vt/proto/vttest"
+	vttestpb "mdibaiee/vitess/go/vt/proto/vttest"
 )
 
 var (

@@ -28,8 +28,8 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/oracle/go/vt/env"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/env"
+	"mdibaiee/vitess/go/vt/servenv"
 )
 
 // This files handles the creation of Mycnf objects for the default 'vt'

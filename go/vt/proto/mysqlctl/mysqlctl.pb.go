@@ -27,8 +27,8 @@ package mysqlctl
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	topodata "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vttime "mdibaiee/vitess/oracle/go/vt/proto/vttime"
+	topodata "mdibaiee/vitess/go/vt/proto/topodata"
+	vttime "mdibaiee/vitess/go/vt/proto/vttime"
 	reflect "reflect"
 	sync "sync"
 )

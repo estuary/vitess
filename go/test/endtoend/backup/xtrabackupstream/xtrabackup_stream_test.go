@@ -19,9 +19,9 @@ package vtctlbackup
 import (
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl"
+	"mdibaiee/vitess/go/vt/mysqlctl"
 
-	backup "mdibaiee/vitess/oracle/go/test/endtoend/backup/vtctlbackup"
+	backup "mdibaiee/vitess/go/test/endtoend/backup/vtctlbackup"
 )
 
 // TestXtrabackupStream - tests the backup using xtrabackup with xbstream mode

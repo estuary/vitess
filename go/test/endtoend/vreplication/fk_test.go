@@ -26,12 +26,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/vttablet"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/vttablet"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
 )
 
 const testWorkflowFlavor = workflowFlavorRandom

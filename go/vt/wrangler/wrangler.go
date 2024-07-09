@@ -23,15 +23,15 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/logutil"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/grpcvtctldserver"
-	"mdibaiee/vitess/oracle/go/vt/vtenv"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tmclient"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/logutil"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/vtctl/grpcvtctldserver"
+	"mdibaiee/vitess/go/vt/vtenv"
+	"mdibaiee/vitess/go/vt/vttablet/tmclient"
 
-	vtctlservicepb "mdibaiee/vitess/oracle/go/vt/proto/vtctlservice"
+	vtctlservicepb "mdibaiee/vitess/go/vt/proto/vtctlservice"
 )
 
 var (

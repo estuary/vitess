@@ -17,12 +17,12 @@ limitations under the License.
 package schematools
 
 import (
-	"mdibaiee/vitess/oracle/go/protoutil"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/protoutil"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
 
-	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
-	"mdibaiee/vitess/oracle/go/vt/proto/vttime"
+	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
+	"mdibaiee/vitess/go/vt/proto/vttime"
 )
 
 type tSchemaMigration struct {

@@ -19,9 +19,9 @@ package evalengine
 import (
 	"fmt"
 
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/go/mysql/collations"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/sqlparser"
 )
 
 func precedenceFor(in IR) sqlparser.Precendence {

@@ -23,13 +23,13 @@ import (
 	"strconv"
 	"strings"
 
-	"mdibaiee/vitess/oracle/go/mysql/capabilities"
-	"mdibaiee/vitess/oracle/go/mysql/replication"
-	"mdibaiee/vitess/oracle/go/mysql/sqlerror"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/proto/replicationdata"
-	"mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/mysql/capabilities"
+	"mdibaiee/vitess/go/mysql/replication"
+	"mdibaiee/vitess/go/mysql/sqlerror"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/proto/replicationdata"
+	"mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/vterrors"
 )
 
 var (

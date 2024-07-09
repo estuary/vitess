@@ -23,21 +23,21 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/vt/callerid"
-	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/vtenv"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/callerid"
+	"mdibaiee/vitess/go/vt/dbconfigs"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/vtenv"
+	"mdibaiee/vitess/go/vt/vterrors"
 
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tx"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tx"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/mysql/fakesqldb"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tabletenv"
+	"mdibaiee/vitess/go/mysql/fakesqldb"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
 )
 
 func TestTxPoolExecuteCommit(t *testing.T) {

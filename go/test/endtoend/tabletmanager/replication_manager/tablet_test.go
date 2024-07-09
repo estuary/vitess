@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/vt/sidecardb"
+	"mdibaiee/vitess/go/vt/sidecardb"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
-	replicationdatapb "mdibaiee/vitess/oracle/go/vt/proto/replicationdata"
-	tabletpb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	tmc "mdibaiee/vitess/oracle/go/vt/vttablet/grpctmclient"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
+	replicationdatapb "mdibaiee/vitess/go/vt/proto/replicationdata"
+	tabletpb "mdibaiee/vitess/go/vt/proto/topodata"
+	tmc "mdibaiee/vitess/go/vt/vttablet/grpctmclient"
 )
 
 var (

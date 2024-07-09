@@ -19,5 +19,5 @@ package vtctl
 import (
 	// Imports etcd2topo to register the etcd2 implementation of
 	// TopoServer.
-	_ "mdibaiee/vitess/oracle/go/vt/topo/etcd2topo"
+	_ "mdibaiee/vitess/go/vt/topo/etcd2topo"
 )

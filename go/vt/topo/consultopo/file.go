@@ -23,7 +23,7 @@ import (
 
 	"github.com/hashicorp/consul/api"
 
-	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo"
 )
 
 // Create is part of the topo.Conn interface.

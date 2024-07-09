@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"strings"
 
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tmclient"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vttablet/tmclient"
 
-	tabletmanagerdatapb "mdibaiee/vitess/oracle/go/vt/proto/tabletmanagerdata"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	tabletmanagerdatapb "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 // GetSchema makes an RPC to get the schema from a remote tablet, after

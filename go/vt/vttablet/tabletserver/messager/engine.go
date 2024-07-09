@@ -22,16 +22,16 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/schema"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tabletenv"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/schema"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 // TabletService defines the functions of TabletServer

@@ -20,8 +20,8 @@ import (
 	"context"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl/backupstorage"
-	tabletmanagerdatapb "mdibaiee/vitess/oracle/go/vt/proto/tabletmanagerdata"
+	"mdibaiee/vitess/go/vt/mysqlctl/backupstorage"
+	tabletmanagerdatapb "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
 )
 
 type FakeBackupEngine struct {

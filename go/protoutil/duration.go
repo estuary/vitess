@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/vt/proto/vttime"
+	"mdibaiee/vitess/go/vt/proto/vttime"
 )
 
 // DurationFromProto converts a durationpb type to a time.Duration. It returns a

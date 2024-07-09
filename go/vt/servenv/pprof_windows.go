@@ -19,7 +19,7 @@ limitations under the License.
 package servenv
 
 import (
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 func pprofInit() {

@@ -20,7 +20,7 @@ import (
 	"context"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/sqlparser"
 )
 
 func TestBasicCompare(t *testing.T) {

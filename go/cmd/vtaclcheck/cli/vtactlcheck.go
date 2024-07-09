@@ -19,10 +19,10 @@ package cli
 import (
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/oracle/go/acl"
-	"mdibaiee/vitess/oracle/go/vt/logutil"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
-	"mdibaiee/vitess/oracle/go/vt/vtaclcheck"
+	"mdibaiee/vitess/go/acl"
+	"mdibaiee/vitess/go/vt/logutil"
+	"mdibaiee/vitess/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/vtaclcheck"
 )
 
 var (

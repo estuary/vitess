@@ -17,9 +17,9 @@ limitations under the License.
 package evalengine
 
 import (
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/sqltypes"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/vterrors"
 )
 
 type (

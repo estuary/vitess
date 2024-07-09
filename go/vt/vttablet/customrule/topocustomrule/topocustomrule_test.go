@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/vt/topo/memorytopo"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/rules"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletservermock"
+	"mdibaiee/vitess/go/vt/topo/memorytopo"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/rules"
+	"mdibaiee/vitess/go/vt/vttablet/tabletservermock"
 )
 
 var customRule1 = `

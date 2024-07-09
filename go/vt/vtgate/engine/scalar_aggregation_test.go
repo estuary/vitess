@@ -24,10 +24,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/test/utils"
-	. "mdibaiee/vitess/oracle/go/vt/vtgate/engine/opcode"
+	"mdibaiee/vitess/go/mysql/collations"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/test/utils"
+	. "mdibaiee/vitess/go/vt/vtgate/engine/opcode"
 )
 
 func TestEmptyRows(outer *testing.T) {

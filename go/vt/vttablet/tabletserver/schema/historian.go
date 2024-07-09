@@ -22,15 +22,15 @@ import (
 	"sync"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/constants/sidecar"
-	"mdibaiee/vitess/oracle/go/mysql/replication"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/connpool"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tabletenv"
+	"mdibaiee/vitess/go/constants/sidecar"
+	"mdibaiee/vitess/go/mysql/replication"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/connpool"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
 )
 
 const getInitialSchemaVersions = "select id, pos, ddl, time_updated, schemax from %s.schema_version where time_updated > %d order by id asc"

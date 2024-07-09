@@ -47,11 +47,11 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/oracle/go/vt/concurrency"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	stats "mdibaiee/vitess/oracle/go/vt/mysqlctl/backupstats"
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl/backupstorage"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/concurrency"
+	"mdibaiee/vitess/go/vt/log"
+	stats "mdibaiee/vitess/go/vt/mysqlctl/backupstats"
+	"mdibaiee/vitess/go/vt/mysqlctl/backupstorage"
+	"mdibaiee/vitess/go/vt/servenv"
 )
 
 var (

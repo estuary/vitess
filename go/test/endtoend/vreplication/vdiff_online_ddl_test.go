@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/proto/vtctldata"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
 )
 
 // TestOnlineDDLVDiff is to run a vdiff on a table that is part of an OnlineDDL workflow.

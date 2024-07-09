@@ -25,20 +25,20 @@ import (
 	"sync/atomic"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/mysql/sqlerror"
-	"mdibaiee/vitess/oracle/go/pools/smartconnpool"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/trace"
-	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
-	"mdibaiee/vitess/oracle/go/vt/dbconnpool"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tabletenv"
+	"mdibaiee/vitess/go/mysql/sqlerror"
+	"mdibaiee/vitess/go/pools/smartconnpool"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/trace"
+	"mdibaiee/vitess/go/vt/dbconfigs"
+	"mdibaiee/vitess/go/vt/dbconnpool"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 const defaultKillTimeout = 5 * time.Second

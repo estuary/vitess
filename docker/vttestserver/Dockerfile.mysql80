@@ -26,7 +26,7 @@ FROM "${image}" AS builder
 ARG BUILD_NUMBER
 
 # Re-copy sources from working tree.
-COPY --chown=vitess:vitess . /vt/src/mdibaiee/vitess/oracle
+COPY --chown=vitess:vitess . /vt/src/mdibaiee/vitess
 
 # Build and install Vitess in a temporary output directory.
 USER vitess

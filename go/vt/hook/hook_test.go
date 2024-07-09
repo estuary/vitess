@@ -30,7 +30,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	vtenv "mdibaiee/vitess/oracle/go/vt/env"
+	vtenv "mdibaiee/vitess/go/vt/env"
 )
 
 func TestExecuteContext(t *testing.T) {

@@ -25,19 +25,19 @@ import (
 
 	"google.golang.org/protobuf/encoding/prototext"
 
-	"mdibaiee/vitess/oracle/go/mysql/replication"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/stats"
-	"mdibaiee/vitess/oracle/go/vt/binlog/binlogplayer"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/proto/tabletmanagerdata"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tmclient"
+	"mdibaiee/vitess/go/mysql/replication"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/stats"
+	"mdibaiee/vitess/go/vt/binlog/binlogplayer"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vttablet/tmclient"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 // VDiff operation and table states:

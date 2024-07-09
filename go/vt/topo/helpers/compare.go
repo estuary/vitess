@@ -25,9 +25,9 @@ import (
 
 	"context"
 
-	"mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/vterrors"
 )
 
 // CompareKeyspaces will compare the keyspaces in the destination topo.

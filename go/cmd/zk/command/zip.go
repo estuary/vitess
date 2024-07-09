@@ -26,9 +26,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/oracle/go/cmd/zk/internal/zkfilepath"
-	"mdibaiee/vitess/oracle/go/cmd/zk/internal/zkfs"
-	"mdibaiee/vitess/oracle/go/vt/topo/zk2topo"
+	"mdibaiee/vitess/go/cmd/zk/internal/zkfilepath"
+	"mdibaiee/vitess/go/cmd/zk/internal/zkfs"
+	"mdibaiee/vitess/go/vt/topo/zk2topo"
 )
 
 var Zip = &cobra.Command{

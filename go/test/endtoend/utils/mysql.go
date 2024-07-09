@@ -28,14 +28,14 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
-	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/mysql/collations"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/vt/dbconfigs"
+	"mdibaiee/vitess/go/vt/mysqlctl"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	"mdibaiee/vitess/go/vt/sqlparser"
 )
 
 const mysqlShutdownTimeout = 1 * time.Minute

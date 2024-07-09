@@ -23,7 +23,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 // This file contains functions to convert errors to and from gRPC codes.

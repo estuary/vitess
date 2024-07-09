@@ -19,5 +19,5 @@ package cli
 // Imports and register the 'consul' topo.Server.
 
 import (
-	_ "mdibaiee/vitess/oracle/go/vt/topo/consultopo"
+	_ "mdibaiee/vitess/go/vt/topo/consultopo"
 )

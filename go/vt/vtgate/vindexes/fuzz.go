@@ -26,8 +26,8 @@ import (
 
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	"mdibaiee/vitess/go/sqltypes"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
 )
 
 var initter sync.Once

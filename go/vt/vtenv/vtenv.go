@@ -17,9 +17,9 @@ limitations under the License.
 package vtenv
 
 import (
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	"mdibaiee/vitess/oracle/go/mysql/config"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/go/mysql/collations"
+	"mdibaiee/vitess/go/mysql/config"
+	"mdibaiee/vitess/go/vt/sqlparser"
 )
 
 type Environment struct {

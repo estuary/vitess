@@ -31,12 +31,12 @@ import (
 	"github.com/spf13/cobra"
 	"google.golang.org/protobuf/encoding/prototext"
 
-	"mdibaiee/vitess/oracle/go/acl"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
-	"mdibaiee/vitess/oracle/go/vt/vttest"
+	"mdibaiee/vitess/go/acl"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/vttest"
 
-	vttestpb "mdibaiee/vitess/oracle/go/vt/proto/vttest"
+	vttestpb "mdibaiee/vitess/go/vt/proto/vttest"
 )
 
 type topoFlags struct {

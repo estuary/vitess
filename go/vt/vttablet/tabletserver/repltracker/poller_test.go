@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl"
+	"mdibaiee/vitess/go/vt/mysqlctl"
 )
 
 func TestPoller(t *testing.T) {

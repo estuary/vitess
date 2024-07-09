@@ -19,7 +19,7 @@ package onlineddl
 import (
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
 
 	"github.com/stretchr/testify/assert"
 )

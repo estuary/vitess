@@ -19,16 +19,16 @@ package endtoend
 import (
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/test/utils"
+	"mdibaiee/vitess/go/test/utils"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/endtoend/framework"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/vttablet/endtoend/framework"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 func TestSequence(t *testing.T) {

@@ -27,9 +27,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/mysql/fakesqldb"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
+	"mdibaiee/vitess/go/mysql/fakesqldb"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/dbconfigs"
 )
 
 type testcase struct {

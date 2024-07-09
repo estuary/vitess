@@ -22,10 +22,10 @@ import (
 	"sort"
 	"strings"
 
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vterrors"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 // AnyShardPicker makes a choice on what shard to use when any shard will do. Used for testing.

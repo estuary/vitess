@@ -21,15 +21,15 @@ import (
 
 	"google.golang.org/grpc"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/callerid"
-	"mdibaiee/vitess/oracle/go/vt/callinfo"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/queryservice"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/callerid"
+	"mdibaiee/vitess/go/vt/callinfo"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vttablet/queryservice"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	queryservicepb "mdibaiee/vitess/oracle/go/vt/proto/queryservice"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	queryservicepb "mdibaiee/vitess/go/vt/proto/queryservice"
 )
 
 // query is the gRPC query service implementation.

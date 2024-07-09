@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/errors"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/vtadmin/errors"
 )
 
 // JSONResponse represents a generic response object.

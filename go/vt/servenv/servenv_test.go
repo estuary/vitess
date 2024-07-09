@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/event"
+	"mdibaiee/vitess/go/event"
 )
 
 func TestFireOnTermSyncHooksFinished(t *testing.T) {

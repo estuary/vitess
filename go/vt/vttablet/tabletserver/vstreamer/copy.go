@@ -23,12 +23,12 @@ import (
 	"math"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/mysql/replication"
-	"mdibaiee/vitess/oracle/go/slice"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	"mdibaiee/vitess/go/mysql/replication"
+	"mdibaiee/vitess/go/slice"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/log"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
 )
 
 // starts the copy phase for the first table in the (sorted) list.

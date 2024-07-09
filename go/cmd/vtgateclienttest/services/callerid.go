@@ -24,12 +24,12 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/callerid"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	vtgatepb "mdibaiee/vitess/oracle/go/vt/proto/vtgate"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vtgateservice"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/callerid"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/vtgate/vtgateservice"
 )
 
 // CallerIDPrefix is the prefix to send with queries so they go

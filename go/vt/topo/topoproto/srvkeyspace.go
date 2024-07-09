@@ -19,9 +19,9 @@ package topoproto
 import (
 	"sort"
 
-	"mdibaiee/vitess/oracle/go/vt/key"
+	"mdibaiee/vitess/go/vt/key"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // ShardReferenceArray is used for sorting ShardReference arrays

@@ -21,7 +21,7 @@ import (
 	"strings"
 	"sync"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 // ErrorRecorder offers a way to record errors during complex

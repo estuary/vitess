@@ -4,26 +4,26 @@ import (
 	"context"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/test/utils"
-	"mdibaiee/vitess/oracle/go/vt/vtenv"
+	"mdibaiee/vitess/go/test/utils"
+	"mdibaiee/vitess/go/vt/vtenv"
 
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/json2"
-	"mdibaiee/vitess/oracle/go/vt/logutil"
-	"mdibaiee/vitess/oracle/go/vt/topo/memorytopo"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
-	"mdibaiee/vitess/oracle/go/vt/vtctl"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/grpcvtctldserver/testutil"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tmclient"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tmclienttest"
-	"mdibaiee/vitess/oracle/go/vt/wrangler"
+	"mdibaiee/vitess/go/json2"
+	"mdibaiee/vitess/go/vt/logutil"
+	"mdibaiee/vitess/go/vt/topo/memorytopo"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/vtctl"
+	"mdibaiee/vitess/go/vt/vtctl/grpcvtctldserver/testutil"
+	"mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"mdibaiee/vitess/go/vt/vttablet/tmclienttest"
+	"mdibaiee/vitess/go/vt/wrangler"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	tabletmanagerdatapb "mdibaiee/vitess/oracle/go/vt/proto/tabletmanagerdata"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	tabletmanagerdatapb "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 func TestGetSchema(t *testing.T) {

@@ -32,11 +32,11 @@ import (
 	"github.com/Azure/azure-storage-blob-go/azblob"
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/oracle/go/viperutil"
-	"mdibaiee/vitess/oracle/go/vt/concurrency"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl/backupstorage"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/go/viperutil"
+	"mdibaiee/vitess/go/vt/concurrency"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/mysqlctl/backupstorage"
+	"mdibaiee/vitess/go/vt/servenv"
 )
 
 var (

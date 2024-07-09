@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	vtgatepb "mdibaiee/vitess/oracle/go/vt/proto/vtgate"
+	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
 
 	"github.com/stretchr/testify/require"
 )

@@ -19,7 +19,7 @@ package schematools
 import (
 	"testing"
 
-	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
+	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
 
 	"github.com/stretchr/testify/assert"
 )

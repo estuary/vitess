@@ -65,21 +65,21 @@ import (
 
 	"github.com/pkg/errors"
 
-	"mdibaiee/vitess/oracle/go/constants/sidecar"
-	"mdibaiee/vitess/oracle/go/test/endtoend/encryption"
+	"mdibaiee/vitess/go/constants/sidecar"
+	"mdibaiee/vitess/go/test/endtoend/encryption"
 
-	"mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/vterrors"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
-	"mdibaiee/vitess/oracle/go/vt/grpcclient"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	vtgatepb "mdibaiee/vitess/oracle/go/vt/proto/vtgate"
-	vtgateservicepb "mdibaiee/vitess/oracle/go/vt/proto/vtgateservice"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/vt/grpcclient"
+	"mdibaiee/vitess/go/vt/log"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
+	vtgateservicepb "mdibaiee/vitess/go/vt/proto/vtgateservice"
 )
 
 var (

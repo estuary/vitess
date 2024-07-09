@@ -23,11 +23,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/vt/callerid"
-	"mdibaiee/vitess/oracle/go/vt/grpcclient"
+	"mdibaiee/vitess/go/vt/callerid"
+	"mdibaiee/vitess/go/vt/grpcclient"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 func assertImmediateCaller(t *testing.T, im *querypb.VTGateCallerID, expected string) {

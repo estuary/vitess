@@ -22,19 +22,19 @@ import (
 	"strings"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/mysql/replication"
-	"mdibaiee/vitess/oracle/go/mysql/sqlerror"
-	"mdibaiee/vitess/oracle/go/protoutil"
+	"mdibaiee/vitess/go/mysql/replication"
+	"mdibaiee/vitess/go/mysql/sqlerror"
+	"mdibaiee/vitess/go/protoutil"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl"
-	"mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/mysqlctl"
+	"mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/vterrors"
 
-	replicationdatapb "mdibaiee/vitess/oracle/go/vt/proto/replicationdata"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	replicationdatapb "mdibaiee/vitess/go/vt/proto/replicationdata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // ReplicationStatus returns the replication status

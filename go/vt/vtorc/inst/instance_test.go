@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/vt/vtorc/config"
+	"mdibaiee/vitess/go/vt/vtorc/config"
 )
 
 func init() {

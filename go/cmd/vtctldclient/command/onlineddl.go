@@ -23,16 +23,16 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/oracle/go/cmd/vtctldclient/cli"
-	"mdibaiee/vitess/oracle/go/protoutil"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/schema"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/schematools"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/throttle"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"mdibaiee/vitess/go/cmd/vtctldclient/cli"
+	"mdibaiee/vitess/go/protoutil"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/schema"
+	"mdibaiee/vitess/go/vt/vtctl/schematools"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
 )
 
 const (

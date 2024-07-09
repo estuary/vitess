@@ -24,9 +24,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtgatepb "mdibaiee/vitess/oracle/go/vt/proto/vtgate"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
 )
 
 func TestFailToMultiShardWhenSetToSingleDb(t *testing.T) {

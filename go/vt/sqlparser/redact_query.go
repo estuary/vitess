@@ -16,7 +16,7 @@ limitations under the License.
 
 package sqlparser
 
-import querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+import querypb "mdibaiee/vitess/go/vt/proto/query"
 
 // RedactSQLQuery returns a sql string with the params stripped out for display
 func (p *Parser) RedactSQLQuery(sql string) (string, error) {

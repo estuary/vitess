@@ -21,15 +21,15 @@ import (
 	"fmt"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/trace"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
-	"mdibaiee/vitess/oracle/go/vt/topotools"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/trace"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/topotools"
+	"mdibaiee/vitess/go/vt/vterrors"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	"mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	"mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 func deleteShard(ctx context.Context, ts *topo.Server, keyspace string, shard string, recursive bool, evenIfServing bool, force bool) (err error) {

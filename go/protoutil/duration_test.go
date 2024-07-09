@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"mdibaiee/vitess/oracle/go/vt/proto/vttime"
+	"mdibaiee/vitess/go/vt/proto/vttime"
 )
 
 func TestDurationFromProto(t *testing.T) {

@@ -19,7 +19,7 @@ package main
 import (
 	"net/http"
 
-	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/servenv"
 )
 
 func init() {

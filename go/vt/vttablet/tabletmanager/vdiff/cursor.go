@@ -19,10 +19,10 @@ package vdiff
 import (
 	"context"
 
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/engine"
+	"mdibaiee/vitess/go/mysql/collations"
+	"mdibaiee/vitess/go/sqltypes"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	"mdibaiee/vitess/go/vt/vtgate/engine"
 )
 
 // contextVCursor satisfies VCursor, but only implements Context().

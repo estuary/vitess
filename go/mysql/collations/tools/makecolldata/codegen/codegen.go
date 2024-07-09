@@ -26,7 +26,7 @@ import (
 	"sort"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/tools/codegen"
+	"mdibaiee/vitess/go/tools/codegen"
 )
 
 type Generator struct {

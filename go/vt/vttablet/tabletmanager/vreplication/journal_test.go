@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	qh "mdibaiee/vitess/oracle/go/vt/vttablet/tabletmanager/vreplication/queryhistory"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	qh "mdibaiee/vitess/go/vt/vttablet/tabletmanager/vreplication/queryhistory"
 )
 
 func TestJournalOneToOne(t *testing.T) {

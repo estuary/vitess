@@ -22,17 +22,17 @@ import (
 	"strings"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/vterrors"
 
-	"mdibaiee/vitess/oracle/go/vt/key"
-	"mdibaiee/vitess/oracle/go/vt/srvtopo"
+	"mdibaiee/vitess/go/vt/key"
+	"mdibaiee/vitess/go/vt/srvtopo"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
+	"mdibaiee/vitess/go/sqltypes"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	"mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 var _ Primitive = (*DBDDL)(nil)

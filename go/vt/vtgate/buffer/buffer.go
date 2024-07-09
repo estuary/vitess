@@ -33,12 +33,12 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"mdibaiee/vitess/oracle/go/vt/discovery"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/discovery"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/vterrors"
 
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 var (

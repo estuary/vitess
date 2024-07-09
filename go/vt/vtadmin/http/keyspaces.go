@@ -23,10 +23,10 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/errors"
+	"mdibaiee/vitess/go/vt/vtadmin/errors"
 
-	vtadminpb "mdibaiee/vitess/oracle/go/vt/proto/vtadmin"
-	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
+	vtadminpb "mdibaiee/vitess/go/vt/proto/vtadmin"
+	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
 )
 
 // CreateKeyspace implements the http wrapper for POST /keyspace/{cluster_id}.

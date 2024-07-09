@@ -19,9 +19,9 @@ package testsuite
 import (
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/vt/callerid"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/callerid"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 func TestFakeCallerID(t *testing.T) {

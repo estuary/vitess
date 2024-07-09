@@ -21,10 +21,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/oracle/go/cmd/vtctldclient/cli"
-	"mdibaiee/vitess/oracle/go/cmd/vtctldclient/command/vreplication/common"
+	"mdibaiee/vitess/go/cmd/vtctldclient/cli"
+	"mdibaiee/vitess/go/cmd/vtctldclient/command/vreplication/common"
 
-	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
+	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
 )
 
 var (

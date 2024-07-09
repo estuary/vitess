@@ -26,12 +26,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"mdibaiee/vitess/oracle/go/cmd/vtctldclient/command"
-	"mdibaiee/vitess/oracle/go/protoutil"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/localvtctldclient"
+	"mdibaiee/vitess/go/cmd/vtctldclient/command"
+	"mdibaiee/vitess/go/protoutil"
+	"mdibaiee/vitess/go/vt/vtctl/localvtctldclient"
 
-	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
-	vtctlservicepb "mdibaiee/vitess/oracle/go/vt/proto/vtctlservice"
+	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
+	vtctlservicepb "mdibaiee/vitess/go/vt/proto/vtctlservice"
 )
 
 type fakeServer struct {

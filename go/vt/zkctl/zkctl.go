@@ -33,9 +33,9 @@ import (
 
 	zookeeper "github.com/z-division/go-zookeeper/zk"
 
-	"mdibaiee/vitess/oracle/go/syscallutil"
-	"mdibaiee/vitess/oracle/go/vt/env"
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/syscallutil"
+	"mdibaiee/vitess/go/vt/env"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 const (

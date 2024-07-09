@@ -25,8 +25,8 @@ import (
 
 	"github.com/cespare/xxhash/v2"
 
-	"mdibaiee/vitess/oracle/go/mysql/collations/vindex/collate"
-	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/go/mysql/collations/vindex/collate"
+	"mdibaiee/vitess/go/sqltypes"
 )
 
 // Shared functions for Unicode string normalization

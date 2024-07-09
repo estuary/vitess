@@ -33,17 +33,17 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slices"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/mysql/replication"
-	"mdibaiee/vitess/oracle/go/mysql/sqlerror"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
-	"mdibaiee/vitess/oracle/go/test/endtoend/onlineddl"
-	"mdibaiee/vitess/oracle/go/test/endtoend/utils"
-	"mdibaiee/vitess/oracle/go/textutil"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/schema"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/mysql/replication"
+	"mdibaiee/vitess/go/mysql/sqlerror"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/test/endtoend/onlineddl"
+	"mdibaiee/vitess/go/test/endtoend/utils"
+	"mdibaiee/vitess/go/textutil"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/schema"
+	"mdibaiee/vitess/go/vt/sqlparser"
 )
 
 // This endtoend test is designd to validate VTGate's FOREIGN KEY implementation for unsharded/single-sharded/shard-scope, meaning

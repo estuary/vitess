@@ -45,8 +45,8 @@ import (
 	"context"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/throttle/base"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/throttle/mysql"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/base"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/mysql"
 
 	"github.com/stretchr/testify/assert"
 )

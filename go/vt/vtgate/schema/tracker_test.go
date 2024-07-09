@@ -26,18 +26,18 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/go/sqltypes"
 
-	"mdibaiee/vitess/oracle/go/test/utils"
-	"mdibaiee/vitess/oracle/go/vt/discovery"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	"mdibaiee/vitess/oracle/go/vt/sidecardb"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/topo/memorytopo"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/sandboxconn"
+	"mdibaiee/vitess/go/test/utils"
+	"mdibaiee/vitess/go/vt/discovery"
+	"mdibaiee/vitess/go/vt/log"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	"mdibaiee/vitess/go/vt/sidecardb"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/topo/memorytopo"
+	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"mdibaiee/vitess/go/vt/vttablet/sandboxconn"
 )
 
 var (

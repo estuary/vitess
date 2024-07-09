@@ -12,8 +12,8 @@ import (
 	io "io"
 	math "math"
 	bits "math/bits"
-	topodata "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtrpc "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	topodata "mdibaiee/vitess/go/vt/proto/topodata"
+	vtrpc "mdibaiee/vitess/go/vt/proto/vtrpc"
 	sync "sync"
 )
 

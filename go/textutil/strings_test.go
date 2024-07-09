@@ -23,8 +23,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 func TestSplitDelimitedList(t *testing.T) {

@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/mysql/sqlerror"
-	"mdibaiee/vitess/oracle/go/pools/smartconnpool"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/mysql/sqlerror"
+	"mdibaiee/vitess/go/pools/smartconnpool"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/dbconfigs"
 )
 
 type PooledDBConnection = smartconnpool.Pooled[*DBConnection]

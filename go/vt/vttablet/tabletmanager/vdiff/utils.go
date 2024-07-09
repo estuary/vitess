@@ -21,15 +21,15 @@ import (
 	"fmt"
 	"strings"
 
-	"mdibaiee/vitess/oracle/go/vt/vtgate/evalengine"
+	"mdibaiee/vitess/go/vt/vtgate/evalengine"
 
-	"mdibaiee/vitess/oracle/go/vt/binlog/binlogplayer"
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/binlog/binlogplayer"
+	"mdibaiee/vitess/go/vt/log"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/go/sqltypes"
 
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/engine"
+	"mdibaiee/vitess/go/mysql/collations"
+	"mdibaiee/vitess/go/vt/vtgate/engine"
 )
 
 // newMergeSorter creates an engine.MergeSort based on the shard streamers and pk columns

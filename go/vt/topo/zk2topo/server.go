@@ -19,7 +19,7 @@ package zk2topo
 import (
 	"strings"
 
-	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo"
 )
 
 const (

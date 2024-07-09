@@ -19,7 +19,7 @@ package logutil
 import (
 	"fmt"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 // ConsoleLogger is a Logger that uses glog directly to log, at the right level.

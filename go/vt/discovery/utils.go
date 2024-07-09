@@ -19,8 +19,8 @@ package discovery
 import (
 	"strings"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
 )
 
 // This file contains helper filter methods to process the unfiltered list of

@@ -17,9 +17,9 @@ limitations under the License.
 package evalengine
 
 import (
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/proto/query"
+	"mdibaiee/vitess/go/mysql/collations"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/proto/query"
 )
 
 type typeAggregation struct {

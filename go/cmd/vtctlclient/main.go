@@ -26,15 +26,15 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/oracle/go/acl"
-	"mdibaiee/vitess/oracle/go/exit"
-	"mdibaiee/vitess/oracle/go/trace"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/logutil"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/vtctlclient"
+	"mdibaiee/vitess/go/acl"
+	"mdibaiee/vitess/go/exit"
+	"mdibaiee/vitess/go/trace"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/logutil"
+	"mdibaiee/vitess/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/vtctl/vtctlclient"
 
-	logutilpb "mdibaiee/vitess/oracle/go/vt/proto/logutil"
+	logutilpb "mdibaiee/vitess/go/vt/proto/logutil"
 	// Include deprecation warnings for soon-to-be-unsupported flag invocations.
 )
 

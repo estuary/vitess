@@ -19,7 +19,7 @@ package http
 import (
 	"context"
 
-	vtadminpb "mdibaiee/vitess/oracle/go/vt/proto/vtadmin"
+	vtadminpb "mdibaiee/vitess/go/vt/proto/vtadmin"
 )
 
 // GetCellInfos implements the http wrapper for the

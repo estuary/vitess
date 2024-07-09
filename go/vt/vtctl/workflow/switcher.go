@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 var _ iswitcher = (*switcher)(nil)

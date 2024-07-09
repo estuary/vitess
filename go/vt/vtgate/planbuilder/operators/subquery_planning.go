@@ -22,12 +22,12 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"mdibaiee/vitess/oracle/go/slice"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/engine/opcode"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/planbuilder/plancontext"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/semantics"
+	"mdibaiee/vitess/go/slice"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vtgate/engine/opcode"
+	"mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"mdibaiee/vitess/go/vt/vtgate/semantics"
 )
 
 func isMergeable(ctx *plancontext.PlanningContext, query sqlparser.SelectStatement, op Operator) bool {

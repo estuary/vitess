@@ -21,10 +21,10 @@ import (
 	"strings"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/protoutil"
-	"mdibaiee/vitess/oracle/go/vt/throttler"
+	"mdibaiee/vitess/go/protoutil"
+	"mdibaiee/vitess/go/vt/throttler"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
 )
 
 // InsertGenerator generates a vreplication insert statement.

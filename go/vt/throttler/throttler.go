@@ -33,11 +33,11 @@ import (
 	"sync"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/vt/discovery"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	"mdibaiee/vitess/go/vt/discovery"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/proto/topodata"
 
-	throttlerdatapb "mdibaiee/vitess/oracle/go/vt/proto/throttlerdata"
+	throttlerdatapb "mdibaiee/vitess/go/vt/proto/throttlerdata"
 )
 
 const (

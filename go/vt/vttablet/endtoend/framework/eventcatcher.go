@@ -20,8 +20,8 @@ import (
 	"errors"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/streamlog"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tabletenv"
+	"mdibaiee/vitess/go/streamlog"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 func NewQueryCatcher() *EventCatcher[*tabletenv.LogStats] {

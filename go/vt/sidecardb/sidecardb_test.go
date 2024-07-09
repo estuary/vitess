@@ -24,17 +24,17 @@ import (
 	"strings"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/constants/sidecar"
-	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vtenv"
+	"mdibaiee/vitess/go/constants/sidecar"
+	"mdibaiee/vitess/go/vt/dbconfigs"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vtenv"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/stats"
+	"mdibaiee/vitess/go/stats"
 
-	"mdibaiee/vitess/oracle/go/mysql/fakesqldb"
-	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/go/mysql/fakesqldb"
+	"mdibaiee/vitess/go/sqltypes"
 )
 
 // TestInitErrors validates that the schema init error stats are being correctly set

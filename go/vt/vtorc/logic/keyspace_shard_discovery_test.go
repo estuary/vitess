@@ -24,13 +24,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/topo/memorytopo"
-	"mdibaiee/vitess/oracle/go/vt/topotools"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/reparentutil/reparenttestutil"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/db"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/inst"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo/memorytopo"
+	"mdibaiee/vitess/go/vt/topotools"
+	"mdibaiee/vitess/go/vt/vtctl/reparentutil/reparenttestutil"
+	"mdibaiee/vitess/go/vt/vtorc/db"
+	"mdibaiee/vitess/go/vt/vtorc/inst"
 )
 
 var (

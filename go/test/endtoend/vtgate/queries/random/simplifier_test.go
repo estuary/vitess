@@ -21,16 +21,16 @@ import (
 	"strings"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/test/vschemawrapper"
-	"mdibaiee/vitess/oracle/go/vt/vtenv"
+	"mdibaiee/vitess/go/test/vschemawrapper"
+	"mdibaiee/vitess/go/vt/vtenv"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/test/endtoend/utils"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/planbuilder"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/simplifier"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
+	"mdibaiee/vitess/go/test/endtoend/utils"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vtgate/planbuilder"
+	"mdibaiee/vitess/go/vt/vtgate/simplifier"
+	"mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 func TestSimplifyResultsMismatchedQuery(t *testing.T) {

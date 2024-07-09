@@ -29,10 +29,10 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/status"
 
-	"mdibaiee/vitess/oracle/go/vt/grpcclient"
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl/mysqlctlclient"
+	"mdibaiee/vitess/go/vt/grpcclient"
+	"mdibaiee/vitess/go/vt/mysqlctl/mysqlctlclient"
 
-	mysqlctlpb "mdibaiee/vitess/oracle/go/vt/proto/mysqlctl"
+	mysqlctlpb "mdibaiee/vitess/go/vt/proto/mysqlctl"
 )
 
 type client struct {

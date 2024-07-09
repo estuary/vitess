@@ -20,9 +20,9 @@ import (
 	"container/heap"
 	"sync"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/go/sqltypes"
 )
 
 //_______________________________________________

@@ -24,12 +24,12 @@ import (
 
 	"github.com/google/safehtml"
 
-	"mdibaiee/vitess/oracle/go/streamlog"
-	"mdibaiee/vitess/oracle/go/vt/callinfo"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/streamlog"
+	"mdibaiee/vitess/go/vt/callinfo"
+	"mdibaiee/vitess/go/vt/log"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vterrors"
 )
 
 // QueryDetail is a simple wrapper for Query, Context and a killable conn.

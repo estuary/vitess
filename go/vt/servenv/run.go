@@ -25,8 +25,8 @@ import (
 	"syscall"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/event"
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/event"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 var (

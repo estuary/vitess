@@ -19,7 +19,7 @@ package throttler
 import (
 	"time"
 
-	"mdibaiee/vitess/oracle/go/vt/discovery"
+	"mdibaiee/vitess/go/vt/discovery"
 )
 
 // replicationLagRecord stores the tablet health data for a given point in time.

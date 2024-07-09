@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"strconv"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/engine"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/planbuilder/plancontext"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vtgate/engine"
+	"mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
 )
 
 func gen4Planner(query string, plannerVersion querypb.ExecuteOptions_PlannerVersion) stmtPlanner {

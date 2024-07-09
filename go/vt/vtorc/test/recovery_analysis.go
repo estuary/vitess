@@ -22,9 +22,9 @@ import (
 
 	"google.golang.org/protobuf/encoding/prototext"
 
-	"mdibaiee/vitess/oracle/go/vt/external/golib/sqlutils"
+	"mdibaiee/vitess/go/vt/external/golib/sqlutils"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 type InfoForRecoveryAnalysis struct {

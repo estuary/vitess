@@ -19,11 +19,11 @@ package planbuilder
 import (
 	"fmt"
 
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/engine"
+	"mdibaiee/vitess/go/mysql/collations"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vtgate/engine"
 )
 
 // SupplyProjection pushes the given aliased expression into the fields and cols slices of the

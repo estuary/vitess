@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
-	"mdibaiee/vitess/oracle/go/vt/wrangler"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/wrangler"
 )
 
 // waitForTabletType waits for the given tablet type to be reached.

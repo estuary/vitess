@@ -24,8 +24,8 @@ import (
 	"sync"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/protoutil"
-	logutilpb "mdibaiee/vitess/oracle/go/vt/proto/logutil"
+	"mdibaiee/vitess/go/protoutil"
+	logutilpb "mdibaiee/vitess/go/vt/proto/logutil"
 )
 
 // Logger defines the interface to use for our logging interface.

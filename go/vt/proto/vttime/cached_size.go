@@ -17,7 +17,7 @@ limitations under the License.
 
 package vttime
 
-import hack "mdibaiee/vitess/oracle/go/hack"
+import hack "mdibaiee/vitess/go/hack"
 
 func (cached *Time) CachedSize(alloc bool) int64 {
 	if cached == nil {

@@ -25,13 +25,13 @@ import (
 
 	"github.com/google/safehtml"
 
-	"mdibaiee/vitess/oracle/go/logstats"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/streamlog"
-	"mdibaiee/vitess/oracle/go/vt/callerid"
-	"mdibaiee/vitess/oracle/go/vt/callinfo"
+	"mdibaiee/vitess/go/logstats"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/streamlog"
+	"mdibaiee/vitess/go/vt/callerid"
+	"mdibaiee/vitess/go/vt/callinfo"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
 )
 
 const (

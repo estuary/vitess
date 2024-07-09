@@ -8,7 +8,7 @@ import (
 	"sync"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/mysql"
+	"mdibaiee/vitess/go/mysql"
 )
 
 // 10 groups, 119 characters

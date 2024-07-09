@@ -17,12 +17,12 @@ limitations under the License.
 package semantics
 
 import (
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/evalengine"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
+	"mdibaiee/vitess/go/mysql/collations"
+	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vtgate/evalengine"
+	"mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 // analyzer controls the flow of the analysis.

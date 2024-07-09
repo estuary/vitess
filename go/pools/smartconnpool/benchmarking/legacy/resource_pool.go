@@ -25,12 +25,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/pools/smartconnpool"
-	"mdibaiee/vitess/oracle/go/timer"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/pools/smartconnpool"
+	"mdibaiee/vitess/go/timer"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/vterrors"
 
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 type (

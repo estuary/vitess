@@ -29,14 +29,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/constants/sidecar"
-	"mdibaiee/vitess/oracle/go/json2"
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
-	"mdibaiee/vitess/oracle/go/test/endtoend/utils"
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/constants/sidecar"
+	"mdibaiee/vitess/go/json2"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/test/endtoend/utils"
+	"mdibaiee/vitess/go/vt/log"
 
-	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
+	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
 )
 
 var (

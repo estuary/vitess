@@ -23,18 +23,18 @@ import (
 	"strconv"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/vt/vttablet"
+	"mdibaiee/vitess/go/vt/vttablet"
 
 	"google.golang.org/protobuf/encoding/prototext"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/binlog/binlogplayer"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/binlog/binlogplayer"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vterrors"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
 )
 
 /*

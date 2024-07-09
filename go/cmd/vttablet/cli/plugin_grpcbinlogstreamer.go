@@ -19,5 +19,5 @@ package cli
 // Imports and register the gRPC binlog streamer
 
 import (
-	_ "mdibaiee/vitess/oracle/go/vt/binlog/grpcbinlogstreamer"
+	_ "mdibaiee/vitess/go/vt/binlog/grpcbinlogstreamer"
 )

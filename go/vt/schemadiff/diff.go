@@ -1,7 +1,7 @@
 package schemadiff
 
 import (
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/sqlparser"
 )
 
 // DDLActionStr returns the action implied by the given diff: CREATE", "DROP", "ALTER" or empty

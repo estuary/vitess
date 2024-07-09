@@ -23,11 +23,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/endtoend/framework"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/rules"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/vttablet/endtoend/framework"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/rules"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
 )
 
 func TestTableACL(t *testing.T) {

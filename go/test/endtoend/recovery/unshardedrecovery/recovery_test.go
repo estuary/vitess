@@ -19,7 +19,7 @@ package unshardedrecovery
 import (
 	"testing"
 
-	_ "mdibaiee/vitess/oracle/go/vt/vtgate/grpcvtgateconn"
+	_ "mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
 )
 
 func TestMain(m *testing.M) {

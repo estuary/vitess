@@ -23,19 +23,19 @@ import (
 
 	"github.com/spf13/cobra"
 
-	_flag "mdibaiee/vitess/oracle/go/internal/flag"
-	"mdibaiee/vitess/oracle/go/trace"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/logutil"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
-	"mdibaiee/vitess/oracle/go/vt/vtadmin"
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/cache"
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/cluster"
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/grpcserver"
-	vtadminhttp "mdibaiee/vitess/oracle/go/vt/vtadmin/http"
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/http/debug"
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/rbac"
-	"mdibaiee/vitess/oracle/go/vt/vtenv"
+	_flag "mdibaiee/vitess/go/internal/flag"
+	"mdibaiee/vitess/go/trace"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/logutil"
+	"mdibaiee/vitess/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/vtadmin"
+	"mdibaiee/vitess/go/vt/vtadmin/cache"
+	"mdibaiee/vitess/go/vt/vtadmin/cluster"
+	"mdibaiee/vitess/go/vt/vtadmin/grpcserver"
+	vtadminhttp "mdibaiee/vitess/go/vt/vtadmin/http"
+	"mdibaiee/vitess/go/vt/vtadmin/http/debug"
+	"mdibaiee/vitess/go/vt/vtadmin/rbac"
+	"mdibaiee/vitess/go/vt/vtenv"
 )
 
 var (

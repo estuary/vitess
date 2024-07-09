@@ -24,13 +24,13 @@ import (
 	"strconv"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/acl"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/collection"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/discovery"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/inst"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/logic"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/process"
+	"mdibaiee/vitess/go/acl"
+	"mdibaiee/vitess/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/vtorc/collection"
+	"mdibaiee/vitess/go/vt/vtorc/discovery"
+	"mdibaiee/vitess/go/vt/vtorc/inst"
+	"mdibaiee/vitess/go/vt/vtorc/logic"
+	"mdibaiee/vitess/go/vt/vtorc/process"
 )
 
 // vtorcAPI struct is created to implement the Handler interface to register

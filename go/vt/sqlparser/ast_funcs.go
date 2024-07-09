@@ -24,13 +24,13 @@ import (
 	"strconv"
 	"strings"
 
-	"mdibaiee/vitess/oracle/go/mysql/datetime"
-	"mdibaiee/vitess/oracle/go/mysql/decimal"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/mysql/datetime"
+	"mdibaiee/vitess/go/mysql/decimal"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/log"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/vterrors"
 )
 
 // Walk calls postVisit on every node.

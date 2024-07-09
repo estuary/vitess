@@ -26,7 +26,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
 )
 
 func TestVttabletProcess(t *testing.T) {

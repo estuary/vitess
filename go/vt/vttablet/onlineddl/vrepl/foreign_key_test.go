@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"mdibaiee/vitess/oracle/go/vt/vtenv"
+	"mdibaiee/vitess/go/vt/vtenv"
 )
 
 func TestRemovedForeignKeyNames(t *testing.T) {

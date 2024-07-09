@@ -27,12 +27,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
-	"mdibaiee/vitess/oracle/go/test/endtoend/utils"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vtgateconn"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/test/endtoend/utils"
+	"mdibaiee/vitess/go/vt/log"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	"mdibaiee/vitess/go/vt/vtgate/vtgateconn"
 )
 
 // TestInsertWithFK tests that insertions work as expected when foreign key management is enabled in Vitess.

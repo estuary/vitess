@@ -33,7 +33,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/oracle/go/vt/vitessdriver"
+	"mdibaiee/vitess/go/vt/vitessdriver"
 )
 
 var (

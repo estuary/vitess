@@ -19,7 +19,7 @@ package unicode
 import (
 	"unicode/utf8"
 
-	"mdibaiee/vitess/oracle/go/mysql/collations/charset/types"
+	"mdibaiee/vitess/go/mysql/collations/charset/types"
 )
 
 // Code points in the surrogate range are not valid for UTF-8.

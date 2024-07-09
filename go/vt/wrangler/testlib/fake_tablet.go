@@ -29,30 +29,30 @@ import (
 
 	"google.golang.org/grpc"
 
-	"mdibaiee/vitess/oracle/go/mysql/fakesqldb"
-	"mdibaiee/vitess/oracle/go/vt/binlog/binlogplayer"
-	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
-	"mdibaiee/vitess/oracle/go/vt/vtenv"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/grpctmserver"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletconntest"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletmanager"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletmanager/vreplication"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletservermock"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tmclient"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tmclienttest"
-	"mdibaiee/vitess/oracle/go/vt/wrangler"
+	"mdibaiee/vitess/go/mysql/fakesqldb"
+	"mdibaiee/vitess/go/vt/binlog/binlogplayer"
+	"mdibaiee/vitess/go/vt/dbconfigs"
+	"mdibaiee/vitess/go/vt/mysqlctl"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/vtenv"
+	"mdibaiee/vitess/go/vt/vttablet/grpctmserver"
+	"mdibaiee/vitess/go/vt/vttablet/tabletconntest"
+	"mdibaiee/vitess/go/vt/vttablet/tabletmanager"
+	"mdibaiee/vitess/go/vt/vttablet/tabletmanager/vreplication"
+	"mdibaiee/vitess/go/vt/vttablet/tabletservermock"
+	"mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"mdibaiee/vitess/go/vt/vttablet/tmclienttest"
+	"mdibaiee/vitess/go/vt/wrangler"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 
 	// import the gRPC client implementation for tablet manager
-	_ "mdibaiee/vitess/oracle/go/vt/vttablet/grpctmclient"
+	_ "mdibaiee/vitess/go/vt/vttablet/grpctmclient"
 
 	// import the gRPC client implementation for query service
-	_ "mdibaiee/vitess/oracle/go/vt/vttablet/grpctabletconn"
+	_ "mdibaiee/vitess/go/vt/vttablet/grpctabletconn"
 )
 
 // This file contains utility methods for unit tests.

@@ -19,11 +19,11 @@ package workflow
 import (
 	"context"
 
-	"mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/proto/topodata"
+	"mdibaiee/vitess/go/vt/vterrors"
 
-	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 func notExistsError(name string) error {

@@ -34,11 +34,11 @@ import (
 	"google.golang.org/grpc/keepalive"
 	"google.golang.org/grpc/reflection"
 
-	"mdibaiee/vitess/oracle/go/trace"
-	"mdibaiee/vitess/oracle/go/vt/grpccommon"
-	"mdibaiee/vitess/oracle/go/vt/grpcoptionaltls"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/vttls"
+	"mdibaiee/vitess/go/trace"
+	"mdibaiee/vitess/go/vt/grpccommon"
+	"mdibaiee/vitess/go/vt/grpcoptionaltls"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/vttls"
 )
 
 // This file handles gRPC server, on its own port.

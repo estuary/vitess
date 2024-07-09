@@ -30,14 +30,14 @@ import (
 
 	"google.golang.org/protobuf/encoding/protowire"
 
-	"mdibaiee/vitess/oracle/go/bytes2"
-	"mdibaiee/vitess/oracle/go/hack"
-	"mdibaiee/vitess/oracle/go/mysql/decimal"
-	"mdibaiee/vitess/oracle/go/mysql/fastparse"
-	"mdibaiee/vitess/oracle/go/mysql/format"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/bytes2"
+	"mdibaiee/vitess/go/hack"
+	"mdibaiee/vitess/go/mysql/decimal"
+	"mdibaiee/vitess/go/mysql/fastparse"
+	"mdibaiee/vitess/go/mysql/format"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/vterrors"
 )
 
 var (

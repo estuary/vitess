@@ -19,11 +19,11 @@ limitations under the License.
 package grpcbinlogstreamer
 
 import (
-	"mdibaiee/vitess/oracle/go/vt/binlog"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/binlog"
+	"mdibaiee/vitess/go/vt/servenv"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	binlogservicepb "mdibaiee/vitess/oracle/go/vt/proto/binlogservice"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	binlogservicepb "mdibaiee/vitess/go/vt/proto/binlogservice"
 )
 
 // UpdateStream is the gRPC UpdateStream server

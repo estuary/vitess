@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	hack "mdibaiee/vitess/oracle/go/hack"
+	hack "mdibaiee/vitess/go/hack"
 )
 
 //go:nocheckptr
@@ -34,7 +34,7 @@ func (cached *Environment) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(48)
 	}
-	// field byName map[string]mdibaiee/vitess/oracle/go/mysql/collations.ID
+	// field byName map[string]mdibaiee/vitess/go/mysql/collations.ID
 	if cached.byName != nil {
 		size += int64(48)
 		hmap := reflect.ValueOf(cached.byName)
@@ -48,7 +48,7 @@ func (cached *Environment) CachedSize(alloc bool) int64 {
 			size += hack.RuntimeAllocSize(int64(len(k)))
 		}
 	}
-	// field byCharset map[string]*mdibaiee/vitess/oracle/go/mysql/collations.colldefaults
+	// field byCharset map[string]*mdibaiee/vitess/go/mysql/collations.colldefaults
 	if cached.byCharset != nil {
 		size += int64(48)
 		hmap := reflect.ValueOf(cached.byCharset)
@@ -65,7 +65,7 @@ func (cached *Environment) CachedSize(alloc bool) int64 {
 			}
 		}
 	}
-	// field byCharsetName map[mdibaiee/vitess/oracle/go/mysql/collations.ID]string
+	// field byCharsetName map[mdibaiee/vitess/go/mysql/collations.ID]string
 	if cached.byCharsetName != nil {
 		size += int64(48)
 		hmap := reflect.ValueOf(cached.byCharsetName)
@@ -79,7 +79,7 @@ func (cached *Environment) CachedSize(alloc bool) int64 {
 			size += hack.RuntimeAllocSize(int64(len(v)))
 		}
 	}
-	// field unsupported map[string]mdibaiee/vitess/oracle/go/mysql/collations.ID
+	// field unsupported map[string]mdibaiee/vitess/go/mysql/collations.ID
 	if cached.unsupported != nil {
 		size += int64(48)
 		hmap := reflect.ValueOf(cached.unsupported)
@@ -93,7 +93,7 @@ func (cached *Environment) CachedSize(alloc bool) int64 {
 			size += hack.RuntimeAllocSize(int64(len(k)))
 		}
 	}
-	// field byID map[mdibaiee/vitess/oracle/go/mysql/collations.ID]string
+	// field byID map[mdibaiee/vitess/go/mysql/collations.ID]string
 	if cached.byID != nil {
 		size += int64(48)
 		hmap := reflect.ValueOf(cached.byID)

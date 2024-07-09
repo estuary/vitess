@@ -19,5 +19,5 @@ package vttest
 // This plugin imports consultopo to register the consul implementation of TopoServer.
 
 import (
-	_ "mdibaiee/vitess/oracle/go/vt/topo/consultopo" // nolint:revive
+	_ "mdibaiee/vitess/go/vt/topo/consultopo" // nolint:revive
 )

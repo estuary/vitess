@@ -169,7 +169,7 @@
  * Upgrade the Golang Dependencies [#15823](https://github.com/vitessio/vitess/pull/15823)
  * Upgrade the Golang Dependencies [#15942](https://github.com/vitessio/vitess/pull/15942) 
 #### Observability
- * Bump mdibaiee/vitess/oracle from 0.16.2 to 0.17.7 in /vitess-mixin [#15918](https://github.com/vitessio/vitess/pull/15918)
+ * Bump mdibaiee/vitess from 0.16.2 to 0.17.7 in /vitess-mixin [#15918](https://github.com/vitessio/vitess/pull/15918)
  * Update `github.com/Azure/go-autorest/autorest/adal` to fix Dependabot alert [#15986](https://github.com/vitessio/vitess/pull/15986) 
 #### VTAdmin
  * Bump vite from 4.5.2 to 4.5.3 in /web/vtadmin [#15634](https://github.com/vitessio/vitess/pull/15634)

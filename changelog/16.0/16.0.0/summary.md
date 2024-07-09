@@ -512,7 +512,7 @@ Here are sample results from a 2020-era Mac M1 with 16 GiB of memory:
 $ go test -bench=BenchmarkCompress ./go/vt/mysqlctl -run=NONE -timeout=12h -benchtime=1x -v
 goos: darwin
 goarch: arm64
-pkg: mdibaiee/vitess/oracle/go/vt/mysqlctl
+pkg: mdibaiee/vitess/go/vt/mysqlctl
 BenchmarkCompressLz4Builtin
     compression_benchmark_test.go:310: downloading data from https://www.dropbox.com/s/raw/smmgifsooy5qytd/enwiki-20080103-pages-articles.ibd.tar.zst
     BenchmarkCompressLz4Builtin-8                  1        11737493087 ns/op        577.98 MB/s             2.554 compression-ratio

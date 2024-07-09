@@ -26,7 +26,7 @@ FROM "${image}" AS builder
 ARG BUILD_NUMBER
 
 # Re-copy sources from working tree.
-COPY --chown=vitess:vitess . /vt/src/mdibaiee/vitess/oracle
+COPY --chown=vitess:vitess . /vt/src/mdibaiee/vitess
 
 # Build and install Vitess in a temporary output directory.
 USER vitess
@@ -45,16 +45,16 @@ RUN groupadd -r vitess && useradd -r -g vitess vitess
 RUN mkdir -p /vt/vtdataroot && chown -R vitess:vitess /vt
 
 # Set up Vitess environment (just enough to run pre-built Go binaries)
-ENV VTROOT /vt/src/mdibaiee/vitess/oracle
+ENV VTROOT /vt/src/mdibaiee/vitess
 ENV VTDATAROOT /vt/vtdataroot
 ENV PATH $VTROOT/bin:$PATH
 
 # Copy artifacts from builder layer.
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
 COPY --from=builder --chown=vitess:vitess /vt/install /vt
-COPY --from=builder --chown=vitess:vitess /vt/src/mdibaiee/vitess/oracle/web/vtadmin /vt/web/vtadmin
-COPY --from=builder --chown=vitess:vitess /vt/src/mdibaiee/vitess/oracle/config/init_db.sql /vt/config/
-COPY --from=builder --chown=vitess:vitess /vt/src/mdibaiee/vitess/oracle/config/mycnf /vt/config/
+COPY --from=builder --chown=vitess:vitess /vt/src/mdibaiee/vitess/web/vtadmin /vt/web/vtadmin
+COPY --from=builder --chown=vitess:vitess /vt/src/mdibaiee/vitess/config/init_db.sql /vt/config/
+COPY --from=builder --chown=vitess:vitess /vt/src/mdibaiee/vitess/config/mycnf /vt/config/
 
 # Create mount point for actual data (e.g. MySQL data dir)
 VOLUME /vt/vtdataroot

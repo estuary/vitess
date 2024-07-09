@@ -23,13 +23,13 @@ import (
 	"strings"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	"mdibaiee/vitess/oracle/go/test/utils"
+	"mdibaiee/vitess/go/mysql/collations"
+	"mdibaiee/vitess/go/test/utils"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/go/sqltypes"
 )
 
 func r(names, types string, rows ...string) *sqltypes.Result {

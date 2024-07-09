@@ -19,6 +19,6 @@ package cli
 // Imports and register the gRPC vtgateservice server
 
 import (
-	_ "mdibaiee/vitess/oracle/go/vt/vtgate/grpcvtgateconn"
-	_ "mdibaiee/vitess/oracle/go/vt/vtgate/grpcvtgateservice"
+	_ "mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
+	_ "mdibaiee/vitess/go/vt/vtgate/grpcvtgateservice"
 )

@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tmclient"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vttablet/tmclient"
 )
 
 var ( // Query planning errors.

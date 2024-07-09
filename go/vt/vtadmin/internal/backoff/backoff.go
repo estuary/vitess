@@ -33,7 +33,7 @@ import (
 
 	grpcbackoff "google.golang.org/grpc/backoff"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 // Strategy defines the interface for different backoff strategies.

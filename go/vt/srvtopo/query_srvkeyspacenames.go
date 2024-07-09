@@ -20,8 +20,8 @@ import (
 	"context"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/stats"
-	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/go/stats"
+	"mdibaiee/vitess/go/vt/topo"
 )
 
 type SrvKeyspaceNamesQuery struct {

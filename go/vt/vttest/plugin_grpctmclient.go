@@ -19,5 +19,5 @@ package vttest
 // Imports and register the gRPC tabletmanager client
 
 import (
-	_ "mdibaiee/vitess/oracle/go/vt/vttablet/grpctmclient" // nolint:revive
+	_ "mdibaiee/vitess/go/vt/vttablet/grpctmclient" // nolint:revive
 )

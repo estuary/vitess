@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"mdibaiee/vitess/oracle/go/vt/key"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/go/vt/key"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	"mdibaiee/vitess/go/vt/topo"
 )
 
 // ValidateForReshard returns an error if sourceShards cannot reshard into

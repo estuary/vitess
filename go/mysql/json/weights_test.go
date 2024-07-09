@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/mysql/format"
+	"mdibaiee/vitess/go/mysql/format"
 )
 
 func TestWeightStrings(t *testing.T) {

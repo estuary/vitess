@@ -42,7 +42,7 @@ limitations under the License.
 package mysql
 
 import (
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/throttle/base"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/base"
 )
 
 // ClusterTablet combines a cluster name with a tablet alias

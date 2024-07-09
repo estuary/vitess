@@ -19,7 +19,7 @@ package evalengine
 import (
 	"math/bits"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/go/sqltypes"
 )
 
 type builtinBitCount struct {

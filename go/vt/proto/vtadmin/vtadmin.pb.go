@@ -26,12 +26,12 @@ package vtadmin
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	logutil "mdibaiee/vitess/oracle/go/vt/proto/logutil"
-	mysqlctl "mdibaiee/vitess/oracle/go/vt/proto/mysqlctl"
-	tabletmanagerdata "mdibaiee/vitess/oracle/go/vt/proto/tabletmanagerdata"
-	topodata "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vschema "mdibaiee/vitess/oracle/go/vt/proto/vschema"
-	vtctldata "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
+	logutil "mdibaiee/vitess/go/vt/proto/logutil"
+	mysqlctl "mdibaiee/vitess/go/vt/proto/mysqlctl"
+	tabletmanagerdata "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	topodata "mdibaiee/vitess/go/vt/proto/topodata"
+	vschema "mdibaiee/vitess/go/vt/proto/vschema"
+	vtctldata "mdibaiee/vitess/go/vt/proto/vtctldata"
 	reflect "reflect"
 	sync "sync"
 )

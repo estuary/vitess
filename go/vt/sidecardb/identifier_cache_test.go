@@ -24,8 +24,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/vterrors"
 )
 
 func TestIdentifierCache(t *testing.T) {

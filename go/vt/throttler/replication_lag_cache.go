@@ -20,7 +20,7 @@ import (
 	"sort"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/vt/discovery"
+	"mdibaiee/vitess/go/vt/discovery"
 )
 
 // replicationLagCache caches for each replica a bounded list of historic

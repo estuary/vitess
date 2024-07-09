@@ -23,7 +23,7 @@ package log
 import (
 	jww "github.com/spf13/jwalterweatherman"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 var (

@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
 )
 
 // QueryMatchesTemplates sees if the given query has the same fingerprint as one of the given templates

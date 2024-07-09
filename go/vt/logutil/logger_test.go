@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/protoutil"
-	"mdibaiee/vitess/oracle/go/race"
-	logutilpb "mdibaiee/vitess/oracle/go/vt/proto/logutil"
+	"mdibaiee/vitess/go/protoutil"
+	"mdibaiee/vitess/go/race"
+	logutilpb "mdibaiee/vitess/go/vt/proto/logutil"
 )
 
 func TestLogEvent(t *testing.T) {

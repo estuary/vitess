@@ -17,7 +17,7 @@
 package inst
 
 import (
-	"mdibaiee/vitess/oracle/go/mysql/replication"
+	"mdibaiee/vitess/go/mysql/replication"
 )
 
 type ReplicationThreadState int

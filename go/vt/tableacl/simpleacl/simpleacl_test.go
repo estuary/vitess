@@ -19,7 +19,7 @@ package simpleacl
 import (
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/vt/tableacl/testlib"
+	"mdibaiee/vitess/go/vt/tableacl/testlib"
 )
 
 func TestSimpleAcl(t *testing.T) {

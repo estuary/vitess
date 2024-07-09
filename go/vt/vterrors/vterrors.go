@@ -95,7 +95,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 // logErrStacks controls whether printing errors includes the

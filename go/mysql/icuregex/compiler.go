@@ -27,13 +27,13 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/pattern"
-	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/ucase"
-	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/uchar"
-	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/unames"
-	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/uprops"
-	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/uset"
-	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/utf16"
+	"mdibaiee/vitess/go/mysql/icuregex/internal/pattern"
+	"mdibaiee/vitess/go/mysql/icuregex/internal/ucase"
+	"mdibaiee/vitess/go/mysql/icuregex/internal/uchar"
+	"mdibaiee/vitess/go/mysql/icuregex/internal/unames"
+	"mdibaiee/vitess/go/mysql/icuregex/internal/uprops"
+	"mdibaiee/vitess/go/mysql/icuregex/internal/uset"
+	"mdibaiee/vitess/go/mysql/icuregex/internal/utf16"
 )
 
 const BreakIteration = false

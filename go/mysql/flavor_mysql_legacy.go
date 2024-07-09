@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"mdibaiee/vitess/oracle/go/mysql/replication"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/mysql/replication"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/vterrors"
 )
 
 // mysqlFlavorLegacy implements the Flavor interface for Mysql for

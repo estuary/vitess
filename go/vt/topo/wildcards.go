@@ -23,11 +23,11 @@ import (
 
 	"context"
 
-	"mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/vterrors"
 
-	"mdibaiee/vitess/oracle/go/fileutil"
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/fileutil"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 // ResolveKeyspaceWildcard will resolve keyspace wildcards.

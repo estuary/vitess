@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	vtgatepb "mdibaiee/vitess/oracle/go/vt/proto/vtgate"
+	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
 )
 
 // Benchmark run on 6/27/17, with optimized byte-level operations

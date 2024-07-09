@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 // ThrottledLogger will allow logging of messages but won't spam the

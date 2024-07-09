@@ -31,13 +31,13 @@ import (
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
-	vtopo "mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/go/vt/log"
+	vtopo "mdibaiee/vitess/go/vt/topo"
 
 	// Register topo server implementations
-	_ "mdibaiee/vitess/oracle/go/vt/topo/consultopo"
-	_ "mdibaiee/vitess/oracle/go/vt/topo/etcd2topo"
-	_ "mdibaiee/vitess/oracle/go/vt/topo/zk2topo"
+	_ "mdibaiee/vitess/go/vt/topo/consultopo"
+	_ "mdibaiee/vitess/go/vt/topo/etcd2topo"
+	_ "mdibaiee/vitess/go/vt/topo/zk2topo"
 )
 
 // TopoProcess is a generic handle for a running Topo service .

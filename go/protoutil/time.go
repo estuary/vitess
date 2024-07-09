@@ -19,7 +19,7 @@ package protoutil
 import (
 	"time"
 
-	"mdibaiee/vitess/oracle/go/vt/proto/vttime"
+	"mdibaiee/vitess/go/vt/proto/vttime"
 )
 
 // TimeFromProto converts a vttime.Time proto message into a time.Time object.

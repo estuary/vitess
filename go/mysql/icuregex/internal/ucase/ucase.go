@@ -22,7 +22,7 @@ limitations under the License.
 package ucase
 
 import (
-	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/utf16"
+	"mdibaiee/vitess/go/mysql/icuregex/internal/utf16"
 )
 
 const (

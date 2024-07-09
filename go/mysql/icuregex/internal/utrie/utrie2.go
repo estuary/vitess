@@ -25,8 +25,8 @@ import (
 	"errors"
 	"fmt"
 
-	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/udata"
-	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/utf16"
+	"mdibaiee/vitess/go/mysql/icuregex/internal/udata"
+	"mdibaiee/vitess/go/mysql/icuregex/internal/utf16"
 )
 
 type UTrie2 struct {

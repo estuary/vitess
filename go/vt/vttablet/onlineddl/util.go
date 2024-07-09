@@ -27,7 +27,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 // execCmd searches the PATH for a command and runs it, logging the output.

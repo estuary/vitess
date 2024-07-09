@@ -19,7 +19,7 @@ package cli
 import (
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/oracle/go/vt/tlstest"
+	"mdibaiee/vitess/go/vt/tlstest"
 )
 
 var (

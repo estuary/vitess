@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"mdibaiee/vitess/oracle/go/stats"
+	"mdibaiee/vitess/go/stats"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/vt/sidecardb"
+	"mdibaiee/vitess/go/vt/sidecardb"
 
 	"github.com/stretchr/testify/require"
 	"github.com/tidwall/gjson"

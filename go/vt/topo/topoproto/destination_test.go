@@ -21,9 +21,9 @@ import (
 	"reflect"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/vt/key"
+	"mdibaiee/vitess/go/vt/key"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 func TestParseDestination(t *testing.T) {

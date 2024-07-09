@@ -17,8 +17,8 @@ limitations under the License.
 package sqlparser
 
 import (
-	"mdibaiee/vitess/oracle/go/mysql/datetime"
-	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/go/mysql/datetime"
+	"mdibaiee/vitess/go/sqltypes"
 )
 
 /*

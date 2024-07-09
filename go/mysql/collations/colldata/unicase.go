@@ -17,7 +17,7 @@ limitations under the License.
 package colldata
 
 import (
-	"mdibaiee/vitess/oracle/go/mysql/collations/charset"
+	"mdibaiee/vitess/go/mysql/collations/charset"
 )
 
 type UnicaseChar struct {

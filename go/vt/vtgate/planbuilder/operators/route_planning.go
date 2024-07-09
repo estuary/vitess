@@ -20,14 +20,14 @@ import (
 	"bytes"
 	"io"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/engine"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/planbuilder/plancontext"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/semantics"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vtgate/engine"
+	"mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"mdibaiee/vitess/go/vt/vtgate/semantics"
+	"mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 type (

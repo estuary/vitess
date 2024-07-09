@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/proto/query"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/proto/query"
 )
 
 // rows creates a database/sql/driver compliant Row iterator

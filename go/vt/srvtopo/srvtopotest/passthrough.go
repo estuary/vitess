@@ -19,9 +19,9 @@ package srvtopotest
 import (
 	"context"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
-	"mdibaiee/vitess/oracle/go/vt/topo"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
+	"mdibaiee/vitess/go/vt/topo"
 )
 
 // PassthroughSrvTopoServer is a bare implementation of srvtopo.Server for use in tests

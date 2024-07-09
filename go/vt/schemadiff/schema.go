@@ -21,9 +21,9 @@ import (
 	"sort"
 	"strings"
 
-	"mdibaiee/vitess/oracle/go/mysql/capabilities"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/semantics"
+	"mdibaiee/vitess/go/mysql/capabilities"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vtgate/semantics"
 )
 
 // Schema represents a database schema, which may contain entities such as tables and views.

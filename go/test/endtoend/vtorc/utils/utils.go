@@ -33,18 +33,18 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/vt/log"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
 
 	// Register topo implementations.
-	_ "mdibaiee/vitess/oracle/go/vt/topo/consultopo"
-	_ "mdibaiee/vitess/oracle/go/vt/topo/etcd2topo"
-	_ "mdibaiee/vitess/oracle/go/vt/topo/zk2topo"
+	_ "mdibaiee/vitess/go/vt/topo/consultopo"
+	_ "mdibaiee/vitess/go/vt/topo/etcd2topo"
+	_ "mdibaiee/vitess/go/vt/topo/zk2topo"
 )
 
 const (

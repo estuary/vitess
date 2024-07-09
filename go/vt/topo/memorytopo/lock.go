@@ -20,7 +20,7 @@ import (
 	"context"
 	"fmt"
 
-	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo"
 )
 
 // convertError converts a context error into a topo error.

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 var pidFile string // registered in RegisterFlags as --pid_file

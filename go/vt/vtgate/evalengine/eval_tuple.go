@@ -17,7 +17,7 @@ limitations under the License.
 package evalengine
 
 import (
-	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/go/sqltypes"
 )
 
 type evalTuple struct {

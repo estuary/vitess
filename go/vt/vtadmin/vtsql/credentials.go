@@ -19,7 +19,7 @@ package vtsql
 import (
 	"google.golang.org/grpc/credentials"
 
-	"mdibaiee/vitess/oracle/go/vt/grpcclient"
+	"mdibaiee/vitess/go/vt/grpcclient"
 )
 
 // Credentials defines the interface needed for vtsql properly connect to and

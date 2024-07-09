@@ -20,7 +20,7 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 
-	"mdibaiee/vitess/oracle/go/hack"
+	"mdibaiee/vitess/go/hack"
 )
 
 func init() {

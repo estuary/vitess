@@ -24,8 +24,8 @@ import (
 	"reflect"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/key"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/key"
 )
 
 var xxHash SingleColumn

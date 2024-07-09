@@ -24,16 +24,16 @@ import (
 	"testing"
 	"time"
 
-	topoutils "mdibaiee/vitess/oracle/go/test/endtoend/topotest/utils"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/topo"
+	topoutils "mdibaiee/vitess/go/test/endtoend/topotest/utils"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/topo"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
 )
 
 var (

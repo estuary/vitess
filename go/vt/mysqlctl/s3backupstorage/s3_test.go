@@ -20,9 +20,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/vt/logutil"
-	stats "mdibaiee/vitess/oracle/go/vt/mysqlctl/backupstats"
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl/backupstorage"
+	"mdibaiee/vitess/go/vt/logutil"
+	stats "mdibaiee/vitess/go/vt/mysqlctl/backupstats"
+	"mdibaiee/vitess/go/vt/mysqlctl/backupstorage"
 )
 
 type s3FakeClient struct {

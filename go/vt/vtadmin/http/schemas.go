@@ -20,10 +20,10 @@ import (
 	"context"
 	"fmt"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtadminpb "mdibaiee/vitess/oracle/go/vt/proto/vtadmin"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/errors"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vtadminpb "mdibaiee/vitess/go/vt/proto/vtadmin"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/vtadmin/errors"
 )
 
 // FindSchema implements the http wrapper for the

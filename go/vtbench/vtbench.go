@@ -23,10 +23,10 @@ import (
 	"sync"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/stats"
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/stats"
+	"mdibaiee/vitess/go/vt/log"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
 )
 
 // ClientProtocol indicates how to connect

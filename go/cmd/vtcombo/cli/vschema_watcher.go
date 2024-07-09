@@ -22,11 +22,11 @@ import (
 	"os"
 	"path"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/vtgate/vindexes"
 
-	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
+	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
 )
 
 func startVschemaWatcher(ctx context.Context, vschemaPersistenceDir string, ts *topo.Server) {

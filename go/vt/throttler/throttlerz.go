@@ -23,8 +23,8 @@ import (
 
 	"github.com/google/safehtml/template"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/servenv"
 )
 
 const listHTML = `<!DOCTYPE html>

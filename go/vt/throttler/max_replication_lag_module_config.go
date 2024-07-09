@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	throttlerdatapb "mdibaiee/vitess/oracle/go/vt/proto/throttlerdata"
+	throttlerdatapb "mdibaiee/vitess/go/vt/proto/throttlerdata"
 )
 
 // MaxReplicationLagModuleConfig stores all configuration parameters for

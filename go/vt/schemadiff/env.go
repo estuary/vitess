@@ -1,8 +1,8 @@
 package schemadiff
 
 import (
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	"mdibaiee/vitess/oracle/go/vt/vtenv"
+	"mdibaiee/vitess/go/mysql/collations"
+	"mdibaiee/vitess/go/vt/vtenv"
 )
 
 type Environment struct {

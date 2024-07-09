@@ -20,7 +20,7 @@ package sqlparser
 import (
 	"fmt"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/go/sqltypes"
 )
 
 // FormatFast formats the node.

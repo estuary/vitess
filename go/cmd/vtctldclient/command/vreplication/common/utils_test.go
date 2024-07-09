@@ -24,15 +24,15 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/cmd/vtctldclient/command"
-	"mdibaiee/vitess/oracle/go/cmd/vtctldclient/command/vreplication/common"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/topo/memorytopo"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/grpcvtctldserver"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/localvtctldclient"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/vtctldclient"
-	"mdibaiee/vitess/oracle/go/vt/vtenv"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tmclient"
+	"mdibaiee/vitess/go/cmd/vtctldclient/command"
+	"mdibaiee/vitess/go/cmd/vtctldclient/command/vreplication/common"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo/memorytopo"
+	"mdibaiee/vitess/go/vt/vtctl/grpcvtctldserver"
+	"mdibaiee/vitess/go/vt/vtctl/localvtctldclient"
+	"mdibaiee/vitess/go/vt/vtctl/vtctldclient"
+	"mdibaiee/vitess/go/vt/vtenv"
+	"mdibaiee/vitess/go/vt/vttablet/tmclient"
 )
 
 func TestParseAndValidateCreateOptions(t *testing.T) {

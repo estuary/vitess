@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/mysql"
+	"mdibaiee/vitess/go/mysql"
 )
 
 const (

@@ -16,7 +16,7 @@ limitations under the License.
 
 package backupstats
 
-import "mdibaiee/vitess/oracle/go/stats"
+import "mdibaiee/vitess/go/stats"
 
 var (
 	// DeprecatedBackupDurationS is a deprecated statistic that will be removed

@@ -25,21 +25,21 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/mysql/replication"
+	"mdibaiee/vitess/go/mysql/replication"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/sets"
-	"mdibaiee/vitess/oracle/go/vt/logutil"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/topo/memorytopo"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
-	"mdibaiee/vitess/oracle/go/vt/topotools/events"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/grpcvtctldserver/testutil"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/reparentutil/reparenttestutil"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/sets"
+	"mdibaiee/vitess/go/vt/logutil"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo/memorytopo"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/topotools/events"
+	"mdibaiee/vitess/go/vt/vtctl/grpcvtctldserver/testutil"
+	"mdibaiee/vitess/go/vt/vtctl/reparentutil/reparenttestutil"
 
-	replicationdatapb "mdibaiee/vitess/oracle/go/vt/proto/replicationdata"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
+	replicationdatapb "mdibaiee/vitess/go/vt/proto/replicationdata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
 )
 
 func TestNewEmergencyReparenter(t *testing.T) {

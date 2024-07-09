@@ -23,13 +23,13 @@ import (
 	"log"
 	"time"
 
-	vtgatepb "mdibaiee/vitess/oracle/go/vt/proto/vtgate"
+	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	_ "mdibaiee/vitess/oracle/go/vt/vtctl/grpcvtctlclient"
-	_ "mdibaiee/vitess/oracle/go/vt/vtgate/grpcvtgateconn"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vtgateconn"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	_ "mdibaiee/vitess/go/vt/vtctl/grpcvtctlclient"
+	_ "mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
+	"mdibaiee/vitess/go/vt/vtgate/vtgateconn"
 )
 
 /*

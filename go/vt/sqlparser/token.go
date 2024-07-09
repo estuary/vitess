@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"strings"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/go/sqltypes"
 )
 
 const (

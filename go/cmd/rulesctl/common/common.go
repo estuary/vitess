@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 
-	vtfcr "mdibaiee/vitess/oracle/go/vt/vttablet/customrule/filecustomrule"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/rules"
+	vtfcr "mdibaiee/vitess/go/vt/vttablet/customrule/filecustomrule"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/rules"
 )
 
 func GetRules(path string) *rules.Rules {

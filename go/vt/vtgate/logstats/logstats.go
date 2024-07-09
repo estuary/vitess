@@ -24,11 +24,11 @@ import (
 
 	"github.com/google/safehtml"
 
-	"mdibaiee/vitess/oracle/go/logstats"
-	"mdibaiee/vitess/oracle/go/streamlog"
-	"mdibaiee/vitess/oracle/go/vt/callerid"
-	"mdibaiee/vitess/oracle/go/vt/callinfo"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	"mdibaiee/vitess/go/logstats"
+	"mdibaiee/vitess/go/streamlog"
+	"mdibaiee/vitess/go/vt/callerid"
+	"mdibaiee/vitess/go/vt/callinfo"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
 )
 
 // LogStats records the stats for a single vtgate query

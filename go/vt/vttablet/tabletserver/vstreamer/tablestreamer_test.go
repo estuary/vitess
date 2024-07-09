@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
 )
 
 // TestTableStreamer streams all tables and ensures all rows are received in the correct order.

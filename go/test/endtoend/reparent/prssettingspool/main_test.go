@@ -26,10 +26,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
-	rutils "mdibaiee/vitess/oracle/go/test/endtoend/reparent/utils"
-	"mdibaiee/vitess/oracle/go/test/endtoend/utils"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
+	rutils "mdibaiee/vitess/go/test/endtoend/reparent/utils"
+	"mdibaiee/vitess/go/test/endtoend/utils"
 )
 
 var (

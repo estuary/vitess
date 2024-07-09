@@ -25,7 +25,7 @@ import (
 
 	"context"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 // LocalController listens to the specified schema change dir and applies schema changes.

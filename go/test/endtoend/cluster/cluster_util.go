@@ -28,19 +28,19 @@ import (
 
 	"google.golang.org/grpc"
 
-	"mdibaiee/vitess/oracle/go/vt/grpcclient"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/grpcvtgateconn"
+	"mdibaiee/vitess/go/vt/grpcclient"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
 
 	"github.com/buger/jsonparser"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vtgateconn"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/vt/vtgate/vtgateconn"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	tmc "mdibaiee/vitess/oracle/go/vt/vttablet/grpctmclient"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	tmc "mdibaiee/vitess/go/vt/vttablet/grpctmclient"
 )
 
 var (

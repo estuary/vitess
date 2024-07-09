@@ -21,8 +21,8 @@ package cli
 import (
 	"time"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/vt/vtgate"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/vt/vtgate"
 )
 
 var (

@@ -17,7 +17,7 @@ limitations under the License.
 package sqlparser
 
 import (
-	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/go/sqltypes"
 )
 
 // Format formats the node.

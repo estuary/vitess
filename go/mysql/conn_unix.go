@@ -23,7 +23,7 @@ import (
 	"io"
 	"syscall"
 
-	"mdibaiee/vitess/oracle/go/mysql/sqlerror"
+	"mdibaiee/vitess/go/mysql/sqlerror"
 )
 
 // ConnCheck ensures that this connection to the MySQL server hasn't been broken.

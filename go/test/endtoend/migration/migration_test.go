@@ -29,11 +29,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
 )
 
 var (
@@ -112,7 +112,7 @@ take a yaml config that defines these external sources. it will look like this:
 externalConnections:
 
 	product:
-	  socket: /home/sougou/dev/src/mdibaiee/vitess/oracle/vtdataroot/vtroot_15201/vt_0000000622/mysql.sock
+	  socket: /home/sougou/dev/src/mdibaiee/vitess/vtdataroot/vtroot_15201/vt_0000000622/mysql.sock
 	  dbName: vt_product
 	  app:
 	    user: vt_app
@@ -120,7 +120,7 @@ externalConnections:
 	    user: vt_dba
 	customer:
 	  flavor: FilePos
-	  socket: /home/sougou/dev/src/mdibaiee/vitess/oracle/vtdataroot/vtroot_15201/vt_0000000620/mysql.sock
+	  socket: /home/sougou/dev/src/mdibaiee/vitess/vtdataroot/vtroot_15201/vt_0000000620/mysql.sock
 	  dbName: vt_customer
 	  app:
 	    user: vt_app

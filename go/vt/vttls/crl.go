@@ -23,7 +23,7 @@ import (
 	"os"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 type verifyPeerCertificateFunc func([][]byte, [][]*x509.Certificate) error

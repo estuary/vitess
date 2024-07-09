@@ -25,9 +25,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	"mdibaiee/vitess/oracle/go/protoutil"
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl"
-	mysqlctlpb "mdibaiee/vitess/oracle/go/vt/proto/mysqlctl"
+	"mdibaiee/vitess/go/protoutil"
+	"mdibaiee/vitess/go/vt/mysqlctl"
+	mysqlctlpb "mdibaiee/vitess/go/vt/proto/mysqlctl"
 )
 
 // server is our gRPC server.

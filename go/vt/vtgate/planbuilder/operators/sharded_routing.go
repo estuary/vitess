@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"slices"
 
-	"mdibaiee/vitess/oracle/go/mysql/collations"
-	"mdibaiee/vitess/oracle/go/slice"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/engine"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/evalengine"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/planbuilder/plancontext"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/semantics"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
+	"mdibaiee/vitess/go/mysql/collations"
+	"mdibaiee/vitess/go/slice"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vtgate/engine"
+	"mdibaiee/vitess/go/vt/vtgate/evalengine"
+	"mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"mdibaiee/vitess/go/vt/vtgate/semantics"
+	"mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 // ShardedRouting is what we use for all tables that exist in a sharded keyspace

@@ -28,11 +28,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vtgateconn"
-	"mdibaiee/vitess/oracle/go/vt/vttest"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/vtgate/vtgateconn"
+	"mdibaiee/vitess/go/vt/vttest"
 
-	vttestpb "mdibaiee/vitess/oracle/go/vt/proto/vttest"
+	vttestpb "mdibaiee/vitess/go/vt/proto/vttest"
 )
 
 var (

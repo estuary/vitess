@@ -17,7 +17,7 @@ limitations under the License.
 
 package json
 
-import hack "mdibaiee/vitess/oracle/go/hack"
+import hack "mdibaiee/vitess/go/hack"
 
 func (cached *Object) CachedSize(alloc bool) int64 {
 	if cached == nil {
@@ -27,7 +27,7 @@ func (cached *Object) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(24)
 	}
-	// field kvs []mdibaiee/vitess/oracle/go/mysql/json.kv
+	// field kvs []mdibaiee/vitess/go/mysql/json.kv
 	{
 		size += hack.RuntimeAllocSize(int64(cap(cached.kvs)) * int64(24))
 		for _, elem := range cached.kvs {
@@ -44,9 +44,9 @@ func (cached *Value) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(80)
 	}
-	// field o mdibaiee/vitess/oracle/go/mysql/json.Object
+	// field o mdibaiee/vitess/go/mysql/json.Object
 	size += cached.o.CachedSize(false)
-	// field a []*mdibaiee/vitess/oracle/go/mysql/json.Value
+	// field a []*mdibaiee/vitess/go/mysql/json.Value
 	{
 		size += hack.RuntimeAllocSize(int64(cap(cached.a)) * int64(8))
 		for _, elem := range cached.a {
@@ -67,7 +67,7 @@ func (cached *kv) CachedSize(alloc bool) int64 {
 	}
 	// field k string
 	size += hack.RuntimeAllocSize(int64(len(cached.k)))
-	// field v *mdibaiee/vitess/oracle/go/mysql/json.Value
+	// field v *mdibaiee/vitess/go/mysql/json.Value
 	size += cached.v.CachedSize(true)
 	return size
 }

@@ -19,7 +19,7 @@ package tx
 import (
 	"time"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
 )
 
 // DistributedTx is similar to querypb.TransactionMetadata, but

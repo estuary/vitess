@@ -17,5 +17,5 @@ limitations under the License.
 package main
 
 import (
-	_ "mdibaiee/vitess/oracle/go/vt/mysqlctl/azblobbackupstorage"
+	_ "mdibaiee/vitess/go/vt/mysqlctl/azblobbackupstorage"
 )

@@ -31,18 +31,18 @@ import (
 	"google.golang.org/protobuf/encoding/prototext"
 	"google.golang.org/protobuf/proto"
 
-	"mdibaiee/vitess/oracle/go/vt/external/golib/sqlutils"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
-	"mdibaiee/vitess/oracle/go/vt/topotools"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/config"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/db"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/inst"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/process"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tmclient"
+	"mdibaiee/vitess/go/vt/external/golib/sqlutils"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/topotools"
+	"mdibaiee/vitess/go/vt/vtorc/config"
+	"mdibaiee/vitess/go/vt/vtorc/db"
+	"mdibaiee/vitess/go/vt/vtorc/inst"
+	"mdibaiee/vitess/go/vt/vtorc/process"
+	"mdibaiee/vitess/go/vt/vttablet/tmclient"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 var (

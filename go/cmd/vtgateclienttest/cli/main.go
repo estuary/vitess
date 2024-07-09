@@ -22,10 +22,10 @@ package cli
 import (
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/oracle/go/acl"
-	"mdibaiee/vitess/oracle/go/cmd/vtgateclienttest/services"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
-	"mdibaiee/vitess/oracle/go/vt/vtgate"
+	"mdibaiee/vitess/go/acl"
+	"mdibaiee/vitess/go/cmd/vtgateclienttest/services"
+	"mdibaiee/vitess/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/vtgate"
 )
 
 var Main = &cobra.Command{

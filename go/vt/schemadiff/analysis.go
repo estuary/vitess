@@ -17,7 +17,7 @@ limitations under the License.
 package schemadiff
 
 import (
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/sqlparser"
 )
 
 // AlterTableRotatesRangePartition answers `true` when the given ALTER TABLE statement performs any sort

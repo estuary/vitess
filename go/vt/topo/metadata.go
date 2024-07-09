@@ -20,10 +20,10 @@ import (
 	"context"
 	"path"
 
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/sqlparser"
 
-	"mdibaiee/vitess/oracle/go/event"
-	"mdibaiee/vitess/oracle/go/vt/topo/events"
+	"mdibaiee/vitess/go/event"
+	"mdibaiee/vitess/go/vt/topo/events"
 )
 
 // UpsertMetadata sets the key/value in the metadata if it doesn't exist, otherwise it updates the content

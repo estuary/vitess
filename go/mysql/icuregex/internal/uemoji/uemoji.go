@@ -22,7 +22,7 @@ limitations under the License.
 package uemoji
 
 import (
-	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/utrie"
+	"mdibaiee/vitess/go/mysql/icuregex/internal/utrie"
 )
 
 type propertySet interface {

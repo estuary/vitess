@@ -22,9 +22,9 @@ import (
 	"log/syslog"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/hack"
+	"mdibaiee/vitess/go/hack"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 func init() {

@@ -17,7 +17,7 @@ limitations under the License.
 package sqltypes
 
 import (
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vterrors"
 )
 
 // QueryResponse represents a query response for ExecuteBatch.

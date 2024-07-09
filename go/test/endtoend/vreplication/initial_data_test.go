@@ -22,7 +22,7 @@ import (
 	"os"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 func insertInitialData(t *testing.T) {

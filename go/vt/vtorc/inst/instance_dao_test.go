@@ -11,12 +11,12 @@ import (
 	"github.com/patrickmn/go-cache"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/vt/external/golib/sqlutils"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/config"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/db"
+	"mdibaiee/vitess/go/vt/external/golib/sqlutils"
+	"mdibaiee/vitess/go/vt/log"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/vtorc/config"
+	"mdibaiee/vitess/go/vt/vtorc/db"
 )
 
 var (

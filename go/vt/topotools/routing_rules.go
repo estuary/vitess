@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"strings"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/topo"
 
-	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
+	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
 )
 
 // region routing rules

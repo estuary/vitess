@@ -21,7 +21,7 @@ import (
 	"io"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl/backupstorage"
+	"mdibaiee/vitess/go/vt/mysqlctl/backupstorage"
 )
 
 // This file tests the file BackupStorage engine.

@@ -25,7 +25,7 @@ import (
 	"syscall"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 const (

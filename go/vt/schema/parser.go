@@ -21,8 +21,8 @@ import (
 	"regexp"
 	"strings"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/sqlparser"
 )
 
 // NormalizedDDLQuery contains a query which is online-ddl -normalized

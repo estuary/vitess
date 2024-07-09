@@ -19,7 +19,7 @@ package aggregation
 import (
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/test/endtoend/utils"
+	"mdibaiee/vitess/go/test/endtoend/utils"
 )
 
 func TestDistinct(t *testing.T) {

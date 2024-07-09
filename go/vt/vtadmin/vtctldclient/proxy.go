@@ -26,17 +26,17 @@ import (
 	"google.golang.org/grpc"
 	grpcresolver "google.golang.org/grpc/resolver"
 
-	"mdibaiee/vitess/oracle/go/trace"
-	"mdibaiee/vitess/oracle/go/vt/grpcclient"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/cluster/resolver"
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/debug"
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/vtadminproto"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/grpcvtctldclient"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/vtctldclient"
+	"mdibaiee/vitess/go/trace"
+	"mdibaiee/vitess/go/vt/grpcclient"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/vtadmin/cluster/resolver"
+	"mdibaiee/vitess/go/vt/vtadmin/debug"
+	"mdibaiee/vitess/go/vt/vtadmin/vtadminproto"
+	"mdibaiee/vitess/go/vt/vtctl/grpcvtctldclient"
+	"mdibaiee/vitess/go/vt/vtctl/vtctldclient"
 
-	vtadminpb "mdibaiee/vitess/oracle/go/vt/proto/vtadmin"
-	vtctlservicepb "mdibaiee/vitess/oracle/go/vt/proto/vtctlservice"
+	vtadminpb "mdibaiee/vitess/go/vt/proto/vtadmin"
+	vtctlservicepb "mdibaiee/vitess/go/vt/proto/vtctlservice"
 )
 
 // Proxy defines the connection interface of a proxied vtctldclient used by

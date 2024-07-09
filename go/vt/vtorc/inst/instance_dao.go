@@ -31,20 +31,20 @@ import (
 	"github.com/patrickmn/go-cache"
 	"github.com/sjmudd/stopwatch"
 
-	"mdibaiee/vitess/oracle/go/mysql/replication"
-	"mdibaiee/vitess/oracle/go/stats"
-	"mdibaiee/vitess/oracle/go/tb"
-	"mdibaiee/vitess/oracle/go/vt/external/golib/sqlutils"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/collection"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/config"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/db"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/metrics/query"
-	"mdibaiee/vitess/oracle/go/vt/vtorc/util"
+	"mdibaiee/vitess/go/mysql/replication"
+	"mdibaiee/vitess/go/stats"
+	"mdibaiee/vitess/go/tb"
+	"mdibaiee/vitess/go/vt/external/golib/sqlutils"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/vtorc/collection"
+	"mdibaiee/vitess/go/vt/vtorc/config"
+	"mdibaiee/vitess/go/vt/vtorc/db"
+	"mdibaiee/vitess/go/vt/vtorc/metrics/query"
+	"mdibaiee/vitess/go/vt/vtorc/util"
 
-	replicationdatapb "mdibaiee/vitess/oracle/go/vt/proto/replicationdata"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	replicationdatapb "mdibaiee/vitess/go/vt/proto/replicationdata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"encoding/base64"
 	"strings"
 
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/cluster"
+	"mdibaiee/vitess/go/vt/vtadmin/cluster"
 )
 
 // ClusterFromString returns a cluster ID and possibly fully-usable Cluster

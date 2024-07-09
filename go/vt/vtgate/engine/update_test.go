@@ -21,18 +21,18 @@ import (
 	"errors"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/evalengine"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vtgate/evalengine"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/vtgate/vindexes"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
 )
 
 func TestUpdateUnsharded(t *testing.T) {

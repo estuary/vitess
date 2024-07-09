@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"strings"
 
-	"mdibaiee/vitess/oracle/go/vt/schema"
+	"mdibaiee/vitess/go/vt/schema"
 )
 
 // expandedDataTypes maps some known and difficult-to-compute by INFORMATION_SCHEMA data types which expand other data types.

@@ -27,14 +27,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtgatepb "mdibaiee/vitess/oracle/go/vt/proto/vtgate"
-	_ "mdibaiee/vitess/oracle/go/vt/vtctl/grpcvtctlclient"
-	_ "mdibaiee/vitess/oracle/go/vt/vtgate/grpcvtgateconn"
+	"mdibaiee/vitess/go/vt/log"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
+	_ "mdibaiee/vitess/go/vt/vtctl/grpcvtctlclient"
+	_ "mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
 
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vtgateconn"
+	"mdibaiee/vitess/go/vt/vtgate/vtgateconn"
 )
 
 // Validates that we have a working VStream API

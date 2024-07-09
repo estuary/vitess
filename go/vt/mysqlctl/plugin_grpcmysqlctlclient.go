@@ -18,5 +18,5 @@ package mysqlctl
 
 import (
 	// Register the gRPC mysqlctl client.
-	_ "mdibaiee/vitess/oracle/go/vt/mysqlctl/grpcmysqlctlclient"
+	_ "mdibaiee/vitess/go/vt/mysqlctl/grpcmysqlctlclient"
 )

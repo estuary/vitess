@@ -22,7 +22,7 @@ import (
 	"log/syslog"
 	"testing"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 func TestTabletChangeSyslog(t *testing.T) {

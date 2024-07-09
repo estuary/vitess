@@ -25,21 +25,21 @@ import (
 
 	"google.golang.org/protobuf/encoding/prototext"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/schema"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/workflow"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/schema"
+	"mdibaiee/vitess/go/vt/vtctl/workflow"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/concurrency"
-	"mdibaiee/vitess/oracle/go/vt/key"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/topotools"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletmanager/vreplication"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/concurrency"
+	"mdibaiee/vitess/go/vt/key"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topotools"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"mdibaiee/vitess/go/vt/vttablet/tabletmanager/vreplication"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
 )
 
 type resharder struct {

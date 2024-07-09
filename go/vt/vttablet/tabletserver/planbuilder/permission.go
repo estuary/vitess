@@ -19,8 +19,8 @@ package planbuilder
 import (
 	"fmt"
 
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/tableacl"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/tableacl"
 )
 
 // Permission associates the required access permission

@@ -26,10 +26,10 @@ DEFAULT_BUILD_GIT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 DEFAULT_BUILD_TIME=$(LC_ALL=C date)
 
 echo "\
-  -X 'mdibaiee/vitess/oracle/go/vt/servenv.buildHost=$(hostname)' \
-  -X 'mdibaiee/vitess/oracle/go/vt/servenv.buildUser=$(whoami)' \
-  -X 'mdibaiee/vitess/oracle/go/vt/servenv.buildGitRev=${BUILD_GIT_REV:-$DEFAULT_BUILD_GIT_REV}' \
-  -X 'mdibaiee/vitess/oracle/go/vt/servenv.buildGitBranch=${BUILD_GIT_BRANCH:-$DEFAULT_BUILD_GIT_BRANCH}' \
-  -X 'mdibaiee/vitess/oracle/go/vt/servenv.buildTime=${BUILD_TIME:-$DEFAULT_BUILD_TIME}' \
-  -X 'mdibaiee/vitess/oracle/go/vt/servenv.jenkinsBuildNumberStr=${BUILD_NUMBER}' \
+  -X 'mdibaiee/vitess/go/vt/servenv.buildHost=$(hostname)' \
+  -X 'mdibaiee/vitess/go/vt/servenv.buildUser=$(whoami)' \
+  -X 'mdibaiee/vitess/go/vt/servenv.buildGitRev=${BUILD_GIT_REV:-$DEFAULT_BUILD_GIT_REV}' \
+  -X 'mdibaiee/vitess/go/vt/servenv.buildGitBranch=${BUILD_GIT_BRANCH:-$DEFAULT_BUILD_GIT_BRANCH}' \
+  -X 'mdibaiee/vitess/go/vt/servenv.buildTime=${BUILD_TIME:-$DEFAULT_BUILD_TIME}' \
+  -X 'mdibaiee/vitess/go/vt/servenv.jenkinsBuildNumberStr=${BUILD_NUMBER}' \
 "

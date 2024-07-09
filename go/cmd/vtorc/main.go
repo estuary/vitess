@@ -17,8 +17,8 @@
 package main
 
 import (
-	"mdibaiee/vitess/oracle/go/cmd/vtorc/cli"
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/cmd/vtorc/cli"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 // main is the application's entry point. It will spawn an HTTP interface.

@@ -24,13 +24,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/sqlparser"
 
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletmanager/vreplication"
+	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"mdibaiee/vitess/go/vt/vttablet/tabletmanager/vreplication"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
-	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
 )
 
 func TestTemplatize(t *testing.T) {

@@ -25,17 +25,17 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"mdibaiee/vitess/oracle/go/vt/logutil"
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	"mdibaiee/vitess/oracle/go/vt/topo/memorytopo"
-	"mdibaiee/vitess/oracle/go/vt/vtenv"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/grpcqueryservice"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/queryservice"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/queryservice/fakes"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tmclient"
-	"mdibaiee/vitess/oracle/go/vt/wrangler"
-	"mdibaiee/vitess/oracle/go/vt/wrangler/testlib"
+	"mdibaiee/vitess/go/vt/logutil"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	"mdibaiee/vitess/go/vt/topo/memorytopo"
+	"mdibaiee/vitess/go/vt/vtenv"
+	"mdibaiee/vitess/go/vt/vttablet/grpcqueryservice"
+	"mdibaiee/vitess/go/vt/vttablet/queryservice"
+	"mdibaiee/vitess/go/vt/vttablet/queryservice/fakes"
+	"mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"mdibaiee/vitess/go/vt/wrangler"
+	"mdibaiee/vitess/go/vt/wrangler/testlib"
 )
 
 // streamHealthTabletServer is a local QueryService implementation to support the tests

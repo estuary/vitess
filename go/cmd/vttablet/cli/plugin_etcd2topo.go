@@ -19,5 +19,5 @@ package cli
 // This plugin imports etcd2topo to register the etcd2 implementation of TopoServer.
 
 import (
-	_ "mdibaiee/vitess/oracle/go/vt/topo/etcd2topo"
+	_ "mdibaiee/vitess/go/vt/topo/etcd2topo"
 )

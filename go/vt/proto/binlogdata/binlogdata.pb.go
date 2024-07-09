@@ -28,9 +28,9 @@ package binlogdata
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	query "mdibaiee/vitess/oracle/go/vt/proto/query"
-	topodata "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtrpc "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	query "mdibaiee/vitess/go/vt/proto/query"
+	topodata "mdibaiee/vitess/go/vt/proto/topodata"
+	vtrpc "mdibaiee/vitess/go/vt/proto/vtrpc"
 	reflect "reflect"
 	sync "sync"
 )

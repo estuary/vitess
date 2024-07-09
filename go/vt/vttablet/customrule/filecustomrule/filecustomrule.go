@@ -25,10 +25,10 @@ import (
 	"github.com/fsnotify/fsnotify"
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/rules"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/servenv"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver"
+	"mdibaiee/vitess/go/vt/vttablet/tabletserver/rules"
 )
 
 var (

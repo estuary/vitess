@@ -32,7 +32,7 @@ import (
 	"golang.org/x/tools/go/ast/astutil"
 	"golang.org/x/tools/go/packages"
 
-	"mdibaiee/vitess/oracle/go/tools/codegen"
+	"mdibaiee/vitess/go/tools/codegen"
 )
 
 func main() {

@@ -19,9 +19,9 @@ package tabletenv
 import (
 	"time"
 
-	"mdibaiee/vitess/oracle/go/stats"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/go/stats"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/servenv"
 )
 
 // Stats contains tracked by various parts of TabletServer.

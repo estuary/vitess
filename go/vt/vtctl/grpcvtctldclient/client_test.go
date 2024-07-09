@@ -23,17 +23,17 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/test/utils"
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/topo/memorytopo"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/grpcvtctldserver"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/grpcvtctldserver/testutil"
-	"mdibaiee/vitess/oracle/go/vt/vtctl/vtctldclient"
-	"mdibaiee/vitess/oracle/go/vt/vtenv"
+	"mdibaiee/vitess/go/test/utils"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo/memorytopo"
+	"mdibaiee/vitess/go/vt/vtctl/grpcvtctldserver"
+	"mdibaiee/vitess/go/vt/vtctl/grpcvtctldserver/testutil"
+	"mdibaiee/vitess/go/vt/vtctl/vtctldclient"
+	"mdibaiee/vitess/go/vt/vtenv"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
-	vtctlservicepb "mdibaiee/vitess/oracle/go/vt/proto/vtctlservice"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
+	vtctlservicepb "mdibaiee/vitess/go/vt/proto/vtctlservice"
 )
 
 func TestFindAllShardsInKeyspace(t *testing.T) {

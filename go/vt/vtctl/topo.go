@@ -24,8 +24,8 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/oracle/go/vt/topo"
-	"mdibaiee/vitess/oracle/go/vt/wrangler"
+	"mdibaiee/vitess/go/vt/topo"
+	"mdibaiee/vitess/go/vt/wrangler"
 )
 
 // This file contains the topo command group for vtctl.

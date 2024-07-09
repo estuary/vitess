@@ -24,7 +24,7 @@ import (
 	"github.com/google/safehtml"
 	"github.com/google/safehtml/template"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // TopoTemplate is the HTML to use to display the

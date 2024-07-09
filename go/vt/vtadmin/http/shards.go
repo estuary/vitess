@@ -23,13 +23,13 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"mdibaiee/vitess/oracle/go/sets"
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
-	"mdibaiee/vitess/oracle/go/vt/vtadmin/errors"
+	"mdibaiee/vitess/go/sets"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/vtadmin/errors"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtadminpb "mdibaiee/vitess/oracle/go/vt/proto/vtadmin"
-	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vtadminpb "mdibaiee/vitess/go/vt/proto/vtadmin"
+	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
 )
 
 // CreateShard implements the http wrapper for POST /shards/{cluster_id}.

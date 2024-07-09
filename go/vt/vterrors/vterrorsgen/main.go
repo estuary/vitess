@@ -22,9 +22,9 @@ import (
 	"strings"
 	"text/template"
 
-	"mdibaiee/vitess/oracle/go/mysql/sqlerror"
+	"mdibaiee/vitess/go/mysql/sqlerror"
 
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vterrors"
 )
 
 const (
@@ -38,7 +38,7 @@ const (
 `
 )
 
-// This program reads the errors located in the `mdibaiee/vitess/oracle/go/vt/vterrors` package
+// This program reads the errors located in the `mdibaiee/vitess/go/vt/vterrors` package
 // and prints on the standard output a table, in Markdown format, that lists all the
 // errors with their code, description, error content, mysql error code and the SQL state.
 func main() {

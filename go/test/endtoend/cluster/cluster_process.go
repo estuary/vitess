@@ -37,25 +37,25 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/constants/sidecar"
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/syscallutil"
-	"mdibaiee/vitess/oracle/go/test/endtoend/filelock"
-	"mdibaiee/vitess/oracle/go/vt/grpcclient"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/planbuilder/plancontext"
-	"mdibaiee/vitess/oracle/go/vt/vtgate/vtgateconn"
-	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletconn"
+	"mdibaiee/vitess/go/constants/sidecar"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/syscallutil"
+	"mdibaiee/vitess/go/test/endtoend/filelock"
+	"mdibaiee/vitess/go/vt/grpcclient"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"mdibaiee/vitess/go/vt/vtgate/vtgateconn"
+	"mdibaiee/vitess/go/vt/vttablet/tabletconn"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 
 	// Ensure dialers are registered (needed by ExecOnTablet and ExecOnVTGate).
-	_ "mdibaiee/vitess/oracle/go/vt/vtgate/grpcvtgateconn"
-	_ "mdibaiee/vitess/oracle/go/vt/vttablet/grpctabletconn"
+	_ "mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
+	_ "mdibaiee/vitess/go/vt/vttablet/grpctabletconn"
 )
 
 // DefaultCell : If no cell name is passed, then use following

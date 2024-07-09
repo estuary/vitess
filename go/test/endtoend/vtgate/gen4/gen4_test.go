@@ -22,13 +22,13 @@ import (
 	"strconv"
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/test/endtoend/utils"
+	"mdibaiee/vitess/go/test/endtoend/utils"
 
 	"github.com/stretchr/testify/assert"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/mysql"
+	"mdibaiee/vitess/go/mysql"
 )
 
 func TestOrderBy(t *testing.T) {

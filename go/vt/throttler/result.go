@@ -23,7 +23,7 @@ import (
 	"text/template"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
+	"mdibaiee/vitess/go/vt/topo/topoproto"
 )
 
 type rateChange string

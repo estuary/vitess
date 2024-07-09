@@ -19,7 +19,7 @@ package eightbit
 import (
 	"unicode/utf8"
 
-	"mdibaiee/vitess/oracle/go/mysql/collations/charset/types"
+	"mdibaiee/vitess/go/mysql/collations/charset/types"
 )
 
 var latin1p0 = [256]byte{

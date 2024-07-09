@@ -50,7 +50,7 @@ package vttest
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	vschema "mdibaiee/vitess/oracle/go/vt/proto/vschema"
+	vschema "mdibaiee/vitess/go/vt/proto/vschema"
 	reflect "reflect"
 	sync "sync"
 )

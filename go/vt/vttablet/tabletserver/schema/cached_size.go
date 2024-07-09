@@ -17,7 +17,7 @@ limitations under the License.
 
 package schema
 
-import hack "mdibaiee/vitess/oracle/go/hack"
+import hack "mdibaiee/vitess/go/hack"
 
 func (cached *MessageInfo) CachedSize(alloc bool) int64 {
 	if cached == nil {
@@ -27,7 +27,7 @@ func (cached *MessageInfo) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(80)
 	}
-	// field Fields []*mdibaiee/vitess/oracle/go/vt/proto/query.Field
+	// field Fields []*mdibaiee/vitess/go/vt/proto/query.Field
 	{
 		size += hack.RuntimeAllocSize(int64(cap(cached.Fields)) * int64(8))
 		for _, elem := range cached.Fields {
@@ -44,9 +44,9 @@ func (cached *Table) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(112)
 	}
-	// field Name mdibaiee/vitess/oracle/go/vt/sqlparser.IdentifierCS
+	// field Name mdibaiee/vitess/go/vt/sqlparser.IdentifierCS
 	size += cached.Name.CachedSize(false)
-	// field Fields []*mdibaiee/vitess/oracle/go/vt/proto/query.Field
+	// field Fields []*mdibaiee/vitess/go/vt/proto/query.Field
 	{
 		size += hack.RuntimeAllocSize(int64(cap(cached.Fields)) * int64(8))
 		for _, elem := range cached.Fields {
@@ -57,11 +57,11 @@ func (cached *Table) CachedSize(alloc bool) int64 {
 	{
 		size += hack.RuntimeAllocSize(int64(cap(cached.PKColumns)) * int64(8))
 	}
-	// field SequenceInfo *mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/schema.SequenceInfo
+	// field SequenceInfo *mdibaiee/vitess/go/vt/vttablet/tabletserver/schema.SequenceInfo
 	if cached.SequenceInfo != nil {
 		size += hack.RuntimeAllocSize(int64(24))
 	}
-	// field MessageInfo *mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/schema.MessageInfo
+	// field MessageInfo *mdibaiee/vitess/go/vt/vttablet/tabletserver/schema.MessageInfo
 	size += cached.MessageInfo.CachedSize(true)
 	return size
 }

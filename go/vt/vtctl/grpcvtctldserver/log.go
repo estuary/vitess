@@ -19,9 +19,9 @@ package grpcvtctldserver
 import (
 	"sync"
 
-	"mdibaiee/vitess/oracle/go/vt/logutil"
+	"mdibaiee/vitess/go/vt/logutil"
 
-	logutilpb "mdibaiee/vitess/oracle/go/vt/proto/logutil"
+	logutilpb "mdibaiee/vitess/go/vt/proto/logutil"
 )
 
 func eventStreamLogger() (logutil.Logger, func() []*logutilpb.Event) {

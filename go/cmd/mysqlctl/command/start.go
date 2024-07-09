@@ -23,8 +23,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/oracle/go/flagutil"
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl"
+	"mdibaiee/vitess/go/flagutil"
+	"mdibaiee/vitess/go/vt/mysqlctl"
 )
 
 var Start = &cobra.Command{

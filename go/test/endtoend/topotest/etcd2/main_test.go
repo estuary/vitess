@@ -23,17 +23,17 @@ import (
 	"testing"
 	"time"
 
-	topoutils "mdibaiee/vitess/oracle/go/test/endtoend/topotest/utils"
-	"mdibaiee/vitess/oracle/go/test/endtoend/utils"
-	"mdibaiee/vitess/oracle/go/vt/topo"
+	topoutils "mdibaiee/vitess/go/test/endtoend/topotest/utils"
+	"mdibaiee/vitess/go/test/endtoend/utils"
+	"mdibaiee/vitess/go/vt/topo"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
 )
 
 var (

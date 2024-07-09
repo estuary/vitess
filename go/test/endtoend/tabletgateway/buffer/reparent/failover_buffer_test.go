@@ -24,9 +24,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
-	"mdibaiee/vitess/oracle/go/test/endtoend/tabletgateway/buffer"
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/test/endtoend/tabletgateway/buffer"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 var (

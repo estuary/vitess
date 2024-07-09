@@ -19,7 +19,7 @@ limitations under the License.
 package main
 
 import (
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 func logSyslog(msg string) {

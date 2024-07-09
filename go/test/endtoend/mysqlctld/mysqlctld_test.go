@@ -26,11 +26,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/constants/sidecar"
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl/mysqlctlclient"
-	"mdibaiee/vitess/oracle/go/vt/proto/mysqlctl"
+	"mdibaiee/vitess/go/constants/sidecar"
+	"mdibaiee/vitess/go/vt/mysqlctl/mysqlctlclient"
+	"mdibaiee/vitess/go/vt/proto/mysqlctl"
 
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
 )
 
 var (

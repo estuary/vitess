@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
-	replicationdatapb "mdibaiee/vitess/oracle/go/vt/proto/replicationdata"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/log"
+	replicationdatapb "mdibaiee/vitess/go/vt/proto/replicationdata"
+	"mdibaiee/vitess/go/vt/vterrors"
 )
 
 // ReplicationStatus holds replication information from SHOW REPLICA STATUS.

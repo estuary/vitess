@@ -22,7 +22,7 @@ import (
 
 	"context"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 // PlainController implements Controller interface.

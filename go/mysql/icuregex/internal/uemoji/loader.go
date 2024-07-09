@@ -24,9 +24,9 @@ package uemoji
 import (
 	"sync"
 
-	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/icudata"
-	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/udata"
-	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/utrie"
+	"mdibaiee/vitess/go/mysql/icuregex/internal/icudata"
+	"mdibaiee/vitess/go/mysql/icuregex/internal/udata"
+	"mdibaiee/vitess/go/mysql/icuregex/internal/utrie"
 )
 
 var uemojiOnce sync.Once

@@ -17,7 +17,7 @@ limitations under the License.
 package buffer
 
 import (
-	"mdibaiee/vitess/oracle/go/stats"
+	"mdibaiee/vitess/go/stats"
 )
 
 // This file contains all status variables which can be used to monitor the

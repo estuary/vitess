@@ -19,11 +19,11 @@ package topotools
 import (
 	"reflect"
 
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/vterrors"
 
-	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 // ApplyVSchemaDDL applies the given DDL statement to the vschema

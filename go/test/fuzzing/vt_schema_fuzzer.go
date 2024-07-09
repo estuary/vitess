@@ -19,8 +19,8 @@ package fuzzing
 import (
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 
-	"mdibaiee/vitess/oracle/go/vt/schema"
-	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/go/vt/schema"
+	"mdibaiee/vitess/go/vt/sqlparser"
 )
 
 // FuzzOnlineDDLFromCommentedStatement implements a fuzzer

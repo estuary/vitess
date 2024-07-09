@@ -22,8 +22,8 @@ limitations under the License.
 package icuregex
 
 import (
-	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/uprops"
-	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/uset"
+	"mdibaiee/vitess/go/mysql/icuregex/internal/uprops"
+	"mdibaiee/vitess/go/mysql/icuregex/internal/uset"
 )
 
 var staticPropertySets [13]*uset.UnicodeSet

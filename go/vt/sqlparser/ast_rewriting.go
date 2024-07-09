@@ -20,10 +20,10 @@ import (
 	"strconv"
 	"strings"
 
-	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
-	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/oracle/go/vt/sysvars"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	querypb "mdibaiee/vitess/go/vt/proto/query"
+	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/go/vt/sysvars"
+	"mdibaiee/vitess/go/vt/vterrors"
 )
 
 var HasValueSubQueryBaseName = []byte("__sq_has_values")

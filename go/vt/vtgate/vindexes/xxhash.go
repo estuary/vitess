@@ -23,8 +23,8 @@ import (
 
 	"github.com/cespare/xxhash/v2"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
-	"mdibaiee/vitess/oracle/go/vt/key"
+	"mdibaiee/vitess/go/sqltypes"
+	"mdibaiee/vitess/go/vt/key"
 )
 
 var (

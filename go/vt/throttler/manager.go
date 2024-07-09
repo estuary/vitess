@@ -21,9 +21,9 @@ import (
 	"sort"
 	"sync"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 
-	throttlerdatapb "mdibaiee/vitess/oracle/go/vt/proto/throttlerdata"
+	throttlerdatapb "mdibaiee/vitess/go/vt/proto/throttlerdata"
 )
 
 // GlobalManager is the per-process manager which manages all active throttlers.

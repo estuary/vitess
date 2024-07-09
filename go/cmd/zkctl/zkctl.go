@@ -17,9 +17,9 @@ limitations under the License.
 package main
 
 import (
-	"mdibaiee/vitess/oracle/go/cmd/zkctl/command"
-	"mdibaiee/vitess/oracle/go/exit"
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/cmd/zkctl/command"
+	"mdibaiee/vitess/go/exit"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 func main() {

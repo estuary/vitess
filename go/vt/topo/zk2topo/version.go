@@ -19,7 +19,7 @@ package zk2topo
 import (
 	"fmt"
 
-	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/go/vt/topo"
 )
 
 // ZKVersion is zookeeper's idea of a version.

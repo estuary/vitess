@@ -19,7 +19,7 @@ package vtctlbackup
 import (
 	"testing"
 
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl"
+	"mdibaiee/vitess/go/vt/mysqlctl"
 )
 
 // TestBuiltinBackup - main tests backup using vtctl commands

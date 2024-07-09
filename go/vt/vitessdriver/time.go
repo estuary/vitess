@@ -20,7 +20,7 @@ import (
 	"errors"
 	"time"
 
-	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/go/sqltypes"
 )
 
 // ErrInvalidTime is returned when we fail to parse a datetime

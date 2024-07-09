@@ -24,10 +24,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/oracle/go/mysql"
-	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
-	"mdibaiee/vitess/oracle/go/test/endtoend/reparent/utils"
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/mysql"
+	"mdibaiee/vitess/go/test/endtoend/cluster"
+	"mdibaiee/vitess/go/test/endtoend/reparent/utils"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 func TestTrivialERS(t *testing.T) {

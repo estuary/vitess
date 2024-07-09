@@ -20,7 +20,7 @@ import (
 	"unicode/utf8"
 	_ "unsafe"
 
-	"mdibaiee/vitess/oracle/go/mysql/collations/charset/types"
+	"mdibaiee/vitess/go/mysql/collations/charset/types"
 )
 
 type Charset_gb18030 struct{}

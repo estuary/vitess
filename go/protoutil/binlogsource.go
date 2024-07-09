@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
 )
 
 // SortBinlogSourceTables sorts the table related contents of the

@@ -24,9 +24,9 @@ import (
 
 	"github.com/google/safehtml/template"
 
-	"mdibaiee/vitess/oracle/go/acl"
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/logz"
+	"mdibaiee/vitess/go/acl"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/logz"
 )
 
 var (

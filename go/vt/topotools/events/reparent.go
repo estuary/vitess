@@ -19,10 +19,10 @@ limitations under the License.
 package events
 
 import (
-	base "mdibaiee/vitess/oracle/go/vt/events"
-	"mdibaiee/vitess/oracle/go/vt/topo"
+	base "mdibaiee/vitess/go/vt/events"
+	"mdibaiee/vitess/go/vt/topo"
 
-	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // Reparent is an event that describes a single step in the reparent process.

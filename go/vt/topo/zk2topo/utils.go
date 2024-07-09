@@ -27,10 +27,10 @@ import (
 
 	"github.com/z-division/go-zookeeper/zk"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
-	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/go/vt/log"
+	"mdibaiee/vitess/go/vt/vterrors"
 
-	"mdibaiee/vitess/oracle/go/fileutil"
+	"mdibaiee/vitess/go/fileutil"
 )
 
 // CreateRecursive is a helper function on top of Create. It will

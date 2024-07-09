@@ -24,7 +24,7 @@ import (
 
 	"context"
 
-	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/go/vt/log"
 )
 
 // UIController handles schema events.

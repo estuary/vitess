@@ -17,9 +17,9 @@ limitations under the License.
 package backupstorage
 
 import (
-	"mdibaiee/vitess/oracle/go/vt/logutil"
-	"mdibaiee/vitess/oracle/go/vt/mysqlctl/backupstats"
-	logutilpb "mdibaiee/vitess/oracle/go/vt/proto/logutil"
+	"mdibaiee/vitess/go/vt/logutil"
+	"mdibaiee/vitess/go/vt/mysqlctl/backupstats"
+	logutilpb "mdibaiee/vitess/go/vt/proto/logutil"
 )
 
 // Params contains common utilities that may be used by BackupStorage and FileHandle components.

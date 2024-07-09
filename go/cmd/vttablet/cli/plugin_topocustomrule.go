@@ -19,5 +19,5 @@ package cli
 // Imports and register the topo custom rule source
 
 import (
-	_ "mdibaiee/vitess/oracle/go/vt/vttablet/customrule/topocustomrule"
+	_ "mdibaiee/vitess/go/vt/vttablet/customrule/topocustomrule"
 )
