@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
 )
 
 func TestUpdateTargetTable(t *testing.T) {

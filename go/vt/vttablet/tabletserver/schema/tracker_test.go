@@ -22,12 +22,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/sqltypes"
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vtenv"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 )
 
 func TestTracker(t *testing.T) {

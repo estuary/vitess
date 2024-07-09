@@ -23,11 +23,11 @@ import (
 
 	"github.com/olekukonko/tablewriter"
 
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // vexecPlan contains the final query to be sent to the tablets

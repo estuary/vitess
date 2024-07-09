@@ -25,9 +25,9 @@ import (
 	"text/template"
 	"time"
 
-	"mdibaiee/vitess/go/acl"
-	"mdibaiee/vitess/go/vt/discovery"
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/acl"
+	"github.com/mdibaiee/vitess/go/vt/discovery"
+	"github.com/mdibaiee/vitess/go/vt/log"
 )
 
 var (

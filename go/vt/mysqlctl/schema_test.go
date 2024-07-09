@@ -24,12 +24,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/mysql/fakesqldb"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/dbconfigs"
-	"mdibaiee/vitess/go/vt/mysqlctl/tmutils"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	"mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	"github.com/mdibaiee/vitess/go/mysql/fakesqldb"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl/tmutils"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	"github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
 )
 
 var queryMap map[string]*sqltypes.Result

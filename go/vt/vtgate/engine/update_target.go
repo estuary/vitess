@@ -19,11 +19,11 @@ package engine
 import (
 	"context"
 
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/go/vt/vterrors"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/proto/query"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/proto/query"
 )
 
 var _ Primitive = (*UpdateTarget)(nil)

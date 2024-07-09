@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
 )
 
 func checkSemiSyncEnabled(t *testing.T, primary, replica bool, tablets ...*FakeTablet) {

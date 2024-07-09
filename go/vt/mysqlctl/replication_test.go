@@ -27,11 +27,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/mysql/fakesqldb"
-	"mdibaiee/vitess/go/mysql/replication"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/dbconfigs"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/mysql/fakesqldb"
+	"github.com/mdibaiee/vitess/go/mysql/replication"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
 )
 
 func testRedacted(t *testing.T, source, expected string) {

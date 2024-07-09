@@ -22,10 +22,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/protoutil"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/vtorc/db"
+	"github.com/mdibaiee/vitess/go/protoutil"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/vtorc/db"
 )
 
 func TestSaveAndReadShard(t *testing.T) {

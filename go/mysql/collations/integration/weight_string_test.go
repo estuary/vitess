@@ -23,11 +23,11 @@ import (
 	"strings"
 	"testing"
 
-	"mdibaiee/vitess/go/mysql/collations"
-	"mdibaiee/vitess/go/mysql/collations/charset"
-	"mdibaiee/vitess/go/mysql/collations/colldata"
-	"mdibaiee/vitess/go/mysql/collations/remote"
-	"mdibaiee/vitess/go/mysql/collations/testutil"
+	"github.com/mdibaiee/vitess/go/mysql/collations"
+	"github.com/mdibaiee/vitess/go/mysql/collations/charset"
+	"github.com/mdibaiee/vitess/go/mysql/collations/colldata"
+	"github.com/mdibaiee/vitess/go/mysql/collations/remote"
+	"github.com/mdibaiee/vitess/go/mysql/collations/testutil"
 )
 
 func TestFastIterators(t *testing.T) {

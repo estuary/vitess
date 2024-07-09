@@ -24,11 +24,11 @@ import (
 	"sort"
 	"strings"
 
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/concurrency"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/concurrency"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
 
-	tabletmanagerdatapb "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
 )
 
 // This file contains helper methods to deal with Permissions.

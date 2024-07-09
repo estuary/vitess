@@ -22,12 +22,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/mysql/collations"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/vtgate/evalengine"
+	"github.com/mdibaiee/vitess/go/mysql/collations"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/evalengine"
 
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vtgate/semantics"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/semantics"
 )
 
 func TestOuterTableNullability(t *testing.T) {

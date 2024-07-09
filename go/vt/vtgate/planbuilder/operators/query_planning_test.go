@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
 )
 
 func TestMergeOffsetExpressions(t *testing.T) {

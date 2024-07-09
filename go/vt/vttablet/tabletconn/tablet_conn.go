@@ -22,14 +22,14 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/go/vt/grpcclient"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/servenv"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vttablet/queryservice"
+	"github.com/mdibaiee/vitess/go/vt/grpcclient"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/queryservice"
 
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 var (

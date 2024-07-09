@@ -24,7 +24,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"mdibaiee/vitess/go/stats"
+	"github.com/mdibaiee/vitess/go/stats"
 )
 
 // TestResilientQueryGetCurrentValueInitialization tests that the resilient query returns the correct results when it has been

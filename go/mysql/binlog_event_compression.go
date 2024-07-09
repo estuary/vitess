@@ -24,8 +24,8 @@ import (
 
 	"github.com/klauspost/compress/zstd"
 
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/go/vt/vterrors"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 )
 
 // This file contains code related to handling compression related

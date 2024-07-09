@@ -21,8 +21,8 @@ import (
 	"errors"
 	"sync"
 
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/planbuilder"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/planbuilder"
 )
 
 // Map is the maintainer of Rules from multiple sources

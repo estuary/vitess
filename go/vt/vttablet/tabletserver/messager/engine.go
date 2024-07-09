@@ -22,16 +22,16 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/schema"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/schema"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 // TabletService defines the functions of TabletServer

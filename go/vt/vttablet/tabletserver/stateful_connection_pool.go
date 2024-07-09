@@ -21,15 +21,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"mdibaiee/vitess/go/pools"
-	"mdibaiee/vitess/go/pools/smartconnpool"
-	"mdibaiee/vitess/go/vt/dbconfigs"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/connpool"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tx"
+	"github.com/mdibaiee/vitess/go/pools"
+	"github.com/mdibaiee/vitess/go/pools/smartconnpool"
+	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/connpool"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tx"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
 )
 
 const (

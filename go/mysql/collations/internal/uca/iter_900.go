@@ -19,7 +19,7 @@ package uca
 import (
 	"unicode/utf8"
 
-	"mdibaiee/vitess/go/mysql/collations/charset"
+	"github.com/mdibaiee/vitess/go/mysql/collations/charset"
 )
 
 type iterator900 struct {

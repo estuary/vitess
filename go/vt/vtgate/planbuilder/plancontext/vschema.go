@@ -4,18 +4,18 @@ import (
 	"context"
 	"strings"
 
-	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
-	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
-	"mdibaiee/vitess/go/vt/vtenv"
-	"mdibaiee/vitess/go/vt/vtgate/engine"
+	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
+	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
+	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/engine"
 
-	"mdibaiee/vitess/go/mysql/collations"
-	"mdibaiee/vitess/go/vt/key"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vtgate/semantics"
-	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/mdibaiee/vitess/go/mysql/collations"
+	"github.com/mdibaiee/vitess/go/vt/key"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/semantics"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 // PlannerVersion is an alias here to make the code more readable

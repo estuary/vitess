@@ -24,10 +24,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"mdibaiee/vitess/go/vt/log"
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/go/vt/servenv"
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 )
 
 var (

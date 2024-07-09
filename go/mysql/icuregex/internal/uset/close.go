@@ -21,7 +21,7 @@ limitations under the License.
 
 package uset
 
-import "mdibaiee/vitess/go/mysql/icuregex/internal/ucase"
+import "github.com/mdibaiee/vitess/go/mysql/icuregex/internal/ucase"
 
 type USet uint32
 

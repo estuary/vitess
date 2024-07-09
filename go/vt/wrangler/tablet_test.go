@@ -22,11 +22,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/vt/logutil"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/topo/memorytopo"
-	"mdibaiee/vitess/go/vt/vtenv"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
+	"github.com/mdibaiee/vitess/go/vt/vtenv"
 )
 
 // TestInitTabletShardConversion makes sure InitTablet converts the

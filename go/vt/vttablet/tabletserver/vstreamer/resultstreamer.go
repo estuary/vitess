@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"time"
 
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/dbconfigs"
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
 )
 
 // resultStreamer streams the results of the requested query

@@ -25,20 +25,20 @@ import (
 	"sync/atomic"
 	"time"
 
-	"mdibaiee/vitess/go/mysql/sqlerror"
-	"mdibaiee/vitess/go/pools/smartconnpool"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/trace"
-	"mdibaiee/vitess/go/vt/dbconfigs"
-	"mdibaiee/vitess/go/vt/dbconnpool"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/servenv"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
+	"github.com/mdibaiee/vitess/go/pools/smartconnpool"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/trace"
+	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
+	"github.com/mdibaiee/vitess/go/vt/dbconnpool"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 const defaultKillTimeout = 5 * time.Second

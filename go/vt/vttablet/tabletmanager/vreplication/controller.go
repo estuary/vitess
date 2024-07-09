@@ -26,17 +26,17 @@ import (
 
 	"google.golang.org/protobuf/encoding/prototext"
 
-	"mdibaiee/vitess/go/tb"
-	"mdibaiee/vitess/go/vt/binlog/binlogplayer"
-	"mdibaiee/vitess/go/vt/discovery"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/mysqlctl"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vttablet"
+	"github.com/mdibaiee/vitess/go/tb"
+	"github.com/mdibaiee/vitess/go/vt/binlog/binlogplayer"
+	"github.com/mdibaiee/vitess/go/vt/discovery"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vttablet"
 
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 const (

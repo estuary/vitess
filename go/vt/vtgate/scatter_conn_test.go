@@ -20,26 +20,26 @@ import (
 	"fmt"
 	"testing"
 
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/log"
 
-	"mdibaiee/vitess/go/mysql/sqlerror"
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
 
 	"github.com/stretchr/testify/assert"
 
-	"mdibaiee/vitess/go/vt/key"
+	"github.com/mdibaiee/vitess/go/vt/key"
 
-	"mdibaiee/vitess/go/test/utils"
+	"github.com/mdibaiee/vitess/go/test/utils"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/discovery"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
-	"mdibaiee/vitess/go/vt/srvtopo"
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/discovery"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
+	"github.com/mdibaiee/vitess/go/vt/srvtopo"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 )
 
 // This file uses the sandbox_test framework.

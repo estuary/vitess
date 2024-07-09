@@ -32,17 +32,17 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/tb"
-	"mdibaiee/vitess/go/vt/callerid"
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vtgate/vtgateconn"
-	"mdibaiee/vitess/go/vt/vtgate/vtgateservice"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/tb"
+	"github.com/mdibaiee/vitess/go/vt/callerid"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vtgateservice"
 )
 
 // fakeVTGateService has the server side of this fake

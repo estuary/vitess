@@ -7,9 +7,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/go/cmd/rulesctl/common"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/planbuilder"
-	vtrules "mdibaiee/vitess/go/vt/vttablet/tabletserver/rules"
+	"github.com/mdibaiee/vitess/go/cmd/rulesctl/common"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/planbuilder"
+	vtrules "github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/rules"
 )
 
 var (

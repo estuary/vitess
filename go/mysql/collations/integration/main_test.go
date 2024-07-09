@@ -26,11 +26,11 @@ import (
 
 	"github.com/spf13/pflag"
 
-	_flag "mdibaiee/vitess/go/internal/flag"
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/vt/vttest"
+	_flag "github.com/mdibaiee/vitess/go/internal/flag"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/vt/vttest"
 
-	vttestpb "mdibaiee/vitess/go/vt/proto/vttest"
+	vttestpb "github.com/mdibaiee/vitess/go/vt/proto/vttest"
 )
 
 var (

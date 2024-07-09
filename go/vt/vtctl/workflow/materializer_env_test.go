@@ -27,21 +27,21 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"mdibaiee/vitess/go/protoutil"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/mysqlctl/tmutils"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/topo/memorytopo"
-	"mdibaiee/vitess/go/vt/vtenv"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/mdibaiee/vitess/go/protoutil"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl/tmutils"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
+	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
 
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	tabletmanagerdatapb "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 type testMaterializerEnv struct {

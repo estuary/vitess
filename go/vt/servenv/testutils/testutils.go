@@ -19,7 +19,7 @@ package testutils
 import (
 	"net/http/httptest"
 
-	"mdibaiee/vitess/go/vt/servenv/internal/mux"
+	"github.com/mdibaiee/vitess/go/vt/servenv/internal/mux"
 )
 
 // HTTPTestServer returns a httptest.Server for the internal servenv mux.

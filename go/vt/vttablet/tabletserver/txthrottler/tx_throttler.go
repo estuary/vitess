@@ -25,17 +25,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"mdibaiee/vitess/go/stats"
-	"mdibaiee/vitess/go/vt/discovery"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/throttler"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/mdibaiee/vitess/go/vt/discovery"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/throttler"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	throttlerdatapb "mdibaiee/vitess/go/vt/proto/throttlerdata"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	throttlerdatapb "github.com/mdibaiee/vitess/go/vt/proto/throttlerdata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // These vars store the functions used to create the topo server, healthcheck,

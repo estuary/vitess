@@ -22,10 +22,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/z-division/go-zookeeper/zk"
 
-	"mdibaiee/vitess/go/cmd/zk/internal/zkfilepath"
-	"mdibaiee/vitess/go/cmd/zk/internal/zkfs"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/topo/zk2topo"
+	"github.com/mdibaiee/vitess/go/cmd/zk/internal/zkfilepath"
+	"github.com/mdibaiee/vitess/go/cmd/zk/internal/zkfs"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/topo/zk2topo"
 )
 
 var (

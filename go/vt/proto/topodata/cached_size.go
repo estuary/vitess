@@ -17,7 +17,7 @@ limitations under the License.
 
 package topodata
 
-import hack "mdibaiee/vitess/go/hack"
+import hack "github.com/mdibaiee/vitess/go/hack"
 
 func (cached *KeyRange) CachedSize(alloc bool) int64 {
 	if cached == nil {
@@ -55,7 +55,7 @@ func (cached *ThrottledAppRule) CachedSize(alloc bool) int64 {
 	}
 	// field Name string
 	size += hack.RuntimeAllocSize(int64(len(cached.Name)))
-	// field ExpiresAt *mdibaiee/vitess/go/vt/proto/vttime.Time
+	// field ExpiresAt *github.com/mdibaiee/vitess/go/vt/proto/vttime.Time
 	size += cached.ExpiresAt.CachedSize(true)
 	return size
 }

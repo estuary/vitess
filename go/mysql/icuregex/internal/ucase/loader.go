@@ -25,9 +25,9 @@ import (
 	"errors"
 	"sync"
 
-	"mdibaiee/vitess/go/mysql/icuregex/internal/icudata"
-	"mdibaiee/vitess/go/mysql/icuregex/internal/udata"
-	"mdibaiee/vitess/go/mysql/icuregex/internal/utrie"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/icudata"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/udata"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/utrie"
 )
 
 var ucaseOnce sync.Once

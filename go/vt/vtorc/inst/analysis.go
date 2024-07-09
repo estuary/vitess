@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"time"
 
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	"mdibaiee/vitess/go/vt/vtorc/config"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/vtorc/config"
 )
 
 type AnalysisCode string

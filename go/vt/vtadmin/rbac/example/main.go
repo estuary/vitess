@@ -21,7 +21,7 @@ import (
 	"flag"
 	"fmt"
 
-	"mdibaiee/vitess/go/vt/vtadmin/rbac"
+	"github.com/mdibaiee/vitess/go/vt/vtadmin/rbac"
 )
 
 func main() {

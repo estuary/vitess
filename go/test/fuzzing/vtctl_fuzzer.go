@@ -20,14 +20,14 @@ import (
 	"context"
 	"strings"
 
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/topo/memorytopo"
-	"mdibaiee/vitess/go/vt/vtctl"
-	"mdibaiee/vitess/go/vt/vtenv"
-	"mdibaiee/vitess/go/vt/vttablet/tmclient"
-	"mdibaiee/vitess/go/vt/vttablet/tmclienttest"
-	"mdibaiee/vitess/go/vt/wrangler"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
+	"github.com/mdibaiee/vitess/go/vt/vtctl"
+	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclienttest"
+	"github.com/mdibaiee/vitess/go/vt/wrangler"
 )
 
 func init() {

@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"context"
 
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/key"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/key"
 )
 
 var (

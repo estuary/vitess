@@ -17,9 +17,9 @@ limitations under the License.
 package reparentutil
 
 import (
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	"mdibaiee/vitess/go/vt/topo/topoproto"
-	"mdibaiee/vitess/go/vt/vtctl/reparentutil/promotionrule"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/reparentutil/promotionrule"
 )
 
 // SemiSyncAckersForPrimary returns the list of tablets which are capable of sending Semi-Sync Acks for the given primary tablet

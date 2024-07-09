@@ -19,11 +19,11 @@ package semantics
 import (
 	"strings"
 
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vtgate/evalengine"
-	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/evalengine"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 // DerivedTable contains the information about the projection, tables involved in derived table.

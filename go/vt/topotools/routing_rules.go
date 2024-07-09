@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"strings"
 
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/topo"
 
-	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
+	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
 )
 
 // region routing rules

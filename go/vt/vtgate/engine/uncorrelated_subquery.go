@@ -19,11 +19,11 @@ package engine
 import (
 	"context"
 
-	"mdibaiee/vitess/go/sqltypes"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/go/vt/vterrors"
-	. "mdibaiee/vitess/go/vt/vtgate/engine/opcode"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	. "github.com/mdibaiee/vitess/go/vt/vtgate/engine/opcode"
 )
 
 var _ Primitive = (*UncorrelatedSubquery)(nil)

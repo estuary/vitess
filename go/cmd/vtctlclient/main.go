@@ -26,15 +26,15 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/go/acl"
-	"mdibaiee/vitess/go/exit"
-	"mdibaiee/vitess/go/trace"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/servenv"
-	"mdibaiee/vitess/go/vt/vtctl/vtctlclient"
+	"github.com/mdibaiee/vitess/go/acl"
+	"github.com/mdibaiee/vitess/go/exit"
+	"github.com/mdibaiee/vitess/go/trace"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/vtctlclient"
 
-	logutilpb "mdibaiee/vitess/go/vt/proto/logutil"
+	logutilpb "github.com/mdibaiee/vitess/go/vt/proto/logutil"
 	// Include deprecation warnings for soon-to-be-unsupported flag invocations.
 )
 

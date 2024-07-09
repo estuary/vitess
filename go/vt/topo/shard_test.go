@@ -24,9 +24,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/test/utils"
+	"github.com/mdibaiee/vitess/go/test/utils"
 
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // This file tests the shard related object functionnalities.

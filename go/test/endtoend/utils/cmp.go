@@ -25,8 +25,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/sqltypes"
 )
 
 type TestingT interface {

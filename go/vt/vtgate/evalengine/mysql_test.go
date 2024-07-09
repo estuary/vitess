@@ -25,9 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	"mdibaiee/vitess/go/mysql/collations"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vtenv"
+	"github.com/mdibaiee/vitess/go/mysql/collations"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vtenv"
 )
 
 func internalExpression(e Expr) IR {

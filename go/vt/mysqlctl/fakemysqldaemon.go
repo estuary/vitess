@@ -26,18 +26,18 @@ import (
 	"sync/atomic"
 	"time"
 
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/mysql/fakesqldb"
-	"mdibaiee/vitess/go/mysql/replication"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/dbconfigs"
-	"mdibaiee/vitess/go/vt/dbconnpool"
-	"mdibaiee/vitess/go/vt/mysqlctl/tmutils"
-	"mdibaiee/vitess/go/vt/proto/replicationdata"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/mysql/fakesqldb"
+	"github.com/mdibaiee/vitess/go/mysql/replication"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
+	"github.com/mdibaiee/vitess/go/vt/dbconnpool"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl/tmutils"
+	"github.com/mdibaiee/vitess/go/vt/proto/replicationdata"
 
-	mysqlctlpb "mdibaiee/vitess/go/vt/proto/mysqlctl"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	tabletmanagerdatapb "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	mysqlctlpb "github.com/mdibaiee/vitess/go/vt/proto/mysqlctl"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
 )
 
 // FakeMysqlDaemon implements MysqlDaemon and allows the user to fake

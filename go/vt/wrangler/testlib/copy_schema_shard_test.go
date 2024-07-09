@@ -22,20 +22,20 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/go/mysql/fakesqldb"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/discovery"
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/mysqlctl/tmutils"
-	"mdibaiee/vitess/go/vt/topo/memorytopo"
-	"mdibaiee/vitess/go/vt/topo/topoproto"
-	"mdibaiee/vitess/go/vt/vtenv"
-	"mdibaiee/vitess/go/vt/vttablet/tabletmanager/vreplication"
-	"mdibaiee/vitess/go/vt/vttablet/tmclient"
-	"mdibaiee/vitess/go/vt/wrangler"
+	"github.com/mdibaiee/vitess/go/mysql/fakesqldb"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/discovery"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl/tmutils"
+	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
+	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager/vreplication"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/mdibaiee/vitess/go/vt/wrangler"
 
-	tabletmanagerdatapb "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 func TestCopySchemaShard_UseTabletAsSource(t *testing.T) {

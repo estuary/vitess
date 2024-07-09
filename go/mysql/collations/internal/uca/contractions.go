@@ -17,7 +17,7 @@ limitations under the License.
 package uca
 
 import (
-	"mdibaiee/vitess/go/mysql/collations/charset"
+	"github.com/mdibaiee/vitess/go/mysql/collations/charset"
 )
 
 type Contraction struct {

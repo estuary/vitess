@@ -27,7 +27,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
 )
 
 var (

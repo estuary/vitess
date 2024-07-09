@@ -27,11 +27,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/mysql/collations"
-	"mdibaiee/vitess/go/test/utils"
+	"github.com/mdibaiee/vitess/go/mysql/collations"
+	"github.com/mdibaiee/vitess/go/test/utils"
 
-	"mdibaiee/vitess/go/vt/tlstest"
-	"mdibaiee/vitess/go/vt/vttls"
+	"github.com/mdibaiee/vitess/go/vt/tlstest"
+	"github.com/mdibaiee/vitess/go/vt/vttls"
 )
 
 // This file tests the handshake scenarios between our client and our server.

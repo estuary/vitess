@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"sync"
 
-	"mdibaiee/vitess/go/vt/concurrency"
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/mdibaiee/vitess/go/vt/concurrency"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
 
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // RebuildKeyspace rebuilds the serving graph data while locking out other changes.

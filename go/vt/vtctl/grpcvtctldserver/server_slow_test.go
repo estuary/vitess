@@ -24,21 +24,21 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/mysql/replication"
+	"github.com/mdibaiee/vitess/go/mysql/replication"
 
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/protoutil"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/topo/memorytopo"
-	"mdibaiee/vitess/go/vt/vtctl/grpcvtctldserver/testutil"
-	"mdibaiee/vitess/go/vt/vtenv"
-	"mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/protoutil"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/grpcvtctldserver/testutil"
+	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
 
-	replicationdatapb "mdibaiee/vitess/go/vt/proto/replicationdata"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
-	vtctlservicepb "mdibaiee/vitess/go/vt/proto/vtctlservice"
-	"mdibaiee/vitess/go/vt/proto/vttime"
+	replicationdatapb "github.com/mdibaiee/vitess/go/vt/proto/replicationdata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
+	vtctlservicepb "github.com/mdibaiee/vitess/go/vt/proto/vtctlservice"
+	"github.com/mdibaiee/vitess/go/vt/proto/vttime"
 )
 
 func TestEmergencyReparentShardSlow(t *testing.T) {

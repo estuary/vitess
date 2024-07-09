@@ -24,19 +24,19 @@ import (
 	"text/template"
 	"time"
 
-	"mdibaiee/vitess/go/vt/concurrency"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/mysqlctl/tmutils"
-	"mdibaiee/vitess/go/vt/schema"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/topo/topoproto"
-	"mdibaiee/vitess/go/vt/vtctl/schematools"
-	"mdibaiee/vitess/go/vt/vttablet/tabletmanager/vreplication"
+	"github.com/mdibaiee/vitess/go/vt/concurrency"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl/tmutils"
+	"github.com/mdibaiee/vitess/go/vt/schema"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/schematools"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager/vreplication"
 
-	tabletmanagerdatapb "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
+	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
 )
 
 // helper method to asynchronously diff a schema

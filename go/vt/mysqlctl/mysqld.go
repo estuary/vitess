@@ -43,22 +43,22 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/config"
+	"github.com/mdibaiee/vitess/config"
 
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/mysql/sqlerror"
-	"mdibaiee/vitess/go/protoutil"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/dbconfigs"
-	"mdibaiee/vitess/go/vt/dbconnpool"
-	vtenv "mdibaiee/vitess/go/vt/env"
-	"mdibaiee/vitess/go/vt/hook"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/mysqlctl/mysqlctlclient"
-	mysqlctlpb "mdibaiee/vitess/go/vt/proto/mysqlctl"
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/go/vt/servenv"
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
+	"github.com/mdibaiee/vitess/go/protoutil"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
+	"github.com/mdibaiee/vitess/go/vt/dbconnpool"
+	vtenv "github.com/mdibaiee/vitess/go/vt/env"
+	"github.com/mdibaiee/vitess/go/vt/hook"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl/mysqlctlclient"
+	mysqlctlpb "github.com/mdibaiee/vitess/go/vt/proto/mysqlctl"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 )
 
 // The string we expect before the MySQL version number

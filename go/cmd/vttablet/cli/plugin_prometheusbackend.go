@@ -20,8 +20,8 @@ package cli
 // with the Prometheus client library
 
 import (
-	"mdibaiee/vitess/go/stats/prometheusbackend"
-	"mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/stats/prometheusbackend"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
 )
 
 func init() {

@@ -24,9 +24,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"mdibaiee/vitess/go/vt/vtadmin/cluster/discovery"
+	"github.com/mdibaiee/vitess/go/vt/vtadmin/cluster/discovery"
 
-	vtadminpb "mdibaiee/vitess/go/vt/proto/vtadmin"
+	vtadminpb "github.com/mdibaiee/vitess/go/vt/proto/vtadmin"
 )
 
 type vtctlds struct {

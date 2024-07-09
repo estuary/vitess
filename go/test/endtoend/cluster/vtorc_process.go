@@ -30,7 +30,7 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/log"
 )
 
 // VTOrcProcess is a test struct for running

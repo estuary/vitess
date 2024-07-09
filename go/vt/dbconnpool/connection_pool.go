@@ -26,10 +26,10 @@ import (
 	"net"
 	"time"
 
-	"mdibaiee/vitess/go/netutil"
-	"mdibaiee/vitess/go/pools/smartconnpool"
-	"mdibaiee/vitess/go/vt/dbconfigs"
-	"mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/netutil"
+	"github.com/mdibaiee/vitess/go/pools/smartconnpool"
+	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
 )
 
 // ConnectionPool re-exposes ResourcePool as a pool of

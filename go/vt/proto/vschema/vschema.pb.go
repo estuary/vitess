@@ -26,7 +26,7 @@ package vschema
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	query "mdibaiee/vitess/go/vt/proto/query"
+	query "github.com/mdibaiee/vitess/go/vt/proto/query"
 	reflect "reflect"
 	sync "sync"
 )

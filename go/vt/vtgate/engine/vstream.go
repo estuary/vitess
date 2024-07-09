@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"io"
 
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/key"
-	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/key"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
 
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
 )
 
 var _ Primitive = (*VStream)(nil)

@@ -20,18 +20,18 @@ import (
 	"fmt"
 	"testing"
 
-	"mdibaiee/vitess/go/mysql/sqlerror"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
+	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
 
-	"mdibaiee/vitess/go/test/utils"
+	"github.com/mdibaiee/vitess/go/test/utils"
 
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/vtgate/vschemaacl"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vschemaacl"
 
-	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -19,10 +19,10 @@ package vdiff
 import (
 	"context"
 
-	"mdibaiee/vitess/go/sqltypes"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	"mdibaiee/vitess/go/vt/vtgate/engine"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/engine"
 )
 
 // shardStreamer streams rows from one shard.

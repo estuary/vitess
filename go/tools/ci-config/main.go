@@ -50,10 +50,10 @@ func main() {
 			continue
 		}
 		path := test.Args[0]
-		if !strings.HasPrefix(path, "mdibaiee/vitess/") {
+		if !strings.HasPrefix(path, "github.com/mdibaiee/vitess/") {
 			continue
 		}
-		path = path[len("mdibaiee/vitess/"):]
+		path = path[len("github.com/mdibaiee/vitess/"):]
 
 		stat, err := os.Stat(path)
 		if err != nil || !stat.IsDir() {

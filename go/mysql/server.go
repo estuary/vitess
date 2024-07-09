@@ -27,19 +27,19 @@ import (
 
 	"github.com/pires/go-proxyproto"
 
-	"mdibaiee/vitess/go/mysql/collations"
-	"mdibaiee/vitess/go/mysql/replication"
-	"mdibaiee/vitess/go/mysql/sqlerror"
-	"mdibaiee/vitess/go/netutil"
-	"mdibaiee/vitess/go/sqlescape"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/stats"
-	"mdibaiee/vitess/go/tb"
-	"mdibaiee/vitess/go/vt/log"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	"mdibaiee/vitess/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/go/vt/vtenv"
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/mysql/collations"
+	"github.com/mdibaiee/vitess/go/mysql/replication"
+	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
+	"github.com/mdibaiee/vitess/go/netutil"
+	"github.com/mdibaiee/vitess/go/sqlescape"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/mdibaiee/vitess/go/tb"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	"github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 )
 
 const (

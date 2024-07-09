@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"sort"
 
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vtgate/semantics"
-	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/semantics"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 type DMLCommon struct {

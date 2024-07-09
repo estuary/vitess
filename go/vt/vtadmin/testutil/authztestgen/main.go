@@ -25,9 +25,9 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/go/vt/vtadmin/rbac"
+	"github.com/mdibaiee/vitess/go/vt/vtadmin/rbac"
 
-	vtadminpb "mdibaiee/vitess/go/vt/proto/vtadmin"
+	vtadminpb "github.com/mdibaiee/vitess/go/vt/proto/vtadmin"
 )
 
 type Config struct {

@@ -19,7 +19,7 @@ package metrics
 import (
 	"time"
 
-	"mdibaiee/vitess/go/vt/vtorc/config"
+	"github.com/mdibaiee/vitess/go/vt/vtorc/config"
 )
 
 var matricTickCallbacks [](func())

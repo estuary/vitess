@@ -17,12 +17,12 @@ limitations under the License.
 package planbuilder
 
 import (
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vtgate/engine"
-	"mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
-	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/engine"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 // WireupRoute returns an engine primitive for the given route.

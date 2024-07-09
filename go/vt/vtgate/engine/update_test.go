@@ -21,18 +21,18 @@ import (
 	"errors"
 	"testing"
 
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vtgate/evalengine"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/evalengine"
 
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
 )
 
 func TestUpdateUnsharded(t *testing.T) {

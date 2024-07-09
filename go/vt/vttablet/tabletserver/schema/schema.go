@@ -20,11 +20,11 @@ import (
 	"sync"
 	"time"
 
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/log"
 
-	"mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
 )
 
 // Table types

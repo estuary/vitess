@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"testing"
 
-	"mdibaiee/vitess/go/test/endtoend/utils"
+	"github.com/mdibaiee/vitess/go/test/endtoend/utils"
 
-	"mdibaiee/vitess/go/test/endtoend/cluster"
+	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/mysql"
 )
 
 func TestFunctionInDefault(t *testing.T) {

@@ -28,18 +28,18 @@ import (
 
 	"github.com/google/safehtml/template"
 
-	"mdibaiee/vitess/go/stats"
-	"mdibaiee/vitess/go/vt/key"
+	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/mdibaiee/vitess/go/vt/key"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/topo/memorytopo"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
 
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
 )
 
 // TestGetSrvKeyspace will test we properly return updated SrvKeyspace.

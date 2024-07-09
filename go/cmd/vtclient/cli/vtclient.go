@@ -32,18 +32,18 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/go/acl"
-	"mdibaiee/vitess/go/vt/concurrency"
-	"mdibaiee/vitess/go/vt/grpccommon"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/servenv"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vitessdriver"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/mdibaiee/vitess/go/acl"
+	"github.com/mdibaiee/vitess/go/vt/concurrency"
+	"github.com/mdibaiee/vitess/go/vt/grpccommon"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vitessdriver"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vtgateconn"
 
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
 	// Include deprecation warnings for soon-to-be-unsupported flag invocations.
 )
 

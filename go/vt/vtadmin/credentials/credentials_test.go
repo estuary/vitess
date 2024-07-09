@@ -23,7 +23,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/vt/grpcclient"
+	"github.com/mdibaiee/vitess/go/vt/grpcclient"
 )
 
 func Test_loadCredentials(t *testing.T) {

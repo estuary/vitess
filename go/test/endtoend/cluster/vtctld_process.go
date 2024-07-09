@@ -26,7 +26,7 @@ import (
 	"syscall"
 	"time"
 
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/log"
 )
 
 // VtctldProcess is a generic handle for a running vtctld .

@@ -24,11 +24,11 @@ import (
 	"context"
 	"time"
 
-	"mdibaiee/vitess/go/constants/sidecar"
-	"mdibaiee/vitess/go/mysql/replication"
-	"mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/constants/sidecar"
+	"github.com/mdibaiee/vitess/go/mysql/replication"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
 
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/log"
 )
 
 // GenerateInitialBinlogEntry is used to create a binlog entry when

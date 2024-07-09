@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/log"
 
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/vt/mysqlctl"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl"
 )
 
 // MySQLManager is an interface to a mysqld process manager, capable

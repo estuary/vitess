@@ -23,11 +23,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/textutil"
-	"mdibaiee/vitess/go/vt/binlog/binlogplayer"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/textutil"
+	"github.com/mdibaiee/vitess/go/vt/binlog/binlogplayer"
 
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
 )
 
 func TestInsertLogTruncation(t *testing.T) {

@@ -21,10 +21,10 @@ import (
 	"os"
 	"testing"
 
-	"mdibaiee/vitess/go/test/stress"
+	"github.com/mdibaiee/vitess/go/test/stress"
 
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/test/endtoend/cluster"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
 )
 
 var (

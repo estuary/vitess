@@ -23,12 +23,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"mdibaiee/vitess/go/mysql/sqlerror"
+	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/sqltypes"
 )
 
 func TestConsistentLookup(t *testing.T) {

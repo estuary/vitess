@@ -26,17 +26,17 @@ import (
 	"strings"
 	"sync"
 
-	"mdibaiee/vitess/go/mysql/icuregex/errors"
-	"mdibaiee/vitess/go/mysql/icuregex/internal/normalizer"
-	"mdibaiee/vitess/go/mysql/icuregex/internal/pattern"
-	"mdibaiee/vitess/go/mysql/icuregex/internal/ubidi"
-	"mdibaiee/vitess/go/mysql/icuregex/internal/ucase"
-	"mdibaiee/vitess/go/mysql/icuregex/internal/uchar"
-	"mdibaiee/vitess/go/mysql/icuregex/internal/uemoji"
-	"mdibaiee/vitess/go/mysql/icuregex/internal/ulayout"
-	"mdibaiee/vitess/go/mysql/icuregex/internal/unames"
-	"mdibaiee/vitess/go/mysql/icuregex/internal/uset"
-	"mdibaiee/vitess/go/mysql/icuregex/internal/utrie"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/errors"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/normalizer"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/pattern"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/ubidi"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/ucase"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/uchar"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/uemoji"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/ulayout"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/unames"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/uset"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/utrie"
 )
 
 var inclusionsMu sync.Mutex

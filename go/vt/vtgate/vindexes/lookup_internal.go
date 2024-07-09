@@ -24,11 +24,11 @@ import (
 	"strconv"
 	"strings"
 
-	"mdibaiee/vitess/go/sqltypes"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 )
 
 const (

@@ -22,17 +22,17 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"mdibaiee/vitess/go/mysql/replication"
-	"mdibaiee/vitess/go/stats"
-	"mdibaiee/vitess/go/tb"
-	"mdibaiee/vitess/go/vt/dbconfigs"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/schema"
+	"github.com/mdibaiee/vitess/go/mysql/replication"
+	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/mdibaiee/vitess/go/tb"
+	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/schema"
 
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 /* API and config for UpdateStream Service */

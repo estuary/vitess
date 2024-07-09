@@ -29,23 +29,23 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/test/utils"
+	"github.com/mdibaiee/vitess/go/test/utils"
 
-	"mdibaiee/vitess/go/mysql/capabilities"
-	"mdibaiee/vitess/go/mysql/replication"
+	"github.com/mdibaiee/vitess/go/mysql/capabilities"
+	"github.com/mdibaiee/vitess/go/mysql/replication"
 
-	"mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/sqltypes"
 
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/mysql/fakesqldb"
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/mysqlctl"
-	"mdibaiee/vitess/go/vt/mysqlctl/backupstats"
-	"mdibaiee/vitess/go/vt/mysqlctl/filebackupstorage"
-	"mdibaiee/vitess/go/vt/proto/topodata"
-	"mdibaiee/vitess/go/vt/proto/vttime"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/topo/memorytopo"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/mysql/fakesqldb"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl/backupstats"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl/filebackupstorage"
+	"github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/proto/vttime"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
 )
 
 const mysqlShutdownTimeout = 1 * time.Minute

@@ -28,12 +28,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/testfiles"
-	"mdibaiee/vitess/go/vt/log"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	"mdibaiee/vitess/go/vt/tlstest"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/topo/test"
+	"github.com/mdibaiee/vitess/go/testfiles"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/tlstest"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo/test"
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 )

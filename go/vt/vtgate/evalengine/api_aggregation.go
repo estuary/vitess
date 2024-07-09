@@ -19,11 +19,11 @@ package evalengine
 import (
 	"strconv"
 
-	"mdibaiee/vitess/go/mysql/collations"
-	"mdibaiee/vitess/go/mysql/decimal"
-	"mdibaiee/vitess/go/mysql/fastparse"
-	"mdibaiee/vitess/go/mysql/format"
-	"mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/mysql/collations"
+	"github.com/mdibaiee/vitess/go/mysql/decimal"
+	"github.com/mdibaiee/vitess/go/mysql/fastparse"
+	"github.com/mdibaiee/vitess/go/mysql/format"
+	"github.com/mdibaiee/vitess/go/sqltypes"
 )
 
 // Sum implements a SUM() aggregation

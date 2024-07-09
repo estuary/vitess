@@ -24,7 +24,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
 )
 
 func TestLiveQueryzHandlerJSON(t *testing.T) {

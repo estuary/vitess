@@ -27,15 +27,15 @@ import (
 
 	"context"
 
-	"mdibaiee/vitess/go/acl"
-	"mdibaiee/vitess/go/stats"
-	"mdibaiee/vitess/go/streamlog"
-	"mdibaiee/vitess/go/sync2"
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/mdibaiee/vitess/go/acl"
+	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/mdibaiee/vitess/go/streamlog"
+	"github.com/mdibaiee/vitess/go/sync2"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
 
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 // TxSerializer serializes incoming transactions which target the same row range

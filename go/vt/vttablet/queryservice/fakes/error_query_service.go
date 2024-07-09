@@ -21,9 +21,9 @@ import (
 
 	"context"
 
-	"mdibaiee/vitess/go/vt/vttablet/queryservice"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/queryservice"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
 )
 
 // ErrorQueryService is an object that returns an error for all methods.

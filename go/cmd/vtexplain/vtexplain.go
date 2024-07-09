@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"mdibaiee/vitess/go/cmd/vtexplain/cli"
-	"mdibaiee/vitess/go/exit"
+	"github.com/mdibaiee/vitess/go/cmd/vtexplain/cli"
+	"github.com/mdibaiee/vitess/go/exit"
 )
 
 func main() {

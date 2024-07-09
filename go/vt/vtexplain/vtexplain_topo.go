@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"sync"
 
-	"mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo"
 
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
 )
 
 // ExplainTopo satisfies the srvtopo.Server interface.

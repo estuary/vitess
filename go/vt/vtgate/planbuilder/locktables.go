@@ -17,12 +17,12 @@ limitations under the License.
 package planbuilder
 
 import (
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/log"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vtgate/engine"
-	"mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/engine"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
 )
 
 // buildLockPlan plans lock tables statement.

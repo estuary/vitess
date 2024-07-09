@@ -25,21 +25,21 @@ import (
 
 	"google.golang.org/protobuf/encoding/prototext"
 
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/schema"
-	"mdibaiee/vitess/go/vt/vtctl/workflow"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/schema"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/workflow"
 
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/concurrency"
-	"mdibaiee/vitess/go/vt/key"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/topotools"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vtgate/vindexes"
-	"mdibaiee/vitess/go/vt/vttablet/tabletmanager/vreplication"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/concurrency"
+	"github.com/mdibaiee/vitess/go/vt/key"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topotools"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager/vreplication"
 
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
 )
 
 type resharder struct {

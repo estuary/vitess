@@ -24,7 +24,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/metadata"
 
-	"mdibaiee/vitess/go/vt/vtadmin/cache"
+	"github.com/mdibaiee/vitess/go/vt/vtadmin/cache"
 )
 
 const refreshKey = "cache_test"

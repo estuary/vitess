@@ -25,21 +25,21 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/mysql/replication"
+	"github.com/mdibaiee/vitess/go/mysql/replication"
 
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/test/utils"
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/vtctl/grpcvtctldserver/testutil"
-	"mdibaiee/vitess/go/vt/vtctl/reparentutil/promotionrule"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/test/utils"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/grpcvtctldserver/testutil"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/reparentutil/promotionrule"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
 
-	replicationdatapb "mdibaiee/vitess/go/vt/proto/replicationdata"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	"mdibaiee/vitess/go/vt/proto/vttime"
-	"mdibaiee/vitess/go/vt/topo/topoproto"
+	replicationdatapb "github.com/mdibaiee/vitess/go/vt/proto/replicationdata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/proto/vttime"
+	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
 )
 
 type chooseNewPrimaryTestTMClient struct {

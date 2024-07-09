@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/go/streamlog"
-	"mdibaiee/vitess/go/vt/callerid"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/planbuilder"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/mdibaiee/vitess/go/streamlog"
+	"github.com/mdibaiee/vitess/go/vt/callerid"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/planbuilder"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 func TestQuerylogzHandler(t *testing.T) {

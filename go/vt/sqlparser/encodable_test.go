@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/sqltypes"
 )
 
 func TestEncodable(t *testing.T) {

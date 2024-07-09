@@ -21,7 +21,7 @@ import (
 
 	"google.golang.org/grpc/grpclog"
 
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/log"
 )
 
 // grpc doesn't return underlying errors. So, we have

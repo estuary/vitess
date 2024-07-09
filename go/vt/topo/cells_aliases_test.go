@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 func TestValidateAlias(t *testing.T) {

@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"mdibaiee/vitess/go/vt/vtctl/workflow"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/workflow"
 
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 var _ iswitcher = (*switcher)(nil)

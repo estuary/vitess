@@ -21,13 +21,13 @@ import (
 	"encoding/json"
 	"strings"
 
-	"mdibaiee/vitess/go/vt/vttablet/queryservice"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/queryservice"
 
 	"google.golang.org/protobuf/proto"
 
-	"mdibaiee/vitess/go/netutil"
-	"mdibaiee/vitess/go/vt/proto/query"
-	"mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/netutil"
+	"github.com/mdibaiee/vitess/go/vt/proto/query"
+	"github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // TabletHealth represents simple tablet health data that is returned to users of healthcheck.

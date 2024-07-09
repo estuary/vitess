@@ -23,10 +23,10 @@ import (
 	"strings"
 	"unicode"
 
-	"mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/sqltypes"
 
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 type TruncationLocation int

@@ -24,9 +24,9 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/go/vt/log"
-	mysqlctlpb "mdibaiee/vitess/go/vt/proto/mysqlctl"
-	"mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	mysqlctlpb "github.com/mdibaiee/vitess/go/vt/proto/mysqlctl"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
 )
 
 var protocol = "grpc"

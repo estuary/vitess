@@ -21,12 +21,12 @@ import (
 
 	"context"
 
-	"mdibaiee/vitess/go/vt/concurrency"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/concurrency"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/topo"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // FindAllTargets goes through all serving shards in the topology for the provided keyspaces

@@ -26,13 +26,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/test/utils"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/topo/faketopo"
+	"github.com/mdibaiee/vitess/go/test/utils"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo/faketopo"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
 )
 
 func TestSrvKeyspaceWithNilNewKeyspace(t *testing.T) {

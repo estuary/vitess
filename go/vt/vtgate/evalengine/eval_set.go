@@ -3,8 +3,8 @@ package evalengine
 import (
 	"strings"
 
-	"mdibaiee/vitess/go/hack"
-	"mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/hack"
+	"github.com/mdibaiee/vitess/go/sqltypes"
 )
 
 type evalSet struct {

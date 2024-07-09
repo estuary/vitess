@@ -19,9 +19,9 @@ package xtrabackup
 import (
 	"testing"
 
-	"mdibaiee/vitess/go/test/endtoend/recovery"
-	"mdibaiee/vitess/go/test/endtoend/recovery/unshardedrecovery"
-	_ "mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
+	"github.com/mdibaiee/vitess/go/test/endtoend/recovery"
+	"github.com/mdibaiee/vitess/go/test/endtoend/recovery/unshardedrecovery"
+	_ "github.com/mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
 )
 
 func TestMain(m *testing.M) {

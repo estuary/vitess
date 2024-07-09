@@ -23,14 +23,14 @@ import (
 	"strings"
 	"time"
 
-	"mdibaiee/vitess/go/mysql/collations"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/mysqlctl"
-	"mdibaiee/vitess/go/vt/mysqlctl/tmutils"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vtgate/evalengine"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/connpool"
+	"github.com/mdibaiee/vitess/go/mysql/collations"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl/tmutils"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/evalengine"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/connpool"
 )
 
 // LoadTable creates a Table from the schema info in the database.

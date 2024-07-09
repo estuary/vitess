@@ -21,9 +21,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 // TestGetCastTypeForColumn tests that we get the correct string value to use in a CAST function based on the type of the column.

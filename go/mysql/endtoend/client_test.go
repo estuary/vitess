@@ -25,11 +25,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"mdibaiee/vitess/go/mysql/sqlerror"
+	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/mysql"
 )
 
 // TestKill opens a connection, issues a command that

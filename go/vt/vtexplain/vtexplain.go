@@ -28,22 +28,22 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/go/stats"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/vtenv"
+	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/vtenv"
 
-	"mdibaiee/vitess/go/vt/discovery"
-	"mdibaiee/vitess/go/vt/servenv"
-	"mdibaiee/vitess/go/vt/vtgate"
+	"github.com/mdibaiee/vitess/go/vt/discovery"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/vt/vtgate"
 
-	"mdibaiee/vitess/go/jsonutil"
-	"mdibaiee/vitess/go/sync2"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vtgate/engine"
+	"github.com/mdibaiee/vitess/go/jsonutil"
+	"github.com/mdibaiee/vitess/go/sync2"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/engine"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
 )
 
 var batchInterval = 10 * time.Millisecond

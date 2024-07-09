@@ -21,17 +21,17 @@ import (
 	"fmt"
 	"time"
 
-	"mdibaiee/vitess/go/vt/topotools"
-	"mdibaiee/vitess/go/vt/vtctl/reparentutil"
+	"github.com/mdibaiee/vitess/go/vt/topotools"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/reparentutil"
 
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/mysqlctl"
-	"mdibaiee/vitess/go/vt/mysqlctl/backupstats"
-	"mdibaiee/vitess/go/vt/topo/topoproto"
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl/backupstats"
+	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 
-	tabletmanagerdatapb "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 const (

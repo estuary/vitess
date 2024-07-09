@@ -32,13 +32,13 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 
-	"mdibaiee/vitess/go/test/endtoend/cluster"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vttablet"
+	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vttablet"
 
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	tabletmanagerdatapb "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
 )
 
 type testCase struct {

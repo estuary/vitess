@@ -20,9 +20,9 @@ import (
 	"database/sql"
 	"strings"
 
-	"mdibaiee/vitess/go/vt/external/golib/sqlutils"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/vtorc/config"
+	"github.com/mdibaiee/vitess/go/vt/external/golib/sqlutils"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/vtorc/config"
 )
 
 var (

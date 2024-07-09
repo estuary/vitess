@@ -24,19 +24,19 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tx"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tx"
 
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"mdibaiee/vitess/go/mysql/fakesqldb"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/vtgate/fakerpcvtgateconn"
-	"mdibaiee/vitess/go/vt/vtgate/vtgateconn"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/mdibaiee/vitess/go/mysql/fakesqldb"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/fakerpcvtgateconn"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 func TestTxExecutorEmptyPrepare(t *testing.T) {

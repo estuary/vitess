@@ -28,14 +28,14 @@ import (
 	"golang.org/x/exp/maps"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"mdibaiee/vitess/go/json2"
-	"mdibaiee/vitess/go/test/endtoend/cluster"
+	"github.com/mdibaiee/vitess/go/json2"
+	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
 
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	tabletmanagerdatapb "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
-	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
+	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
 )
 
 // TestVtctldclientCLI tests the vreplication vtctldclient CLI commands, primarily to check that non-standard flags

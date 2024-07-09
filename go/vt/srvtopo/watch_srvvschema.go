@@ -20,10 +20,10 @@ import (
 	"context"
 	"time"
 
-	"mdibaiee/vitess/go/stats"
-	"mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/mdibaiee/vitess/go/vt/topo"
 
-	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
+	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
 )
 
 type SrvVSchemaWatcher struct {

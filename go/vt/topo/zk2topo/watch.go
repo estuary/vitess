@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"path"
 
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 
-	"mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo"
 )
 
 // Watch is part of the topo.Conn interface.

@@ -24,20 +24,20 @@ import (
 	"strings"
 	"time"
 
-	"mdibaiee/vitess/go/mysql/sqlerror"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vtgate/evalengine"
+	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/evalengine"
 
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/stats"
-	"mdibaiee/vitess/go/vt/key"
-	"mdibaiee/vitess/go/vt/srvtopo"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/mdibaiee/vitess/go/vt/key"
+	"github.com/mdibaiee/vitess/go/vt/srvtopo"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 var _ Primitive = (*Route)(nil)

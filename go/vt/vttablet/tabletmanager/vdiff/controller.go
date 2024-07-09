@@ -25,19 +25,19 @@ import (
 
 	"google.golang.org/protobuf/encoding/prototext"
 
-	"mdibaiee/vitess/go/mysql/replication"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/stats"
-	"mdibaiee/vitess/go/vt/binlog/binlogplayer"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/mdibaiee/vitess/go/mysql/replication"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/mdibaiee/vitess/go/vt/binlog/binlogplayer"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
 
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 // VDiff operation and table states:

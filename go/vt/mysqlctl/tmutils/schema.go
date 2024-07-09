@@ -23,12 +23,12 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"mdibaiee/vitess/go/sqlescape"
+	"github.com/mdibaiee/vitess/go/sqlescape"
 
-	"mdibaiee/vitess/go/vt/concurrency"
-	"mdibaiee/vitess/go/vt/schema"
+	"github.com/mdibaiee/vitess/go/vt/concurrency"
+	"github.com/mdibaiee/vitess/go/vt/schema"
 
-	tabletmanagerdatapb "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
 )
 
 // This file contains helper methods to deal with Schema information.

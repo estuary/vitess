@@ -25,7 +25,7 @@ import "github.com/spf13/cobra"
 // from its RunE function when it has finished processing its flags and is
 // moving into the pure "business logic" of its entrypoint.
 //
-// Package mdibaiee/vitess/go/cmd/vtctldclient/internal/command has more
+// Package github.com/mdibaiee/vitess/go/cmd/vtctldclient/internal/command has more
 // details on why this exists.
 func FinishedParsing(cmd *cobra.Command) {
 	cmd.SilenceUsage = true

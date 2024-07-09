@@ -21,16 +21,16 @@ import (
 	"fmt"
 	"sort"
 
-	"mdibaiee/vitess/go/mysql/collations"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/key"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vtenv"
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/mysql/collations"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/key"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 // This file defines interfaces and registration for vindexes.

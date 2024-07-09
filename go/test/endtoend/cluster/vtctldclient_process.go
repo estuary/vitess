@@ -22,14 +22,14 @@ import (
 	"strings"
 	"time"
 
-	"mdibaiee/vitess/go/vt/binlog/binlogplayer"
+	"github.com/mdibaiee/vitess/go/vt/binlog/binlogplayer"
 
-	"mdibaiee/vitess/go/json2"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/json2"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
 )
 
 // VtctldClientProcess is a generic handle for a running vtctldclient command .

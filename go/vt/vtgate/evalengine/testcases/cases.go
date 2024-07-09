@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"mdibaiee/vitess/go/sqltypes"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
 )
 
 var Cases = []TestCase{

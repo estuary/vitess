@@ -19,5 +19,5 @@ package main
 // Imports and register the gRPC tabletconn client
 
 import (
-	_ "mdibaiee/vitess/go/vt/vttablet/grpctabletconn"
+	_ "github.com/mdibaiee/vitess/go/vt/vttablet/grpctabletconn"
 )

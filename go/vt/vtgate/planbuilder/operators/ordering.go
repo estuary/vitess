@@ -20,9 +20,9 @@ import (
 	"slices"
 	"strings"
 
-	"mdibaiee/vitess/go/slice"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/mdibaiee/vitess/go/slice"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
 )
 
 type Ordering struct {

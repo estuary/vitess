@@ -24,14 +24,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/internal/flag"
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/test/endtoend/utils"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/vttest"
+	"github.com/mdibaiee/vitess/go/internal/flag"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/test/endtoend/utils"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/vttest"
 
-	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
-	vttestpb "mdibaiee/vitess/go/vt/proto/vttest"
+	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
+	vttestpb "github.com/mdibaiee/vitess/go/vt/proto/vttest"
 )
 
 var (

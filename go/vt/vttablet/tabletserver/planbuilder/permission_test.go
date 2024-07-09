@@ -19,9 +19,9 @@ package planbuilder
 import (
 	"testing"
 
-	"mdibaiee/vitess/go/test/utils"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/tableacl"
+	"github.com/mdibaiee/vitess/go/test/utils"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/tableacl"
 )
 
 func TestBuildPermissions(t *testing.T) {

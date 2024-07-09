@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sort"
 
-	"mdibaiee/vitess/go/mathutil"
+	"github.com/mdibaiee/vitess/go/mathutil"
 )
 
 type DiffDependencyType int

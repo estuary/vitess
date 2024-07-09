@@ -25,10 +25,10 @@ import (
 	"github.com/fsnotify/fsnotify"
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/servenv"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/rules"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/rules"
 )
 
 var (

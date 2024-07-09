@@ -17,5 +17,5 @@ limitations under the License.
 package cli
 
 import (
-	_ "mdibaiee/vitess/go/vt/topo/etcd2topo"
+	_ "github.com/mdibaiee/vitess/go/vt/topo/etcd2topo"
 )

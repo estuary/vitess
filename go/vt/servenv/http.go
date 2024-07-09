@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"net/http/pprof"
 
-	"mdibaiee/vitess/go/vt/servenv/internal/mux"
+	"github.com/mdibaiee/vitess/go/vt/servenv/internal/mux"
 )
 
 // HTTPHandle registers the given handler for the internal servenv mux.

@@ -29,10 +29,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/sqltypes"
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	"mdibaiee/vitess/go/vt/wrangler"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/wrangler"
 )
 
 var (

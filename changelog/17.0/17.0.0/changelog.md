@@ -184,8 +184,8 @@
  * Update additional Go dependencies [#12401](https://github.com/vitessio/vitess/pull/12401)
  * Fix another mixin dep [#12403](https://github.com/vitessio/vitess/pull/12403) 
 #### Observability
- * Bump mdibaiee/vitess from 0.15.2 to 0.16.1 in /vitess-mixin [#12875](https://github.com/vitessio/vitess/pull/12875)
- * build(deps): bump mdibaiee/vitess from 0.16.1 to 0.16.2 in /vitess-mixin [#13076](https://github.com/vitessio/vitess/pull/13076) 
+ * Bump github.com/mdibaiee/vitess from 0.15.2 to 0.16.1 in /vitess-mixin [#12875](https://github.com/vitessio/vitess/pull/12875)
+ * build(deps): bump github.com/mdibaiee/vitess from 0.16.1 to 0.16.2 in /vitess-mixin [#13076](https://github.com/vitessio/vitess/pull/13076) 
 #### VTAdmin
  * Bump dns-packet from 5.3.1 to 5.4.0 in /web/vtadmin [#12545](https://github.com/vitessio/vitess/pull/12545)
  * Bump webpack from 5.65.0 to 5.76.1 in /web/vtadmin [#12632](https://github.com/vitessio/vitess/pull/12632)

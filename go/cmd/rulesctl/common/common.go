@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 
-	vtfcr "mdibaiee/vitess/go/vt/vttablet/customrule/filecustomrule"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/rules"
+	vtfcr "github.com/mdibaiee/vitess/go/vt/vttablet/customrule/filecustomrule"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/rules"
 )
 
 func GetRules(path string) *rules.Rules {

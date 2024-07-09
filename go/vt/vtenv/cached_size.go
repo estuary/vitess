@@ -17,7 +17,7 @@ limitations under the License.
 
 package vtenv
 
-import hack "mdibaiee/vitess/go/hack"
+import hack "github.com/mdibaiee/vitess/go/hack"
 
 func (cached *Environment) CachedSize(alloc bool) int64 {
 	if cached == nil {
@@ -27,9 +27,9 @@ func (cached *Environment) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(48)
 	}
-	// field collationEnv *mdibaiee/vitess/go/mysql/collations.Environment
+	// field collationEnv *github.com/mdibaiee/vitess/go/mysql/collations.Environment
 	size += cached.collationEnv.CachedSize(true)
-	// field parser *mdibaiee/vitess/go/vt/sqlparser.Parser
+	// field parser *github.com/mdibaiee/vitess/go/vt/sqlparser.Parser
 	size += cached.parser.CachedSize(true)
 	// field mysqlVersion string
 	size += hack.RuntimeAllocSize(int64(len(cached.mysqlVersion)))

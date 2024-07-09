@@ -22,7 +22,7 @@ import (
 
 	"context"
 
-	"mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo"
 )
 
 // Errors specific to this package.

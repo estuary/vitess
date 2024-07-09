@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"mdibaiee/vitess/go/vt/vtadmin/rbac"
+	"github.com/mdibaiee/vitess/go/vt/vtadmin/rbac"
 )
 
 func formatDocRow(m *DocMethod) string {

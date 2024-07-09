@@ -17,9 +17,9 @@ limitations under the License.
 package planbuilder
 
 import (
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vtgate/planbuilder/operators"
-	"mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/operators"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
 )
 
 type rewriter struct {

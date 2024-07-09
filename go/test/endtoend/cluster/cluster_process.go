@@ -37,25 +37,25 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/go/constants/sidecar"
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/syscallutil"
-	"mdibaiee/vitess/go/test/endtoend/filelock"
-	"mdibaiee/vitess/go/vt/grpcclient"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
-	"mdibaiee/vitess/go/vt/vtgate/vtgateconn"
-	"mdibaiee/vitess/go/vt/vttablet/tabletconn"
+	"github.com/mdibaiee/vitess/go/constants/sidecar"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/syscallutil"
+	"github.com/mdibaiee/vitess/go/test/endtoend/filelock"
+	"github.com/mdibaiee/vitess/go/vt/grpcclient"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletconn"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
 
 	// Ensure dialers are registered (needed by ExecOnTablet and ExecOnVTGate).
-	_ "mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
-	_ "mdibaiee/vitess/go/vt/vttablet/grpctabletconn"
+	_ "github.com/mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
+	_ "github.com/mdibaiee/vitess/go/vt/vttablet/grpctabletconn"
 )
 
 // DefaultCell : If no cell name is passed, then use following

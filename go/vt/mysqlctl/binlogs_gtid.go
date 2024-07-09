@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"mdibaiee/vitess/go/mysql/replication"
-	"mdibaiee/vitess/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/mysql/replication"
+	"github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 )
 
 type BackupManifestPath []*BackupManifest

@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"log/syslog"
 
-	"mdibaiee/vitess/go/event/syslogger"
-	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/mdibaiee/vitess/go/event/syslogger"
+	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
 )
 
 // Syslog writes the event to syslog.

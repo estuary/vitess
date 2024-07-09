@@ -22,12 +22,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/go/cmd/vtctldclient/cli"
-	"mdibaiee/vitess/go/protoutil"
+	"github.com/mdibaiee/vitess/go/cmd/vtctldclient/cli"
+	"github.com/mdibaiee/vitess/go/protoutil"
 
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle"
 )
 
 var (

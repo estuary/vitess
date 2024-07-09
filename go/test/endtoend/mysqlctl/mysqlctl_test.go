@@ -25,8 +25,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/constants/sidecar"
-	"mdibaiee/vitess/go/test/endtoend/cluster"
+	"github.com/mdibaiee/vitess/go/constants/sidecar"
+	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
 )
 
 var (

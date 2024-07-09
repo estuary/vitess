@@ -27,11 +27,11 @@ import (
 
 	"google.golang.org/grpc"
 
-	"mdibaiee/vitess/go/sqltypes"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
-	"mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
-	"mdibaiee/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vtgateconn"
 )
 
 var (

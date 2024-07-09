@@ -3,9 +3,9 @@ package dynamic
 import (
 	"net/http"
 
-	"mdibaiee/vitess/go/vt/vtadmin/cluster"
+	"github.com/mdibaiee/vitess/go/vt/vtadmin/cluster"
 
-	vtadminpb "mdibaiee/vitess/go/vt/proto/vtadmin"
+	vtadminpb "github.com/mdibaiee/vitess/go/vt/proto/vtadmin"
 )
 
 // API is the interface dynamic APIs must implement.

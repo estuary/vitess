@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vtgate/logstats"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/logstats"
 
-	"mdibaiee/vitess/go/streamlog"
-	"mdibaiee/vitess/go/vt/callerid"
+	"github.com/mdibaiee/vitess/go/streamlog"
+	"github.com/mdibaiee/vitess/go/vt/callerid"
 )
 
 func TestQuerylogzHandlerFormatting(t *testing.T) {

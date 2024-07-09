@@ -19,7 +19,7 @@ package sort
 import (
 	"sort"
 
-	"mdibaiee/vitess/go/vt/vtadmin/cluster"
+	"github.com/mdibaiee/vitess/go/vt/vtadmin/cluster"
 )
 
 // ClustersBy provides an interface to sort Clusters by arbitrary comparison.

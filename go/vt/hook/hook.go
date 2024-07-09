@@ -28,8 +28,8 @@ import (
 	"syscall"
 	"time"
 
-	vtenv "mdibaiee/vitess/go/vt/env"
-	"mdibaiee/vitess/go/vt/log"
+	vtenv "github.com/mdibaiee/vitess/go/vt/env"
+	"github.com/mdibaiee/vitess/go/vt/log"
 )
 
 // Hook is the input structure for this library.

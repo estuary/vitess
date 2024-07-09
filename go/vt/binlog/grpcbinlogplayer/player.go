@@ -22,13 +22,13 @@ import (
 	"github.com/spf13/pflag"
 	"google.golang.org/grpc"
 
-	"mdibaiee/vitess/go/netutil"
-	"mdibaiee/vitess/go/vt/binlog/binlogplayer"
-	"mdibaiee/vitess/go/vt/grpcclient"
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	binlogservicepb "mdibaiee/vitess/go/vt/proto/binlogservice"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	"mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/netutil"
+	"github.com/mdibaiee/vitess/go/vt/binlog/binlogplayer"
+	"github.com/mdibaiee/vitess/go/vt/grpcclient"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	binlogservicepb "github.com/mdibaiee/vitess/go/vt/proto/binlogservice"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
 )
 
 var cert, key, ca, crl, name string

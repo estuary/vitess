@@ -23,11 +23,11 @@ import (
 	"text/template"
 	"time"
 
-	"mdibaiee/vitess/go/acl"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/logz"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/mdibaiee/vitess/go/acl"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/logz"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 var (

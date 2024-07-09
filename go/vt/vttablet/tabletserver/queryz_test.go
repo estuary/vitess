@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/go/vt/dbconfigs"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/planbuilder"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/schema"
+	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/planbuilder"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/schema"
 )
 
 func TestQueryzHandler(t *testing.T) {

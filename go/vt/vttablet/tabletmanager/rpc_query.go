@@ -19,16 +19,16 @@ package tabletmanager
 import (
 	"context"
 
-	"mdibaiee/vitess/go/constants/sidecar"
-	"mdibaiee/vitess/go/sqlescape"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/constants/sidecar"
+	"github.com/mdibaiee/vitess/go/sqlescape"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	tabletmanagerdatapb "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	"mdibaiee/vitess/go/vt/proto/vtrpc"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	"github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 // analyzeExecuteFetchAsDbaMultiQuery reutrns 'true' when at least one of the queries

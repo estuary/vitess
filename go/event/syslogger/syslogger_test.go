@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"mdibaiee/vitess/go/event"
+	"github.com/mdibaiee/vitess/go/event"
 
 	"github.com/stretchr/testify/assert"
 )

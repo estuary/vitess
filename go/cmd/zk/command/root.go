@@ -19,11 +19,11 @@ package command
 import (
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/go/acl"
-	"mdibaiee/vitess/go/cmd/zk/internal/zkfs"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/topo/zk2topo"
+	"github.com/mdibaiee/vitess/go/acl"
+	"github.com/mdibaiee/vitess/go/cmd/zk/internal/zkfs"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/topo/zk2topo"
 )
 
 var (

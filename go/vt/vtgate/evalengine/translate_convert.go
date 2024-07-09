@@ -19,12 +19,12 @@ package evalengine
 import (
 	"strings"
 
-	"mdibaiee/vitess/go/mysql/collations"
-	"mdibaiee/vitess/go/mysql/collations/colldata"
-	"mdibaiee/vitess/go/mysql/decimal"
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/mysql/collations"
+	"github.com/mdibaiee/vitess/go/mysql/collations/colldata"
+	"github.com/mdibaiee/vitess/go/mysql/decimal"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 )
 
 func (ast *astCompiler) binaryCollationForCollation(collation collations.ID) collations.ID {

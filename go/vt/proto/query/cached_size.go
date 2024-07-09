@@ -17,7 +17,7 @@ limitations under the License.
 
 package query
 
-import hack "mdibaiee/vitess/go/hack"
+import hack "github.com/mdibaiee/vitess/go/hack"
 
 func (cached *BindVariable) CachedSize(alloc bool) int64 {
 	if cached == nil {
@@ -35,7 +35,7 @@ func (cached *BindVariable) CachedSize(alloc bool) int64 {
 	{
 		size += hack.RuntimeAllocSize(int64(cap(cached.Value)))
 	}
-	// field Values []*mdibaiee/vitess/go/vt/proto/query.Value
+	// field Values []*github.com/mdibaiee/vitess/go/vt/proto/query.Value
 	{
 		size += hack.RuntimeAllocSize(int64(cap(cached.Values)) * int64(8))
 		for _, elem := range cached.Values {

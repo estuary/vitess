@@ -21,7 +21,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/go/mysql/replication"
+	"github.com/mdibaiee/vitess/go/mysql/replication"
 )
 
 var Position = &cobra.Command{

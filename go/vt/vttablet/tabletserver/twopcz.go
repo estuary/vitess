@@ -23,10 +23,10 @@ import (
 
 	"github.com/google/safehtml/template"
 
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tx"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tx"
 
-	"mdibaiee/vitess/go/acl"
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/acl"
+	"github.com/mdibaiee/vitess/go/vt/log"
 )
 
 var (

@@ -32,13 +32,13 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/mysql/collations/colldata"
+	"github.com/mdibaiee/vitess/go/mysql/collations/colldata"
 
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/mysql/collations"
-	"mdibaiee/vitess/go/mysql/collations/remote"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/mysql/collations"
+	"github.com/mdibaiee/vitess/go/mysql/collations/remote"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
 )
 
 var collationEnv *collations.Environment

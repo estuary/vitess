@@ -25,17 +25,17 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/go/acl"
-	"mdibaiee/vitess/go/vt/dbconfigs"
-	"mdibaiee/vitess/go/vt/grpccommon"
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/servenv"
-	"mdibaiee/vitess/go/vtbench"
+	"github.com/mdibaiee/vitess/go/acl"
+	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
+	"github.com/mdibaiee/vitess/go/vt/grpccommon"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/vtbench"
 
 	// Import and register the gRPC vtgateconn client
-	_ "mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
+	_ "github.com/mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
 	// Import and register the gRPC tabletconn client
-	_ "mdibaiee/vitess/go/vt/vttablet/grpctabletconn"
+	_ "github.com/mdibaiee/vitess/go/vt/vttablet/grpctabletconn"
 )
 
 /*

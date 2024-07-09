@@ -11,8 +11,8 @@ import (
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
-	binlogdata "mdibaiee/vitess/go/vt/proto/binlogdata"
-	query "mdibaiee/vitess/go/vt/proto/query"
+	binlogdata "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	query "github.com/mdibaiee/vitess/go/vt/proto/query"
 )
 
 // This is a compile-time assertion to ensure that this generated file

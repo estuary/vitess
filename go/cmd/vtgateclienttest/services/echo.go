@@ -24,15 +24,15 @@ import (
 	"sort"
 	"strings"
 
-	"mdibaiee/vitess/go/mysql/collations"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/callerid"
-	"mdibaiee/vitess/go/vt/vtgate/vtgateservice"
+	"github.com/mdibaiee/vitess/go/mysql/collations"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/callerid"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vtgateservice"
 
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
 )
 
 // EchoPrefix is the prefix to send with queries so they go

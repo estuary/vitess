@@ -23,10 +23,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/topo/memorytopo"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
 
-	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
+	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
 )
 
 // lower the lock timeout for testing

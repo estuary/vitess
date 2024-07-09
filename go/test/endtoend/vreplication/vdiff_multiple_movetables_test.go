@@ -27,8 +27,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/vt/log"
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
 )
 
 func TestMultipleConcurrentVDiffs(t *testing.T) {

@@ -21,16 +21,16 @@ import (
 	"errors"
 	"testing"
 
-	"mdibaiee/vitess/go/vt/vtgate/evalengine"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/evalengine"
 
-	"mdibaiee/vitess/go/mysql/collations"
-	"mdibaiee/vitess/go/test/utils"
+	"github.com/mdibaiee/vitess/go/mysql/collations"
+	"github.com/mdibaiee/vitess/go/test/utils"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/sqltypes"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
 )
 
 // TestMergeSortNormal tests the normal flow of a merge

@@ -5,13 +5,13 @@ import (
 	"errors"
 	"fmt"
 
-	"mdibaiee/vitess/go/vt/key"
-	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vtgate/engine"
-	"mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
-	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/mdibaiee/vitess/go/vt/key"
+	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/engine"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 // Error messages for CreateView queries

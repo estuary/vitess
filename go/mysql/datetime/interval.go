@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"strings"
 
-	"mdibaiee/vitess/go/hack"
-	"mdibaiee/vitess/go/mysql/decimal"
+	"github.com/mdibaiee/vitess/go/hack"
+	"github.com/mdibaiee/vitess/go/mysql/decimal"
 )
 
 // IntervalType represents the temporal elements contained in an Interval.

@@ -19,5 +19,5 @@ package cli
 // Imports and register the gRPC throttler server.
 
 import (
-	_ "mdibaiee/vitess/go/vt/throttler/grpcthrottlerserver"
+	_ "github.com/mdibaiee/vitess/go/vt/throttler/grpcthrottlerserver"
 )

@@ -19,8 +19,8 @@ package evalengine
 import (
 	"errors"
 
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vthash"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vthash"
 )
 
 var errDeoptimize = errors.New("de-optimize")

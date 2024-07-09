@@ -19,5 +19,5 @@ package cli
 // Imports and register the 'etcd2' topo.Server.
 
 import (
-	_ "mdibaiee/vitess/go/vt/topo/etcd2topo"
+	_ "github.com/mdibaiee/vitess/go/vt/topo/etcd2topo"
 )

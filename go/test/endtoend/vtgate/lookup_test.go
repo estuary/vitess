@@ -24,10 +24,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/mysql/sqlerror"
+	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
 
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/test/endtoend/utils"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/test/endtoend/utils"
 )
 
 func TestUnownedLookupInsertNull(t *testing.T) {

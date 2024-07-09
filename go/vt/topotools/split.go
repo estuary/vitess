@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"mdibaiee/vitess/go/vt/key"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	"mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/key"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/topo"
 )
 
 // ValidateForReshard returns an error if sourceShards cannot reshard into

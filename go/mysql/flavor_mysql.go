@@ -24,13 +24,13 @@ import (
 	"strings"
 	"time"
 
-	"mdibaiee/vitess/go/mysql/capabilities"
-	"mdibaiee/vitess/go/mysql/replication"
-	"mdibaiee/vitess/go/mysql/sqlerror"
-	"mdibaiee/vitess/go/vt/proto/replicationdata"
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/mysql/capabilities"
+	"github.com/mdibaiee/vitess/go/mysql/replication"
+	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
+	"github.com/mdibaiee/vitess/go/vt/proto/replicationdata"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
 )
 
 // mysqlFlavor implements the Flavor interface for Mysql. This is

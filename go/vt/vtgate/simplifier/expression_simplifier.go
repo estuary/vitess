@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
 )
 
 // CheckF is used to see if the given expression exhibits the sought after issue

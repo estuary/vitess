@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strconv"
 
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	"mdibaiee/vitess/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/go/vt/vterrors"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	"github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 )
 
 // This file contains utility methods for Conn objects. Only useful on the client

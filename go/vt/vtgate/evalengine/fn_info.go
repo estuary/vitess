@@ -17,7 +17,7 @@ limitations under the License.
 package evalengine
 
 import (
-	"mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/sqltypes"
 )
 
 type builtinUser struct {

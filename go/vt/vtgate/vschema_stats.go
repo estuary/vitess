@@ -19,7 +19,7 @@ package vtgate
 import (
 	"sort"
 
-	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 // VSchemaStats contains a rollup of the VSchema stats.

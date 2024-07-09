@@ -23,15 +23,15 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/vtctl/grpcvtctldserver"
-	"mdibaiee/vitess/go/vt/vtenv"
-	"mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/grpcvtctldserver"
+	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
 
-	vtctlservicepb "mdibaiee/vitess/go/vt/proto/vtctlservice"
+	vtctlservicepb "github.com/mdibaiee/vitess/go/vt/proto/vtctlservice"
 )
 
 var (

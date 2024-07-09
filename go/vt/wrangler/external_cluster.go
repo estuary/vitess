@@ -20,7 +20,7 @@ import (
 	"context"
 	"fmt"
 
-	"mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // MountExternalVitessCluster adds a topo record for cluster with specified parameters so that it is available to a Migrate command

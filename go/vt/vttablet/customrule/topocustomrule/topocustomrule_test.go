@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/go/vt/topo/memorytopo"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/rules"
-	"mdibaiee/vitess/go/vt/vttablet/tabletservermock"
+	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/rules"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletservermock"
 )
 
 var customRule1 = `

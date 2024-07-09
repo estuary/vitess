@@ -24,11 +24,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/vt/external/golib/sqlutils"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	"mdibaiee/vitess/go/vt/topo/topoproto"
-	"mdibaiee/vitess/go/vt/vtorc/config"
-	"mdibaiee/vitess/go/vt/vtorc/db"
+	"github.com/mdibaiee/vitess/go/vt/external/golib/sqlutils"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/mdibaiee/vitess/go/vt/vtorc/config"
+	"github.com/mdibaiee/vitess/go/vt/vtorc/db"
 )
 
 // TestAuditOperation tests that auditing a operation works as intended based on the configurations.

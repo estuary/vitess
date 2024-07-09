@@ -19,13 +19,13 @@ package evalengine
 import (
 	"encoding/binary"
 
-	"mdibaiee/vitess/go/hack"
-	"mdibaiee/vitess/go/mysql/collations"
-	"mdibaiee/vitess/go/mysql/collations/charset"
-	"mdibaiee/vitess/go/mysql/collations/colldata"
-	"mdibaiee/vitess/go/mysql/datetime"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/vthash"
+	"github.com/mdibaiee/vitess/go/hack"
+	"github.com/mdibaiee/vitess/go/mysql/collations"
+	"github.com/mdibaiee/vitess/go/mysql/collations/charset"
+	"github.com/mdibaiee/vitess/go/mysql/collations/colldata"
+	"github.com/mdibaiee/vitess/go/mysql/datetime"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/vthash"
 )
 
 type evalBytes struct {

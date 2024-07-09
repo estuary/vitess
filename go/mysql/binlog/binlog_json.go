@@ -22,12 +22,12 @@ import (
 	"math"
 	"strconv"
 
-	"mdibaiee/vitess/go/hack"
-	"mdibaiee/vitess/go/mysql/format"
-	"mdibaiee/vitess/go/mysql/json"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/hack"
+	"github.com/mdibaiee/vitess/go/mysql/format"
+	"github.com/mdibaiee/vitess/go/mysql/json"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 )
 
 /*

@@ -32,10 +32,10 @@ import (
 	"google.golang.org/api/iterator"
 	"google.golang.org/api/option"
 
-	"mdibaiee/vitess/go/trace"
-	"mdibaiee/vitess/go/vt/concurrency"
-	"mdibaiee/vitess/go/vt/mysqlctl/backupstorage"
-	"mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/trace"
+	"github.com/mdibaiee/vitess/go/vt/concurrency"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl/backupstorage"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
 )
 
 var (

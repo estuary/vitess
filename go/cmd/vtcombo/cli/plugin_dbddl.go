@@ -20,10 +20,10 @@ import (
 	"context"
 	"sync"
 
-	"mdibaiee/vitess/go/vt/servenv"
-	"mdibaiee/vitess/go/vt/vtgate/engine"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/engine"
 
-	vttestpb "mdibaiee/vitess/go/vt/proto/vttest"
+	vttestpb "github.com/mdibaiee/vitess/go/vt/proto/vttest"
 )
 
 var globalCreateDb func(ctx context.Context, ks *vttestpb.Keyspace) error

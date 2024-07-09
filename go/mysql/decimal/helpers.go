@@ -16,7 +16,7 @@ limitations under the License.
 
 package decimal
 
-import "mdibaiee/vitess/go/vt/vthash"
+import "github.com/mdibaiee/vitess/go/vt/vthash"
 
 func (d *Decimal) Hash(hasher *vthash.Hasher) {
 	_, _ = hasher.Write(d.formatFast(0, false, true))

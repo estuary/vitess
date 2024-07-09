@@ -19,8 +19,8 @@ package cli
 // Import and register the gRPC mysqlctl server
 
 import (
-	"mdibaiee/vitess/go/vt/mysqlctl/grpcmysqlctlserver"
-	"mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl/grpcmysqlctlserver"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
 )
 
 func init() {

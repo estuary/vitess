@@ -19,12 +19,12 @@ package sqlparser
 import (
 	"bytes"
 
-	"mdibaiee/vitess/go/mysql/datetime"
-	"mdibaiee/vitess/go/sqltypes"
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/mysql/datetime"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
 )
 
 // BindVars is a set of reserved bind variables from a SQL statement

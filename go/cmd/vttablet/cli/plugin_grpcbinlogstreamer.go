@@ -19,5 +19,5 @@ package cli
 // Imports and register the gRPC binlog streamer
 
 import (
-	_ "mdibaiee/vitess/go/vt/binlog/grpcbinlogstreamer"
+	_ "github.com/mdibaiee/vitess/go/vt/binlog/grpcbinlogstreamer"
 )

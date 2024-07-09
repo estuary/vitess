@@ -21,13 +21,13 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/go/vt/key"
+	"github.com/mdibaiee/vitess/go/vt/key"
 
 	"google.golang.org/protobuf/proto"
 
-	"mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo"
 
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // waitForInitialValue waits for the initial value of

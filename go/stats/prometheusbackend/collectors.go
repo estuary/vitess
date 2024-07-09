@@ -21,8 +21,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"mdibaiee/vitess/go/stats"
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/mdibaiee/vitess/go/vt/log"
 )
 
 type metricFuncCollector struct {

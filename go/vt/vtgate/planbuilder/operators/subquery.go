@@ -21,12 +21,12 @@ import (
 	"maps"
 	"slices"
 
-	"mdibaiee/vitess/go/slice"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vtgate/engine/opcode"
-	"mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
-	"mdibaiee/vitess/go/vt/vtgate/semantics"
+	"github.com/mdibaiee/vitess/go/slice"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/engine/opcode"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/semantics"
 )
 
 // SubQuery represents a subquery used for filtering rows in an

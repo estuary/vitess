@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"log/syslog"
 
-	"mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/proto/topodata"
 
-	"mdibaiee/vitess/go/event/syslogger"
-	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/mdibaiee/vitess/go/event/syslogger"
+	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
 )
 
 // Syslog writes a Reparent event to syslog.

@@ -23,16 +23,16 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/go/cmd/vtctldclient/cli"
-	"mdibaiee/vitess/go/protoutil"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/schema"
-	"mdibaiee/vitess/go/vt/vtctl/schematools"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"github.com/mdibaiee/vitess/go/cmd/vtctldclient/cli"
+	"github.com/mdibaiee/vitess/go/protoutil"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/schema"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/schematools"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
 )
 
 const (

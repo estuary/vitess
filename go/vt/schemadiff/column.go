@@ -19,8 +19,8 @@ package schemadiff
 import (
 	"strings"
 
-	"mdibaiee/vitess/go/mysql/collations"
-	"mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/mysql/collations"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
 )
 
 // columnDetails decorates a column with more details, used by diffing logic

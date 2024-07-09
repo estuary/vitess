@@ -23,14 +23,14 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/go/cmd/vtctldclient/cli"
-	"mdibaiee/vitess/go/cmd/vtctldclient/command/vreplication/common"
-	"mdibaiee/vitess/go/textutil"
+	"github.com/mdibaiee/vitess/go/cmd/vtctldclient/cli"
+	"github.com/mdibaiee/vitess/go/cmd/vtctldclient/command/vreplication/common"
+	"github.com/mdibaiee/vitess/go/textutil"
 
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	tabletmanagerdatapb "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
 )
 
 var (

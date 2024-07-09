@@ -26,7 +26,7 @@ import (
 
 	"github.com/gammazero/deque"
 
-	"mdibaiee/vitess/go/cache/theine/bf"
+	"github.com/mdibaiee/vitess/go/cache/theine/bf"
 )
 
 const (

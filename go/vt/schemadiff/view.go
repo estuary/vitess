@@ -19,7 +19,7 @@ package schemadiff
 import (
 	"strings"
 
-	"mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
 )
 
 type AlterViewEntityDiff struct {

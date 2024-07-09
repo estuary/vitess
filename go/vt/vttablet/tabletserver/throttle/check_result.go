@@ -44,7 +44,7 @@ package throttle
 import (
 	"net/http"
 
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/base"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/base"
 )
 
 // CheckResult is the result for an app inquiring on a metric. It also exports as JSON via the API

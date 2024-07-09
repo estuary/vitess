@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"mdibaiee/vitess/go/hack"
+	"github.com/mdibaiee/vitess/go/hack"
 )
 
 func TestTypeSizes(t *testing.T) {

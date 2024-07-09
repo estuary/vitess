@@ -25,19 +25,19 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/vstreamer/testenv"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/vstreamer/testenv"
 
-	"mdibaiee/vitess/go/vt/vttablet"
+	"github.com/mdibaiee/vitess/go/vt/vttablet"
 
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/log"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/binlog/binlogplayer"
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	qh "mdibaiee/vitess/go/vt/vttablet/tabletmanager/vreplication/queryhistory"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/vstreamer"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/binlog/binlogplayer"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	qh "github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager/vreplication/queryhistory"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/vstreamer"
 )
 
 type vcopierTestCase struct {

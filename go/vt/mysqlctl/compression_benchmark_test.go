@@ -19,9 +19,9 @@ import (
 	"github.com/klauspost/compress/zstd"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/hack"
+	"github.com/mdibaiee/vitess/go/hack"
 
-	"mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
 )
 
 type (

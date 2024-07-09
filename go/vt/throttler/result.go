@@ -23,7 +23,7 @@ import (
 	"text/template"
 	"time"
 
-	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
 )
 
 type rateChange string

@@ -27,12 +27,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/cmd/vtctldclient/command"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/topo/memorytopo"
-	"mdibaiee/vitess/go/vt/vtctl/localvtctldclient"
+	"github.com/mdibaiee/vitess/go/cmd/vtctldclient/command"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/localvtctldclient"
 
-	vtctlservicepb "mdibaiee/vitess/go/vt/proto/vtctlservice"
+	vtctlservicepb "github.com/mdibaiee/vitess/go/vt/proto/vtctlservice"
 )
 
 type emptyLocalServer struct {

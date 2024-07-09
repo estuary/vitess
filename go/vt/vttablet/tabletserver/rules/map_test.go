@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/planbuilder"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/planbuilder"
 )
 
 var (

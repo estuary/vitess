@@ -28,13 +28,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"mdibaiee/vitess/go/vt/grpcclient"
-	"mdibaiee/vitess/go/vt/servenv"
-	"mdibaiee/vitess/go/vt/vtctl/grpcvtctlserver"
-	"mdibaiee/vitess/go/vt/vtctl/vtctlclienttest"
-	"mdibaiee/vitess/go/vt/vtenv"
+	"github.com/mdibaiee/vitess/go/vt/grpcclient"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/grpcvtctlserver"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/vtctlclienttest"
+	"github.com/mdibaiee/vitess/go/vt/vtenv"
 
-	vtctlservicepb "mdibaiee/vitess/go/vt/proto/vtctlservice"
+	vtctlservicepb "github.com/mdibaiee/vitess/go/vt/proto/vtctlservice"
 )
 
 // the test here creates a fake server implementation, a fake client

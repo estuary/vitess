@@ -26,11 +26,11 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"mdibaiee/vitess/go/mysql/replication"
-	"mdibaiee/vitess/go/vt/vtctl/workflow"
+	"github.com/mdibaiee/vitess/go/mysql/replication"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/workflow"
 
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 var _ iswitcher = (*switcherDryRun)(nil)

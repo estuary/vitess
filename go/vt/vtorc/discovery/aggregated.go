@@ -21,7 +21,7 @@ import (
 
 	"github.com/montanaflynn/stats"
 
-	"mdibaiee/vitess/go/vt/vtorc/collection"
+	"github.com/mdibaiee/vitess/go/vt/vtorc/collection"
 )
 
 // AggregatedDiscoveryMetrics contains aggregated metrics for instance discovery.

@@ -23,16 +23,16 @@ import (
 	"math/rand/v2"
 	"time"
 
-	"mdibaiee/vitess/go/stats"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/logutil"
-	logutilpb "mdibaiee/vitess/go/vt/proto/logutil"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	"mdibaiee/vitess/go/vt/topo/topoproto"
-	"mdibaiee/vitess/go/vt/vtctl/reparentutil"
-	"mdibaiee/vitess/go/vt/vtorc/config"
-	"mdibaiee/vitess/go/vt/vtorc/inst"
-	"mdibaiee/vitess/go/vt/vtorc/util"
+	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	logutilpb "github.com/mdibaiee/vitess/go/vt/proto/logutil"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/reparentutil"
+	"github.com/mdibaiee/vitess/go/vt/vtorc/config"
+	"github.com/mdibaiee/vitess/go/vt/vtorc/inst"
+	"github.com/mdibaiee/vitess/go/vt/vtorc/util"
 )
 
 const (

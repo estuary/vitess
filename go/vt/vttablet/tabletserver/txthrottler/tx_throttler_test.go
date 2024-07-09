@@ -17,8 +17,8 @@ limitations under the License.
 package txthrottler
 
 // Commands to generate the mocks for this test.
-//go:generate mockgen -destination mock_healthcheck_test.go -package txthrottler -mock_names "HealthCheck=MockHealthCheck" mdibaiee/vitess/go/vt/discovery HealthCheck
-//go:generate mockgen -destination mock_throttler_test.go -package txthrottler mdibaiee/vitess/go/vt/vttablet/tabletserver/txthrottler ThrottlerInterface
+//go:generate mockgen -destination mock_healthcheck_test.go -package txthrottler -mock_names "HealthCheck=MockHealthCheck" github.com/mdibaiee/vitess/go/vt/discovery HealthCheck
+//go:generate mockgen -destination mock_throttler_test.go -package txthrottler github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/txthrottler ThrottlerInterface
 
 import (
 	"context"
@@ -29,16 +29,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/mock/gomock"
 
-	"mdibaiee/vitess/go/vt/discovery"
-	"mdibaiee/vitess/go/vt/throttler"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/topo/memorytopo"
-	"mdibaiee/vitess/go/vt/topo/topoproto"
-	"mdibaiee/vitess/go/vt/vtenv"
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/mdibaiee/vitess/go/vt/discovery"
+	"github.com/mdibaiee/vitess/go/vt/throttler"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
+	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 func TestDisabledThrottler(t *testing.T) {

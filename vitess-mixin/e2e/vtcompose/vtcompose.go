@@ -30,7 +30,7 @@ import (
 	jsonpatch "github.com/evanphx/json-patch"
 	yamlpatch "github.com/krishicks/yaml-patch"
 
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/log"
 )
 
 const (

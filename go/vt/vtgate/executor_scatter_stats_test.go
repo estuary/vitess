@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
+	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
 )
 
 func TestScatterStatsWithNoScatterQuery(t *testing.T) {

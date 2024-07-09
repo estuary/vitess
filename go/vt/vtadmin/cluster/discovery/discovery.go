@@ -24,7 +24,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	vtadminpb "mdibaiee/vitess/go/vt/proto/vtadmin"
+	vtadminpb "github.com/mdibaiee/vitess/go/vt/proto/vtadmin"
 )
 
 var (

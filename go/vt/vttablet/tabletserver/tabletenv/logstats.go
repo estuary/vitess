@@ -25,13 +25,13 @@ import (
 
 	"github.com/google/safehtml"
 
-	"mdibaiee/vitess/go/logstats"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/streamlog"
-	"mdibaiee/vitess/go/vt/callerid"
-	"mdibaiee/vitess/go/vt/callinfo"
+	"github.com/mdibaiee/vitess/go/logstats"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/streamlog"
+	"github.com/mdibaiee/vitess/go/vt/callerid"
+	"github.com/mdibaiee/vitess/go/vt/callinfo"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
 )
 
 const (

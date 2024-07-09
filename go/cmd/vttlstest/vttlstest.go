@@ -19,9 +19,9 @@ package main
 import (
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/go/cmd/vttlstest/cli"
-	"mdibaiee/vitess/go/exit"
-	"mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/cmd/vttlstest/cli"
+	"github.com/mdibaiee/vitess/go/exit"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
 )
 
 func main() {

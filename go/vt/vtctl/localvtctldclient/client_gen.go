@@ -23,10 +23,10 @@ import (
 
 	"google.golang.org/grpc"
 
-	"mdibaiee/vitess/go/vt/vtctl/internal/grpcshim"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/internal/grpcshim"
 
-	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
-	vtctlservicepb "mdibaiee/vitess/go/vt/proto/vtctlservice"
+	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
+	vtctlservicepb "github.com/mdibaiee/vitess/go/vt/proto/vtctlservice"
 )
 
 // AddCellInfo is part of the vtctlservicepb.VtctldClient interface.

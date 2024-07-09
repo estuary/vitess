@@ -17,8 +17,8 @@ limitations under the License.
 package semantics
 
 import (
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 // VindexTable contains a vindexes.Vindex and a TableInfo. The former represents the vindex

@@ -31,11 +31,11 @@ import (
 	"syscall"
 	"time"
 
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/log"
-	vttestpb "mdibaiee/vitess/go/vt/proto/vttest"
-	"mdibaiee/vitess/go/vt/vttest"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	vttestpb "github.com/mdibaiee/vitess/go/vt/proto/vttest"
+	"github.com/mdibaiee/vitess/go/vt/vttest"
 )
 
 var cluster *vttest.LocalCluster

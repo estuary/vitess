@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/schema"
-	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/schema"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 // localVSchema provides vschema behavior specific to vstreamer.

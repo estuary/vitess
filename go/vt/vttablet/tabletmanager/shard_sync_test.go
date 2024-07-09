@@ -23,19 +23,19 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/go/protoutil"
-	"mdibaiee/vitess/go/vt/proto/vttime"
+	"github.com/mdibaiee/vitess/go/protoutil"
+	"github.com/mdibaiee/vitess/go/vt/proto/vttime"
 
 	"github.com/stretchr/testify/assert"
 
-	"mdibaiee/vitess/go/vt/proto/topodata"
-	"mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/topo"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
 
-	"mdibaiee/vitess/go/vt/topo/memorytopo"
+	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
 )
 
 const (

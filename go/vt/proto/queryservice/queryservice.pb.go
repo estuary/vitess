@@ -26,8 +26,8 @@ package queryservice
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	binlogdata "mdibaiee/vitess/go/vt/proto/binlogdata"
-	query "mdibaiee/vitess/go/vt/proto/query"
+	binlogdata "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	query "github.com/mdibaiee/vitess/go/vt/proto/query"
 	reflect "reflect"
 )
 

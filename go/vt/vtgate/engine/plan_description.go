@@ -23,10 +23,10 @@ import (
 	"sort"
 	"strings"
 
-	"mdibaiee/vitess/go/tools/graphviz"
-	"mdibaiee/vitess/go/vt/key"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/mdibaiee/vitess/go/tools/graphviz"
+	"github.com/mdibaiee/vitess/go/vt/key"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 const inputName = "InputName"

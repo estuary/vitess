@@ -20,14 +20,14 @@ import (
 	"context"
 	"time"
 
-	"mdibaiee/vitess/go/vt/hook"
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/mysqlctl/tmutils"
+	"github.com/mdibaiee/vitess/go/vt/hook"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl/tmutils"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	replicationdatapb "mdibaiee/vitess/go/vt/proto/replicationdata"
-	tabletmanagerdatapb "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	replicationdatapb "github.com/mdibaiee/vitess/go/vt/proto/replicationdata"
+	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // RPCTM defines the interface implemented by the TM for RPCs.

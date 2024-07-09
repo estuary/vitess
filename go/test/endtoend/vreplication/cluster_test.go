@@ -30,19 +30,19 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/go/vt/vttablet"
+	"github.com/mdibaiee/vitess/go/vt/vttablet"
 
-	"mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/mysql"
 
-	"mdibaiee/vitess/go/vt/mysqlctl"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/test/endtoend/cluster"
-	"mdibaiee/vitess/go/test/endtoend/throttler"
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
+	"github.com/mdibaiee/vitess/go/test/endtoend/throttler"
+	"github.com/mdibaiee/vitess/go/vt/log"
 )
 
 var (

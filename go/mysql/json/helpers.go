@@ -17,10 +17,10 @@ limitations under the License.
 package json
 
 import (
-	"mdibaiee/vitess/go/sqltypes"
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vthash"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vthash"
 )
 
 const hashPrefixJSON = 0xCCBB

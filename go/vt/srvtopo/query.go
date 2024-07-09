@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"mdibaiee/vitess/go/stats"
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/mdibaiee/vitess/go/vt/log"
 )
 
 type queryEntry struct {

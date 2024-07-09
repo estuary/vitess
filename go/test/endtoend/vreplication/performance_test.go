@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/go/test/endtoend/cluster"
+	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
 )
 
 func TestReplicationStress(t *testing.T) {

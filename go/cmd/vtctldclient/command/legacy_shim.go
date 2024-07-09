@@ -23,13 +23,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/go/cmd/vtctldclient/cli"
-	"mdibaiee/vitess/go/internal/flag"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/vtctl/vtctlclient"
+	"github.com/mdibaiee/vitess/go/cmd/vtctldclient/cli"
+	"github.com/mdibaiee/vitess/go/internal/flag"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/vtctlclient"
 
-	logutilpb "mdibaiee/vitess/go/vt/proto/logutil"
+	logutilpb "github.com/mdibaiee/vitess/go/vt/proto/logutil"
 )
 
 var (

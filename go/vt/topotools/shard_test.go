@@ -23,8 +23,8 @@ import (
 	"sync"
 	"testing"
 
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	"mdibaiee/vitess/go/vt/topo/memorytopo"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
 )
 
 // TestCreateShard tests a few cases for topo.CreateShard

@@ -17,9 +17,9 @@ limitations under the License.
 package semantics
 
 import (
-	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 type fkManager struct {

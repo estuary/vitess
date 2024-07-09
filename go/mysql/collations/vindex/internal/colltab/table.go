@@ -7,7 +7,7 @@ package colltab
 import (
 	"unicode/utf8"
 
-	"mdibaiee/vitess/go/mysql/collations/vindex/unicode/norm"
+	"github.com/mdibaiee/vitess/go/mysql/collations/vindex/unicode/norm"
 )
 
 // Table holds all collation data for a given collation ordering.

@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/log"
 )
 
 // VtctlClientProcess is a generic handle for a running vtctlclient command .

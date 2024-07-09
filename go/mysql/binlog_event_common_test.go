@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/go/test/endtoend/cluster"
+	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
 )
 
 // TestMoveTablesTZ tests the conversion of datetime based on the source timezone passed to the MoveTables workflow

@@ -25,12 +25,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
 
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
-	tabletmanagerdatapb "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
 )
 
 const rsSelectFrozenQuery = "select 1 from _vt.vreplication where db_name='vt_ks' and message='FROZEN' and workflow_sub_type != 1"

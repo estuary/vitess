@@ -22,7 +22,7 @@ import (
 	"os"
 	"text/template"
 
-	"mdibaiee/vitess/go/vt/grpcclient"
+	"github.com/mdibaiee/vitess/go/vt/grpcclient"
 )
 
 // LoadFromTemplate renders a template string into a path, using the data

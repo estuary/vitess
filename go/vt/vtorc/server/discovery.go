@@ -17,8 +17,8 @@ limitations under the License.
 package server
 
 import (
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/vtorc/logic"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/vtorc/logic"
 )
 
 // StartVTOrcDiscovery starts VTOrc discovery serving

@@ -21,13 +21,13 @@ import (
 	"errors"
 	"testing"
 
-	"mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/sqltypes"
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/vt/key"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/mdibaiee/vitess/go/vt/key"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
 )
 
 func TestSendTable(t *testing.T) {

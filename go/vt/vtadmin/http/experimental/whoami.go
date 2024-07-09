@@ -3,8 +3,8 @@ package experimental
 import (
 	"context"
 
-	vtadminhttp "mdibaiee/vitess/go/vt/vtadmin/http"
-	"mdibaiee/vitess/go/vt/vtadmin/rbac"
+	vtadminhttp "github.com/mdibaiee/vitess/go/vt/vtadmin/http"
+	"github.com/mdibaiee/vitess/go/vt/vtadmin/rbac"
 )
 
 // WhoAmI is an experimental route for extracting authenticated Actors from

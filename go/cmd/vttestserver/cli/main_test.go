@@ -32,17 +32,17 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/test/endtoend/cluster"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/tlstest"
-	"mdibaiee/vitess/go/vt/vtctl/vtctlclient"
-	"mdibaiee/vitess/go/vt/vttest"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/tlstest"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/vtctlclient"
+	"github.com/mdibaiee/vitess/go/vt/vttest"
 
-	logutilpb "mdibaiee/vitess/go/vt/proto/logutil"
-	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
+	logutilpb "github.com/mdibaiee/vitess/go/vt/proto/logutil"
+	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
 )
 
 type columnVindex struct {

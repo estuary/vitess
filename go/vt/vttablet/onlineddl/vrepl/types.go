@@ -28,7 +28,7 @@ import (
 	"reflect"
 	"strings"
 
-	"mdibaiee/vitess/go/vt/schemadiff"
+	"github.com/mdibaiee/vitess/go/vt/schemadiff"
 )
 
 // ColumnType indicated some MySQL data types

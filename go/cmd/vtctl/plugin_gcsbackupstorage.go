@@ -17,5 +17,5 @@ limitations under the License.
 package main
 
 import (
-	_ "mdibaiee/vitess/go/vt/mysqlctl/gcsbackupstorage"
+	_ "github.com/mdibaiee/vitess/go/vt/mysqlctl/gcsbackupstorage"
 )

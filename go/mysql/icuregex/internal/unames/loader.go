@@ -24,8 +24,8 @@ package unames
 import (
 	"sync"
 
-	"mdibaiee/vitess/go/mysql/icuregex/internal/icudata"
-	"mdibaiee/vitess/go/mysql/icuregex/internal/udata"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/icudata"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/udata"
 )
 
 var charNamesOnce sync.Once

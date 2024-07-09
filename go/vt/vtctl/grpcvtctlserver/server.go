@@ -25,18 +25,18 @@ import (
 
 	"google.golang.org/grpc"
 
-	"mdibaiee/vitess/go/vt/vtenv"
+	"github.com/mdibaiee/vitess/go/vt/vtenv"
 
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/servenv"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/vtctl"
-	"mdibaiee/vitess/go/vt/vttablet/tmclient"
-	"mdibaiee/vitess/go/vt/wrangler"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/vtctl"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/mdibaiee/vitess/go/vt/wrangler"
 
-	logutilpb "mdibaiee/vitess/go/vt/proto/logutil"
-	vtctldatapb "mdibaiee/vitess/go/vt/proto/vtctldata"
-	vtctlservicepb "mdibaiee/vitess/go/vt/proto/vtctlservice"
+	logutilpb "github.com/mdibaiee/vitess/go/vt/proto/logutil"
+	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
+	vtctlservicepb "github.com/mdibaiee/vitess/go/vt/proto/vtctlservice"
 )
 
 // VtctlServer is our RPC server

@@ -19,11 +19,11 @@ package inst
 import (
 	"errors"
 
-	"mdibaiee/vitess/go/vt/external/golib/sqlutils"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/vtctl/reparentutil"
-	"mdibaiee/vitess/go/vt/vtorc/db"
+	"github.com/mdibaiee/vitess/go/vt/external/golib/sqlutils"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/reparentutil"
+	"github.com/mdibaiee/vitess/go/vt/vtorc/db"
 )
 
 // ErrKeyspaceNotFound is a fixed error message used when a keyspace is not found in the database.

@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"sync"
 
-	"mdibaiee/vitess/go/vt/vtctl/workflow"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/workflow"
 
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/log"
 
-	vdiff2 "mdibaiee/vitess/go/vt/vttablet/tabletmanager/vdiff"
+	vdiff2 "github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager/vdiff"
 
-	"mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	"github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
 )
 
 type VDiffOutput struct {

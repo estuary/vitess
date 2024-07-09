@@ -17,7 +17,7 @@ Then you can run our build script for the `lite` image which extracts the Vitess
 1.  Create an account on [Docker Hub](https://docs.docker.com/docker-hub/) and
     then `docker login` to it.
 
-1.  Go to your `src/mdibaiee/vitess` directory.
+1.  Go to your `src/github.com/mdibaiee/vitess` directory.
 
 1.  Usually, you won't need to [build your own bootstrap image](https://github.com/vitessio/vitess/blob/main/docker/bootstrap/README.md)
     unless you edit [bootstrap.sh](https://github.com/vitessio/vitess/blob/main/bootstrap.sh)

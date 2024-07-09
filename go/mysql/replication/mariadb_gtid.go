@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"strings"
 
-	"mdibaiee/vitess/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 )
 
 // MariadbFlavorID is the string identifier for the MariaDB flavor.

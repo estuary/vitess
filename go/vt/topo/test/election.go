@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo"
 )
 
 func waitForLeaderID(t *testing.T, mp topo.LeaderParticipation, expected string) {

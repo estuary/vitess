@@ -20,17 +20,17 @@ import (
 	"context"
 	"sync"
 
-	"mdibaiee/vitess/go/vt/graph"
-	"mdibaiee/vitess/go/vt/log"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	"mdibaiee/vitess/go/vt/schema"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/srvtopo"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/vterrors"
-	"mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/mdibaiee/vitess/go/vt/graph"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/mdibaiee/vitess/go/vt/schema"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/srvtopo"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
 
-	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
+	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
 )
 
 var _ VSchemaOperator = (*VSchemaManager)(nil)

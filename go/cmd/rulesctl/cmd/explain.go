@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/planbuilder"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/planbuilder"
 )
 
 func Explain() *cobra.Command {

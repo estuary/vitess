@@ -19,10 +19,10 @@ limitations under the License.
 package events
 
 import (
-	base "mdibaiee/vitess/go/vt/events"
-	"mdibaiee/vitess/go/vt/topo"
+	base "github.com/mdibaiee/vitess/go/vt/events"
+	"github.com/mdibaiee/vitess/go/vt/topo"
 
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 // Reparent is an event that describes a single step in the reparent process.

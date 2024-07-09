@@ -25,10 +25,10 @@ import (
 	"strconv"
 	"strings"
 
-	"mdibaiee/vitess/go/vt/proto/vttest"
+	"github.com/mdibaiee/vitess/go/vt/proto/vttest"
 
 	// we use gRPC everywhere, so import the vtgate client.
-	_ "mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
+	_ "github.com/mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
 )
 
 // Environment is the interface that customizes the global settings for

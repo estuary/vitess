@@ -21,9 +21,9 @@ import (
 	"sort"
 	"strings"
 
-	"mdibaiee/vitess/go/mysql/replication"
+	"github.com/mdibaiee/vitess/go/mysql/replication"
 
-	binlogdatapb "mdibaiee/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
 )
 
 // VReplicationStream represents a single stream of a vreplication workflow.

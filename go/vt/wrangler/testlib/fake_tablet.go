@@ -29,30 +29,30 @@ import (
 
 	"google.golang.org/grpc"
 
-	"mdibaiee/vitess/go/mysql/fakesqldb"
-	"mdibaiee/vitess/go/vt/binlog/binlogplayer"
-	"mdibaiee/vitess/go/vt/dbconfigs"
-	"mdibaiee/vitess/go/vt/mysqlctl"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/topo/topoproto"
-	"mdibaiee/vitess/go/vt/vtenv"
-	"mdibaiee/vitess/go/vt/vttablet/grpctmserver"
-	"mdibaiee/vitess/go/vt/vttablet/tabletconntest"
-	"mdibaiee/vitess/go/vt/vttablet/tabletmanager"
-	"mdibaiee/vitess/go/vt/vttablet/tabletmanager/vreplication"
-	"mdibaiee/vitess/go/vt/vttablet/tabletservermock"
-	"mdibaiee/vitess/go/vt/vttablet/tmclient"
-	"mdibaiee/vitess/go/vt/vttablet/tmclienttest"
-	"mdibaiee/vitess/go/vt/wrangler"
+	"github.com/mdibaiee/vitess/go/mysql/fakesqldb"
+	"github.com/mdibaiee/vitess/go/vt/binlog/binlogplayer"
+	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
+	"github.com/mdibaiee/vitess/go/vt/mysqlctl"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/grpctmserver"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletconntest"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager/vreplication"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletservermock"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclienttest"
+	"github.com/mdibaiee/vitess/go/vt/wrangler"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 
 	// import the gRPC client implementation for tablet manager
-	_ "mdibaiee/vitess/go/vt/vttablet/grpctmclient"
+	_ "github.com/mdibaiee/vitess/go/vt/vttablet/grpctmclient"
 
 	// import the gRPC client implementation for query service
-	_ "mdibaiee/vitess/go/vt/vttablet/grpctabletconn"
+	_ "github.com/mdibaiee/vitess/go/vt/vttablet/grpctabletconn"
 )
 
 // This file contains utility methods for unit tests.

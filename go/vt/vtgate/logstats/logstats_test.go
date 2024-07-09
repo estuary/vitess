@@ -33,13 +33,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/hack"
+	"github.com/mdibaiee/vitess/go/hack"
 
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/streamlog"
-	"mdibaiee/vitess/go/vt/callinfo"
-	"mdibaiee/vitess/go/vt/callinfo/fakecallinfo"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/streamlog"
+	"github.com/mdibaiee/vitess/go/vt/callinfo"
+	"github.com/mdibaiee/vitess/go/vt/callinfo/fakecallinfo"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
 )
 
 func TestMain(m *testing.M) {

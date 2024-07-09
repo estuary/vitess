@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"mdibaiee/vitess/go/vt/log"
-	replicationdatapb "mdibaiee/vitess/go/vt/proto/replicationdata"
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	replicationdatapb "github.com/mdibaiee/vitess/go/vt/proto/replicationdata"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 )
 
 // ReplicationStatus holds replication information from SHOW REPLICA STATUS.

@@ -17,7 +17,7 @@ limitations under the License.
 
 package planbuilder
 
-import hack "mdibaiee/vitess/go/hack"
+import hack "github.com/mdibaiee/vitess/go/hack"
 
 type cachedObject interface {
 	CachedSize(alloc bool) int64
@@ -43,31 +43,31 @@ func (cached *Plan) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(128)
 	}
-	// field Table *mdibaiee/vitess/go/vt/vttablet/tabletserver/schema.Table
+	// field Table *github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/schema.Table
 	size += cached.Table.CachedSize(true)
-	// field AllTables []*mdibaiee/vitess/go/vt/vttablet/tabletserver/schema.Table
+	// field AllTables []*github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/schema.Table
 	{
 		size += hack.RuntimeAllocSize(int64(cap(cached.AllTables)) * int64(8))
 		for _, elem := range cached.AllTables {
 			size += elem.CachedSize(true)
 		}
 	}
-	// field Permissions []mdibaiee/vitess/go/vt/vttablet/tabletserver/planbuilder.Permission
+	// field Permissions []github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/planbuilder.Permission
 	{
 		size += hack.RuntimeAllocSize(int64(cap(cached.Permissions)) * int64(24))
 		for _, elem := range cached.Permissions {
 			size += elem.CachedSize(false)
 		}
 	}
-	// field FullQuery *mdibaiee/vitess/go/vt/sqlparser.ParsedQuery
+	// field FullQuery *github.com/mdibaiee/vitess/go/vt/sqlparser.ParsedQuery
 	size += cached.FullQuery.CachedSize(true)
-	// field NextCount mdibaiee/vitess/go/vt/vtgate/evalengine.Expr
+	// field NextCount github.com/mdibaiee/vitess/go/vt/vtgate/evalengine.Expr
 	if cc, ok := cached.NextCount.(cachedObject); ok {
 		size += cc.CachedSize(true)
 	}
-	// field WhereClause *mdibaiee/vitess/go/vt/sqlparser.ParsedQuery
+	// field WhereClause *github.com/mdibaiee/vitess/go/vt/sqlparser.ParsedQuery
 	size += cached.WhereClause.CachedSize(true)
-	// field FullStmt mdibaiee/vitess/go/vt/sqlparser.Statement
+	// field FullStmt github.com/mdibaiee/vitess/go/vt/sqlparser.Statement
 	if cc, ok := cached.FullStmt.(cachedObject); ok {
 		size += cc.CachedSize(true)
 	}

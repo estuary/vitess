@@ -24,7 +24,7 @@ package ucase
 import (
 	"math/bits"
 
-	"mdibaiee/vitess/go/mysql/icuregex/internal/utf16"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/utf16"
 )
 
 func FoldRunes(str []rune) []rune {

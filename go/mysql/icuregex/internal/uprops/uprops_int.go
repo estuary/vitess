@@ -22,10 +22,10 @@ limitations under the License.
 package uprops
 
 import (
-	"mdibaiee/vitess/go/mysql/icuregex/internal/normalizer"
-	"mdibaiee/vitess/go/mysql/icuregex/internal/ubidi"
-	"mdibaiee/vitess/go/mysql/icuregex/internal/uchar"
-	"mdibaiee/vitess/go/mysql/icuregex/internal/ulayout"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/normalizer"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/ubidi"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/uchar"
+	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/ulayout"
 )
 
 type intPropertyGetValue func(prop *intProperty, c rune, which Property) int32

@@ -19,8 +19,8 @@ package schemadiff
 import (
 	"strings"
 
-	"mdibaiee/vitess/go/sqlescape"
-	"mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/sqlescape"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
 )
 
 type InstantDDLCapability int

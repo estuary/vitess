@@ -30,16 +30,16 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/servenv"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/vtctl/grpcvtctlserver"
-	"mdibaiee/vitess/go/vt/vtctl/vtctlclient"
-	"mdibaiee/vitess/go/vt/vtenv"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/grpcvtctlserver"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/vtctlclient"
+	"github.com/mdibaiee/vitess/go/vt/vtenv"
 
 	// we need to import the grpcvtctlclient library so the gRPC
 	// vtctl client is registered and can be used.
-	_ "mdibaiee/vitess/go/vt/vtctl/grpcvtctlclient"
+	_ "github.com/mdibaiee/vitess/go/vt/vtctl/grpcvtctlclient"
 )
 
 var servenvInitialized sync.Once

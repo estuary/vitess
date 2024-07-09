@@ -24,12 +24,12 @@ import (
 
 	"github.com/google/safehtml"
 
-	"mdibaiee/vitess/go/streamlog"
-	"mdibaiee/vitess/go/vt/callinfo"
-	"mdibaiee/vitess/go/vt/log"
-	vtrpcpb "mdibaiee/vitess/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/go/vt/sqlparser"
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/streamlog"
+	"github.com/mdibaiee/vitess/go/vt/callinfo"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 )
 
 // QueryDetail is a simple wrapper for Query, Context and a killable conn.

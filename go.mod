@@ -1,4 +1,4 @@
-module mdibaiee/vitess
+module github.com/mdibaiee/vitess
 
 go 1.22.4
 

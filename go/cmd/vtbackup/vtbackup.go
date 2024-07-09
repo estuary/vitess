@@ -17,9 +17,9 @@ limitations under the License.
 package main
 
 import (
-	"mdibaiee/vitess/go/cmd/vtbackup/cli"
-	"mdibaiee/vitess/go/exit"
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/cmd/vtbackup/cli"
+	"github.com/mdibaiee/vitess/go/exit"
+	"github.com/mdibaiee/vitess/go/vt/log"
 )
 
 func main() {

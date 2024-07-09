@@ -27,7 +27,7 @@ package tabletmanagerservice
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	tabletmanagerdata "mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	tabletmanagerdata "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
 	reflect "reflect"
 )
 

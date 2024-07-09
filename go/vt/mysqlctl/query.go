@@ -22,10 +22,10 @@ import (
 	"strings"
 	"time"
 
-	"mdibaiee/vitess/go/mysql/sqlerror"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/dbconnpool"
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/dbconnpool"
+	"github.com/mdibaiee/vitess/go/vt/log"
 )
 
 // getPoolReconnect gets a connection from a pool, tests it, and reconnects if

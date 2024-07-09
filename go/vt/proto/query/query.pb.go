@@ -27,8 +27,8 @@ package query
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	topodata "mdibaiee/vitess/go/vt/proto/topodata"
-	vtrpc "mdibaiee/vitess/go/vt/proto/vtrpc"
+	topodata "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	vtrpc "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
 	reflect "reflect"
 	sync "sync"
 )

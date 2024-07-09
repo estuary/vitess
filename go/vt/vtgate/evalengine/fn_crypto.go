@@ -24,8 +24,8 @@ import (
 	"crypto/sha512"
 	"encoding/hex"
 
-	"mdibaiee/vitess/go/mysql/collations"
-	"mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/mysql/collations"
+	"github.com/mdibaiee/vitess/go/sqltypes"
 )
 
 type builtinMD5 struct {

@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"mdibaiee/vitess/go/vt/proto/vtrpc"
-	"mdibaiee/vitess/go/vt/vterrors"
+	"github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/mdibaiee/vitess/go/vt/vterrors"
 )
 
 // GTID represents a Global Transaction ID, also known as Transaction Group ID.

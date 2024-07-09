@@ -28,8 +28,8 @@ import (
 
 	"github.com/z-division/go-zookeeper/zk"
 
-	"mdibaiee/vitess/go/cmd/zk/internal/zkfilepath"
-	"mdibaiee/vitess/go/vt/topo/zk2topo"
+	"github.com/mdibaiee/vitess/go/cmd/zk/internal/zkfilepath"
+	"github.com/mdibaiee/vitess/go/vt/topo/zk2topo"
 )
 
 // FS wraps a zk2topo connection to provide FS utility methods.

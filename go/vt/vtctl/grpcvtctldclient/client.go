@@ -26,11 +26,11 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/connectivity"
 
-	"mdibaiee/vitess/go/vt/grpcclient"
-	"mdibaiee/vitess/go/vt/vtctl/grpcclientcommon"
-	"mdibaiee/vitess/go/vt/vtctl/vtctldclient"
+	"github.com/mdibaiee/vitess/go/vt/grpcclient"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/grpcclientcommon"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/vtctldclient"
 
-	vtctlservicepb "mdibaiee/vitess/go/vt/proto/vtctlservice"
+	vtctlservicepb "github.com/mdibaiee/vitess/go/vt/proto/vtctlservice"
 )
 
 var (

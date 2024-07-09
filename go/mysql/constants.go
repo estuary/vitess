@@ -17,7 +17,7 @@ limitations under the License.
 package mysql
 
 import (
-	"mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/sqltypes"
 )
 
 const (

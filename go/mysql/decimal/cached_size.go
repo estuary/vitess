@@ -17,7 +17,7 @@ limitations under the License.
 
 package decimal
 
-import hack "mdibaiee/vitess/go/hack"
+import hack "github.com/mdibaiee/vitess/go/hack"
 
 func (cached *Decimal) CachedSize(alloc bool) int64 {
 	if cached == nil {

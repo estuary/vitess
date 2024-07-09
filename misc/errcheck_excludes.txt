@@ -34,16 +34,16 @@ os.Rename
 (*google.golang.org/grpc.ClientConn).Close
 (*google.golang.org/grpc.Server).Serve
 
-(*mdibaiee/vitess/go/bytes2.Buffer).Write
-(*mdibaiee/vitess/go/bytes2.Buffer).WriteByte
-(*mdibaiee/vitess/go/bytes2.Buffer).WriteString
+(*github.com/mdibaiee/vitess/go/bytes2.Buffer).Write
+(*github.com/mdibaiee/vitess/go/bytes2.Buffer).WriteByte
+(*github.com/mdibaiee/vitess/go/bytes2.Buffer).WriteString
 
-(mdibaiee/vitess/go/sqltypes.BinWriter).Write
+(github.com/mdibaiee/vitess/go/sqltypes.BinWriter).Write
 
-mdibaiee/vitess/go/vt/orchestrator/external/golib/log.Errore
-mdibaiee/vitess/go/vt/orchestrator/external/golib/log.Errorf
-mdibaiee/vitess/go/vt/orchestrator/external/golib/log.Fatal
-mdibaiee/vitess/go/vt/orchestrator/external/golib/log.Fatale
-mdibaiee/vitess/go/vt/orchestrator/external/golib/log.Fatalf
+github.com/mdibaiee/vitess/go/vt/orchestrator/external/golib/log.Errore
+github.com/mdibaiee/vitess/go/vt/orchestrator/external/golib/log.Errorf
+github.com/mdibaiee/vitess/go/vt/orchestrator/external/golib/log.Fatal
+github.com/mdibaiee/vitess/go/vt/orchestrator/external/golib/log.Fatale
+github.com/mdibaiee/vitess/go/vt/orchestrator/external/golib/log.Fatalf
 
-(*mdibaiee/vitess/go/vt/vttest.LocalCluster).TearDown
+(*github.com/mdibaiee/vitess/go/vt/vttest.LocalCluster).TearDown

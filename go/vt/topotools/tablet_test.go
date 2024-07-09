@@ -19,7 +19,7 @@ package topotools
 import (
 	"testing"
 
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 func TestCheckOwnership(t *testing.T) {

@@ -23,8 +23,8 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/go/viperutil"
-	"mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/viperutil"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
 )
 
 var (

@@ -39,7 +39,7 @@ fi
 version="${2:-0}"
 
 if [[ ! -f bootstrap.sh ]]; then
-  echo "This script should be run from the root of the Vitess source tree - e.g. ~/src/mdibaiee/vitess"
+  echo "This script should be run from the root of the Vitess source tree - e.g. ~/src/github.com/mdibaiee/vitess"
   exit 1
 fi
 

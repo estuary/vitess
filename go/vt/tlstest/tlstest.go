@@ -36,7 +36,7 @@ import (
 	"strconv"
 	"time"
 
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/log"
 )
 
 const (

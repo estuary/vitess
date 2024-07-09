@@ -21,5 +21,5 @@ package cli
 // Imports and register the syslog-based query logger
 
 import (
-	_ "mdibaiee/vitess/go/vt/vttablet/sysloglogger"
+	_ "github.com/mdibaiee/vitess/go/vt/vttablet/sysloglogger"
 )

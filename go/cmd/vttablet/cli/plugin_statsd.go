@@ -15,7 +15,7 @@ limitations under the License.
 */
 package cli
 
-import "mdibaiee/vitess/go/stats/statsd"
+import "github.com/mdibaiee/vitess/go/stats/statsd"
 
 func init() {
 	statsd.Init("vttablet")

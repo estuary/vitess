@@ -16,5 +16,5 @@ limitations under the License.
 package cli
 
 import (
-	_ "mdibaiee/vitess/go/vt/mysqlctl/cephbackupstorage"
+	_ "github.com/mdibaiee/vitess/go/vt/mysqlctl/cephbackupstorage"
 )

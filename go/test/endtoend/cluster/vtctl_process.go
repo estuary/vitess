@@ -21,7 +21,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/log"
 )
 
 // VtctlProcess is a generic handle for a running vtctl command .

@@ -19,7 +19,7 @@ package viperutil
 import (
 	"github.com/spf13/pflag"
 
-	"mdibaiee/vitess/go/viperutil/internal/value"
+	"github.com/mdibaiee/vitess/go/viperutil/internal/value"
 )
 
 var (

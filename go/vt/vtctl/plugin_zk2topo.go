@@ -18,5 +18,5 @@ package vtctl
 
 import (
 	// This plugin imports zk2topo to register the zk2 implementation of TopoServer.
-	_ "mdibaiee/vitess/go/vt/topo/zk2topo"
+	_ "github.com/mdibaiee/vitess/go/vt/topo/zk2topo"
 )

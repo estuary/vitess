@@ -27,12 +27,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	vtgatepb "mdibaiee/vitess/go/vt/proto/vtgate"
+	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
 
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/vt/vtgate/engine"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/engine"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
 )
 
 func TestQueryzHandler(t *testing.T) {

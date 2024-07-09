@@ -26,12 +26,12 @@ import (
 
 	"gopkg.in/ldap.v2"
 
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/netutil"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/vttls"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/netutil"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/vttls"
 
-	querypb "mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
 )
 
 // AuthServerLdap implements AuthServer with an LDAP backend

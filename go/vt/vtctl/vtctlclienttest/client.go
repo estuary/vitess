@@ -31,17 +31,17 @@ import (
 	"testing"
 	"time"
 
-	"mdibaiee/vitess/go/protoutil"
-	"mdibaiee/vitess/go/vt/logutil"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/topo/memorytopo"
-	"mdibaiee/vitess/go/vt/vtctl/vtctlclient"
-	"mdibaiee/vitess/go/vt/vttablet/tmclienttest"
+	"github.com/mdibaiee/vitess/go/protoutil"
+	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
+	"github.com/mdibaiee/vitess/go/vt/vtctl/vtctlclient"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclienttest"
 
 	// import the gRPC client implementation for tablet manager
-	_ "mdibaiee/vitess/go/vt/vttablet/grpctmclient"
+	_ "github.com/mdibaiee/vitess/go/vt/vttablet/grpctmclient"
 
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 func init() {

@@ -24,9 +24,9 @@ import (
 	"path"
 	"testing"
 
-	"mdibaiee/vitess/go/test/endtoend/cluster"
-	"mdibaiee/vitess/go/test/endtoend/utils"
-	"mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
+	"github.com/mdibaiee/vitess/go/test/endtoend/utils"
+	"github.com/mdibaiee/vitess/go/vt/log"
 )
 
 var (

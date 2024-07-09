@@ -30,13 +30,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/sqltypes"
-	"mdibaiee/vitess/go/test/endtoend/cluster"
-	"mdibaiee/vitess/go/test/endtoend/onlineddl"
-	"mdibaiee/vitess/go/test/endtoend/throttler"
-	"mdibaiee/vitess/go/vt/schemadiff"
-	"mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
+	"github.com/mdibaiee/vitess/go/test/endtoend/onlineddl"
+	"github.com/mdibaiee/vitess/go/test/endtoend/throttler"
+	"github.com/mdibaiee/vitess/go/vt/schemadiff"
+	"github.com/mdibaiee/vitess/go/vt/sqlparser"
 )
 
 var (

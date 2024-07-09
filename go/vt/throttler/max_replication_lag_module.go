@@ -25,12 +25,12 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"mdibaiee/vitess/go/vt/discovery"
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/mdibaiee/vitess/go/vt/discovery"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
 
-	throttlerdatapb "mdibaiee/vitess/go/vt/proto/throttlerdata"
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	throttlerdatapb "github.com/mdibaiee/vitess/go/vt/proto/throttlerdata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 type state string

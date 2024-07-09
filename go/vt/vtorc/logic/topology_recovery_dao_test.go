@@ -22,10 +22,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/vt/external/golib/sqlutils"
-	"mdibaiee/vitess/go/vt/vtorc/config"
-	"mdibaiee/vitess/go/vt/vtorc/db"
-	"mdibaiee/vitess/go/vt/vtorc/inst"
+	"github.com/mdibaiee/vitess/go/vt/external/golib/sqlutils"
+	"github.com/mdibaiee/vitess/go/vt/vtorc/config"
+	"github.com/mdibaiee/vitess/go/vt/vtorc/db"
+	"github.com/mdibaiee/vitess/go/vt/vtorc/inst"
 )
 
 // TestTopologyRecovery tests various operations related to topology recovery like reading from and writing it to the database.

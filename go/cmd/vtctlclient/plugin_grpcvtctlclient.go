@@ -19,5 +19,5 @@ package main
 // Imports and register the gRPC vtctl client.
 
 import (
-	_ "mdibaiee/vitess/go/vt/vtctl/grpcvtctlclient"
+	_ "github.com/mdibaiee/vitess/go/vt/vtctl/grpcvtctlclient"
 )

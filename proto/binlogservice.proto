@@ -19,7 +19,7 @@ limitations under the License.
 // filtered replication only.
 
 syntax = "proto3";
-option go_package = "mdibaiee/vitess/go/vt/proto/binlogservice";
+option go_package = "github.com/mdibaiee/vitess/go/vt/proto/binlogservice";
 
 package binlogservice;
 

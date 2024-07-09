@@ -22,10 +22,10 @@ import (
 	"os"
 	"testing"
 
-	"mdibaiee/vitess/go/vt/vtgate/planbuilder"
+	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder"
 
-	"mdibaiee/vitess/go/mysql"
-	"mdibaiee/vitess/go/test/endtoend/cluster"
+	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
 )
 
 var (

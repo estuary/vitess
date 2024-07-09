@@ -20,7 +20,7 @@ import (
 	"github.com/spf13/pflag"
 	"google.golang.org/grpc"
 
-	"mdibaiee/vitess/go/stats"
+	"github.com/mdibaiee/vitess/go/stats"
 )
 
 var (

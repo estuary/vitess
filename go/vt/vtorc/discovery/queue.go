@@ -29,8 +29,8 @@ import (
 	"sync"
 	"time"
 
-	"mdibaiee/vitess/go/vt/log"
-	"mdibaiee/vitess/go/vt/vtorc/config"
+	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/mdibaiee/vitess/go/vt/vtorc/config"
 )
 
 // QueueMetric contains the queue's active and queued sizes

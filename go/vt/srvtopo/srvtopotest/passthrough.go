@@ -19,9 +19,9 @@ package srvtopotest
 import (
 	"context"
 
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
-	vschemapb "mdibaiee/vitess/go/vt/proto/vschema"
-	"mdibaiee/vitess/go/vt/topo"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
+	"github.com/mdibaiee/vitess/go/vt/topo"
 )
 
 // PassthroughSrvTopoServer is a bare implementation of srvtopo.Server for use in tests

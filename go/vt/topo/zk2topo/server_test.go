@@ -25,12 +25,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/testfiles"
-	"mdibaiee/vitess/go/vt/topo"
-	"mdibaiee/vitess/go/vt/topo/test"
-	"mdibaiee/vitess/go/vt/zkctl"
+	"github.com/mdibaiee/vitess/go/testfiles"
+	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/mdibaiee/vitess/go/vt/topo/test"
+	"github.com/mdibaiee/vitess/go/vt/zkctl"
 
-	topodatapb "mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
 )
 
 func TestZk2Topo(t *testing.T) {

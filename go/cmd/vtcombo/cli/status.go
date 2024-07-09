@@ -17,10 +17,10 @@ limitations under the License.
 package cli
 
 import (
-	"mdibaiee/vitess/go/vt/discovery"
-	"mdibaiee/vitess/go/vt/servenv"
-	"mdibaiee/vitess/go/vt/srvtopo"
-	"mdibaiee/vitess/go/vt/vtgate"
+	"github.com/mdibaiee/vitess/go/vt/discovery"
+	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/mdibaiee/vitess/go/vt/srvtopo"
+	"github.com/mdibaiee/vitess/go/vt/vtgate"
 )
 
 func addStatusParts(vtg *vtgate.VTGate) {

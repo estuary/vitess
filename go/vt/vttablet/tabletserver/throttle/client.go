@@ -23,7 +23,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 )
 
 const (

@@ -112,7 +112,7 @@ if [[ -z "$cmd" ]]; then
 fi
 
 if [[ ! -f bootstrap.sh ]]; then
-  echo "This script should be run from the root of the Vitess source tree - e.g. ~/src/mdibaiee/vitess"
+  echo "This script should be run from the root of the Vitess source tree - e.g. ~/src/github.com/mdibaiee/vitess"
   exit 1
 fi
 
@@ -171,15 +171,15 @@ if [[ -z "$existing_cache_image" ]]; then
 fi
 
 # Reset the environment if this was an old bootstrap. We can detect this from VTTOP presence.
-bashcmd=$(append_cmd "$bashcmd" "export VTROOT=/vt/src/mdibaiee/vitess")
+bashcmd=$(append_cmd "$bashcmd" "export VTROOT=/vt/src/github.com/mdibaiee/vitess")
 bashcmd=$(append_cmd "$bashcmd" "export VTDATAROOT=/vt/vtdataroot")
 bashcmd=$(append_cmd "$bashcmd" "export EXTRA_BIN=/tmp/bin")
 
 bashcmd=$(append_cmd "$bashcmd" "mkdir -p dist; mkdir -p bin; mkdir -p lib; mkdir -p vthook")
-bashcmd=$(append_cmd "$bashcmd" "rm -rf /vt/dist; ln -s /vt/src/mdibaiee/vitess/dist /vt/dist")
-bashcmd=$(append_cmd "$bashcmd" "rm -rf /vt/bin; ln -s /vt/src/mdibaiee/vitess/bin /vt/bin")
-bashcmd=$(append_cmd "$bashcmd" "rm -rf /vt/lib; ln -s /vt/src/mdibaiee/vitess/lib /vt/lib")
-bashcmd=$(append_cmd "$bashcmd" "rm -rf /vt/vthook; ln -s /vt/src/mdibaiee/vitess/vthook /vt/vthook")
+bashcmd=$(append_cmd "$bashcmd" "rm -rf /vt/dist; ln -s /vt/src/github.com/mdibaiee/vitess/dist /vt/dist")
+bashcmd=$(append_cmd "$bashcmd" "rm -rf /vt/bin; ln -s /vt/src/github.com/mdibaiee/vitess/bin /vt/bin")
+bashcmd=$(append_cmd "$bashcmd" "rm -rf /vt/lib; ln -s /vt/src/github.com/mdibaiee/vitess/lib /vt/lib")
+bashcmd=$(append_cmd "$bashcmd" "rm -rf /vt/vthook; ln -s /vt/src/github.com/mdibaiee/vitess/vthook /vt/vthook")
 
 # Maven was setup in /vt/dist, may need to reinstall it.
 bashcmd=$(append_cmd "$bashcmd" "echo 'Checking if mvn needs installing...'; if [[ ! \$(command -v mvn) ]]; then echo 'install maven'; curl -sL --connect-timeout 10 --retry 3 http://www-us.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz | tar -xz && mv apache-maven-3.3.9 /vt/dist/maven; fi; echo 'mvn check done'")

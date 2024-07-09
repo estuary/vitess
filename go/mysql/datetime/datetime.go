@@ -20,8 +20,8 @@ import (
 	"encoding/binary"
 	"time"
 
-	"mdibaiee/vitess/go/mysql/decimal"
-	"mdibaiee/vitess/go/vt/vthash"
+	"github.com/mdibaiee/vitess/go/mysql/decimal"
+	"github.com/mdibaiee/vitess/go/vt/vthash"
 )
 
 const negMask = uint16(1 << 15)

@@ -25,8 +25,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"mdibaiee/vitess/go/bytes2"
-	querypb "mdibaiee/vitess/go/vt/proto/query"
+	"github.com/mdibaiee/vitess/go/bytes2"
+	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
 )
 
 const (
