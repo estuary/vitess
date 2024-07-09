@@ -24,21 +24,21 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"vitess.io/vitess/go/test/utils"
+	"mdibaiee/vitess/oracle/go/test/utils"
 
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/mysql/sqlerror"
-	"vitess.io/vitess/go/vt/discovery"
-	"vitess.io/vitess/go/vt/key"
-	"vitess.io/vitess/go/vt/srvtopo"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vttablet/sandboxconn"
+	"mdibaiee/vitess/oracle/go/mysql/sqlerror"
+	"mdibaiee/vitess/oracle/go/vt/discovery"
+	"mdibaiee/vitess/oracle/go/vt/key"
+	"mdibaiee/vitess/oracle/go/vt/srvtopo"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/sandboxconn"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vtgatepb "vitess.io/vitess/go/vt/proto/vtgate"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vtgatepb "mdibaiee/vitess/oracle/go/vt/proto/vtgate"
+	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
 )
 
 var queries = []*querypb.BoundQuery{{Sql: "query1"}}

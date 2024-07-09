@@ -19,13 +19,13 @@ package engine
 import (
 	"context"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/proto/query"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/schema"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vtgate/vindexes"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/vt/proto/query"
+	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/oracle/go/vt/schema"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
 )
 
 var _ Primitive = (*DDL)(nil)

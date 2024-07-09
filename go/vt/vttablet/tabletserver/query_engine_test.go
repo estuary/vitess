@@ -31,28 +31,28 @@ import (
 	"testing"
 	"time"
 
-	"vitess.io/vitess/go/cache/theine"
-	"vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/vtenv"
+	"mdibaiee/vitess/oracle/go/cache/theine"
+	"mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	"mdibaiee/vitess/oracle/go/vt/vtenv"
 
-	"vitess.io/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
 
-	"vitess.io/vitess/go/mysql"
+	"mdibaiee/vitess/oracle/go/mysql"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/mysql/fakesqldb"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/streamlog"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/tableacl"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/planbuilder"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/schema"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/schema/schematest"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"mdibaiee/vitess/oracle/go/mysql/fakesqldb"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/streamlog"
+	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
+	"mdibaiee/vitess/oracle/go/vt/tableacl"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/planbuilder"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/schema"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/schema/schematest"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tabletenv"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
 )
 
 func TestStrictMode(t *testing.T) {

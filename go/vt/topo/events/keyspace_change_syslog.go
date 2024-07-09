@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"log/syslog"
 
-	"vitess.io/vitess/go/event/syslogger"
+	"mdibaiee/vitess/oracle/go/event/syslogger"
 )
 
 // Syslog writes the event to syslog.

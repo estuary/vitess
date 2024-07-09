@@ -20,14 +20,14 @@ import (
 	"sync"
 	"time"
 
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/mysqlctl"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/heartbeat"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"mdibaiee/vitess/oracle/go/stats"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/mysqlctl"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/heartbeat"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tabletenv"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
 )
 
 var (

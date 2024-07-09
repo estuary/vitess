@@ -23,15 +23,15 @@ import (
 	"strings"
 	"time"
 
-	"vitess.io/vitess/go/netutil"
-	"vitess.io/vitess/go/pools/smartconnpool"
-	"vitess.io/vitess/go/trace"
-	"vitess.io/vitess/go/vt/callerid"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/dbconnpool"
-	"vitess.io/vitess/go/vt/mysqlctl"
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"mdibaiee/vitess/oracle/go/netutil"
+	"mdibaiee/vitess/oracle/go/pools/smartconnpool"
+	"mdibaiee/vitess/oracle/go/trace"
+	"mdibaiee/vitess/oracle/go/vt/callerid"
+	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
+	"mdibaiee/vitess/oracle/go/vt/dbconnpool"
+	"mdibaiee/vitess/oracle/go/vt/mysqlctl"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 const (

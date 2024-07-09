@@ -23,16 +23,16 @@ import (
 	"math/rand/v2"
 	"time"
 
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	logutilpb "vitess.io/vitess/go/vt/proto/logutil"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/vtctl/reparentutil"
-	"vitess.io/vitess/go/vt/vtorc/config"
-	"vitess.io/vitess/go/vt/vtorc/inst"
-	"vitess.io/vitess/go/vt/vtorc/util"
+	"mdibaiee/vitess/oracle/go/stats"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/logutil"
+	logutilpb "mdibaiee/vitess/oracle/go/vt/proto/logutil"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
+	"mdibaiee/vitess/oracle/go/vt/vtctl/reparentutil"
+	"mdibaiee/vitess/oracle/go/vt/vtorc/config"
+	"mdibaiee/vitess/oracle/go/vt/vtorc/inst"
+	"mdibaiee/vitess/oracle/go/vt/vtorc/util"
 )
 
 const (

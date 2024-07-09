@@ -25,7 +25,7 @@ import (
 
 	"github.com/z-division/go-zookeeper/zk"
 
-	"vitess.io/vitess/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/topo"
 )
 
 // Create is part of the topo.Conn interface.

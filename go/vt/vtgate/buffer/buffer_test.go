@@ -27,11 +27,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
 )
 
 const (

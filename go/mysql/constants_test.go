@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"vitess.io/vitess/go/mysql/sqlerror"
+	"mdibaiee/vitess/oracle/go/mysql/sqlerror"
 )
 
 func TestIsConnErr(t *testing.T) {

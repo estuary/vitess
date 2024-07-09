@@ -22,15 +22,15 @@ import (
 	"testing"
 	"time"
 
-	"vitess.io/vitess/go/mysql/replication"
-	"vitess.io/vitess/go/mysql/sqlerror"
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	"mdibaiee/vitess/oracle/go/mysql/replication"
+	"mdibaiee/vitess/oracle/go/mysql/sqlerror"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/throttler"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/vt/throttler"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
 )
 
 var (

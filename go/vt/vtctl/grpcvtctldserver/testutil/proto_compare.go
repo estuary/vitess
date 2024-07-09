@@ -24,10 +24,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"vitess.io/vitess/go/test/utils"
-	logutilpb "vitess.io/vitess/go/vt/proto/logutil"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vtctldatapb "vitess.io/vitess/go/vt/proto/vtctldata"
+	"mdibaiee/vitess/oracle/go/test/utils"
+	logutilpb "mdibaiee/vitess/oracle/go/vt/proto/logutil"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
 )
 
 // AssertEmergencyReparentShardResponsesEqual asserts that two

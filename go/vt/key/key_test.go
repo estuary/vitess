@@ -25,7 +25,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
 )
 
 func TestNormalize(t *testing.T) {

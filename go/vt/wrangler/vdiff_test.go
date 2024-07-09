@@ -25,16 +25,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/mysql/collations"
-	"vitess.io/vitess/go/sqltypes"
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	tabletmanagerdatapb "vitess.io/vitess/go/vt/proto/tabletmanagerdata"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/vtenv"
-	"vitess.io/vitess/go/vt/vtgate/engine"
-	"vitess.io/vitess/go/vt/vtgate/engine/opcode"
-	"vitess.io/vitess/go/vt/vtgate/evalengine"
+	"mdibaiee/vitess/oracle/go/mysql/collations"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	tabletmanagerdatapb "mdibaiee/vitess/oracle/go/vt/proto/tabletmanagerdata"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/vtenv"
+	"mdibaiee/vitess/oracle/go/vt/vtgate/engine"
+	"mdibaiee/vitess/oracle/go/vt/vtgate/engine/opcode"
+	"mdibaiee/vitess/oracle/go/vt/vtgate/evalengine"
 )
 
 func TestVDiffPlanSuccess(t *testing.T) {

@@ -29,13 +29,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/mysql/replication"
-	"vitess.io/vitess/go/mysql/sqlerror"
+	"mdibaiee/vitess/oracle/go/mysql/replication"
+	"mdibaiee/vitess/oracle/go/mysql/sqlerror"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/mysql/binlog"
-	"vitess.io/vitess/go/sqltypes"
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	"mdibaiee/vitess/oracle/go/mysql"
+	"mdibaiee/vitess/oracle/go/mysql/binlog"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
 )
 
 // connectForReplication is a helper method to connect for replication

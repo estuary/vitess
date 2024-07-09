@@ -22,13 +22,13 @@ import (
 	"io"
 	"time"
 
-	"vitess.io/vitess/go/vt/grpcclient"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/vttablet/tabletconn"
+	"mdibaiee/vitess/oracle/go/vt/grpcclient"
+	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletconn"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
 )
 
 const (

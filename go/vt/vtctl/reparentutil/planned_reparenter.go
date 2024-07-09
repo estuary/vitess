@@ -24,19 +24,19 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"vitess.io/vitess/go/event"
-	"vitess.io/vitess/go/mysql/replication"
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/concurrency"
-	"vitess.io/vitess/go/vt/logutil"
-	logutilpb "vitess.io/vitess/go/vt/proto/logutil"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/topotools/events"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vttablet/tmclient"
+	"mdibaiee/vitess/oracle/go/event"
+	"mdibaiee/vitess/oracle/go/mysql/replication"
+	"mdibaiee/vitess/oracle/go/stats"
+	"mdibaiee/vitess/oracle/go/vt/concurrency"
+	"mdibaiee/vitess/oracle/go/vt/logutil"
+	logutilpb "mdibaiee/vitess/oracle/go/vt/proto/logutil"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	"mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
+	"mdibaiee/vitess/oracle/go/vt/topotools/events"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tmclient"
 )
 
 // counters for Planned Reparent Shard

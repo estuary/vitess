@@ -17,5 +17,5 @@ limitations under the License.
 package main
 
 import (
-	_ "vitess.io/vitess/go/vt/mysqlctl/filebackupstorage"
+	_ "mdibaiee/vitess/oracle/go/vt/mysqlctl/filebackupstorage"
 )

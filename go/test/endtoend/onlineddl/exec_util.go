@@ -26,7 +26,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/mysql"
+	"mdibaiee/vitess/oracle/go/mysql"
 )
 
 // CreateTempScript creates a script in the temporary directory with given content

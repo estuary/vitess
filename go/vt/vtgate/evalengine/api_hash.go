@@ -19,14 +19,14 @@ package evalengine
 import (
 	"math"
 
-	"vitess.io/vitess/go/mysql/collations"
-	"vitess.io/vitess/go/mysql/collations/colldata"
-	"vitess.io/vitess/go/mysql/decimal"
-	"vitess.io/vitess/go/mysql/fastparse"
-	"vitess.io/vitess/go/sqltypes"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vthash"
+	"mdibaiee/vitess/oracle/go/mysql/collations"
+	"mdibaiee/vitess/oracle/go/mysql/collations/colldata"
+	"mdibaiee/vitess/oracle/go/mysql/decimal"
+	"mdibaiee/vitess/oracle/go/mysql/fastparse"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/vt/vthash"
 )
 
 // HashCode is a type alias to the code easier to read

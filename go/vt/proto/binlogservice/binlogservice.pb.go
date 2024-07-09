@@ -28,8 +28,8 @@ package binlogservice
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	binlogdata "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
 	reflect "reflect"
-	binlogdata "vitess.io/vitess/go/vt/proto/binlogdata"
 )
 
 const (

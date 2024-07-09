@@ -20,16 +20,16 @@ import (
 	"strings"
 	"time"
 
-	"vitess.io/vitess/go/mysql/collations"
-	"vitess.io/vitess/go/protoutil"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/vtctl/schematools"
+	"mdibaiee/vitess/oracle/go/mysql/collations"
+	"mdibaiee/vitess/oracle/go/protoutil"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
+	"mdibaiee/vitess/oracle/go/vt/vtctl/schematools"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	vtctldatapb "vitess.io/vitess/go/vt/proto/vtctldata"
-	"vitess.io/vitess/go/vt/proto/vttime"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
+	"mdibaiee/vitess/oracle/go/vt/proto/vttime"
 )
 
 const (

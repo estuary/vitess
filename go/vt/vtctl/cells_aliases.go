@@ -23,10 +23,10 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"vitess.io/vitess/go/vt/wrangler"
+	"mdibaiee/vitess/oracle/go/vt/wrangler"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vtctldatapb "vitess.io/vitess/go/vt/proto/vtctldata"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
 )
 
 // This file contains the CellsAliases command group for vtctl.

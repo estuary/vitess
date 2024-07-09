@@ -26,9 +26,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/mysql/collations"
-	"vitess.io/vitess/go/yaml2"
+	"mdibaiee/vitess/oracle/go/mysql"
+	"mdibaiee/vitess/oracle/go/mysql/collations"
+	"mdibaiee/vitess/oracle/go/yaml2"
 )
 
 func TestInit(t *testing.T) {

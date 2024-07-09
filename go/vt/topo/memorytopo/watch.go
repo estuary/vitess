@@ -20,7 +20,7 @@ import (
 	"context"
 	"fmt"
 
-	"vitess.io/vitess/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/topo"
 )
 
 // Watch is part of the topo.Conn interface.

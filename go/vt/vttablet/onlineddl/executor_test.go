@@ -28,12 +28,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/vt/vtenv"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"mdibaiee/vitess/oracle/go/mysql"
+	"mdibaiee/vitess/oracle/go/vt/vtenv"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tabletenv"
 
-	"vitess.io/vitess/go/vt/schema"
-	"vitess.io/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/schema"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
 )
 
 var (

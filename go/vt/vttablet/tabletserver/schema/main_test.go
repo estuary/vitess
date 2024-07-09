@@ -22,9 +22,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/mysql/fakesqldb"
-	"vitess.io/vitess/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/mysql"
+	"mdibaiee/vitess/oracle/go/mysql/fakesqldb"
+	"mdibaiee/vitess/oracle/go/sqltypes"
 )
 
 func getTestSchemaEngine(t *testing.T, schemaMaxAgeSeconds int64) (*Engine, *fakesqldb.DB, func()) {

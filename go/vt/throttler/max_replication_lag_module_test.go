@@ -25,11 +25,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/vt/discovery"
-	"vitess.io/vitess/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/discovery"
+	"mdibaiee/vitess/oracle/go/vt/log"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
 )
 
 // The tests below tests the heuristic of the MaxReplicationLagModule.

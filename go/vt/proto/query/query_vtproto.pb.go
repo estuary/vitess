@@ -12,9 +12,9 @@ import (
 	io "io"
 	math "math"
 	bits "math/bits"
+	topodata "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vtrpc "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
 	sync "sync"
-	topodata "vitess.io/vitess/go/vt/proto/topodata"
-	vtrpc "vitess.io/vitess/go/vt/proto/vtrpc"
 )
 
 const (

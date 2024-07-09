@@ -25,19 +25,19 @@ import (
 	"strings"
 	"time"
 
-	"vitess.io/vitess/go/ptr"
+	"mdibaiee/vitess/oracle/go/ptr"
 
-	"vitess.io/vitess/go/json2"
-	"vitess.io/vitess/go/mysql/collations"
-	"vitess.io/vitess/go/sqlescape"
-	"vitess.io/vitess/go/sqltypes"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vtgate/evalengine"
+	"mdibaiee/vitess/oracle/go/json2"
+	"mdibaiee/vitess/oracle/go/mysql/collations"
+	"mdibaiee/vitess/oracle/go/sqlescape"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
+	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/vt/vtgate/evalengine"
 )
 
 // TabletTypeSuffix maps the tablet type to its suffix string.

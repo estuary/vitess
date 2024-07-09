@@ -10,7 +10,7 @@ import (
 	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/opentracer"
 	ddtracer "gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
 
-	"vitess.io/vitess/go/viperutil"
+	"mdibaiee/vitess/oracle/go/viperutil"
 )
 
 var (

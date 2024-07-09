@@ -21,18 +21,18 @@ import (
 	"fmt"
 	"os"
 
-	"vitess.io/vitess/go/acl"
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
-	"vitess.io/vitess/go/vt/vtenv"
-	"vitess.io/vitess/go/vt/vtexplain"
-	"vitess.io/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"mdibaiee/vitess/oracle/go/acl"
+	"mdibaiee/vitess/oracle/go/stats"
+	"mdibaiee/vitess/oracle/go/vt/logutil"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/vt/topo/memorytopo"
+	"mdibaiee/vitess/oracle/go/vt/vtenv"
+	"mdibaiee/vitess/oracle/go/vt/vtexplain"
+	"mdibaiee/vitess/oracle/go/vt/vtgate/planbuilder/plancontext"
 
 	"github.com/spf13/cobra"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
 )
 
 var (

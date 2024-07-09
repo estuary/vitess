@@ -35,11 +35,11 @@ import (
 	"testing"
 	"time"
 
-	"vitess.io/vitess/go/constants/sidecar"
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/constants/sidecar"
+	"mdibaiee/vitess/oracle/go/mysql"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
 )
 
 const vttabletStateTimeout = 60 * time.Second

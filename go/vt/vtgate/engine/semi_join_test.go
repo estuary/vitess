@@ -20,13 +20,13 @@ import (
 	"context"
 	"testing"
 
-	"vitess.io/vitess/go/test/utils"
+	"mdibaiee/vitess/oracle/go/test/utils"
 
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/sqltypes"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
 )
 
 func TestSemiJoinExecute(t *testing.T) {

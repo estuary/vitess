@@ -17,7 +17,7 @@ limitations under the License.
 package evalengine
 
 import (
-	"vitess.io/vitess/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/sqltypes"
 )
 
 type (

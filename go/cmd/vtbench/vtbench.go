@@ -17,9 +17,9 @@ limitations under the License.
 package main
 
 import (
-	"vitess.io/vitess/go/cmd/vtbench/cli"
-	"vitess.io/vitess/go/exit"
-	"vitess.io/vitess/go/vt/log"
+	"mdibaiee/vitess/oracle/go/cmd/vtbench/cli"
+	"mdibaiee/vitess/oracle/go/exit"
+	"mdibaiee/vitess/oracle/go/vt/log"
 )
 
 func main() {

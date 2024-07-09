@@ -19,12 +19,12 @@ package mysql
 import (
 	"encoding/binary"
 
-	"vitess.io/vitess/go/mysql/binlog"
-	"vitess.io/vitess/go/mysql/collations"
-	"vitess.io/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/mysql/binlog"
+	"mdibaiee/vitess/oracle/go/mysql/collations"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
 )
 
 // These are the TABLE_MAP_EVENT's optional metadata field types from

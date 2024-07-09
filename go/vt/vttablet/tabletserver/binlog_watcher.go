@@ -21,11 +21,11 @@ import (
 	"sync"
 	"time"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tabletenv"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
 )
 
 // VStreamer defines  the functions of VStreamer

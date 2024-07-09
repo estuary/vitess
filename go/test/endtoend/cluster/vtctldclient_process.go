@@ -22,14 +22,14 @@ import (
 	"strings"
 	"time"
 
-	"vitess.io/vitess/go/vt/binlog/binlogplayer"
+	"mdibaiee/vitess/oracle/go/vt/binlog/binlogplayer"
 
-	"vitess.io/vitess/go/json2"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/json2"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vtctldatapb "vitess.io/vitess/go/vt/proto/vtctldata"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
 )
 
 // VtctldClientProcess is a generic handle for a running vtctldclient command .

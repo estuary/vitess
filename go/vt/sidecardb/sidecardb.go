@@ -27,24 +27,24 @@ import (
 	"strings"
 	"sync"
 
-	"vitess.io/vitess/go/constants/sidecar"
-	"vitess.io/vitess/go/history"
-	"vitess.io/vitess/go/mysql/collations"
-	"vitess.io/vitess/go/mysql/config"
-	"vitess.io/vitess/go/mysql/sqlerror"
-	"vitess.io/vitess/go/vt/vtenv"
+	"mdibaiee/vitess/oracle/go/constants/sidecar"
+	"mdibaiee/vitess/oracle/go/history"
+	"mdibaiee/vitess/oracle/go/mysql/collations"
+	"mdibaiee/vitess/oracle/go/mysql/config"
+	"mdibaiee/vitess/oracle/go/mysql/sqlerror"
+	"mdibaiee/vitess/oracle/go/vt/vtenv"
 
-	"vitess.io/vitess/go/mysql/fakesqldb"
+	"mdibaiee/vitess/oracle/go/mysql/fakesqldb"
 
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vterrors"
+	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 
-	"vitess.io/vitess/go/stats"
+	"mdibaiee/vitess/oracle/go/stats"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/schemadiff"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/schemadiff"
 )
 
 const (

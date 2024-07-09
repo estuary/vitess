@@ -40,19 +40,19 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"vitess.io/vitess/go/event"
-	"vitess.io/vitess/go/netutil"
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/trace"
-	"vitess.io/vitess/go/viperutil"
-	viperdebug "vitess.io/vitess/go/viperutil/debug"
-	"vitess.io/vitess/go/vt/grpccommon"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/event"
+	"mdibaiee/vitess/oracle/go/netutil"
+	"mdibaiee/vitess/oracle/go/stats"
+	"mdibaiee/vitess/oracle/go/trace"
+	"mdibaiee/vitess/oracle/go/viperutil"
+	viperdebug "mdibaiee/vitess/oracle/go/viperutil/debug"
+	"mdibaiee/vitess/oracle/go/vt/grpccommon"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/logutil"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 
 	// Include deprecation warnings for soon-to-be-unsupported flag invocations.
-	_flag "vitess.io/vitess/go/internal/flag"
+	_flag "mdibaiee/vitess/oracle/go/internal/flag"
 )
 
 var (

@@ -22,15 +22,15 @@ import (
 	"fmt"
 	"time"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/mysqlctl/tmutils"
-	"vitess.io/vitess/go/vt/vtadmin/cache"
-	"vitess.io/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/mysqlctl/tmutils"
+	"mdibaiee/vitess/oracle/go/vt/vtadmin/cache"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 
-	tabletmanagerdatapb "vitess.io/vitess/go/vt/proto/tabletmanagerdata"
-	vtadminpb "vitess.io/vitess/go/vt/proto/vtadmin"
-	vtctldatapb "vitess.io/vitess/go/vt/proto/vtctldata"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
+	tabletmanagerdatapb "mdibaiee/vitess/oracle/go/vt/proto/tabletmanagerdata"
+	vtadminpb "mdibaiee/vitess/oracle/go/vt/proto/vtadmin"
+	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
+	"mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
 )
 
 // Key is the cache key for vtadmin's schema caches.

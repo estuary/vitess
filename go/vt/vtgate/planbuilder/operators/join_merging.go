@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/vtgate/planbuilder/plancontext"
 )
 
 // mergeJoinInputs checks whether two operators can be merged into a single one.

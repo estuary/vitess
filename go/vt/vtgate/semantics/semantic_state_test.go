@@ -23,10 +23,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vtgate/vindexes"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
 )
 
 func TestBindingAndExprEquality(t *testing.T) {

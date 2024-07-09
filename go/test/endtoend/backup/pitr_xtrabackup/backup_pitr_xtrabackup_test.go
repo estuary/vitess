@@ -19,7 +19,7 @@ package mysqlctld
 import (
 	"testing"
 
-	backup "vitess.io/vitess/go/test/endtoend/backup/vtctlbackup"
+	backup "mdibaiee/vitess/oracle/go/test/endtoend/backup/vtctlbackup"
 )
 
 // TestIncrementalBackupAndRestoreToPos

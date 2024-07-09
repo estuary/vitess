@@ -19,14 +19,14 @@ package tabletmanager
 import (
 	"fmt"
 
-	"vitess.io/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 
 	"context"
 
-	"vitess.io/vitess/go/tb"
-	"vitess.io/vitess/go/vt/callinfo"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/oracle/go/tb"
+	"mdibaiee/vitess/oracle/go/vt/callinfo"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
 )
 
 // This file contains the RPC method helpers for the tablet manager.

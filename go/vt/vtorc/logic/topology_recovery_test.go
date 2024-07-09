@@ -22,13 +22,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/vtorc/config"
-	"vitess.io/vitess/go/vt/vtorc/db"
-	"vitess.io/vitess/go/vt/vtorc/inst"
-	_ "vitess.io/vitess/go/vt/vttablet/grpctmclient"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	"mdibaiee/vitess/oracle/go/vt/topo/memorytopo"
+	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
+	"mdibaiee/vitess/oracle/go/vt/vtorc/config"
+	"mdibaiee/vitess/oracle/go/vt/vtorc/db"
+	"mdibaiee/vitess/oracle/go/vt/vtorc/inst"
+	_ "mdibaiee/vitess/oracle/go/vt/vttablet/grpctmclient"
 )
 
 func TestAnalysisEntriesHaveSameRecovery(t *testing.T) {

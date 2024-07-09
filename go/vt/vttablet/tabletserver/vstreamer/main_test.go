@@ -29,18 +29,18 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	_flag "vitess.io/vitess/go/internal/flag"
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/mysql/replication"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/vtenv"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/vstreamer/testenv"
+	_flag "mdibaiee/vitess/oracle/go/internal/flag"
+	"mdibaiee/vitess/oracle/go/mysql"
+	"mdibaiee/vitess/oracle/go/mysql/replication"
+	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/vtenv"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tabletenv"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/vstreamer/testenv"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
 )
 
 var (

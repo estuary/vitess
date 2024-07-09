@@ -26,22 +26,22 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"vitess.io/vitess/go/vt/vtenv"
+	"mdibaiee/vitess/oracle/go/vt/vtenv"
 
-	"vitess.io/vitess/go/vt/discovery"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/throttler"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
-	"vitess.io/vitess/go/vt/vttablet/grpcqueryservice"
-	"vitess.io/vitess/go/vt/vttablet/queryservice/fakes"
-	"vitess.io/vitess/go/vt/vttablet/tmclient"
-	"vitess.io/vitess/go/vt/wrangler"
-	"vitess.io/vitess/go/vt/wrangler/testlib"
+	"mdibaiee/vitess/oracle/go/vt/discovery"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/logutil"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/vt/throttler"
+	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/topo/memorytopo"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/grpcqueryservice"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/queryservice/fakes"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tmclient"
+	"mdibaiee/vitess/oracle/go/vt/wrangler"
+	"mdibaiee/vitess/oracle/go/vt/wrangler/testlib"
 )
 
 // This file contains a demo binary that demonstrates how the resharding

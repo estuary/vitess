@@ -34,16 +34,16 @@ os.Rename
 (*google.golang.org/grpc.ClientConn).Close
 (*google.golang.org/grpc.Server).Serve
 
-(*vitess.io/vitess/go/bytes2.Buffer).Write
-(*vitess.io/vitess/go/bytes2.Buffer).WriteByte
-(*vitess.io/vitess/go/bytes2.Buffer).WriteString
+(*mdibaiee/vitess/oracle/go/bytes2.Buffer).Write
+(*mdibaiee/vitess/oracle/go/bytes2.Buffer).WriteByte
+(*mdibaiee/vitess/oracle/go/bytes2.Buffer).WriteString
 
-(vitess.io/vitess/go/sqltypes.BinWriter).Write
+(mdibaiee/vitess/oracle/go/sqltypes.BinWriter).Write
 
-vitess.io/vitess/go/vt/orchestrator/external/golib/log.Errore
-vitess.io/vitess/go/vt/orchestrator/external/golib/log.Errorf
-vitess.io/vitess/go/vt/orchestrator/external/golib/log.Fatal
-vitess.io/vitess/go/vt/orchestrator/external/golib/log.Fatale
-vitess.io/vitess/go/vt/orchestrator/external/golib/log.Fatalf
+mdibaiee/vitess/oracle/go/vt/orchestrator/external/golib/log.Errore
+mdibaiee/vitess/oracle/go/vt/orchestrator/external/golib/log.Errorf
+mdibaiee/vitess/oracle/go/vt/orchestrator/external/golib/log.Fatal
+mdibaiee/vitess/oracle/go/vt/orchestrator/external/golib/log.Fatale
+mdibaiee/vitess/oracle/go/vt/orchestrator/external/golib/log.Fatalf
 
-(*vitess.io/vitess/go/vt/vttest.LocalCluster).TearDown
+(*mdibaiee/vitess/oracle/go/vt/vttest.LocalCluster).TearDown

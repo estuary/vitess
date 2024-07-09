@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"vitess.io/vitess/go/hack"
-	"vitess.io/vitess/go/mysql/hex"
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	"mdibaiee/vitess/oracle/go/hack"
+	"mdibaiee/vitess/oracle/go/mysql/hex"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
 
-	"vitess.io/vitess/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/sqltypes"
 )
 
 // MarshalSQLTo appends marshaled v to dst and returns the result in

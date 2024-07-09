@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"time"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
+	"mdibaiee/vitess/oracle/go/vt/logutil"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
 )
 
 // resultStreamer streams the results of the requested query

@@ -20,11 +20,11 @@ import (
 	"sync"
 	"time"
 
-	"vitess.io/vitess/go/mysql/sqlerror"
+	"mdibaiee/vitess/oracle/go/mysql/sqlerror"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
 
-	"vitess.io/vitess/go/vt/discovery"
+	"mdibaiee/vitess/oracle/go/vt/discovery"
 )
 
 type (

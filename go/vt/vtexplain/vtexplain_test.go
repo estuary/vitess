@@ -28,17 +28,17 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
-	"vitess.io/vitess/go/vt/vtenv"
+	"mdibaiee/vitess/oracle/go/stats"
+	"mdibaiee/vitess/oracle/go/vt/topo/memorytopo"
+	"mdibaiee/vitess/oracle/go/vt/vtenv"
 
-	"vitess.io/vitess/go/test/utils"
+	"mdibaiee/vitess/oracle/go/test/utils"
 
-	"vitess.io/vitess/go/vt/key"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	"vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv/tabletenvtest"
+	"mdibaiee/vitess/oracle/go/vt/key"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	"mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tabletenv/tabletenvtest"
 )
 
 func defaultTestOpts() *Options {

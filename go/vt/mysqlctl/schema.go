@@ -25,17 +25,17 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"vitess.io/vitess/go/mysql/sqlerror"
-	"vitess.io/vitess/go/sqlescape"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/concurrency"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/mysqlctl/tmutils"
-	"vitess.io/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/mysql/sqlerror"
+	"mdibaiee/vitess/oracle/go/sqlescape"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/vt/concurrency"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/mysqlctl/tmutils"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	tabletmanagerdatapb "vitess.io/vitess/go/vt/proto/tabletmanagerdata"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	tabletmanagerdatapb "mdibaiee/vitess/oracle/go/vt/proto/tabletmanagerdata"
+	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
 )
 
 const (

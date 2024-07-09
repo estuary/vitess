@@ -27,14 +27,14 @@ import (
 	"golang.org/x/sync/semaphore"
 	"google.golang.org/grpc"
 
-	"vitess.io/vitess/go/netutil"
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/grpcclient"
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/vttablet/tmclient"
+	"mdibaiee/vitess/oracle/go/netutil"
+	"mdibaiee/vitess/oracle/go/stats"
+	"mdibaiee/vitess/oracle/go/vt/grpcclient"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tmclient"
 
-	tabletmanagerservicepb "vitess.io/vitess/go/vt/proto/tabletmanagerservice"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	tabletmanagerservicepb "mdibaiee/vitess/oracle/go/vt/proto/tabletmanagerservice"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
 )
 
 var defaultPoolCapacity = 100

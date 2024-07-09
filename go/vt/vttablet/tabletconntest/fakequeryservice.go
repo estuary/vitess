@@ -23,17 +23,17 @@ import (
 	"io"
 	"testing"
 
-	"vitess.io/vitess/go/vt/vttablet/queryservice"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/queryservice"
 
 	"google.golang.org/protobuf/proto"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/callerid"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/vt/callerid"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
 )
 
 // FakeQueryService implements a programmable fake for the query service

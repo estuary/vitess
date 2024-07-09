@@ -24,13 +24,13 @@ import (
 	"sync"
 	"time"
 
-	"vitess.io/vitess/go/ptr"
-	"vitess.io/vitess/go/vt/discovery"
-	"vitess.io/vitess/go/vt/log"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vtgate/vindexes"
-	"vitess.io/vitess/go/vt/vttablet/queryservice"
+	"mdibaiee/vitess/oracle/go/ptr"
+	"mdibaiee/vitess/oracle/go/vt/discovery"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/queryservice"
 )
 
 type (

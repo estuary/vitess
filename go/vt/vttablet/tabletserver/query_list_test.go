@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
 )
 
 type testConn struct {

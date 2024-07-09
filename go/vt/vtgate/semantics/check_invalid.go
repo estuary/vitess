@@ -17,9 +17,9 @@ limitations under the License.
 package semantics
 
 import (
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vtgate/vindexes"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/vt/vtgate/vindexes"
 )
 
 func (a *analyzer) checkForInvalidConstructs(cursor *sqlparser.Cursor) error {

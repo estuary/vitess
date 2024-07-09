@@ -22,15 +22,15 @@ import (
 	"math/big"
 	"unicode/utf8"
 
-	"vitess.io/vitess/go/hack"
-	"vitess.io/vitess/go/mysql/collations"
-	"vitess.io/vitess/go/mysql/decimal"
-	"vitess.io/vitess/go/mysql/fastparse"
-	"vitess.io/vitess/go/mysql/hex"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/hack"
+	"mdibaiee/vitess/oracle/go/mysql/collations"
+	"mdibaiee/vitess/oracle/go/mysql/decimal"
+	"mdibaiee/vitess/oracle/go/mysql/fastparse"
+	"mdibaiee/vitess/oracle/go/mysql/hex"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 )
 
 // NullExpr is just what you are lead to believe

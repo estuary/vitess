@@ -22,13 +22,13 @@ import (
 	"github.com/spf13/pflag"
 	"google.golang.org/grpc"
 
-	"vitess.io/vitess/go/netutil"
-	"vitess.io/vitess/go/vt/binlog/binlogplayer"
-	"vitess.io/vitess/go/vt/grpcclient"
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	binlogservicepb "vitess.io/vitess/go/vt/proto/binlogservice"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/netutil"
+	"mdibaiee/vitess/oracle/go/vt/binlog/binlogplayer"
+	"mdibaiee/vitess/oracle/go/vt/grpcclient"
+	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	binlogservicepb "mdibaiee/vitess/oracle/go/vt/proto/binlogservice"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
 )
 
 var cert, key, ca, crl, name string

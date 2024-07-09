@@ -31,9 +31,9 @@ import (
 	"github.com/planetscale/pargzip"
 	"github.com/spf13/pflag"
 
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/vt/logutil"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 )
 
 const (

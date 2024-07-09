@@ -26,8 +26,8 @@ import (
 	"text/template"
 	"time"
 
-	"vitess.io/vitess/go/acl"
-	"vitess.io/vitess/go/vt/log"
+	"mdibaiee/vitess/oracle/go/acl"
+	"mdibaiee/vitess/oracle/go/vt/log"
 )
 
 var (

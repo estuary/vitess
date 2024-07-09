@@ -34,8 +34,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/mysql/icuregex"
-	"vitess.io/vitess/go/mysql/icuregex/internal/pattern"
+	"mdibaiee/vitess/oracle/go/mysql/icuregex"
+	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/pattern"
 )
 
 var ErrSkip = errors.New("ignored test")

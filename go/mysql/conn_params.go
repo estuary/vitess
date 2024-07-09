@@ -19,8 +19,8 @@ package mysql
 import (
 	"time"
 
-	"vitess.io/vitess/go/mysql/collations"
-	"vitess.io/vitess/go/vt/vttls"
+	"mdibaiee/vitess/oracle/go/mysql/collations"
+	"mdibaiee/vitess/oracle/go/vt/vttls"
 )
 
 // ConnParams contains all the parameters to use to connect to mysql.

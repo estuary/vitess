@@ -19,11 +19,11 @@ package cli
 import (
 	"github.com/spf13/cobra"
 
-	"vitess.io/vitess/go/acl"
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/vtctld"
-	"vitess.io/vitess/go/vt/vtenv"
+	"mdibaiee/vitess/oracle/go/acl"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/vtctld"
+	"mdibaiee/vitess/oracle/go/vt/vtenv"
 )
 
 var (

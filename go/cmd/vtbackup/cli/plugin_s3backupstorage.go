@@ -16,5 +16,5 @@ limitations under the License.
 package cli
 
 import (
-	_ "vitess.io/vitess/go/vt/mysqlctl/s3backupstorage"
+	_ "mdibaiee/vitess/oracle/go/vt/mysqlctl/s3backupstorage"
 )

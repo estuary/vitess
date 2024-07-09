@@ -20,7 +20,7 @@ import (
 	"context"
 	"database/sql/driver"
 
-	vtadminpb "vitess.io/vitess/go/vt/proto/vtadmin"
+	vtadminpb "mdibaiee/vitess/oracle/go/vt/proto/vtadmin"
 )
 
 type fakedriver struct {

@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/mysql/collations"
+	"mdibaiee/vitess/oracle/go/mysql/collations"
 )
 
 func TestEvalResultToBooleanStrict(t *testing.T) {

@@ -20,8 +20,8 @@ import (
 	"slices"
 	"strings"
 
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/vtgate/planbuilder/plancontext"
 )
 
 // LockAndComment contains any comments or locking directives we want on all queries down from this operator

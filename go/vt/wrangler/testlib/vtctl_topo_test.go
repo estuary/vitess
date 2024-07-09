@@ -25,9 +25,9 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"vitess.io/vitess/go/vt/topo/memorytopo"
+	"mdibaiee/vitess/oracle/go/vt/topo/memorytopo"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
 )
 
 func testVtctlTopoCommand(t *testing.T, vp *VtctlPipe, args []string, want string) {

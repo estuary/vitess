@@ -22,9 +22,9 @@ import (
 	"net/http"
 	"strings"
 
-	"vitess.io/vitess/go/vt/discovery"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/vt/discovery"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
 )
 
 // This file implements a REST-style API for the vtgate web interface.

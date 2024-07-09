@@ -28,15 +28,15 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topotools"
-	"vitess.io/vitess/go/vt/vtctl/workflow"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/vt/logutil"
+	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/topotools"
+	"mdibaiee/vitess/oracle/go/vt/vtctl/workflow"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
+	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
 )
 
 var (

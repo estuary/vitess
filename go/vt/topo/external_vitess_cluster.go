@@ -20,10 +20,10 @@ import (
 	"context"
 	"path"
 
-	"vitess.io/vitess/go/event"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/topo/events"
-	"vitess.io/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/event"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	"mdibaiee/vitess/oracle/go/vt/topo/events"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 )
 
 // ExternalVitessClusterInfo is a meta struct that contains metadata to give the

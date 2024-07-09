@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"vitess.io/vitess/go/vt/logutil"
+	"mdibaiee/vitess/oracle/go/vt/logutil"
 )
 
 func init() {

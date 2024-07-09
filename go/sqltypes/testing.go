@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
 )
 
 // Functions in this file should only be used for testing.

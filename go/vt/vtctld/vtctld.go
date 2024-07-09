@@ -23,16 +23,16 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"vitess.io/vitess/go/vt/vtenv"
+	"mdibaiee/vitess/oracle/go/vt/vtenv"
 
-	"vitess.io/vitess/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
 
-	"vitess.io/vitess/go/acl"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/wrangler"
+	"mdibaiee/vitess/oracle/go/acl"
+	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/wrangler"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vtctldatapb "vitess.io/vitess/go/vt/proto/vtctldata"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
 )
 
 var (

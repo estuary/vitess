@@ -19,8 +19,8 @@ package mysqlctl
 import (
 	"context"
 
-	"vitess.io/vitess/go/vt/mysqlctl/tmutils"
-	tabletmanagerdatapb "vitess.io/vitess/go/vt/proto/tabletmanagerdata"
+	"mdibaiee/vitess/oracle/go/vt/mysqlctl/tmutils"
+	tabletmanagerdatapb "mdibaiee/vitess/oracle/go/vt/proto/tabletmanagerdata"
 )
 
 // GetPermissions lists the permissions on the mysqld.

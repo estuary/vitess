@@ -20,11 +20,11 @@ import (
 	"math"
 	"time"
 
-	"vitess.io/vitess/go/hack"
-	"vitess.io/vitess/go/mysql/collations"
-	"vitess.io/vitess/go/mysql/datetime"
-	"vitess.io/vitess/go/mysql/decimal"
-	"vitess.io/vitess/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/hack"
+	"mdibaiee/vitess/oracle/go/mysql/collations"
+	"mdibaiee/vitess/oracle/go/mysql/datetime"
+	"mdibaiee/vitess/oracle/go/mysql/decimal"
+	"mdibaiee/vitess/oracle/go/sqltypes"
 )
 
 var SystemTime = time.Now

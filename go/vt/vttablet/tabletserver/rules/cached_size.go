@@ -17,7 +17,7 @@ limitations under the License.
 
 package rules
 
-import hack "vitess.io/vitess/go/hack"
+import hack "mdibaiee/vitess/oracle/go/hack"
 
 type cachedObject interface {
 	CachedSize(alloc bool) int64
@@ -33,7 +33,7 @@ func (cached *BindVarCond) CachedSize(alloc bool) int64 {
 	}
 	// field name string
 	size += hack.RuntimeAllocSize(int64(len(cached.name)))
-	// field value vitess.io/vitess/go/vt/vttablet/tabletserver/rules.bvcValue
+	// field value mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/rules.bvcValue
 	if cc, ok := cached.value.(cachedObject); ok {
 		size += cc.CachedSize(true)
 	}
@@ -51,17 +51,17 @@ func (cached *Rule) CachedSize(alloc bool) int64 {
 	size += hack.RuntimeAllocSize(int64(len(cached.Description)))
 	// field Name string
 	size += hack.RuntimeAllocSize(int64(len(cached.Name)))
-	// field requestIP vitess.io/vitess/go/vt/vttablet/tabletserver/rules.namedRegexp
+	// field requestIP mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/rules.namedRegexp
 	size += cached.requestIP.CachedSize(false)
-	// field user vitess.io/vitess/go/vt/vttablet/tabletserver/rules.namedRegexp
+	// field user mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/rules.namedRegexp
 	size += cached.user.CachedSize(false)
-	// field query vitess.io/vitess/go/vt/vttablet/tabletserver/rules.namedRegexp
+	// field query mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/rules.namedRegexp
 	size += cached.query.CachedSize(false)
-	// field leadingComment vitess.io/vitess/go/vt/vttablet/tabletserver/rules.namedRegexp
+	// field leadingComment mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/rules.namedRegexp
 	size += cached.leadingComment.CachedSize(false)
-	// field trailingComment vitess.io/vitess/go/vt/vttablet/tabletserver/rules.namedRegexp
+	// field trailingComment mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/rules.namedRegexp
 	size += cached.trailingComment.CachedSize(false)
-	// field plans []vitess.io/vitess/go/vt/vttablet/tabletserver/planbuilder.PlanType
+	// field plans []mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/planbuilder.PlanType
 	{
 		size += hack.RuntimeAllocSize(int64(cap(cached.plans)) * int64(8))
 	}
@@ -72,7 +72,7 @@ func (cached *Rule) CachedSize(alloc bool) int64 {
 			size += hack.RuntimeAllocSize(int64(len(elem)))
 		}
 	}
-	// field bindVarConds []vitess.io/vitess/go/vt/vttablet/tabletserver/rules.BindVarCond
+	// field bindVarConds []mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/rules.BindVarCond
 	{
 		size += hack.RuntimeAllocSize(int64(cap(cached.bindVarConds)) * int64(48))
 		for _, elem := range cached.bindVarConds {
@@ -89,7 +89,7 @@ func (cached *Rules) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(24)
 	}
-	// field rules []*vitess.io/vitess/go/vt/vttablet/tabletserver/rules.Rule
+	// field rules []*mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/rules.Rule
 	{
 		size += hack.RuntimeAllocSize(int64(cap(cached.rules)) * int64(8))
 		for _, elem := range cached.rules {

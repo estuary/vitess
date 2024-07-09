@@ -21,8 +21,8 @@ import (
 	"regexp"
 	"strings"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/vtadmin/cache"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/vtadmin/cache"
 )
 
 // FlagsByImpl groups a set of flags by discovery implementation. Its mapping is

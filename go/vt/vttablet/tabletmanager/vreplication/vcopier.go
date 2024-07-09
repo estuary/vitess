@@ -29,20 +29,20 @@ import (
 	"golang.org/x/exp/maps"
 	"google.golang.org/protobuf/encoding/prototext"
 
-	"vitess.io/vitess/go/bytes2"
-	"vitess.io/vitess/go/mysql/replication"
-	"vitess.io/vitess/go/pools"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/binlog/binlogplayer"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vttablet"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"mdibaiee/vitess/oracle/go/bytes2"
+	"mdibaiee/vitess/oracle/go/mysql/replication"
+	"mdibaiee/vitess/oracle/go/pools"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/vt/binlog/binlogplayer"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/vt/vttablet"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
 )
 
 type vcopier struct {

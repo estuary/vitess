@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"vitess.io/vitess/go/cache"
+	"mdibaiee/vitess/oracle/go/cache"
 )
 
 // Numbered allows you to manage resources by tracking them with numbers.

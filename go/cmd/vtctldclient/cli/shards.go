@@ -19,12 +19,12 @@ package cli
 import (
 	"sort"
 
-	"vitess.io/vitess/go/mysql/replication"
-	"vitess.io/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/oracle/go/mysql/replication"
+	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
 
-	replicationdatapb "vitess.io/vitess/go/vt/proto/replicationdata"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vtctldatapb "vitess.io/vitess/go/vt/proto/vtctldata"
+	replicationdatapb "mdibaiee/vitess/oracle/go/vt/proto/replicationdata"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
 )
 
 // ParseKeyspaceShards takes a list of positional arguments and converts them to

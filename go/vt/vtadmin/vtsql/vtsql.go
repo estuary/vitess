@@ -28,15 +28,15 @@ import (
 	"google.golang.org/grpc"
 	grpcresolver "google.golang.org/grpc/resolver"
 
-	"vitess.io/vitess/go/trace"
-	"vitess.io/vitess/go/vt/callerid"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/vitessdriver"
-	"vitess.io/vitess/go/vt/vtadmin/cluster/resolver"
-	"vitess.io/vitess/go/vt/vtadmin/debug"
-	"vitess.io/vitess/go/vt/vtadmin/vtadminproto"
+	"mdibaiee/vitess/oracle/go/trace"
+	"mdibaiee/vitess/oracle/go/vt/callerid"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/vitessdriver"
+	"mdibaiee/vitess/oracle/go/vt/vtadmin/cluster/resolver"
+	"mdibaiee/vitess/oracle/go/vt/vtadmin/debug"
+	"mdibaiee/vitess/oracle/go/vt/vtadmin/vtadminproto"
 
-	vtadminpb "vitess.io/vitess/go/vt/proto/vtadmin"
+	vtadminpb "mdibaiee/vitess/oracle/go/vt/proto/vtadmin"
 )
 
 // DB defines the connection and query interface of vitess SQL queries used by

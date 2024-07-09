@@ -19,9 +19,9 @@ package mysql
 import (
 	"encoding/binary"
 
-	"vitess.io/vitess/go/mysql/replication"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/mysql/replication"
+	"mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 )
 
 // mariadbBinlogEvent wraps a raw packet buffer and provides methods to examine

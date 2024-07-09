@@ -23,10 +23,10 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"vitess.io/vitess/go/vt/vtadmin/errors"
+	"mdibaiee/vitess/oracle/go/vt/vtadmin/errors"
 
-	vtadminpb "vitess.io/vitess/go/vt/proto/vtadmin"
-	vtctldatapb "vitess.io/vitess/go/vt/proto/vtctldata"
+	vtadminpb "mdibaiee/vitess/oracle/go/vt/proto/vtadmin"
+	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
 )
 
 // ApplySchema implements the http wrapper for POST /migration/{cluster_id}/{keyspace}/.

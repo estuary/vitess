@@ -21,11 +21,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"vitess.io/vitess/go/mysql/capabilities"
-	"vitess.io/vitess/go/mysql/replication"
-	"vitess.io/vitess/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/mysql/capabilities"
+	"mdibaiee/vitess/oracle/go/mysql/replication"
+	"mdibaiee/vitess/oracle/go/sqltypes"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
 )
 
 func TestMysqlGRParsePrimaryGroupMember(t *testing.T) {

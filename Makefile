@@ -178,11 +178,11 @@ demo:
 sizegen:
 	go run ./go/tools/sizegen/sizegen.go \
 		--in ./go/... \
-		--gen vitess.io/vitess/go/pools/smartconnpool.Setting \
-		--gen vitess.io/vitess/go/vt/schema.DDLStrategySetting \
-		--gen vitess.io/vitess/go/vt/vtgate/engine.Plan \
-		--gen vitess.io/vitess/go/vt/vttablet/tabletserver.TabletPlan \
-		--gen vitess.io/vitess/go/sqltypes.Result
+		--gen mdibaiee/vitess/oracle/go/pools/smartconnpool.Setting \
+		--gen mdibaiee/vitess/oracle/go/vt/schema.DDLStrategySetting \
+		--gen mdibaiee/vitess/oracle/go/vt/vtgate/engine.Plan \
+		--gen mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver.TabletPlan \
+		--gen mdibaiee/vitess/oracle/go/sqltypes.Result
 
 # To pass extra flags, run test.go manually.
 # For example: go run test.go -docker=false -- --extra-flag
@@ -216,7 +216,7 @@ e2e_test: build
 # Run the code coverage tools, compute aggregate.
 unit_test_cover: build dependency_check demo
 	source build.env
-	go test $(VT_GO_PARALLEL) -count=1 -failfast -covermode=atomic -coverpkg=vitess.io/vitess/go/... -coverprofile=coverage.out ./go/...
+	go test $(VT_GO_PARALLEL) -count=1 -failfast -covermode=atomic -coverpkg=mdibaiee/vitess/oracle/go/... -coverprofile=coverage.out ./go/...
 	# Handle go tool cover failures due to not handling `//line` directives, which
 	# the goyacc compiler adds to the generated parser in sql.go. See:
 	# https://github.com/golang/go/issues/41222
@@ -269,12 +269,12 @@ $(PROTO_GO_OUTS): minimaltools install_protoc-gen-go proto/*.proto
 		--go-grpc_out=. --plugin protoc-gen-go-grpc="${VTROOTBIN}/protoc-gen-go-grpc" \
 		--go-vtproto_out=. --plugin protoc-gen-go-vtproto="${VTROOTBIN}/protoc-gen-go-vtproto" \
 		--go-vtproto_opt=features=marshal+unmarshal+size+pool+clone \
-		--go-vtproto_opt=pool=vitess.io/vitess/go/vt/proto/query.Row \
-		--go-vtproto_opt=pool=vitess.io/vitess/go/vt/proto/binlogdata.VStreamRowsResponse \
-		--go-vtproto_opt=pool=vitess.io/vitess/go/vt/proto/binlogdata.VStreamTablesResponse \
+		--go-vtproto_opt=pool=mdibaiee/vitess/oracle/go/vt/proto/query.Row \
+		--go-vtproto_opt=pool=mdibaiee/vitess/oracle/go/vt/proto/binlogdata.VStreamRowsResponse \
+		--go-vtproto_opt=pool=mdibaiee/vitess/oracle/go/vt/proto/binlogdata.VStreamTablesResponse \
 		-I${PWD}/dist/vt-protoc-21.3/include:proto $(PROTO_SRCS)
-	cp -Rf vitess.io/vitess/go/vt/proto/* go/vt/proto
-	rm -rf vitess.io/vitess/go/vt/proto/
+	cp -Rf mdibaiee/vitess/oracle/go/vt/proto/* go/vt/proto
+	rm -rf mdibaiee/vitess/oracle/go/vt/proto/
 
 # Helper targets for building Docker images.
 # Please read docker/README.md to understand the different available images.

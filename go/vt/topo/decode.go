@@ -24,8 +24,8 @@ import (
 	"google.golang.org/protobuf/encoding/prototext"
 	"google.golang.org/protobuf/proto"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
 )
 
 // DecodeContent uses the filename to imply a type, and proto-decodes

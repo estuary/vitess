@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"vitess.io/vitess/go/vt/sysvars"
+	"mdibaiee/vitess/oracle/go/vt/sysvars"
 
 	"github.com/stretchr/testify/require"
 )

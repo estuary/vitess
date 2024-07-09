@@ -24,8 +24,8 @@ limitations under the License.
 //	import (
 //		"github.com/spf13/cobra"
 //
-//		"vitess.io/vitess/go/cmd/internal/docgen"
-//		vtctldclient "vitess.io/vitess/go/cmd/vtctldclient/command"
+//		"mdibaiee/vitess/oracle/go/cmd/internal/docgen"
+//		vtctldclient "mdibaiee/vitess/oracle/go/cmd/vtctldclient/command"
 //	)
 //
 //	func main() {

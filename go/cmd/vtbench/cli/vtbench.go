@@ -25,17 +25,17 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"vitess.io/vitess/go/acl"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/grpccommon"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vtbench"
+	"mdibaiee/vitess/oracle/go/acl"
+	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
+	"mdibaiee/vitess/oracle/go/vt/grpccommon"
+	"mdibaiee/vitess/oracle/go/vt/logutil"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/vtbench"
 
 	// Import and register the gRPC vtgateconn client
-	_ "vitess.io/vitess/go/vt/vtgate/grpcvtgateconn"
+	_ "mdibaiee/vitess/oracle/go/vt/vtgate/grpcvtgateconn"
 	// Import and register the gRPC tabletconn client
-	_ "vitess.io/vitess/go/vt/vttablet/grpctabletconn"
+	_ "mdibaiee/vitess/oracle/go/vt/vttablet/grpctabletconn"
 )
 
 /*

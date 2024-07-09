@@ -17,7 +17,7 @@ limitations under the License.
 package logutil
 
 import (
-	logutilpb "vitess.io/vitess/go/vt/proto/logutil"
+	logutilpb "mdibaiee/vitess/oracle/go/vt/proto/logutil"
 )
 
 // This file contains a few functions to help with proto3.

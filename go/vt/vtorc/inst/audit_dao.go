@@ -21,10 +21,10 @@ import (
 	"os"
 	"time"
 
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/vtorc/config"
-	"vitess.io/vitess/go/vt/vtorc/db"
+	"mdibaiee/vitess/oracle/go/stats"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/vtorc/config"
+	"mdibaiee/vitess/oracle/go/vt/vtorc/db"
 )
 
 var auditOperationCounter = stats.NewCounter("AuditWrite", "Number of audit operations performed")

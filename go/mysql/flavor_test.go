@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"vitess.io/vitess/go/mysql/capabilities"
+	"mdibaiee/vitess/oracle/go/mysql/capabilities"
 )
 
 func TestServerVersionCapableOf(t *testing.T) {

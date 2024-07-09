@@ -24,9 +24,9 @@ import (
 	"strconv"
 	"strings"
 
-	"vitess.io/vitess/go/mysql/collations/charset"
-	"vitess.io/vitess/go/mysql/collations/internal/uca"
-	"vitess.io/vitess/go/mysql/collations/tools/makecolldata/codegen"
+	"mdibaiee/vitess/oracle/go/mysql/collations/charset"
+	"mdibaiee/vitess/oracle/go/mysql/collations/internal/uca"
+	"mdibaiee/vitess/oracle/go/mysql/collations/tools/makecolldata/codegen"
 )
 
 const Print8BitData = true
@@ -367,7 +367,7 @@ func makemysqldata(output string, supportedOutput string, metadata AllMetadata) 
 	}
 
 	var h = Generator{
-		Generator: codegen.NewGenerator("vitess.io/vitess/go/mysql/collations"),
+		Generator: codegen.NewGenerator("mdibaiee/vitess/oracle/go/mysql/collations"),
 	}
 
 	g.P("var collationsById = [...]Collation{")

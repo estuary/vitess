@@ -24,7 +24,7 @@ import (
 
 	"github.com/z-division/go-zookeeper/zk"
 
-	"vitess.io/vitess/go/vt/topo/zk2topo"
+	"mdibaiee/vitess/oracle/go/vt/topo/zk2topo"
 )
 
 const (

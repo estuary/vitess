@@ -16,7 +16,7 @@ limitations under the License.
 
 package evalengine
 
-import "vitess.io/vitess/go/mysql/collations/colldata"
+import "mdibaiee/vitess/oracle/go/mysql/collations/colldata"
 
 func (expr *Literal) constant() bool {
 	return true

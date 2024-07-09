@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
 )
 
 func TestStreamResults(t *testing.T) {

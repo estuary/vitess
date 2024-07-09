@@ -21,7 +21,7 @@ package streamlog
 import (
 	"os"
 
-	"vitess.io/vitess/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/log"
 )
 
 func setupRotate(ch chan os.Signal) {

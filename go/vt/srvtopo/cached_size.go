@@ -29,9 +29,9 @@ func (cached *ResolvedShard) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(24)
 	}
-	// field Target *vitess.io/vitess/go/vt/proto/query.Target
+	// field Target *mdibaiee/vitess/oracle/go/vt/proto/query.Target
 	size += cached.Target.CachedSize(true)
-	// field Gateway vitess.io/vitess/go/vt/srvtopo.Gateway
+	// field Gateway mdibaiee/vitess/oracle/go/vt/srvtopo.Gateway
 	if cc, ok := cached.Gateway.(cachedObject); ok {
 		size += cc.CachedSize(true)
 	}

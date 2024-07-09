@@ -17,7 +17,7 @@ limitations under the License.
 
 package planbuilder
 
-import hack "vitess.io/vitess/go/hack"
+import hack "mdibaiee/vitess/oracle/go/hack"
 
 type cachedObject interface {
 	CachedSize(alloc bool) int64
@@ -43,31 +43,31 @@ func (cached *Plan) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(128)
 	}
-	// field Table *vitess.io/vitess/go/vt/vttablet/tabletserver/schema.Table
+	// field Table *mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/schema.Table
 	size += cached.Table.CachedSize(true)
-	// field AllTables []*vitess.io/vitess/go/vt/vttablet/tabletserver/schema.Table
+	// field AllTables []*mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/schema.Table
 	{
 		size += hack.RuntimeAllocSize(int64(cap(cached.AllTables)) * int64(8))
 		for _, elem := range cached.AllTables {
 			size += elem.CachedSize(true)
 		}
 	}
-	// field Permissions []vitess.io/vitess/go/vt/vttablet/tabletserver/planbuilder.Permission
+	// field Permissions []mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/planbuilder.Permission
 	{
 		size += hack.RuntimeAllocSize(int64(cap(cached.Permissions)) * int64(24))
 		for _, elem := range cached.Permissions {
 			size += elem.CachedSize(false)
 		}
 	}
-	// field FullQuery *vitess.io/vitess/go/vt/sqlparser.ParsedQuery
+	// field FullQuery *mdibaiee/vitess/oracle/go/vt/sqlparser.ParsedQuery
 	size += cached.FullQuery.CachedSize(true)
-	// field NextCount vitess.io/vitess/go/vt/vtgate/evalengine.Expr
+	// field NextCount mdibaiee/vitess/oracle/go/vt/vtgate/evalengine.Expr
 	if cc, ok := cached.NextCount.(cachedObject); ok {
 		size += cc.CachedSize(true)
 	}
-	// field WhereClause *vitess.io/vitess/go/vt/sqlparser.ParsedQuery
+	// field WhereClause *mdibaiee/vitess/oracle/go/vt/sqlparser.ParsedQuery
 	size += cached.WhereClause.CachedSize(true)
-	// field FullStmt vitess.io/vitess/go/vt/sqlparser.Statement
+	// field FullStmt mdibaiee/vitess/oracle/go/vt/sqlparser.Statement
 	if cc, ok := cached.FullStmt.(cachedObject); ok {
 		size += cc.CachedSize(true)
 	}

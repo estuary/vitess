@@ -20,7 +20,7 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	"vitess.io/vitess/go/viperutil/internal/sync"
+	"mdibaiee/vitess/oracle/go/viperutil/internal/sync"
 )
 
 var (

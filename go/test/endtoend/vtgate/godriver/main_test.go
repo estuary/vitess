@@ -29,10 +29,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/vitessdriver"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/vitessdriver"
 
-	"vitess.io/vitess/go/test/endtoend/cluster"
+	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
 )
 
 var (

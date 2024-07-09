@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/stats"
+	"mdibaiee/vitess/oracle/go/stats"
 )
 
 func TestBackupStats(t *testing.T) {

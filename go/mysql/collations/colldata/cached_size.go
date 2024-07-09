@@ -17,7 +17,7 @@ limitations under the License.
 
 package colldata
 
-import hack "vitess.io/vitess/go/hack"
+import hack "mdibaiee/vitess/oracle/go/hack"
 
 type cachedObject interface {
 	CachedSize(alloc bool) int64
@@ -63,7 +63,7 @@ func (cached *unicodeWildcard) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(48)
 	}
-	// field charset vitess.io/vitess/go/mysql/collations/charset/types.Charset
+	// field charset mdibaiee/vitess/oracle/go/mysql/collations/charset/types.Charset
 	if cc, ok := cached.charset.(cachedObject); ok {
 		size += cc.CachedSize(true)
 	}

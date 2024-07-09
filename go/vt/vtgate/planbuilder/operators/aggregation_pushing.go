@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"slices"
 
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vtgate/engine/opcode"
-	"vitess.io/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/vt/vtgate/engine/opcode"
+	"mdibaiee/vitess/oracle/go/vt/vtgate/planbuilder/plancontext"
 )
 
 func errDistinctAggrWithMultiExpr(f sqlparser.AggrFunc) {

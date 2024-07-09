@@ -12,7 +12,7 @@ import (
 	io "io"
 	math "math"
 	bits "math/bits"
-	vttime "vitess.io/vitess/go/vt/proto/vttime"
+	vttime "mdibaiee/vitess/oracle/go/vt/proto/vttime"
 )
 
 const (

@@ -20,16 +20,16 @@ import (
 	"context"
 	"time"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/mysql/replication"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/dbconnpool"
-	"vitess.io/vitess/go/vt/mysqlctl/tmutils"
-	"vitess.io/vitess/go/vt/proto/replicationdata"
+	"mdibaiee/vitess/oracle/go/mysql"
+	"mdibaiee/vitess/oracle/go/mysql/replication"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/vt/dbconnpool"
+	"mdibaiee/vitess/oracle/go/vt/mysqlctl/tmutils"
+	"mdibaiee/vitess/oracle/go/vt/proto/replicationdata"
 
-	mysqlctlpb "vitess.io/vitess/go/vt/proto/mysqlctl"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	tabletmanagerdatapb "vitess.io/vitess/go/vt/proto/tabletmanagerdata"
+	mysqlctlpb "mdibaiee/vitess/oracle/go/vt/proto/mysqlctl"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	tabletmanagerdatapb "mdibaiee/vitess/oracle/go/vt/proto/tabletmanagerdata"
 )
 
 // MysqlDaemon is the interface we use for abstracting Mysqld.

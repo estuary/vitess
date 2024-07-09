@@ -19,7 +19,7 @@ package http
 import (
 	"context"
 
-	vtadminpb "vitess.io/vitess/go/vt/proto/vtadmin"
+	vtadminpb "mdibaiee/vitess/oracle/go/vt/proto/vtadmin"
 )
 
 // GetShardReplicationPositions implements the http wrapper for /shard_replication_positions.

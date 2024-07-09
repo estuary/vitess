@@ -30,8 +30,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/mysql/collations/charset"
-	"vitess.io/vitess/go/vt/vthash"
+	"mdibaiee/vitess/oracle/go/mysql/collations/charset"
+	"mdibaiee/vitess/oracle/go/vt/vthash"
 )
 
 var testcollationMap map[string]Collation

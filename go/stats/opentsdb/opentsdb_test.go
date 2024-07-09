@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"vitess.io/vitess/go/stats"
+	"mdibaiee/vitess/oracle/go/stats"
 )
 
 func TestFloatFunc(t *testing.T) {

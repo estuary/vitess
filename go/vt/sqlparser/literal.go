@@ -22,12 +22,12 @@ import (
 	"math"
 	"math/big"
 
-	"vitess.io/vitess/go/hack"
-	"vitess.io/vitess/go/mysql/datetime"
-	"vitess.io/vitess/go/mysql/decimal"
-	"vitess.io/vitess/go/mysql/fastparse"
-	"vitess.io/vitess/go/mysql/hex"
-	"vitess.io/vitess/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/hack"
+	"mdibaiee/vitess/oracle/go/mysql/datetime"
+	"mdibaiee/vitess/oracle/go/mysql/decimal"
+	"mdibaiee/vitess/oracle/go/mysql/fastparse"
+	"mdibaiee/vitess/oracle/go/mysql/hex"
+	"mdibaiee/vitess/oracle/go/sqltypes"
 )
 
 func LiteralToValue(lit *Literal) (sqltypes.Value, error) {

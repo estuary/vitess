@@ -19,8 +19,8 @@ package main
 import (
 	"github.com/spf13/cobra"
 
-	"vitess.io/vitess/go/cmd/internal/docgen"
-	"vitess.io/vitess/go/cmd/vtaclcheck/cli"
+	"mdibaiee/vitess/oracle/go/cmd/internal/docgen"
+	"mdibaiee/vitess/oracle/go/cmd/vtaclcheck/cli"
 )
 
 func main() {

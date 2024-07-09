@@ -23,19 +23,19 @@ import (
 	"strconv"
 	"sync"
 
-	"vitess.io/vitess/go/json2"
-	"vitess.io/vitess/go/vt/grpcclient"
-	"vitess.io/vitess/go/vt/key"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vttablet/queryservice"
-	"vitess.io/vitess/go/vt/vttablet/sandboxconn"
-	"vitess.io/vitess/go/vt/vttablet/tabletconn"
-	"vitess.io/vitess/go/vt/vttablet/tabletconntest"
+	"mdibaiee/vitess/oracle/go/json2"
+	"mdibaiee/vitess/oracle/go/vt/grpcclient"
+	"mdibaiee/vitess/oracle/go/vt/key"
+	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/topo/memorytopo"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/queryservice"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/sandboxconn"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletconn"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletconntest"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
 )
 
 // sandbox_test.go provides a sandbox for unit testing VTGate.

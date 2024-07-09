@@ -10,7 +10,7 @@ import (
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	io "io"
 	bits "math/bits"
-	vttime "vitess.io/vitess/go/vt/proto/vttime"
+	vttime "mdibaiee/vitess/oracle/go/vt/proto/vttime"
 )
 
 const (

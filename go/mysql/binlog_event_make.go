@@ -20,7 +20,7 @@ import (
 	"encoding/binary"
 	"hash/crc32"
 
-	"vitess.io/vitess/go/mysql/replication"
+	"mdibaiee/vitess/oracle/go/mysql/replication"
 )
 
 const (

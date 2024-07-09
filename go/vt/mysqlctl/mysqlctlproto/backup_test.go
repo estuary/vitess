@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"vitess.io/vitess/go/protoutil"
-	"vitess.io/vitess/go/test/utils"
-	"vitess.io/vitess/go/vt/mysqlctl/backupstorage"
+	"mdibaiee/vitess/oracle/go/protoutil"
+	"mdibaiee/vitess/oracle/go/test/utils"
+	"mdibaiee/vitess/oracle/go/vt/mysqlctl/backupstorage"
 
-	mysqlctlpb "vitess.io/vitess/go/vt/proto/mysqlctl"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	mysqlctlpb "mdibaiee/vitess/oracle/go/vt/proto/mysqlctl"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
 )
 
 type backupHandle struct {

@@ -21,9 +21,9 @@ limitations under the License.
 package vrepl
 
 import (
-	"vitess.io/vitess/go/vt/schemadiff"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vtenv"
+	"mdibaiee/vitess/oracle/go/vt/schemadiff"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/vtenv"
 )
 
 // RemovedForeignKeyNames returns the names of removed foreign keys, ignoring mere name changes

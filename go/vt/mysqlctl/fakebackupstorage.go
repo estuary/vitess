@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"io"
 
-	"vitess.io/vitess/go/vt/concurrency"
-	"vitess.io/vitess/go/vt/mysqlctl/backupstorage"
+	"mdibaiee/vitess/oracle/go/vt/concurrency"
+	"mdibaiee/vitess/oracle/go/vt/mysqlctl/backupstorage"
 )
 
 type FakeBackupHandle struct {

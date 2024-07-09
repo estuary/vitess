@@ -23,7 +23,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/mysql/replication"
+	"mdibaiee/vitess/oracle/go/mysql/replication"
 )
 
 // sample event data

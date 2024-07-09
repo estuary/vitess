@@ -30,8 +30,8 @@ import (
 	"github.com/spf13/pflag"
 	"golang.org/x/tools/go/packages"
 
-	"vitess.io/vitess/go/hack"
-	"vitess.io/vitess/go/tools/codegen"
+	"mdibaiee/vitess/oracle/go/hack"
+	"mdibaiee/vitess/oracle/go/tools/codegen"
 )
 
 const licenseFileHeader = `Copyright 2021 The Vitess Authors.
@@ -323,7 +323,7 @@ func (sizegen *sizegen) sizeStmtForMap(fieldName *jen.Statement, m *types.Map) [
 
 func mallocsize(sizeStmt *jen.Statement) func(*jen.Statement) {
 	return func(parent *jen.Statement) {
-		parent.Qual("vitess.io/vitess/go/hack", "RuntimeAllocSize").Call(sizeStmt)
+		parent.Qual("mdibaiee/vitess/oracle/go/hack", "RuntimeAllocSize").Call(sizeStmt)
 	}
 }
 
@@ -488,11 +488,11 @@ func (sizegen *sizegen) sizeStmtForType(fieldName *jen.Statement, field types.Ty
 }
 
 var defaultGenTypes = []string{
-	"vitess.io/vitess/go/pools/smartconnpool.Setting",
-	"vitess.io/vitess/go/vt/schema.DDLStrategySetting",
-	"vitess.io/vitess/go/vt/vtgate/engine.Plan",
-	"vitess.io/vitess/go/vt/vttablet/tabletserver.TabletPlan",
-	"vitess.io/vitess/go/sqltypes.Result",
+	"mdibaiee/vitess/oracle/go/pools/smartconnpool.Setting",
+	"mdibaiee/vitess/oracle/go/vt/schema.DDLStrategySetting",
+	"mdibaiee/vitess/oracle/go/vt/vtgate/engine.Plan",
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver.TabletPlan",
+	"mdibaiee/vitess/oracle/go/sqltypes.Result",
 }
 
 func main() {

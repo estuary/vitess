@@ -25,7 +25,7 @@ import (
 
 	"github.com/patrickmn/go-cache"
 
-	"vitess.io/vitess/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/log"
 )
 
 // Keyer is the interface cache keys implement to turn themselves into string

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	"vitess.io/vitess/go/mysql"
+	"mdibaiee/vitess/oracle/go/mysql"
 )
 
 func TestAggregateTypes(t *testing.T) {

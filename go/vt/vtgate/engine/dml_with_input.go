@@ -20,11 +20,11 @@ import (
 	"context"
 	"fmt"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/vterrors"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 
-	"vitess.io/vitess/go/sqltypes"
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
 )
 
 var _ Primitive = (*DMLWithInput)(nil)

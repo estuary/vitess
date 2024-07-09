@@ -19,7 +19,7 @@ package reshard
 import (
 	"github.com/spf13/cobra"
 
-	"vitess.io/vitess/go/cmd/vtctldclient/command/vreplication/common"
+	"mdibaiee/vitess/oracle/go/cmd/vtctldclient/command/vreplication/common"
 )
 
 var (

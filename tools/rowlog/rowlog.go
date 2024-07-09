@@ -15,26 +15,26 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"vitess.io/vitess/go/mysql/replication"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/binlog/binlogplayer"
-	"vitess.io/vitess/go/vt/discovery"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/vtctl/vtctlclient"
-	"vitess.io/vitess/go/vt/vtgate/vtgateconn"
+	"mdibaiee/vitess/oracle/go/mysql/replication"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/vt/binlog/binlogplayer"
+	"mdibaiee/vitess/oracle/go/vt/discovery"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/logutil"
+	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/vtctl/vtctlclient"
+	"mdibaiee/vitess/oracle/go/vt/vtgate/vtgateconn"
 
-	_ "vitess.io/vitess/go/vt/topo/etcd2topo" // TODO: after #11394, add rowlog to this https://github.com/vitessio/vitess/pull/11394/files#diff-ee3c1b94c587244ea0645a8ee10187e1112167725f752d58cf17bab6e6d1047cR85
-	_ "vitess.io/vitess/go/vt/vtctl/grpcvtctlclient"
-	_ "vitess.io/vitess/go/vt/vtgate/grpcvtgateconn"
-	_ "vitess.io/vitess/go/vt/vttablet/grpctabletconn"
+	_ "mdibaiee/vitess/oracle/go/vt/topo/etcd2topo" // TODO: after #11394, add rowlog to this https://github.com/vitessio/vitess/pull/11394/files#diff-ee3c1b94c587244ea0645a8ee10187e1112167725f752d58cf17bab6e6d1047cR85
+	_ "mdibaiee/vitess/oracle/go/vt/vtctl/grpcvtctlclient"
+	_ "mdibaiee/vitess/oracle/go/vt/vtgate/grpcvtgateconn"
+	_ "mdibaiee/vitess/oracle/go/vt/vttablet/grpctabletconn"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	logutilpb "vitess.io/vitess/go/vt/proto/logutil"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vtgatepb "vitess.io/vitess/go/vt/proto/vtgate"
+	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	logutilpb "mdibaiee/vitess/oracle/go/vt/proto/logutil"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vtgatepb "mdibaiee/vitess/oracle/go/vt/proto/vtgate"
 )
 
 type RowLogConfig struct {

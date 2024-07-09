@@ -19,7 +19,7 @@ package engine
 import (
 	"context"
 
-	"vitess.io/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 )
 
 type failDBDDL struct{}

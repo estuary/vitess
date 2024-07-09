@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/test/endtoend/cluster"
-	tabletpb "vitess.io/vitess/go/vt/proto/topodata"
-	tmc "vitess.io/vitess/go/vt/vttablet/grpctmclient"
+	"mdibaiee/vitess/oracle/go/mysql"
+	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
+	tabletpb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	tmc "mdibaiee/vitess/oracle/go/vt/vttablet/grpctmclient"
 )
 
 var (

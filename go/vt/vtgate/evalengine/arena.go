@@ -17,10 +17,10 @@ limitations under the License.
 package evalengine
 
 import (
-	"vitess.io/vitess/go/mysql/collations"
-	"vitess.io/vitess/go/mysql/datetime"
-	"vitess.io/vitess/go/mysql/decimal"
-	"vitess.io/vitess/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/mysql/collations"
+	"mdibaiee/vitess/oracle/go/mysql/datetime"
+	"mdibaiee/vitess/oracle/go/mysql/decimal"
+	"mdibaiee/vitess/oracle/go/sqltypes"
 )
 
 // Arena is an arena memory allocator for eval types.

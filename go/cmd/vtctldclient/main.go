@@ -19,18 +19,18 @@ package main
 import (
 	"flag"
 
-	"vitess.io/vitess/go/acl"
-	"vitess.io/vitess/go/cmd/vtctldclient/command"
-	"vitess.io/vitess/go/exit"
-	"vitess.io/vitess/go/vt/grpcclient"
-	"vitess.io/vitess/go/vt/grpccommon"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/vtctl/grpcclientcommon"
-	"vitess.io/vitess/go/vt/vtctl/vtctlclient"
+	"mdibaiee/vitess/oracle/go/acl"
+	"mdibaiee/vitess/oracle/go/cmd/vtctldclient/command"
+	"mdibaiee/vitess/oracle/go/exit"
+	"mdibaiee/vitess/oracle/go/vt/grpcclient"
+	"mdibaiee/vitess/oracle/go/vt/grpccommon"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/logutil"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/vt/vtctl/grpcclientcommon"
+	"mdibaiee/vitess/oracle/go/vt/vtctl/vtctlclient"
 
-	_flag "vitess.io/vitess/go/internal/flag"
+	_flag "mdibaiee/vitess/oracle/go/internal/flag"
 )
 
 func main() {

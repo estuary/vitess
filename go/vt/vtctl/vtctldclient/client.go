@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"log"
 
-	vtctlservicepb "vitess.io/vitess/go/vt/proto/vtctlservice"
+	vtctlservicepb "mdibaiee/vitess/oracle/go/vt/proto/vtctlservice"
 )
 
 type VtctldClient interface {

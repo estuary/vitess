@@ -22,7 +22,7 @@ import (
 
 	"context"
 
-	"vitess.io/vitess/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/topo"
 )
 
 // Errors specific to this package.

@@ -22,13 +22,13 @@ import (
 	"os"
 	"testing"
 
-	"vitess.io/vitess/go/test/endtoend/utils"
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	"mdibaiee/vitess/oracle/go/test/endtoend/utils"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
 
 	"github.com/stretchr/testify/assert"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/test/endtoend/cluster"
+	"mdibaiee/vitess/oracle/go/mysql"
+	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
 )
 
 var (

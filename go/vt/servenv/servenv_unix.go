@@ -25,8 +25,8 @@ import (
 	"syscall"
 	"time"
 
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/log"
+	"mdibaiee/vitess/oracle/go/stats"
+	"mdibaiee/vitess/oracle/go/vt/log"
 )
 
 // Init is the first phase of the server startup.

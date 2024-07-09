@@ -32,13 +32,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"vitess.io/vitess/go/test/endtoend/cluster"
-	"vitess.io/vitess/go/test/endtoend/throttler"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/wrangler"
+	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
+	"mdibaiee/vitess/oracle/go/test/endtoend/throttler"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/wrangler"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	vtctldatapb "vitess.io/vitess/go/vt/proto/vtctldata"
+	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
 )
 
 const (

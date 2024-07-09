@@ -1,4 +1,4 @@
-module vitess.io/vitess
+module mdibaiee/vitess/oracle
 
 go 1.22.4
 

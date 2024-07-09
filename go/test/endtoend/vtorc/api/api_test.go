@@ -27,8 +27,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/test/endtoend/cluster"
-	"vitess.io/vitess/go/test/endtoend/vtorc/utils"
+	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
+	"mdibaiee/vitess/oracle/go/test/endtoend/vtorc/utils"
 )
 
 // TestAPIEndpoints tests the various API endpoints that VTOrc offers.

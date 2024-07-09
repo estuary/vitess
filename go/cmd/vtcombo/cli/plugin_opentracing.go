@@ -17,9 +17,9 @@ limitations under the License.
 package cli
 
 import (
-	"vitess.io/vitess/go/trace"
+	"mdibaiee/vitess/oracle/go/trace"
 
-	"vitess.io/vitess/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
 )
 
 func init() {

@@ -22,7 +22,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	vtadminpb "vitess.io/vitess/go/vt/proto/vtadmin"
+	vtadminpb "mdibaiee/vitess/oracle/go/vt/proto/vtadmin"
 )
 
 // StaticFileDiscovery implements the Discovery interface for "discovering"

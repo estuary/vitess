@@ -27,15 +27,15 @@ import (
 	"github.com/patrickmn/go-cache"
 	"github.com/sjmudd/stopwatch"
 
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/vtorc/collection"
-	"vitess.io/vitess/go/vt/vtorc/config"
-	"vitess.io/vitess/go/vt/vtorc/discovery"
-	"vitess.io/vitess/go/vt/vtorc/inst"
-	ometrics "vitess.io/vitess/go/vt/vtorc/metrics"
-	"vitess.io/vitess/go/vt/vtorc/util"
+	"mdibaiee/vitess/oracle/go/stats"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/vt/vtorc/collection"
+	"mdibaiee/vitess/oracle/go/vt/vtorc/config"
+	"mdibaiee/vitess/oracle/go/vt/vtorc/discovery"
+	"mdibaiee/vitess/oracle/go/vt/vtorc/inst"
+	ometrics "mdibaiee/vitess/oracle/go/vt/vtorc/metrics"
+	"mdibaiee/vitess/oracle/go/vt/vtorc/util"
 )
 
 const (

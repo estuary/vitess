@@ -27,15 +27,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/mysql/sqlerror"
+	"mdibaiee/vitess/oracle/go/mysql/sqlerror"
 
-	"vitess.io/vitess/go/mysql"
-	vtenv "vitess.io/vitess/go/vt/env"
-	"vitess.io/vitess/go/vt/mysqlctl"
-	"vitess.io/vitess/go/vt/tlstest"
-	"vitess.io/vitess/go/vt/vttest"
+	"mdibaiee/vitess/oracle/go/mysql"
+	vtenv "mdibaiee/vitess/oracle/go/vt/env"
+	"mdibaiee/vitess/oracle/go/vt/mysqlctl"
+	"mdibaiee/vitess/oracle/go/vt/tlstest"
+	"mdibaiee/vitess/oracle/go/vt/vttest"
 
-	vttestpb "vitess.io/vitess/go/vt/proto/vttest"
+	vttestpb "mdibaiee/vitess/oracle/go/vt/proto/vttest"
 )
 
 var (

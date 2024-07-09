@@ -30,7 +30,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"vitess.io/vitess/go/mysql/collations/tools/makecolldata/codegen"
+	"mdibaiee/vitess/oracle/go/mysql/collations/tools/makecolldata/codegen"
 )
 
 type versionInfo struct {
@@ -125,7 +125,7 @@ func makeversions(output string) {
 		versions = append(versions, base)
 	}
 
-	var g = codegen.NewGenerator("vitess.io/vitess/go/mysql/collations")
+	var g = codegen.NewGenerator("mdibaiee/vitess/oracle/go/mysql/collations")
 	g.P("type collver byte")
 	g.P("type collalias struct { mask collver; name string; charset string }")
 	g.P("const (")

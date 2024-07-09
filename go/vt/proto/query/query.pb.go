@@ -27,10 +27,10 @@ package query
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	topodata "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vtrpc "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
 	reflect "reflect"
 	sync "sync"
-	topodata "vitess.io/vitess/go/vt/proto/topodata"
-	vtrpc "vitess.io/vitess/go/vt/proto/vtrpc"
 )
 
 const (

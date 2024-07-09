@@ -26,7 +26,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	throttlerdatapb "vitess.io/vitess/go/vt/proto/throttlerdata"
+	throttlerdatapb "mdibaiee/vitess/oracle/go/vt/proto/throttlerdata"
 )
 
 // We base our test data on these defaults.

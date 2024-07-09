@@ -16,7 +16,7 @@ limitations under the License.
 %{
 package sqlparser
 
-import "vitess.io/vitess/go/ptr"
+import "mdibaiee/vitess/oracle/go/ptr"
 
 func setParseTree(yylex yyLexer, stmt Statement) {
   yylex.(*Tokenizer).ParseTree = stmt

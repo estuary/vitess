@@ -45,8 +45,8 @@ import (
 	"context"
 	"sort"
 
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/throttle/base"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/throttle/mysql"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/throttle/base"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/throttle/mysql"
 )
 
 func aggregateMySQLProbes(

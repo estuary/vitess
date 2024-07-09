@@ -19,8 +19,8 @@ package tabletenvtest
 import (
 	"github.com/spf13/pflag"
 
-	_flag "vitess.io/vitess/go/internal/flag"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	_flag "mdibaiee/vitess/oracle/go/internal/flag"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 // LoadTabletEnvFlags loads the default values for the tabletenv flags and is useful for tests which

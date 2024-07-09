@@ -21,15 +21,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"vitess.io/vitess/go/pools"
-	"vitess.io/vitess/go/pools/smartconnpool"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/connpool"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tx"
+	"mdibaiee/vitess/oracle/go/pools"
+	"mdibaiee/vitess/oracle/go/pools/smartconnpool"
+	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/connpool"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tabletenv"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/tx"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
 )
 
 const (

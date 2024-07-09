@@ -28,8 +28,8 @@ import (
 	"github.com/dave/jennifer/jen"
 	"golang.org/x/tools/go/packages"
 
-	"vitess.io/vitess/go/textutil"
-	"vitess.io/vitess/go/tools/codegen"
+	"mdibaiee/vitess/oracle/go/textutil"
+	"mdibaiee/vitess/oracle/go/tools/codegen"
 )
 
 const licenseFileHeader = `Copyright 2023 The Vitess Authors.
@@ -78,7 +78,7 @@ type (
 )
 
 // exprInterfacePath is the path of the sqlparser.Expr interface.
-const exprInterfacePath = "vitess.io/vitess/go/vt/sqlparser.Expr"
+const exprInterfacePath = "mdibaiee/vitess/oracle/go/vt/sqlparser.Expr"
 
 func (gen *astHelperGen) iface() *types.Interface {
 	return gen._iface

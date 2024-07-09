@@ -19,7 +19,7 @@ package opentsdb
 import (
 	"time"
 
-	"vitess.io/vitess/go/stats"
+	"mdibaiee/vitess/oracle/go/stats"
 )
 
 // backend implements stats.PushBackend

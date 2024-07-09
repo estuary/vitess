@@ -22,8 +22,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
 )
 
 func TestMarshalPB(t *testing.T) {

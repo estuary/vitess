@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"math"
 
-	"vitess.io/vitess/go/mysql/capabilities"
-	"vitess.io/vitess/go/mysql/replication"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/oracle/go/mysql/capabilities"
+	"mdibaiee/vitess/oracle/go/mysql/replication"
+	"mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
 
-	"vitess.io/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 
-	"vitess.io/vitess/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/sqltypes"
 )
 
 // GRFlavorID is the string identifier for the MysqlGR flavor.

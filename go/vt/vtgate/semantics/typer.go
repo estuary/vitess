@@ -17,10 +17,10 @@ limitations under the License.
 package semantics
 
 import (
-	"vitess.io/vitess/go/mysql/collations"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vtgate/engine/opcode"
-	"vitess.io/vitess/go/vt/vtgate/evalengine"
+	"mdibaiee/vitess/oracle/go/mysql/collations"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/vtgate/engine/opcode"
+	"mdibaiee/vitess/oracle/go/vt/vtgate/evalengine"
 )
 
 // typer is responsible for setting the type for expressions

@@ -19,9 +19,9 @@ package cli
 import (
 	"github.com/spf13/pflag"
 
-	"vitess.io/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
 )
 
 // KeyspaceTypeFlag adds the pflag.Value interface to a topodatapb.KeyspaceType.

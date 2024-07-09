@@ -23,11 +23,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/mysql/collations"
-	"vitess.io/vitess/go/mysql/replication"
+	"mdibaiee/vitess/oracle/go/mysql/collations"
+	"mdibaiee/vitess/oracle/go/mysql/replication"
 
-	"vitess.io/vitess/go/mysql/binlog"
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
+	"mdibaiee/vitess/oracle/go/mysql/binlog"
+	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
 )
 
 // TestFormatDescriptionEvent tests both MySQL 5.6 and MariaDB 10.0

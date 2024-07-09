@@ -21,17 +21,17 @@ import (
 	"fmt"
 	"testing"
 
-	utils2 "vitess.io/vitess/go/test/endtoend/utils"
+	utils2 "mdibaiee/vitess/oracle/go/test/endtoend/utils"
 
 	"github.com/stretchr/testify/assert"
 
-	"vitess.io/vitess/go/test/utils"
+	"mdibaiee/vitess/oracle/go/test/utils"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/test/endtoend/cluster"
+	"mdibaiee/vitess/oracle/go/mysql"
+	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
 )
 
 func TestSetUDV(t *testing.T) {

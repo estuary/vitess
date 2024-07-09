@@ -23,8 +23,8 @@ import (
 	"sort"
 	"strings"
 
-	"vitess.io/vitess/go/flagutil"
-	vtadmindebug "vitess.io/vitess/go/vt/vtadmin/debug"
+	"mdibaiee/vitess/oracle/go/flagutil"
+	vtadmindebug "mdibaiee/vitess/oracle/go/vt/vtadmin/debug"
 )
 
 var (

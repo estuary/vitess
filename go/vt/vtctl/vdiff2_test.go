@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/sqltypes"
-	tabletmanagerdatapb "vitess.io/vitess/go/vt/proto/tabletmanagerdata"
-	"vitess.io/vitess/go/vt/vttablet/tabletmanager/vdiff"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	tabletmanagerdatapb "mdibaiee/vitess/oracle/go/vt/proto/tabletmanagerdata"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletmanager/vdiff"
 )
 
 var (

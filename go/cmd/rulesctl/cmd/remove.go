@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"vitess.io/vitess/go/cmd/rulesctl/common"
+	"mdibaiee/vitess/oracle/go/cmd/rulesctl/common"
 )
 
 func Remove() *cobra.Command {

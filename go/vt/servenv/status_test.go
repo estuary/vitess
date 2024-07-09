@@ -26,7 +26,7 @@ import (
 	"github.com/google/safehtml/template"
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/vt/servenv/testutils"
+	"mdibaiee/vitess/oracle/go/vt/servenv/testutils"
 )
 
 func init() {

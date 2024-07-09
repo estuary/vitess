@@ -16,7 +16,7 @@ limitations under the License.
 
 package topoproto
 
-import topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+import topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
 
 var shardReplicationErrorTypeName map[int32]string
 

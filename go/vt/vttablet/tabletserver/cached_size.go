@@ -17,7 +17,7 @@ limitations under the License.
 
 package tabletserver
 
-import hack "vitess.io/vitess/go/hack"
+import hack "mdibaiee/vitess/oracle/go/hack"
 
 func (cached *TabletPlan) CachedSize(alloc bool) int64 {
 	if cached == nil {
@@ -27,13 +27,13 @@ func (cached *TabletPlan) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(112)
 	}
-	// field Plan *vitess.io/vitess/go/vt/vttablet/tabletserver/planbuilder.Plan
+	// field Plan *mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/planbuilder.Plan
 	size += cached.Plan.CachedSize(true)
 	// field Original string
 	size += hack.RuntimeAllocSize(int64(len(cached.Original)))
-	// field Rules *vitess.io/vitess/go/vt/vttablet/tabletserver/rules.Rules
+	// field Rules *mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/rules.Rules
 	size += cached.Rules.CachedSize(true)
-	// field Authorized []*vitess.io/vitess/go/vt/tableacl.ACLResult
+	// field Authorized []*mdibaiee/vitess/oracle/go/vt/tableacl.ACLResult
 	{
 		size += hack.RuntimeAllocSize(int64(cap(cached.Authorized)) * int64(8))
 		for _, elem := range cached.Authorized {

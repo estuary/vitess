@@ -23,10 +23,10 @@ import (
 
 	"github.com/z-division/go-zookeeper/zk"
 
-	"vitess.io/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/topo"
 )
 
 // This file contains the lock management code for zktopo.Server.

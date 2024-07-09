@@ -25,15 +25,15 @@ import (
 	"fmt"
 	"time"
 
-	"vitess.io/vitess/go/event"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/topotools/events"
-	"vitess.io/vitess/go/vt/vtctl/grpcvtctldserver"
-	"vitess.io/vitess/go/vt/vtctl/reparentutil"
+	"mdibaiee/vitess/oracle/go/event"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
+	"mdibaiee/vitess/oracle/go/vt/topotools/events"
+	"mdibaiee/vitess/oracle/go/vt/vtctl/grpcvtctldserver"
+	"mdibaiee/vitess/oracle/go/vt/vtctl/reparentutil"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vtctldatapb "vitess.io/vitess/go/vt/proto/vtctldata"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
 )
 
 // ReparentTablet tells a tablet to reparent this tablet to the current

@@ -32,17 +32,17 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/test/endtoend/cluster"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/tlstest"
-	"vitess.io/vitess/go/vt/vtctl/vtctlclient"
-	"vitess.io/vitess/go/vt/vttest"
+	"mdibaiee/vitess/oracle/go/mysql"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/logutil"
+	"mdibaiee/vitess/oracle/go/vt/tlstest"
+	"mdibaiee/vitess/oracle/go/vt/vtctl/vtctlclient"
+	"mdibaiee/vitess/oracle/go/vt/vttest"
 
-	logutilpb "vitess.io/vitess/go/vt/proto/logutil"
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
+	logutilpb "mdibaiee/vitess/oracle/go/vt/proto/logutil"
+	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
 )
 
 type columnVindex struct {

@@ -21,7 +21,7 @@ import (
 
 	"context"
 
-	workflowpb "vitess.io/vitess/go/vt/proto/workflow"
+	workflowpb "mdibaiee/vitess/oracle/go/vt/proto/workflow"
 )
 
 // This file provides the utility methods to save / retrieve workflows

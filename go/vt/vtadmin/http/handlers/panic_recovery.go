@@ -22,7 +22,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"vitess.io/vitess/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/log"
 )
 
 // PanicRecoveryHandler is a mux.MiddlewareFunc which recovers from any uncaught

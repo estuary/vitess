@@ -27,8 +27,8 @@ package throttlerservice
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	throttlerdata "mdibaiee/vitess/oracle/go/vt/proto/throttlerdata"
 	reflect "reflect"
-	throttlerdata "vitess.io/vitess/go/vt/proto/throttlerdata"
 )
 
 const (

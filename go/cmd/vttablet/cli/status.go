@@ -17,10 +17,10 @@ limitations under the License.
 package cli
 
 import (
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/vttablet/tabletmanager/vreplication"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletmanager/vreplication"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver"
 )
 
 var (

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	"vitess.io/vitess/go/hack"
+	"mdibaiee/vitess/oracle/go/hack"
 )
 
 func failedConversionError(from, to Charset, input []byte) error {

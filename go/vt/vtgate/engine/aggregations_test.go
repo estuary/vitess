@@ -25,9 +25,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"vitess.io/vitess/go/sqltypes"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	. "vitess.io/vitess/go/vt/vtgate/engine/opcode"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	. "mdibaiee/vitess/oracle/go/vt/vtgate/engine/opcode"
 )
 
 func makeTestResults(fields []*querypb.Field, gen []sqltypes.RandomGenerator, N int) []*sqltypes.Result {

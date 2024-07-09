@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"vitess.io/vitess/go/mysql"
+	"mdibaiee/vitess/oracle/go/mysql"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	"vitess.io/vitess/go/vt/vtgate/vtgateconn"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	"mdibaiee/vitess/oracle/go/vt/vtgate/vtgateconn"
 
-	"vitess.io/vitess/go/test/endtoend/cluster"
+	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
 )
 
 var (

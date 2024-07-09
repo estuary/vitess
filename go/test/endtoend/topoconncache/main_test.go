@@ -29,7 +29,7 @@ import (
 	"os/exec"
 	"testing"
 
-	"vitess.io/vitess/go/test/endtoend/cluster"
+	"mdibaiee/vitess/oracle/go/test/endtoend/cluster"
 )
 
 var (

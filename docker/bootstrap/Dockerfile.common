@@ -20,16 +20,16 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-ins
     && rm -rf /var/lib/apt/lists/*
 
 # Set up Vitess environment (equivalent to '. dev.env')
-ENV VTROOT /vt/src/vitess.io/vitess
+ENV VTROOT /vt/src/mdibaiee/vitess/oracle
 ENV VTDATAROOT /vt/vtdataroot
 ENV VTPORTSTART 15000
 ENV PATH $VTROOT/bin:$VTROOT/dist/maven/bin:$PATH
 ENV USER vitess
 
 # Copy files needed for bootstrap
-COPY bootstrap.sh dev.env build.env go.mod go.sum /vt/src/vitess.io/vitess/
-COPY config /vt/src/vitess.io/vitess/config
-COPY tools /vt/src/vitess.io/vitess/tools
+COPY bootstrap.sh dev.env build.env go.mod go.sum /vt/src/mdibaiee/vitess/oracle/
+COPY config /vt/src/mdibaiee/vitess/oracle/config
+COPY tools /vt/src/mdibaiee/vitess/oracle/tools
 
 # Create vitess user
 RUN groupadd -r vitess && useradd -r -g vitess vitess && \
@@ -37,7 +37,7 @@ RUN groupadd -r vitess && useradd -r -g vitess vitess && \
     chown -R vitess:vitess /vt /home/vitess
 
 # Download vendored Go dependencies
-RUN cd /vt/src/vitess.io/vitess && \
+RUN cd /vt/src/mdibaiee/vitess/oracle && \
  su vitess -c "/usr/local/go/bin/go mod download"
 
 # Create mount point for actual data (e.g. MySQL data dir)
@@ -45,10 +45,10 @@ VOLUME /vt/vtdataroot
 
 # The docker lite images copy from the builder in /vt/bin
 # Add compatibility to the previous layout for now
-RUN su vitess -c "mkdir -p /vt/src/vitess.io/vitess/bin && rm -rf /vt/bin && ln -s /vt/src/vitess.io/vitess/bin /vt/bin"
+RUN su vitess -c "mkdir -p /vt/src/mdibaiee/vitess/oracle/bin && rm -rf /vt/bin && ln -s /vt/src/mdibaiee/vitess/oracle/bin /vt/bin"
 
 # Bootstrap Vitess
-WORKDIR /vt/src/vitess.io/vitess
+WORKDIR /vt/src/mdibaiee/vitess/oracle
 
 USER vitess
 RUN ./bootstrap.sh

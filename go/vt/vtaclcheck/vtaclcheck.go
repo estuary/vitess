@@ -22,9 +22,9 @@ package vtaclcheck
 import (
 	"fmt"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/vt/tableacl"
-	"vitess.io/vitess/go/vt/tableacl/simpleacl"
+	"mdibaiee/vitess/oracle/go/mysql"
+	"mdibaiee/vitess/oracle/go/vt/tableacl"
+	"mdibaiee/vitess/oracle/go/vt/tableacl/simpleacl"
 )
 
 // Options to control the explain process

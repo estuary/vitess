@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/vt/vttablet/endtoend/framework"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/endtoend/framework"
 )
 
 func TestSavepointInTransactionWithSRollback(t *testing.T) {

@@ -64,9 +64,9 @@ import (
 	"sync"
 	"time"
 
-	// "vitess.io/vitess/go/vt/log"
+	// "mdibaiee/vitess/oracle/go/vt/log"
 
-	"vitess.io/vitess/go/vt/vtorc/config"
+	"mdibaiee/vitess/oracle/go/vt/vtorc/config"
 )
 
 // Metric is an interface containing a metric

@@ -17,7 +17,7 @@ limitations under the License.
 package logutil
 
 import (
-	"vitess.io/vitess/go/event"
+	"mdibaiee/vitess/oracle/go/event"
 )
 
 var (

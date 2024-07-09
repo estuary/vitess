@@ -23,7 +23,7 @@ import (
 	"github.com/google/safehtml"
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/vt/callinfo/fakecallinfo"
+	"mdibaiee/vitess/oracle/go/vt/callinfo/fakecallinfo"
 )
 
 var fci fakecallinfo.FakeCallInfo = fakecallinfo.FakeCallInfo{

@@ -26,11 +26,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/mysql/collations/colldata"
+	"mdibaiee/vitess/oracle/go/mysql/collations/colldata"
 
-	"vitess.io/vitess/go/mysql/collations"
-	"vitess.io/vitess/go/mysql/collations/remote"
-	"vitess.io/vitess/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/mysql/collations"
+	"mdibaiee/vitess/oracle/go/mysql/collations/remote"
+	"mdibaiee/vitess/oracle/go/sqltypes"
 )
 
 type TextWithCollation struct {

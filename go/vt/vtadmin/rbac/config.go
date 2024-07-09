@@ -22,9 +22,9 @@ import (
 
 	"github.com/spf13/viper"
 
-	"vitess.io/vitess/go/sets"
-	"vitess.io/vitess/go/vt/concurrency"
-	"vitess.io/vitess/go/vt/log"
+	"mdibaiee/vitess/oracle/go/sets"
+	"mdibaiee/vitess/oracle/go/vt/concurrency"
+	"mdibaiee/vitess/oracle/go/vt/log"
 )
 
 // Config is the RBAC configuration representation. The public fields are

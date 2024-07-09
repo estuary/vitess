@@ -19,7 +19,7 @@ package evalengine
 import (
 	"math"
 
-	"vitess.io/vitess/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/sqltypes"
 )
 
 type (

@@ -17,7 +17,7 @@ limitations under the License.
 package logutil
 
 import (
-	_flag "vitess.io/vitess/go/internal/flag"
+	_flag "mdibaiee/vitess/oracle/go/internal/flag"
 )
 
 func init() {

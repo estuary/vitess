@@ -32,10 +32,10 @@ import (
 	minio "github.com/minio/minio-go"
 	"github.com/spf13/pflag"
 
-	"vitess.io/vitess/go/vt/concurrency"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/mysqlctl/backupstorage"
-	"vitess.io/vitess/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/vt/concurrency"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/mysqlctl/backupstorage"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
 )
 
 var (

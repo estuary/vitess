@@ -21,10 +21,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"vitess.io/vitess/go/cmd/zk/internal/zkfilepath"
-	"vitess.io/vitess/go/cmd/zk/internal/zkfs"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/topo/zk2topo"
+	"mdibaiee/vitess/oracle/go/cmd/zk/internal/zkfilepath"
+	"mdibaiee/vitess/oracle/go/cmd/zk/internal/zkfs"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/topo/zk2topo"
 )
 
 var Chmod = &cobra.Command{

@@ -21,12 +21,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"vitess.io/vitess/go/acl"
-	vtcmd "vitess.io/vitess/go/cmd"
-	"vitess.io/vitess/go/mysql/collations"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/acl"
+	vtcmd "mdibaiee/vitess/oracle/go/cmd"
+	"mdibaiee/vitess/oracle/go/mysql/collations"
+	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
+	"mdibaiee/vitess/oracle/go/vt/logutil"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
 )
 
 var (

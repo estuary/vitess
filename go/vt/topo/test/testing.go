@@ -18,16 +18,16 @@ limitations under the License.
 // implementations. If you are testing your implementation, you will
 // want to call TopoServerTestSuite in your test method. For an
 // example, look at the tests in
-// vitess.io/vitess/go/vt/topo/memorytopo.
+// mdibaiee/vitess/oracle/go/vt/topo/memorytopo.
 package test
 
 import (
 	"context"
 	"testing"
 
-	"vitess.io/vitess/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/topo"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
 )
 
 // LocalCellName is the cell name used by this test suite.

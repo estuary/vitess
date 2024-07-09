@@ -24,8 +24,8 @@ package icuregex
 import (
 	"slices"
 
-	"vitess.io/vitess/go/mysql/icuregex/internal/ucase"
-	"vitess.io/vitess/go/mysql/icuregex/internal/utf16"
+	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/ucase"
+	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/utf16"
 )
 
 type opcode uint8

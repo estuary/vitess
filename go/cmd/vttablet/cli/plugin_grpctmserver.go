@@ -19,5 +19,5 @@ package cli
 // Imports and register the gRPC tabletmanager server
 
 import (
-	_ "vitess.io/vitess/go/vt/vttablet/grpctmserver"
+	_ "mdibaiee/vitess/oracle/go/vt/vttablet/grpctmserver"
 )

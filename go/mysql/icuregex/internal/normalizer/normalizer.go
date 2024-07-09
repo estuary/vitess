@@ -25,11 +25,11 @@ import (
 	"errors"
 	"sync"
 
-	"vitess.io/vitess/go/mysql/icuregex/internal/icudata"
-	"vitess.io/vitess/go/mysql/icuregex/internal/udata"
-	"vitess.io/vitess/go/mysql/icuregex/internal/uset"
-	"vitess.io/vitess/go/mysql/icuregex/internal/utf16"
-	"vitess.io/vitess/go/mysql/icuregex/internal/utrie"
+	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/icudata"
+	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/udata"
+	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/uset"
+	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/utf16"
+	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/utrie"
 )
 
 type Normalizer struct {

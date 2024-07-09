@@ -21,7 +21,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	vtadminpb "vitess.io/vitess/go/vt/proto/vtadmin"
+	vtadminpb "mdibaiee/vitess/oracle/go/vt/proto/vtadmin"
 )
 
 // GetSrvKeyspaces implements the http wrapper for the /api/srvkeyspaces route.

@@ -19,7 +19,7 @@ package syslogger
 import (
 	"fmt"
 
-	"vitess.io/vitess/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/log"
 )
 
 type loggerMsg struct {

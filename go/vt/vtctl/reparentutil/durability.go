@@ -19,10 +19,10 @@ package reparentutil
 import (
 	"fmt"
 
-	"vitess.io/vitess/go/vt/log"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/vtctl/reparentutil/promotionrule"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
+	"mdibaiee/vitess/oracle/go/vt/vtctl/reparentutil/promotionrule"
 )
 
 //=======================================================================

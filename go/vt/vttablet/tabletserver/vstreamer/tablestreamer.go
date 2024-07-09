@@ -23,16 +23,16 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"vitess.io/vitess/go/sqlescape"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/mysqlctl/tmutils"
-	"vitess.io/vitess/go/vt/vttablet"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/schema"
+	"mdibaiee/vitess/oracle/go/sqlescape"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/mysqlctl/tmutils"
+	"mdibaiee/vitess/oracle/go/vt/vttablet"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletserver/schema"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	schema2 "vitess.io/vitess/go/vt/schema"
+	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	schema2 "mdibaiee/vitess/oracle/go/vt/schema"
 )
 
 /*

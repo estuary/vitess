@@ -19,7 +19,7 @@ package mysql
 import (
 	"testing"
 
-	"vitess.io/vitess/go/vt/vttls"
+	"mdibaiee/vitess/oracle/go/vt/vttls"
 
 	"github.com/stretchr/testify/assert"
 )

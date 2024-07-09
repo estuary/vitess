@@ -17,7 +17,7 @@ limitations under the License.
 package onlineddl
 
 import (
-	"vitess.io/vitess/go/stats"
+	"mdibaiee/vitess/oracle/go/stats"
 )
 
 var (

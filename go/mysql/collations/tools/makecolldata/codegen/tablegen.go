@@ -25,7 +25,7 @@ import (
 	"math/bits"
 	"os"
 
-	"vitess.io/vitess/go/mysql/collations/internal/uca"
+	"mdibaiee/vitess/oracle/go/mysql/collations/internal/uca"
 )
 
 type LiteralPageGenerator struct {

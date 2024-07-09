@@ -20,9 +20,9 @@ import (
 	"context"
 	"errors"
 
-	"vitess.io/vitess/go/vt/logutil"
+	"mdibaiee/vitess/oracle/go/vt/logutil"
 
-	vtctldatapb "vitess.io/vitess/go/vt/proto/vtctldata"
+	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
 )
 
 // consumeValidationResults consumes results from Validate(Keyspace|Shard)? methods.

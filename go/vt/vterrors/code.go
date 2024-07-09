@@ -19,7 +19,7 @@ package vterrors
 import (
 	"fmt"
 
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
 )
 
 // Errors added to the list of variables below must be added to the Errors slice a little below in this same file.

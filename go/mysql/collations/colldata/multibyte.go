@@ -19,9 +19,9 @@ package colldata
 import (
 	"math"
 
-	"vitess.io/vitess/go/mysql/collations"
-	"vitess.io/vitess/go/mysql/collations/charset"
-	"vitess.io/vitess/go/vt/vthash"
+	"mdibaiee/vitess/oracle/go/mysql/collations"
+	"mdibaiee/vitess/oracle/go/mysql/collations/charset"
+	"mdibaiee/vitess/oracle/go/vt/vthash"
 )
 
 type Collation_multibyte struct {

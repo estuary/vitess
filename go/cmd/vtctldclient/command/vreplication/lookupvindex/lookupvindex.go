@@ -22,13 +22,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"vitess.io/vitess/go/cmd/vtctldclient/cli"
-	"vitess.io/vitess/go/cmd/vtctldclient/command/vreplication/common"
+	"mdibaiee/vitess/oracle/go/cmd/vtctldclient/cli"
+	"mdibaiee/vitess/oracle/go/cmd/vtctldclient/command/vreplication/common"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
-	vtctldatapb "vitess.io/vitess/go/vt/proto/vtctldata"
-	topoprotopb "vitess.io/vitess/go/vt/topo/topoproto"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
+	vtctldatapb "mdibaiee/vitess/oracle/go/vt/proto/vtctldata"
+	topoprotopb "mdibaiee/vitess/oracle/go/vt/topo/topoproto"
 )
 
 var (

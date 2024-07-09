@@ -54,7 +54,7 @@ func GoImports(fullPath string) error {
 		return err
 	}
 
-	cmd = exec.Command("goimports", "-local", "vitess.io/vitess", "-w", fullPath)
+	cmd = exec.Command("goimports", "-local", "mdibaiee/vitess/oracle", "-w", fullPath)
 	cmd.Stderr = os.Stderr
 	if err := cmd.Run(); err != nil {
 		return err

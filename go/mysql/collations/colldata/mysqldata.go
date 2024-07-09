@@ -19,9 +19,9 @@ limitations under the License.
 package colldata
 
 import (
-	charset "vitess.io/vitess/go/mysql/collations/charset"
-	eightbit "vitess.io/vitess/go/mysql/collations/charset/eightbit"
-	uca "vitess.io/vitess/go/mysql/collations/internal/uca"
+	charset "mdibaiee/vitess/oracle/go/mysql/collations/charset"
+	eightbit "mdibaiee/vitess/oracle/go/mysql/collations/charset/eightbit"
+	uca "mdibaiee/vitess/oracle/go/mysql/collations/internal/uca"
 )
 
 var ctype_dec8_swedish_ci = [...]uint8{

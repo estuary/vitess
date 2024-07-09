@@ -3,11 +3,11 @@ package main
 import (
 	"log"
 
-	"vitess.io/vitess/go/acl"
-	"vitess.io/vitess/go/cmd/rulesctl/cmd"
-	vtlog "vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/acl"
+	"mdibaiee/vitess/oracle/go/cmd/rulesctl/cmd"
+	vtlog "mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/logutil"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
 )
 
 func main() {

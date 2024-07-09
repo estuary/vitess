@@ -17,14 +17,14 @@ limitations under the License.
 package evalengine
 
 import (
-	"vitess.io/vitess/go/hack"
-	"vitess.io/vitess/go/mysql/collations"
-	"vitess.io/vitess/go/mysql/decimal"
-	"vitess.io/vitess/go/mysql/fastparse"
-	"vitess.io/vitess/go/mysql/json"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/hack"
+	"mdibaiee/vitess/oracle/go/mysql/collations"
+	"mdibaiee/vitess/oracle/go/mysql/decimal"
+	"mdibaiee/vitess/oracle/go/mysql/fastparse"
+	"mdibaiee/vitess/oracle/go/mysql/json"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	"mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 )
 
 func push_null(env *ExpressionEnv) int {

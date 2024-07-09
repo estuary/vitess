@@ -22,19 +22,19 @@ import (
 
 	"google.golang.org/grpc"
 
-	"vitess.io/vitess/go/vt/callerid"
-	"vitess.io/vitess/go/vt/callinfo"
-	"vitess.io/vitess/go/vt/hook"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/mysqlctl/tmutils"
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vttablet/tabletmanager"
+	"mdibaiee/vitess/oracle/go/vt/callerid"
+	"mdibaiee/vitess/oracle/go/vt/callinfo"
+	"mdibaiee/vitess/oracle/go/vt/hook"
+	"mdibaiee/vitess/oracle/go/vt/logutil"
+	"mdibaiee/vitess/oracle/go/vt/mysqlctl/tmutils"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletmanager"
 
-	logutilpb "vitess.io/vitess/go/vt/proto/logutil"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	tabletmanagerdatapb "vitess.io/vitess/go/vt/proto/tabletmanagerdata"
-	tabletmanagerservicepb "vitess.io/vitess/go/vt/proto/tabletmanagerservice"
+	logutilpb "mdibaiee/vitess/oracle/go/vt/proto/logutil"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	tabletmanagerdatapb "mdibaiee/vitess/oracle/go/vt/proto/tabletmanagerdata"
+	tabletmanagerservicepb "mdibaiee/vitess/oracle/go/vt/proto/tabletmanagerservice"
 )
 
 // server is the gRPC implementation of the RPC server

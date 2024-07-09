@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"slices"
 
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vtgate/semantics"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/vt/vtgate/semantics"
 )
 
 type (

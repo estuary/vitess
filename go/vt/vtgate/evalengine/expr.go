@@ -17,7 +17,7 @@ limitations under the License.
 package evalengine
 
 import (
-	"vitess.io/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
 )
 
 type (

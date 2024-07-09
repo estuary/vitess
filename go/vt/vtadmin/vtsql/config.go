@@ -22,13 +22,13 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"vitess.io/vitess/go/vt/grpcclient"
-	"vitess.io/vitess/go/vt/vitessdriver"
-	"vitess.io/vitess/go/vt/vtadmin/cluster/discovery"
-	"vitess.io/vitess/go/vt/vtadmin/cluster/resolver"
-	"vitess.io/vitess/go/vt/vtadmin/credentials"
+	"mdibaiee/vitess/oracle/go/vt/grpcclient"
+	"mdibaiee/vitess/oracle/go/vt/vitessdriver"
+	"mdibaiee/vitess/oracle/go/vt/vtadmin/cluster/discovery"
+	"mdibaiee/vitess/oracle/go/vt/vtadmin/cluster/resolver"
+	"mdibaiee/vitess/oracle/go/vt/vtadmin/credentials"
 
-	vtadminpb "vitess.io/vitess/go/vt/proto/vtadmin"
+	vtadminpb "mdibaiee/vitess/oracle/go/vt/proto/vtadmin"
 )
 
 // Config represents the options that modify the behavior of a vtqsl.VTGateProxy.

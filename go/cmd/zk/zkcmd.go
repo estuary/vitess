@@ -21,9 +21,9 @@ import (
 	"os"
 	"os/signal"
 
-	"vitess.io/vitess/go/cmd/zk/command"
-	"vitess.io/vitess/go/exit"
-	"vitess.io/vitess/go/vt/log"
+	"mdibaiee/vitess/oracle/go/cmd/zk/command"
+	"mdibaiee/vitess/oracle/go/exit"
+	"mdibaiee/vitess/oracle/go/vt/log"
 )
 
 func main() {

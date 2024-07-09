@@ -17,8 +17,8 @@ limitations under the License.
 package main
 
 import (
-	"vitess.io/vitess/go/cmd/vtgate/cli"
-	"vitess.io/vitess/go/vt/log"
+	"mdibaiee/vitess/oracle/go/cmd/vtgate/cli"
+	"mdibaiee/vitess/oracle/go/vt/log"
 )
 
 func main() {

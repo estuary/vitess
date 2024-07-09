@@ -19,7 +19,7 @@ package events
 import (
 	"testing"
 
-	"vitess.io/vitess/go/event"
+	"mdibaiee/vitess/oracle/go/event"
 )
 
 type testEvent struct {

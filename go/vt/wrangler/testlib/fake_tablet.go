@@ -29,30 +29,30 @@ import (
 
 	"google.golang.org/grpc"
 
-	"vitess.io/vitess/go/mysql/fakesqldb"
-	"vitess.io/vitess/go/vt/binlog/binlogplayer"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/mysqlctl"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/vtenv"
-	"vitess.io/vitess/go/vt/vttablet/grpctmserver"
-	"vitess.io/vitess/go/vt/vttablet/tabletconntest"
-	"vitess.io/vitess/go/vt/vttablet/tabletmanager"
-	"vitess.io/vitess/go/vt/vttablet/tabletmanager/vreplication"
-	"vitess.io/vitess/go/vt/vttablet/tabletservermock"
-	"vitess.io/vitess/go/vt/vttablet/tmclient"
-	"vitess.io/vitess/go/vt/vttablet/tmclienttest"
-	"vitess.io/vitess/go/vt/wrangler"
+	"mdibaiee/vitess/oracle/go/mysql/fakesqldb"
+	"mdibaiee/vitess/oracle/go/vt/binlog/binlogplayer"
+	"mdibaiee/vitess/oracle/go/vt/dbconfigs"
+	"mdibaiee/vitess/oracle/go/vt/mysqlctl"
+	"mdibaiee/vitess/oracle/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
+	"mdibaiee/vitess/oracle/go/vt/vtenv"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/grpctmserver"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletconntest"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletmanager"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletmanager/vreplication"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tabletservermock"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tmclient"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tmclienttest"
+	"mdibaiee/vitess/oracle/go/vt/wrangler"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
 
 	// import the gRPC client implementation for tablet manager
-	_ "vitess.io/vitess/go/vt/vttablet/grpctmclient"
+	_ "mdibaiee/vitess/oracle/go/vt/vttablet/grpctmclient"
 
 	// import the gRPC client implementation for query service
-	_ "vitess.io/vitess/go/vt/vttablet/grpctabletconn"
+	_ "mdibaiee/vitess/oracle/go/vt/vttablet/grpctabletconn"
 )
 
 // This file contains utility methods for unit tests.

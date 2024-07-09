@@ -20,10 +20,10 @@ import (
 	"context"
 	"time"
 
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/stats"
+	"mdibaiee/vitess/oracle/go/vt/topo"
 
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
+	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
 )
 
 type SrvVSchemaWatcher struct {

@@ -20,7 +20,7 @@ import (
 	"math"
 	"strconv"
 
-	"vitess.io/vitess/go/mysql/format"
+	"mdibaiee/vitess/oracle/go/mysql/format"
 )
 
 var inputJSONObjects = []string{

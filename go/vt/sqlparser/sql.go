@@ -7,7 +7,7 @@ import (
 	__yyfmt__ "fmt"
 	__yyunsafe__ "unsafe"
 
-	"vitess.io/vitess/go/ptr"
+	"mdibaiee/vitess/oracle/go/ptr"
 )
 
 //line sql.y:17

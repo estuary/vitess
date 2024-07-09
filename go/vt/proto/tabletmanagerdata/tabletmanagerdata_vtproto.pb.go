@@ -12,13 +12,13 @@ import (
 	io "io"
 	math "math"
 	bits "math/bits"
-	binlogdata "vitess.io/vitess/go/vt/proto/binlogdata"
-	logutil "vitess.io/vitess/go/vt/proto/logutil"
-	query "vitess.io/vitess/go/vt/proto/query"
-	replicationdata "vitess.io/vitess/go/vt/proto/replicationdata"
-	topodata "vitess.io/vitess/go/vt/proto/topodata"
-	vtrpc "vitess.io/vitess/go/vt/proto/vtrpc"
-	vttime "vitess.io/vitess/go/vt/proto/vttime"
+	binlogdata "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	logutil "mdibaiee/vitess/oracle/go/vt/proto/logutil"
+	query "mdibaiee/vitess/oracle/go/vt/proto/query"
+	replicationdata "mdibaiee/vitess/oracle/go/vt/proto/replicationdata"
+	topodata "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vtrpc "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	vttime "mdibaiee/vitess/oracle/go/vt/proto/vttime"
 )
 
 const (

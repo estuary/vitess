@@ -22,9 +22,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"vitess.io/vitess/go/vt/binlog/binlogplayer"
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	qh "vitess.io/vitess/go/vt/vttablet/tabletmanager/vreplication/queryhistory"
+	"mdibaiee/vitess/oracle/go/vt/binlog/binlogplayer"
+	binlogdatapb "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	qh "mdibaiee/vitess/oracle/go/vt/vttablet/tabletmanager/vreplication/queryhistory"
 )
 
 func TestExternalConnectorCopy(t *testing.T) {

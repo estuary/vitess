@@ -20,8 +20,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/vtorc/db"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/vtorc/db"
 )
 
 var FirstDiscoveryCycleComplete atomic.Bool

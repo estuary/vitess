@@ -27,10 +27,10 @@ package mysqlctl
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	topodata "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vttime "mdibaiee/vitess/oracle/go/vt/proto/vttime"
 	reflect "reflect"
 	sync "sync"
-	topodata "vitess.io/vitess/go/vt/proto/topodata"
-	vttime "vitess.io/vitess/go/vt/proto/vttime"
 )
 
 const (

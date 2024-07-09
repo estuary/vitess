@@ -10,10 +10,10 @@ import (
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	io "io"
 	bits "math/bits"
+	query "mdibaiee/vitess/oracle/go/vt/proto/query"
+	topodata "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vtrpc "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
 	sync "sync"
-	query "vitess.io/vitess/go/vt/proto/query"
-	topodata "vitess.io/vitess/go/vt/proto/topodata"
-	vtrpc "vitess.io/vitess/go/vt/proto/vtrpc"
 )
 
 const (

@@ -22,8 +22,8 @@ limitations under the License.
 package uprops
 
 import (
-	"vitess.io/vitess/go/mysql/icuregex/internal/bytestrie"
-	"vitess.io/vitess/go/mysql/icuregex/internal/uchar"
+	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/bytestrie"
+	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/uchar"
 )
 
 const (

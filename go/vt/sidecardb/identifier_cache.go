@@ -22,10 +22,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"vitess.io/vitess/go/constants/sidecar"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/constants/sidecar"
+	vtrpcpb "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 )
 
 // IdentifierCache provides a read through cache of sidecar database

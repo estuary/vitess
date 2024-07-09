@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"vitess.io/vitess/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/topo"
 )
 
 // checkDirectory tests the directory part of the topo.Conn API.

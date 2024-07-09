@@ -20,7 +20,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"vitess.io/vitess/go/mysql/replication"
+	"mdibaiee/vitess/oracle/go/mysql/replication"
 )
 
 // filePosBinlogEvent wraps a raw packet buffer and provides methods to examine

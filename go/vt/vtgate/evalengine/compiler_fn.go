@@ -17,7 +17,7 @@ limitations under the License.
 package evalengine
 
 import (
-	"vitess.io/vitess/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/sqltypes"
 )
 
 func (c *compiler) compileFn_rounding(arg0 IR, asm_ins_f, asm_ins_d func()) (ctype, error) {

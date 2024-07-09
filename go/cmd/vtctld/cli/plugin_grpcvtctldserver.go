@@ -17,8 +17,8 @@ limitations under the License.
 package cli
 
 import (
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/vtctl/grpcvtctldserver"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/vt/vtctl/grpcvtctldserver"
 )
 
 func init() {

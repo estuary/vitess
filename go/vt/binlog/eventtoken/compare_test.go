@@ -19,7 +19,7 @@ package eventtoken
 import (
 	"testing"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
 )
 
 func TestFresher(t *testing.T) {

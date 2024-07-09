@@ -16,7 +16,7 @@ limitations under the License.
 
 package sqlparser
 
-import "vitess.io/vitess/go/mysql/datetime"
+import "mdibaiee/vitess/oracle/go/mysql/datetime"
 
 // String constants to be used in ast.
 const (

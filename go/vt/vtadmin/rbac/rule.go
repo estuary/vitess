@@ -19,7 +19,7 @@ package rbac
 import (
 	"fmt"
 
-	"vitess.io/vitess/go/sets"
+	"mdibaiee/vitess/oracle/go/sets"
 )
 
 // Rule is a single rule governing access to a particular resource.

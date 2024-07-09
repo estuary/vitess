@@ -27,11 +27,11 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"vitess.io/vitess/go/ioutil"
-	"vitess.io/vitess/go/vt/concurrency"
-	stats "vitess.io/vitess/go/vt/mysqlctl/backupstats"
-	"vitess.io/vitess/go/vt/mysqlctl/backupstorage"
-	"vitess.io/vitess/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/ioutil"
+	"mdibaiee/vitess/oracle/go/vt/concurrency"
+	stats "mdibaiee/vitess/oracle/go/vt/mysqlctl/backupstats"
+	"mdibaiee/vitess/oracle/go/vt/mysqlctl/backupstorage"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
 )
 
 var (

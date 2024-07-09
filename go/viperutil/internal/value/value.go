@@ -22,10 +22,10 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	"vitess.io/vitess/go/viperutil/internal/registry"
-	"vitess.io/vitess/go/viperutil/internal/sync"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/viperutil/internal/registry"
+	"mdibaiee/vitess/oracle/go/viperutil/internal/sync"
+	"mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 )
 
 // Registerable is the subset of the interface exposed by Values (which is

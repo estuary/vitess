@@ -19,5 +19,5 @@ package cli
 // Imports and register the gRPC tabletconn client
 
 import (
-	_ "vitess.io/vitess/go/vt/vttablet/grpctabletconn"
+	_ "mdibaiee/vitess/oracle/go/vt/vttablet/grpctabletconn"
 )

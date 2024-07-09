@@ -20,8 +20,8 @@ import (
 	"context"
 	"path"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/topo"
 )
 
 // NewLeaderParticipation is part of the topo.Conn interface.

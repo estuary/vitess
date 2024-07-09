@@ -27,18 +27,18 @@ package vtctldata
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	binlogdata "mdibaiee/vitess/oracle/go/vt/proto/binlogdata"
+	logutil "mdibaiee/vitess/oracle/go/vt/proto/logutil"
+	mysqlctl "mdibaiee/vitess/oracle/go/vt/proto/mysqlctl"
+	query "mdibaiee/vitess/oracle/go/vt/proto/query"
+	replicationdata "mdibaiee/vitess/oracle/go/vt/proto/replicationdata"
+	tabletmanagerdata "mdibaiee/vitess/oracle/go/vt/proto/tabletmanagerdata"
+	topodata "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	vschema "mdibaiee/vitess/oracle/go/vt/proto/vschema"
+	vtrpc "mdibaiee/vitess/oracle/go/vt/proto/vtrpc"
+	vttime "mdibaiee/vitess/oracle/go/vt/proto/vttime"
 	reflect "reflect"
 	sync "sync"
-	binlogdata "vitess.io/vitess/go/vt/proto/binlogdata"
-	logutil "vitess.io/vitess/go/vt/proto/logutil"
-	mysqlctl "vitess.io/vitess/go/vt/proto/mysqlctl"
-	query "vitess.io/vitess/go/vt/proto/query"
-	replicationdata "vitess.io/vitess/go/vt/proto/replicationdata"
-	tabletmanagerdata "vitess.io/vitess/go/vt/proto/tabletmanagerdata"
-	topodata "vitess.io/vitess/go/vt/proto/topodata"
-	vschema "vitess.io/vitess/go/vt/proto/vschema"
-	vtrpc "vitess.io/vitess/go/vt/proto/vtrpc"
-	vttime "vitess.io/vitess/go/vt/proto/vttime"
 )
 
 const (

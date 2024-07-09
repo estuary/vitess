@@ -23,12 +23,12 @@ import (
 	"sync"
 	"time"
 
-	"vitess.io/vitess/go/vt/binlog/binlogplayer"
+	"mdibaiee/vitess/oracle/go/vt/binlog/binlogplayer"
 
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/stats"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
 )
 
 var (

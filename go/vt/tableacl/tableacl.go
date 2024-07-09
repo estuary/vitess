@@ -27,10 +27,10 @@ import (
 
 	"github.com/tchap/go-patricia/patricia"
 
-	"vitess.io/vitess/go/json2"
-	"vitess.io/vitess/go/vt/log"
-	tableaclpb "vitess.io/vitess/go/vt/proto/tableacl"
-	"vitess.io/vitess/go/vt/tableacl/acl"
+	"mdibaiee/vitess/oracle/go/json2"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	tableaclpb "mdibaiee/vitess/oracle/go/vt/proto/tableacl"
+	"mdibaiee/vitess/oracle/go/vt/tableacl/acl"
 )
 
 // ACLResult embeds an acl.ACL and also tell which table group it belongs to.

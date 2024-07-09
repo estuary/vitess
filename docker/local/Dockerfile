@@ -18,15 +18,15 @@ RUN echo "source /vt/common/env.sh" >> /etc/bash.bashrc
 ARG CGO_ENABLED=0
 
 # Re-copy sources from working tree.
-COPY --chown=vitess:vitess . /vt/src/vitess.io/vitess
+COPY --chown=vitess:vitess . /vt/src/mdibaiee/vitess/oracle
 
 # Build and install Vitess in a temporary output directory.
 USER vitess
 
-WORKDIR /vt/src/vitess.io/vitess
+WORKDIR /vt/src/mdibaiee/vitess/oracle
 RUN make install PREFIX=/vt/install
 
-ENV VTROOT /vt/src/vitess.io/vitess
+ENV VTROOT /vt/src/mdibaiee/vitess/oracle
 ENV VTDATAROOT /vt/vtdataroot
 ENV PATH $VTROOT/bin:$PATH
 ENV PATH="/var/opt/etcd:${PATH}"

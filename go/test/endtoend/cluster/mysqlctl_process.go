@@ -29,11 +29,11 @@ import (
 
 	"github.com/google/safehtml/template"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/syscallutil"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/mysqlctl"
-	"vitess.io/vitess/go/vt/tlstest"
+	"mdibaiee/vitess/oracle/go/mysql"
+	"mdibaiee/vitess/oracle/go/syscallutil"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/mysqlctl"
+	"mdibaiee/vitess/oracle/go/vt/tlstest"
 )
 
 // MysqlctlProcess is a generic handle for a running mysqlctl command .

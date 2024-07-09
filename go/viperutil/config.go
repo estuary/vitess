@@ -29,10 +29,10 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	"vitess.io/vitess/go/viperutil/funcs"
-	"vitess.io/vitess/go/viperutil/internal/log"
-	"vitess.io/vitess/go/viperutil/internal/registry"
-	"vitess.io/vitess/go/viperutil/internal/value"
+	"mdibaiee/vitess/oracle/go/viperutil/funcs"
+	"mdibaiee/vitess/oracle/go/viperutil/internal/log"
+	"mdibaiee/vitess/oracle/go/viperutil/internal/registry"
+	"mdibaiee/vitess/oracle/go/viperutil/internal/value"
 )
 
 var (

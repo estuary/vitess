@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"vitess.io/vitess/go/stats"
+	"mdibaiee/vitess/oracle/go/stats"
 )
 
 // Stats is a reporting interface meant to be shared among backup and restore

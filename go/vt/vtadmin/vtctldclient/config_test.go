@@ -29,10 +29,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/backoff"
 
-	"vitess.io/vitess/go/vt/grpcclient"
-	"vitess.io/vitess/go/vt/vtadmin/cluster/resolver"
+	"mdibaiee/vitess/oracle/go/vt/grpcclient"
+	"mdibaiee/vitess/oracle/go/vt/vtadmin/cluster/resolver"
 
-	vtadminpb "vitess.io/vitess/go/vt/proto/vtadmin"
+	vtadminpb "mdibaiee/vitess/oracle/go/vt/proto/vtadmin"
 )
 
 func withTempFile(t *testing.T, tmpdir string, name string, f func(*testing.T, *os.File)) {

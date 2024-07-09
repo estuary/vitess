@@ -22,7 +22,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"vitess.io/vitess/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/log"
 )
 
 // AuthServerClientCert implements AuthServer which enforces client side certificates

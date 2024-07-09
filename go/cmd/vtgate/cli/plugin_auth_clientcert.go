@@ -19,8 +19,8 @@ package cli
 // This plugin imports clientcert to register the client certificate implementation of AuthServer.
 
 import (
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/vt/vtgate"
+	"mdibaiee/vitess/oracle/go/mysql"
+	"mdibaiee/vitess/oracle/go/vt/vtgate"
 )
 
 var clientcertAuthMethod string

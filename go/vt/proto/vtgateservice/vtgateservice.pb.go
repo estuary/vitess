@@ -27,8 +27,8 @@ package vtgateservice
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	vtgate "mdibaiee/vitess/oracle/go/vt/proto/vtgate"
 	reflect "reflect"
-	vtgate "vitess.io/vitess/go/vt/proto/vtgate"
 )
 
 const (

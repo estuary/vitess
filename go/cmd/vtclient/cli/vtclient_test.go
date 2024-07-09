@@ -25,10 +25,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/vt/vttest"
+	"mdibaiee/vitess/oracle/go/vt/vttest"
 
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
-	vttestpb "vitess.io/vitess/go/vt/proto/vttest"
+	vschemapb "mdibaiee/vitess/oracle/go/vt/proto/vschema"
+	vttestpb "mdibaiee/vitess/oracle/go/vt/proto/vttest"
 )
 
 func TestVtclient(t *testing.T) {

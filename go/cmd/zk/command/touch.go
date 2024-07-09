@@ -22,8 +22,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/z-division/go-zookeeper/zk"
 
-	"vitess.io/vitess/go/cmd/zk/internal/zkfilepath"
-	"vitess.io/vitess/go/vt/topo/zk2topo"
+	"mdibaiee/vitess/oracle/go/cmd/zk/internal/zkfilepath"
+	"mdibaiee/vitess/oracle/go/vt/topo/zk2topo"
 )
 
 var (

@@ -19,9 +19,9 @@ package mysqlctld
 import (
 	"testing"
 
-	"vitess.io/vitess/go/vt/mysqlctl"
+	"mdibaiee/vitess/oracle/go/vt/mysqlctl"
 
-	backup "vitess.io/vitess/go/test/endtoend/backup/vtctlbackup"
+	backup "mdibaiee/vitess/oracle/go/test/endtoend/backup/vtctlbackup"
 )
 
 // TestBackupMysqlctld - tests the backup using mysqlctld.

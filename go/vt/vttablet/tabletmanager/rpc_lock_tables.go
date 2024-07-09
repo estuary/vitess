@@ -25,10 +25,10 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"vitess.io/vitess/go/sqlescape"
-	"vitess.io/vitess/go/vt/dbconnpool"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/sqlescape"
+	"mdibaiee/vitess/oracle/go/vt/dbconnpool"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
 )
 
 var lockTablesTimeout = 1 * time.Minute

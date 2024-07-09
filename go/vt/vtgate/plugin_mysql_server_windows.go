@@ -21,7 +21,7 @@ package vtgate
 import (
 	"errors"
 
-	"vitess.io/vitess/go/mysql"
+	"mdibaiee/vitess/oracle/go/mysql"
 )
 
 func setupUnixSocket(srv *mysqlServer, authServer mysql.AuthServer, path string) error {

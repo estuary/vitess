@@ -19,7 +19,7 @@ package uca
 import (
 	"sync"
 
-	"vitess.io/vitess/go/mysql/collations/charset"
+	"mdibaiee/vitess/oracle/go/mysql/collations/charset"
 )
 
 type Collation interface {

@@ -17,8 +17,8 @@ limitations under the License.
 package vthash
 
 import (
-	"vitess.io/vitess/go/vt/vthash/highway"
-	"vitess.io/vitess/go/vt/vthash/metro"
+	"mdibaiee/vitess/oracle/go/vt/vthash/highway"
+	"mdibaiee/vitess/oracle/go/vt/vthash/metro"
 )
 
 type Hasher = metro.Metro128

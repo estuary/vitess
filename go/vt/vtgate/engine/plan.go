@@ -22,8 +22,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"vitess.io/vitess/go/vt/proto/query"
-	"vitess.io/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/vt/proto/query"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
 )
 
 // Plan represents the execution strategy for a given query.

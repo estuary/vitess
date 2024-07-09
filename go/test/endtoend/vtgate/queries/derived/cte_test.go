@@ -19,7 +19,7 @@ package misc
 import (
 	"testing"
 
-	"vitess.io/vitess/go/test/endtoend/utils"
+	"mdibaiee/vitess/oracle/go/test/endtoend/utils"
 )
 
 func TestCTEWithOrderByLimit(t *testing.T) {

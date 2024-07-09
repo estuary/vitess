@@ -20,8 +20,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"vitess.io/vitess/go/cache"
-	"vitess.io/vitess/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/cache"
+	"mdibaiee/vitess/oracle/go/sqltypes"
 )
 
 // Consolidator consolidates duplicate queries from executing simulaneously

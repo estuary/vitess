@@ -45,8 +45,8 @@ import (
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/vt/servenv"
+	"mdibaiee/vitess/oracle/go/vt/topo"
 )
 
 var (

@@ -17,9 +17,9 @@ limitations under the License.
 package cli
 
 import (
-	"vitess.io/vitess/go/vt/topo/topoproto"
+	"mdibaiee/vitess/oracle/go/vt/topo/topoproto"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
 )
 
 // TabletAliasesFromPosArgs takes a list of positional (non-flag) arguments and

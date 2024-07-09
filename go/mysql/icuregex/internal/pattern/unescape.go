@@ -25,7 +25,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"vitess.io/vitess/go/mysql/icuregex/internal/utf16"
+	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/utf16"
 )
 
 /* Convert one octal digit to a numeric value 0..7, or -1 on failure */

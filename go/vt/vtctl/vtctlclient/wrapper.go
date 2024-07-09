@@ -23,7 +23,7 @@ import (
 	"io"
 	"time"
 
-	logutilpb "vitess.io/vitess/go/vt/proto/logutil"
+	logutilpb "mdibaiee/vitess/oracle/go/vt/proto/logutil"
 )
 
 var (

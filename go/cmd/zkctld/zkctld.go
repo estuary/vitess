@@ -20,9 +20,9 @@ limitations under the License.
 package main
 
 import (
-	"vitess.io/vitess/go/cmd/zkctld/cli"
-	"vitess.io/vitess/go/exit"
-	"vitess.io/vitess/go/vt/log"
+	"mdibaiee/vitess/oracle/go/cmd/zkctld/cli"
+	"mdibaiee/vitess/oracle/go/exit"
+	"mdibaiee/vitess/oracle/go/vt/log"
 )
 
 func main() {

@@ -21,9 +21,9 @@ import (
 
 	"github.com/spf13/viper"
 
-	"vitess.io/vitess/go/viperutil"
-	"vitess.io/vitess/go/viperutil/funcs"
-	"vitess.io/vitess/go/viperutil/internal/value"
+	"mdibaiee/vitess/oracle/go/viperutil"
+	"mdibaiee/vitess/oracle/go/viperutil/funcs"
+	"mdibaiee/vitess/oracle/go/viperutil/internal/value"
 )
 
 func ExampleGetPath() {

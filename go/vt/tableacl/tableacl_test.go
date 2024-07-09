@@ -25,11 +25,11 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"vitess.io/vitess/go/vt/tableacl/acl"
-	"vitess.io/vitess/go/vt/tableacl/simpleacl"
+	"mdibaiee/vitess/oracle/go/vt/tableacl/acl"
+	"mdibaiee/vitess/oracle/go/vt/tableacl/simpleacl"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	tableaclpb "vitess.io/vitess/go/vt/proto/tableacl"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
+	tableaclpb "mdibaiee/vitess/oracle/go/vt/proto/tableacl"
 )
 
 type fakeACLFactory struct{}

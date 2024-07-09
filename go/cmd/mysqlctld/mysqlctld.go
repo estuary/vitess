@@ -20,8 +20,8 @@ limitations under the License.
 package main
 
 import (
-	"vitess.io/vitess/go/cmd/mysqlctld/cli"
-	"vitess.io/vitess/go/vt/log"
+	"mdibaiee/vitess/oracle/go/cmd/mysqlctld/cli"
+	"mdibaiee/vitess/oracle/go/vt/log"
 )
 
 func main() {

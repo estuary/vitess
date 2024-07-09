@@ -23,12 +23,12 @@ import (
 	"text/template"
 	"time"
 
-	"vitess.io/vitess/go/vt/vtgate/logstats"
+	"mdibaiee/vitess/oracle/go/vt/vtgate/logstats"
 
-	"vitess.io/vitess/go/acl"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logz"
-	"vitess.io/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/acl"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/logz"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
 )
 
 var (

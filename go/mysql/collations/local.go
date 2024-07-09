@@ -19,7 +19,7 @@ limitations under the License.
 package collations
 
 import (
-	"vitess.io/vitess/go/sqltypes"
+	"mdibaiee/vitess/oracle/go/sqltypes"
 )
 
 // MySQL8 is the collation Environment for MySQL 8. This should

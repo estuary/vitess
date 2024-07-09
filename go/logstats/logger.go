@@ -24,9 +24,9 @@ import (
 	"sync"
 	"time"
 
-	"vitess.io/vitess/go/hack"
-	"vitess.io/vitess/go/sqltypes"
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	"mdibaiee/vitess/oracle/go/hack"
+	"mdibaiee/vitess/oracle/go/sqltypes"
+	querypb "mdibaiee/vitess/oracle/go/vt/proto/query"
 )
 
 type logbv struct {

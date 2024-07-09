@@ -24,7 +24,7 @@ package uset
 import (
 	"strings"
 
-	"vitess.io/vitess/go/mysql/icuregex/internal/pattern"
+	"mdibaiee/vitess/oracle/go/mysql/icuregex/internal/pattern"
 )
 
 func (u *UnicodeSet) String() string {

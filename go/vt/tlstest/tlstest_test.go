@@ -30,7 +30,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/sync/errgroup"
 
-	"vitess.io/vitess/go/vt/vttls"
+	"mdibaiee/vitess/oracle/go/vt/vttls"
 )
 
 func TestClientServerWithoutCombineCerts(t *testing.T) {

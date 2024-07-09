@@ -27,9 +27,9 @@ import (
 
 	toxiproxy "github.com/Shopify/toxiproxy/v2/client"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/vterrors"
+	"mdibaiee/vitess/oracle/go/mysql"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/vterrors"
 )
 
 const (
@@ -245,7 +245,7 @@ func WriteInitDBFile(initFile, customSQL, newInitFile string) error {
 }
 
 // getInitDBSQL is a helper function that retrieves the modified contents of the init_db.sql file with custom SQL statements.
-// We avoid using vitess.io/vitess/go/test/endtoend/utils.GetInitDBSQL as importing this package adds unnecessary flags to vttestserver.
+// We avoid using mdibaiee/vitess/oracle/go/test/endtoend/utils.GetInitDBSQL as importing this package adds unnecessary flags to vttestserver.
 func getInitDBSQL(initDBSQL string, customSQL string) (string, error) {
 	splitString := strings.Split(initDBSQL, "# {{custom_sql}}")
 	if len(splitString) != 2 {

@@ -21,10 +21,10 @@ import (
 	"encoding/binary"
 	"math/bits"
 
-	"vitess.io/vitess/go/mysql/collations"
-	"vitess.io/vitess/go/mysql/collations/charset"
-	"vitess.io/vitess/go/mysql/collations/internal/uca"
-	"vitess.io/vitess/go/vt/vthash"
+	"mdibaiee/vitess/oracle/go/mysql/collations"
+	"mdibaiee/vitess/oracle/go/mysql/collations/charset"
+	"mdibaiee/vitess/oracle/go/mysql/collations/internal/uca"
+	"mdibaiee/vitess/oracle/go/vt/vthash"
 )
 
 type Collation_utf8mb4_uca_0900 struct {

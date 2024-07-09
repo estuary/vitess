@@ -22,11 +22,11 @@ import (
 
 	"google.golang.org/grpc"
 
-	"vitess.io/vitess/go/vt/vttablet/grpctmclient"
-	"vitess.io/vitess/go/vt/vttablet/grpctmserver"
-	"vitess.io/vitess/go/vt/vttablet/tmrpctest"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/grpctmclient"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/grpctmserver"
+	"mdibaiee/vitess/oracle/go/vt/vttablet/tmrpctest"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
 )
 
 // TestGRPCTMServer creates a fake server implementation, a fake client

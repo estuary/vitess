@@ -44,7 +44,7 @@ package mysql
 import (
 	"fmt"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
 )
 
 // Probe is the minimal configuration required to connect to a MySQL server

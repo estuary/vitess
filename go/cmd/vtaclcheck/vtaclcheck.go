@@ -19,9 +19,9 @@ package main
 import (
 	"fmt"
 
-	"vitess.io/vitess/go/cmd/vtaclcheck/cli"
-	"vitess.io/vitess/go/exit"
-	"vitess.io/vitess/go/vt/logutil"
+	"mdibaiee/vitess/oracle/go/cmd/vtaclcheck/cli"
+	"mdibaiee/vitess/oracle/go/exit"
+	"mdibaiee/vitess/oracle/go/vt/logutil"
 )
 
 func init() {

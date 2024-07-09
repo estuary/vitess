@@ -21,9 +21,9 @@ import (
 	"math/rand/v2"
 	"slices"
 
-	"vitess.io/vitess/go/slice"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/sqlparser"
+	"mdibaiee/vitess/oracle/go/slice"
+	"mdibaiee/vitess/oracle/go/vt/log"
+	"mdibaiee/vitess/oracle/go/vt/sqlparser"
 )
 
 // this file contains the structs and functions to generate random queries

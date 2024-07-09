@@ -16,7 +16,7 @@ limitations under the License.
 
 package vtadmin
 
-import "vitess.io/vitess/go/vt/vtadmin/cluster"
+import "mdibaiee/vitess/oracle/go/vt/vtadmin/cluster"
 
 // debugAPI wraps a vtadmin API for use in the vtadmin/http/debug package
 // endpoints.

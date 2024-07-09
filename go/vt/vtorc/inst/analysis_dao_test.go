@@ -23,10 +23,10 @@ import (
 	"github.com/patrickmn/go-cache"
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/vt/external/golib/sqlutils"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/vtorc/db"
-	"vitess.io/vitess/go/vt/vtorc/test"
+	"mdibaiee/vitess/oracle/go/vt/external/golib/sqlutils"
+	topodatapb "mdibaiee/vitess/oracle/go/vt/proto/topodata"
+	"mdibaiee/vitess/oracle/go/vt/vtorc/db"
+	"mdibaiee/vitess/oracle/go/vt/vtorc/test"
 )
 
 var (

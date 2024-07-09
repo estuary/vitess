@@ -50,7 +50,7 @@ import (
 	"google.golang.org/grpc/status"
 	{{- end }}
 	{{ if .NeedsGRPCShim -}}
-	"vitess.io/vitess/go/vt/vtctl/internal/grpcshim"
+	"mdibaiee/vitess/oracle/go/vt/vtctl/internal/grpcshim"
 	{{- end }}
 
 	{{ range .Imports -}}

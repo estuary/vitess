@@ -28,8 +28,8 @@ import (
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 
-	"vitess.io/vitess/go/test/utils"
-	"vitess.io/vitess/go/vt/topo"
+	"mdibaiee/vitess/oracle/go/test/utils"
+	"mdibaiee/vitess/oracle/go/vt/topo"
 )
 
 // TestWatchTopoVersion tests how the topo.Version values work within the etcd2topo

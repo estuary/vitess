@@ -23,7 +23,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"vitess.io/vitess/go/vt/mysqlctl"
+	"mdibaiee/vitess/oracle/go/vt/mysqlctl"
 )
 
 var Teardown = &cobra.Command{

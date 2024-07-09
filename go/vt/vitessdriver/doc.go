@@ -28,7 +28,7 @@ Example
 Using this SQL driver is as simple as:
 
   import (
-    "vitess.io/vitess/go/vt/vitessdriver"
+    "mdibaiee/vitess/oracle/go/vt/vitessdriver"
   )
 
   func main() {

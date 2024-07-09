@@ -19,5 +19,5 @@ package cli
 // Imports and register the file custom rule source
 
 import (
-	_ "vitess.io/vitess/go/vt/vttablet/customrule/filecustomrule"
+	_ "mdibaiee/vitess/oracle/go/vt/vttablet/customrule/filecustomrule"
 )

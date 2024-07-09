@@ -16,7 +16,7 @@ limitations under the License.
 
 package cli
 
-import "vitess.io/vitess/go/stats/opentsdb"
+import "mdibaiee/vitess/oracle/go/stats/opentsdb"
 
 // This plugin imports opentsdb to register the opentsdb stats backend.
 

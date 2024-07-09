@@ -19,7 +19,7 @@ package eightbit
 import (
 	"unicode/utf8"
 
-	"vitess.io/vitess/go/mysql/collations/charset/types"
+	"mdibaiee/vitess/oracle/go/mysql/collations/charset/types"
 )
 
 type UnicodeMapping struct {
