@@ -554,11 +554,6 @@ func (tkn *Tokenizer) scanString(delim uint16, typ int) (int, string) {
 			}
 			fallthrough
 
-		case '\\':
-			var buffer strings.Builder
-			buffer.WriteString(tkn.buf[start:tkn.Pos])
-			return tkn.scanStringSlow(&buffer, delim, typ)
-
 		case eofChar:
 			return LEX_ERROR, tkn.buf[start:tkn.Pos]
 		}
