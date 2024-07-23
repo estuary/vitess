@@ -545,13 +545,15 @@ exit:
 // will fall back to scanStringSlow
 func (tkn *Tokenizer) scanString(delim uint16, typ int) (int, string) {
 	start := tkn.Pos
+	var buf strings.Builder
 
 	for {
-		switch tkn.cur() {
+		ch := tkn.cur()
+		switch ch {
 		case delim:
 			if tkn.peek(1) != delim {
 				tkn.skip(1)
-				return typ, tkn.buf[start : tkn.Pos-1]
+				return typ, buf.String()
 			} else {
 				tkn.skip(1)
 			}
@@ -560,6 +562,7 @@ func (tkn *Tokenizer) scanString(delim uint16, typ int) (int, string) {
 			return LEX_ERROR, tkn.buf[start:tkn.Pos]
 		}
 
+		buf.WriteByte(byte(ch))
 		tkn.skip(1)
 	}
 }
