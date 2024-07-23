@@ -284,7 +284,8 @@ func (tkn *Tokenizer) Scan() (int, string) {
 			}
 			return int(ch), ""
 		case '\'':
-			return tkn.scanString(ch, STRING)
+			var t, s = tkn.scanString(ch, STRING)
+			return t, s
 		case '"':
 			return tkn.scanLiteralIdentifier()
 		default:
@@ -551,8 +552,9 @@ func (tkn *Tokenizer) scanString(delim uint16, typ int) (int, string) {
 			if tkn.peek(1) != delim {
 				tkn.skip(1)
 				return typ, tkn.buf[start : tkn.Pos-1]
+			} else {
+				tkn.skip(1)
 			}
-			fallthrough
 
 		case eofChar:
 			return LEX_ERROR, tkn.buf[start:tkn.Pos]
