@@ -21,13 +21,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/schema"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/estuary/vitess/go/sqltypes"
+	vtrpcpb "github.com/estuary/vitess/go/vt/proto/vtrpc"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/vtenv"
+	"github.com/estuary/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver/schema"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 var (

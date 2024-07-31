@@ -21,18 +21,18 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mdibaiee/vitess/go/acl"
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
-	"github.com/mdibaiee/vitess/go/vt/vtexplain"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/estuary/vitess/go/acl"
+	"github.com/estuary/vitess/go/stats"
+	"github.com/estuary/vitess/go/vt/logutil"
+	"github.com/estuary/vitess/go/vt/servenv"
+	"github.com/estuary/vitess/go/vt/topo/memorytopo"
+	"github.com/estuary/vitess/go/vt/vtenv"
+	"github.com/estuary/vitess/go/vt/vtexplain"
+	"github.com/estuary/vitess/go/vt/vtgate/planbuilder/plancontext"
 
 	"github.com/spf13/cobra"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
 )
 
 var (

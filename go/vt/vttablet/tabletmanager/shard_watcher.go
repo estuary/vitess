@@ -19,8 +19,8 @@ package tabletmanager
 import (
 	"context"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/topo"
 )
 
 type shardWatcher struct {

@@ -26,22 +26,22 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/estuary/vitess/go/vt/vtenv"
 
-	"github.com/mdibaiee/vitess/go/vt/discovery"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/throttler"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/grpcqueryservice"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/queryservice/fakes"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
-	"github.com/mdibaiee/vitess/go/vt/wrangler"
-	"github.com/mdibaiee/vitess/go/vt/wrangler/testlib"
+	"github.com/estuary/vitess/go/vt/discovery"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/logutil"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	"github.com/estuary/vitess/go/vt/servenv"
+	"github.com/estuary/vitess/go/vt/throttler"
+	"github.com/estuary/vitess/go/vt/topo"
+	"github.com/estuary/vitess/go/vt/topo/memorytopo"
+	"github.com/estuary/vitess/go/vt/vttablet/grpcqueryservice"
+	"github.com/estuary/vitess/go/vt/vttablet/queryservice/fakes"
+	"github.com/estuary/vitess/go/vt/vttablet/tmclient"
+	"github.com/estuary/vitess/go/vt/wrangler"
+	"github.com/estuary/vitess/go/vt/wrangler/testlib"
 )
 
 // This file contains a demo binary that demonstrates how the resharding

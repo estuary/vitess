@@ -22,9 +22,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/mdibaiee/vitess/go/bytes2"
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/mysql/collations/charset"
+	"github.com/estuary/vitess/go/bytes2"
+	"github.com/estuary/vitess/go/mysql"
+	"github.com/estuary/vitess/go/mysql/collations/charset"
 )
 
 type Charset struct {

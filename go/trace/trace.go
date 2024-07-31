@@ -28,9 +28,9 @@ import (
 	"github.com/spf13/pflag"
 	"google.golang.org/grpc"
 
-	"github.com/mdibaiee/vitess/go/viperutil"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/viperutil"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/vterrors"
 )
 
 // Span represents a unit of work within a trace. After creating a Span with

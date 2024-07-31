@@ -25,10 +25,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/constants/sidecar"
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
-	"github.com/mdibaiee/vitess/go/test/endtoend/encryption"
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/constants/sidecar"
+	"github.com/estuary/vitess/go/test/endtoend/cluster"
+	"github.com/estuary/vitess/go/test/endtoend/encryption"
+	"github.com/estuary/vitess/go/vt/log"
 )
 
 var (

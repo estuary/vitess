@@ -27,14 +27,14 @@ import (
 	"golang.org/x/sync/semaphore"
 	"google.golang.org/grpc"
 
-	"github.com/mdibaiee/vitess/go/netutil"
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/vt/grpcclient"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/estuary/vitess/go/netutil"
+	"github.com/estuary/vitess/go/stats"
+	"github.com/estuary/vitess/go/vt/grpcclient"
+	"github.com/estuary/vitess/go/vt/servenv"
+	"github.com/estuary/vitess/go/vt/vttablet/tmclient"
 
-	tabletmanagerservicepb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerservice"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	tabletmanagerservicepb "github.com/estuary/vitess/go/vt/proto/tabletmanagerservice"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 )
 
 var defaultPoolCapacity = 100

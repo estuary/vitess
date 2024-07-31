@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mdibaiee/vitess/go/vt/proto/vttime"
+	"github.com/estuary/vitess/go/vt/proto/vttime"
 )
 
 func TestDurationFromProto(t *testing.T) {

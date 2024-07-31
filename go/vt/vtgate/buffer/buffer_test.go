@@ -27,11 +27,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/vt/topo/topoproto"
+	"github.com/estuary/vitess/go/vt/vterrors"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	vtrpcpb "github.com/estuary/vitess/go/vt/proto/vtrpc"
 )
 
 const (

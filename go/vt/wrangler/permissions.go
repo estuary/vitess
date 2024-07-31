@@ -23,13 +23,13 @@ import (
 
 	"context"
 
-	"github.com/mdibaiee/vitess/go/vt/concurrency"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/mysqlctl/tmutils"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/estuary/vitess/go/vt/concurrency"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/mysqlctl/tmutils"
+	"github.com/estuary/vitess/go/vt/topo/topoproto"
 
-	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	tabletmanagerdatapb "github.com/estuary/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 )
 
 // GetPermissions returns the permissions set on a remote tablet

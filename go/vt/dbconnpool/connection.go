@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
-	"github.com/mdibaiee/vitess/go/pools/smartconnpool"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
+	"github.com/estuary/vitess/go/mysql"
+	"github.com/estuary/vitess/go/mysql/sqlerror"
+	"github.com/estuary/vitess/go/pools/smartconnpool"
+	"github.com/estuary/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/vt/dbconfigs"
 )
 
 type PooledDBConnection = smartconnpool.Pooled[*DBConnection]

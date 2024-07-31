@@ -22,17 +22,17 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/concurrency"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
-	"github.com/mdibaiee/vitess/go/vt/vtctl/workflow/common"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/estuary/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/vt/concurrency"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/topo"
+	"github.com/estuary/vitess/go/vt/topo/topoproto"
+	"github.com/estuary/vitess/go/vt/vtctl/workflow/common"
+	"github.com/estuary/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/vt/vttablet/tmclient"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
 )
 
 const (

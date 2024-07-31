@@ -22,20 +22,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv/tabletenvtest"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver/tabletenv/tabletenvtest"
 
 	"google.golang.org/protobuf/proto"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/test/utils"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/endtoend/framework"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/estuary/vitess/go/mysql"
+	"github.com/estuary/vitess/go/test/utils"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	"github.com/estuary/vitess/go/vt/vttablet/endtoend/framework"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 func TestCommit(t *testing.T) {

@@ -25,8 +25,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/stats"
+	"github.com/estuary/vitess/go/vt/log"
 )
 
 // Init is the first phase of the server startup.

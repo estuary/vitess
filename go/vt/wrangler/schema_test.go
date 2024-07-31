@@ -22,8 +22,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	"github.com/estuary/vitess/go/sqltypes"
+	tabletmanagerdatapb "github.com/estuary/vitess/go/vt/proto/tabletmanagerdata"
 )
 
 func TestValidateSchemaShard(t *testing.T) {

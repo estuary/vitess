@@ -21,11 +21,11 @@ package vtgateservice
 import (
 	"context"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
+	"github.com/estuary/vitess/go/sqltypes"
+	binlogdatapb "github.com/estuary/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	vtgatepb "github.com/estuary/vitess/go/vt/proto/vtgate"
 )
 
 // VTGateService is the interface implemented by the VTGate service,

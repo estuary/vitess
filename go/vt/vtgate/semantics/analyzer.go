@@ -17,12 +17,12 @@ limitations under the License.
 package semantics
 
 import (
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/evalengine"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/estuary/vitess/go/mysql/collations"
+	vschemapb "github.com/estuary/vitess/go/vt/proto/vschema"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/vt/vtgate/evalengine"
+	"github.com/estuary/vitess/go/vt/vtgate/vindexes"
 )
 
 // analyzer controls the flow of the analysis.

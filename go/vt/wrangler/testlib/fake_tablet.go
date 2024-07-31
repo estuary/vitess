@@ -29,30 +29,30 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/mdibaiee/vitess/go/mysql/fakesqldb"
-	"github.com/mdibaiee/vitess/go/vt/binlog/binlogplayer"
-	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
-	"github.com/mdibaiee/vitess/go/vt/mysqlctl"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/grpctmserver"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletconntest"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager/vreplication"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletservermock"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclienttest"
-	"github.com/mdibaiee/vitess/go/vt/wrangler"
+	"github.com/estuary/vitess/go/mysql/fakesqldb"
+	"github.com/estuary/vitess/go/vt/binlog/binlogplayer"
+	"github.com/estuary/vitess/go/vt/dbconfigs"
+	"github.com/estuary/vitess/go/vt/mysqlctl"
+	"github.com/estuary/vitess/go/vt/topo"
+	"github.com/estuary/vitess/go/vt/topo/topoproto"
+	"github.com/estuary/vitess/go/vt/vtenv"
+	"github.com/estuary/vitess/go/vt/vttablet/grpctmserver"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletconntest"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletmanager"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletmanager/vreplication"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletservermock"
+	"github.com/estuary/vitess/go/vt/vttablet/tmclient"
+	"github.com/estuary/vitess/go/vt/vttablet/tmclienttest"
+	"github.com/estuary/vitess/go/vt/wrangler"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 
 	// import the gRPC client implementation for tablet manager
-	_ "github.com/mdibaiee/vitess/go/vt/vttablet/grpctmclient"
+	_ "github.com/estuary/vitess/go/vt/vttablet/grpctmclient"
 
 	// import the gRPC client implementation for query service
-	_ "github.com/mdibaiee/vitess/go/vt/vttablet/grpctabletconn"
+	_ "github.com/estuary/vitess/go/vt/vttablet/grpctabletconn"
 )
 
 // This file contains utility methods for unit tests.

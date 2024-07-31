@@ -17,16 +17,16 @@ limitations under the License.
 package tabletmanager
 
 import (
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/mysql/replication"
+	"github.com/estuary/vitess/go/vt/vterrors"
 
 	"context"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/mysqlctl/tmutils"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/mysqlctl/tmutils"
+	"github.com/estuary/vitess/go/vt/topo/topoproto"
 
-	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	tabletmanagerdatapb "github.com/estuary/vitess/go/vt/proto/tabletmanagerdata"
 )
 
 // GetSchema returns the schema.

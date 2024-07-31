@@ -25,10 +25,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/sqlparser"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/sqltypes"
 )
 
 func verifyQueries(t *testing.T, dcs []*fakeDBClient) {

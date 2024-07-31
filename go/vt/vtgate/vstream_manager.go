@@ -27,21 +27,21 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/vt/discovery"
-	"github.com/mdibaiee/vitess/go/vt/key"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/srvtopo"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/stats"
+	"github.com/estuary/vitess/go/vt/discovery"
+	"github.com/estuary/vitess/go/vt/key"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/servenv"
+	"github.com/estuary/vitess/go/vt/srvtopo"
+	"github.com/estuary/vitess/go/vt/topo"
+	"github.com/estuary/vitess/go/vt/topo/topoproto"
+	"github.com/estuary/vitess/go/vt/vterrors"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	binlogdatapb "github.com/estuary/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	vtgatepb "github.com/estuary/vitess/go/vt/proto/vtgate"
+	vtrpcpb "github.com/estuary/vitess/go/vt/proto/vtrpc"
 )
 
 // vstreamManager manages vstream requests.

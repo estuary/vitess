@@ -20,11 +20,11 @@ import (
 	"context"
 	"fmt"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	"github.com/estuary/vitess/go/vt/vterrors"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	"github.com/estuary/vitess/go/sqltypes"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
 )
 
 var _ Primitive = (*DMLWithInput)(nil)

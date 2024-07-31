@@ -27,10 +27,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"github.com/mdibaiee/vitess/go/vt/grpcclient"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/grpcvtgateservice"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/estuary/vitess/go/vt/grpcclient"
+	"github.com/estuary/vitess/go/vt/servenv"
+	"github.com/estuary/vitess/go/vt/vtgate/grpcvtgateservice"
+	"github.com/estuary/vitess/go/vt/vtgate/vtgateconn"
 )
 
 // TestGRPCVTGateConn makes sure the grpc service works

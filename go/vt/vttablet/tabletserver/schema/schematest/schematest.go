@@ -19,11 +19,11 @@ limitations under the License.
 package schematest
 
 import (
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/mysql/fakesqldb"
-	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/mysql"
+	"github.com/estuary/vitess/go/mysql/fakesqldb"
+	"github.com/estuary/vitess/go/sqltypes"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
 )
 
 // AddDefaultQueries returns a default set of queries that can

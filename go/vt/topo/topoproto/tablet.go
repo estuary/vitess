@@ -28,11 +28,11 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/mdibaiee/vitess/go/netutil"
-	"github.com/mdibaiee/vitess/go/sets"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/netutil"
+	"github.com/estuary/vitess/go/sets"
+	"github.com/estuary/vitess/go/vt/vterrors"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 )
 
 // This file contains the topodata.Tablet utility functions.

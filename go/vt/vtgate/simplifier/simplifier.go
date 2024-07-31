@@ -17,9 +17,9 @@ limitations under the License.
 package simplifier
 
 import (
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/semantics"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/vtgate/semantics"
 )
 
 // SimplifyStatement simplifies the AST of a query. It basically iteratively prunes leaves of the AST, as long as the pruning

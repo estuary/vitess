@@ -21,8 +21,8 @@ package cli
 import (
 	"time"
 
-	"github.com/mdibaiee/vitess/go/mysql/vault"
-	"github.com/mdibaiee/vitess/go/vt/vtgate"
+	"github.com/estuary/vitess/go/mysql/vault"
+	"github.com/estuary/vitess/go/vt/vtgate"
 )
 
 var (

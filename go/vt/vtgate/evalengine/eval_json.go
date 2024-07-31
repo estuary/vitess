@@ -21,13 +21,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/hack"
-	"github.com/mdibaiee/vitess/go/mysql/collations/charset"
-	"github.com/mdibaiee/vitess/go/mysql/collations/colldata"
-	"github.com/mdibaiee/vitess/go/mysql/json"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/hack"
+	"github.com/estuary/vitess/go/mysql/collations/charset"
+	"github.com/estuary/vitess/go/mysql/collations/colldata"
+	"github.com/estuary/vitess/go/mysql/json"
+	"github.com/estuary/vitess/go/sqltypes"
+	vtrpcpb "github.com/estuary/vitess/go/vt/proto/vtrpc"
+	"github.com/estuary/vitess/go/vt/vterrors"
 )
 
 type errJSONType string

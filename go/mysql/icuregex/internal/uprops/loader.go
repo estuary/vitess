@@ -25,8 +25,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/icudata"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/udata"
+	"github.com/estuary/vitess/go/mysql/icuregex/internal/icudata"
+	"github.com/estuary/vitess/go/mysql/icuregex/internal/udata"
 )
 
 var pnamesOnce sync.Once

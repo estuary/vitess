@@ -3,6 +3,6 @@
 // license that can be found in the LICENSE file.
 
 // unicode holds packages with implementations of Unicode standards that are
-// mostly used as building blocks for other packages in github.com/mdibaiee/vitess/go/mysql/collations/vindex,
+// mostly used as building blocks for other packages in github.com/estuary/vitess/go/mysql/collations/vindex,
 // layout engines, or are otherwise more low-level in nature.
 package unicode

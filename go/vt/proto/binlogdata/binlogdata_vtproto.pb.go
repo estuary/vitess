@@ -10,9 +10,9 @@ import (
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	io "io"
 	bits "math/bits"
-	query "github.com/mdibaiee/vitess/go/vt/proto/query"
-	topodata "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtrpc "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	query "github.com/estuary/vitess/go/vt/proto/query"
+	topodata "github.com/estuary/vitess/go/vt/proto/topodata"
+	vtrpc "github.com/estuary/vitess/go/vt/proto/vtrpc"
 	sync "sync"
 )
 

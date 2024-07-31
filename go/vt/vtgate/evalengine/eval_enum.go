@@ -1,8 +1,8 @@
 package evalengine
 
 import (
-	"github.com/mdibaiee/vitess/go/hack"
-	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/hack"
+	"github.com/estuary/vitess/go/sqltypes"
 )
 
 type evalEnum struct {

@@ -26,7 +26,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	_flag "github.com/mdibaiee/vitess/go/internal/flag"
+	_flag "github.com/estuary/vitess/go/internal/flag"
 )
 
 var (

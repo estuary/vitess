@@ -19,11 +19,11 @@ package engine
 import (
 	"context"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/estuary/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/vt/proto/query"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/vt/vtgate/vindexes"
 )
 
 var _ Primitive = (*AlterVSchema)(nil)

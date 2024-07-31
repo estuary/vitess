@@ -30,20 +30,20 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/mysql/config"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/test/utils"
-	"github.com/mdibaiee/vitess/go/vt/key"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/srvtopo"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/estuary/vitess/go/mysql/collations"
+	"github.com/estuary/vitess/go/mysql/config"
+	"github.com/estuary/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/test/utils"
+	"github.com/estuary/vitess/go/vt/key"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/srvtopo"
+	"github.com/estuary/vitess/go/vt/vtenv"
+	"github.com/estuary/vitess/go/vt/vtgate/vindexes"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
+	binlogdatapb "github.com/estuary/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	vtgatepb "github.com/estuary/vitess/go/vt/proto/vtgate"
 )
 
 var testMaxMemoryRows = 100

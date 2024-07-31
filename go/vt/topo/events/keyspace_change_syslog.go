@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"log/syslog"
 
-	"github.com/mdibaiee/vitess/go/event/syslogger"
+	"github.com/estuary/vitess/go/event/syslogger"
 )
 
 // Syslog writes the event to syslog.

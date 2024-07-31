@@ -19,10 +19,10 @@ package evalengine
 import (
 	"errors"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/mysql/collations"
+	"github.com/estuary/vitess/go/sqltypes"
+	vtrpcpb "github.com/estuary/vitess/go/vt/proto/vtrpc"
+	"github.com/estuary/vitess/go/vt/vterrors"
 )
 
 type (

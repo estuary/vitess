@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
 )
 
 // Functions in this file should only be used for testing.

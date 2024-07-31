@@ -24,9 +24,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/endtoend/framework"
+	"github.com/estuary/vitess/go/mysql"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	"github.com/estuary/vitess/go/vt/vttablet/endtoend/framework"
 )
 
 // TestSchemaChangeTimedout ensures that the timeout functionality is working properly

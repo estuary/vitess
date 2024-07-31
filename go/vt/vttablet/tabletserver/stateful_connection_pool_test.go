@@ -23,11 +23,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql/fakesqldb"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tx"
+	"github.com/estuary/vitess/go/mysql/fakesqldb"
+	"github.com/estuary/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/vt/dbconfigs"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver/tx"
 )
 
 func TestActivePoolClientRowsFound(t *testing.T) {

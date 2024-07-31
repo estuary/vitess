@@ -20,16 +20,16 @@ import (
 	"encoding/binary"
 	"math"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/mysql/collations/charset"
-	"github.com/mdibaiee/vitess/go/mysql/collations/colldata"
-	"github.com/mdibaiee/vitess/go/mysql/decimal"
-	"github.com/mdibaiee/vitess/go/mysql/fastparse"
-	"github.com/mdibaiee/vitess/go/mysql/json"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/mysql/collations"
+	"github.com/estuary/vitess/go/mysql/collations/charset"
+	"github.com/estuary/vitess/go/mysql/collations/colldata"
+	"github.com/estuary/vitess/go/mysql/decimal"
+	"github.com/estuary/vitess/go/mysql/fastparse"
+	"github.com/estuary/vitess/go/mysql/json"
+	"github.com/estuary/vitess/go/sqltypes"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	vtrpcpb "github.com/estuary/vitess/go/vt/proto/vtrpc"
+	"github.com/estuary/vitess/go/vt/vterrors"
 )
 
 // WeightString returns the weight string for a value.

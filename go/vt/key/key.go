@@ -26,7 +26,7 @@ import (
 	"regexp"
 	"strings"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 )
 
 var (

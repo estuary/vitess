@@ -27,7 +27,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"github.com/mdibaiee/vitess/go/viperutil/vipertest"
+	"github.com/estuary/vitess/go/viperutil/vipertest"
 )
 
 func TestFakeSpan(t *testing.T) {

@@ -22,9 +22,9 @@ import (
 	"log/syslog"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/hack"
+	"github.com/estuary/vitess/go/hack"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 )
 
 func init() {

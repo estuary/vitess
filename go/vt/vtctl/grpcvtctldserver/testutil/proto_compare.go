@@ -24,10 +24,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mdibaiee/vitess/go/test/utils"
-	logutilpb "github.com/mdibaiee/vitess/go/vt/proto/logutil"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
+	"github.com/estuary/vitess/go/test/utils"
+	logutilpb "github.com/estuary/vitess/go/vt/proto/logutil"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	vtctldatapb "github.com/estuary/vitess/go/vt/proto/vtctldata"
 )
 
 // AssertEmergencyReparentShardResponsesEqual asserts that two

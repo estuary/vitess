@@ -27,13 +27,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
+	"github.com/estuary/vitess/go/mysql/sqlerror"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/vterrors"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	"github.com/estuary/vitess/go/vt/proto/vtrpc"
 )
 
 const (

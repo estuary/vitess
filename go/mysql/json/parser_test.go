@@ -20,7 +20,7 @@ package json
 import (
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/hack"
+	"github.com/estuary/vitess/go/hack"
 )
 
 func TestParseRawNumber(t *testing.T) {

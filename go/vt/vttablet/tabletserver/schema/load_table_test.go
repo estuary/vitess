@@ -23,20 +23,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/test/utils"
-	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/estuary/vitess/go/mysql/collations"
+	"github.com/estuary/vitess/go/test/utils"
+	"github.com/estuary/vitess/go/vt/dbconfigs"
+	"github.com/estuary/vitess/go/vt/vtenv"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql/fakesqldb"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/connpool"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/estuary/vitess/go/mysql/fakesqldb"
+	"github.com/estuary/vitess/go/sqltypes"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver/connpool"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 func TestLoadTable(t *testing.T) {

@@ -20,8 +20,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/mdibaiee/vitess/go/cmd/internal/docgen"
-	"github.com/mdibaiee/vitess/go/cmd/vtgate/cli"
+	"github.com/estuary/vitess/go/cmd/internal/docgen"
+	"github.com/estuary/vitess/go/cmd/vtgate/cli"
 )
 
 func main() {

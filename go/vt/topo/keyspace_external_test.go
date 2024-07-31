@@ -24,12 +24,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/sqlescape"
-	"github.com/mdibaiee/vitess/go/vt/key"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
+	"github.com/estuary/vitess/go/sqlescape"
+	"github.com/estuary/vitess/go/vt/key"
+	"github.com/estuary/vitess/go/vt/topo"
+	"github.com/estuary/vitess/go/vt/topo/memorytopo"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 )
 
 func TestServerFindAllShardsInKeyspace(t *testing.T) {

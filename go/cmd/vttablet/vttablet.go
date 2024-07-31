@@ -18,8 +18,8 @@ limitations under the License.
 package main
 
 import (
-	"github.com/mdibaiee/vitess/go/cmd/vttablet/cli"
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/cmd/vttablet/cli"
+	"github.com/estuary/vitess/go/vt/log"
 )
 
 func main() {

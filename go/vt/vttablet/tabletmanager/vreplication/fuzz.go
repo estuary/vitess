@@ -22,12 +22,12 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/constants/sidecar"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/binlog/binlogplayer"
-	"github.com/mdibaiee/vitess/go/vt/mysqlctl"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
+	"github.com/estuary/vitess/go/constants/sidecar"
+	"github.com/estuary/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/vt/binlog/binlogplayer"
+	"github.com/estuary/vitess/go/vt/mysqlctl"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/topo/memorytopo"
 
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 )

@@ -17,7 +17,7 @@ limitations under the License.
 package buffer
 
 import (
-	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/estuary/vitess/go/stats"
 )
 
 // This file contains all status variables which can be used to monitor the

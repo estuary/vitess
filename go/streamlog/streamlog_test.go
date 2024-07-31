@@ -33,7 +33,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/estuary/vitess/go/vt/servenv"
 )
 
 type logMessage struct {

@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/test/utils"
+	"github.com/estuary/vitess/go/test/utils"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/topo"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	"github.com/estuary/vitess/go/vt/topo"
 )
 
 func init() {

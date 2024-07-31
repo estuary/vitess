@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/mdibaiee/vitess/go/slice"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/semantics"
+	"github.com/estuary/vitess/go/slice"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/estuary/vitess/go/vt/vtgate/semantics"
 )
 
 type (

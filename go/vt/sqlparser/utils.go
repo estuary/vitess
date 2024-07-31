@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
 )
 
 // QueryMatchesTemplates sees if the given query has the same fingerprint as one of the given templates

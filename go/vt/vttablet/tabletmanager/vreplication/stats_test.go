@@ -25,12 +25,12 @@ import (
 	"github.com/google/safehtml/template"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/vt/binlog/binlogplayer"
+	"github.com/estuary/vitess/go/mysql/replication"
+	"github.com/estuary/vitess/go/stats"
+	"github.com/estuary/vitess/go/vt/binlog/binlogplayer"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	binlogdatapb "github.com/estuary/vitess/go/vt/proto/binlogdata"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 )
 
 var wantOut = `

@@ -21,16 +21,16 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/mdibaiee/vitess/go/constants/sidecar"
-	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/textutil"
-	"github.com/mdibaiee/vitess/go/vt/binlog/binlogplayer"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/constants/sidecar"
+	"github.com/estuary/vitess/go/mysql/sqlerror"
+	"github.com/estuary/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/textutil"
+	"github.com/estuary/vitess/go/vt/binlog/binlogplayer"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/vterrors"
 
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/estuary/vitess/go/vt/proto/vtrpc"
 )
 
 const (

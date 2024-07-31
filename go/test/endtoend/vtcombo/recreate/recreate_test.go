@@ -28,11 +28,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vtgateconn"
-	"github.com/mdibaiee/vitess/go/vt/vttest"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/estuary/vitess/go/vt/vttest"
 
-	vttestpb "github.com/mdibaiee/vitess/go/vt/proto/vttest"
+	vttestpb "github.com/estuary/vitess/go/vt/proto/vttest"
 )
 
 var (

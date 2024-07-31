@@ -23,8 +23,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/flagutil"
-	vtadmindebug "github.com/mdibaiee/vitess/go/vt/vtadmin/debug"
+	"github.com/estuary/vitess/go/flagutil"
+	vtadmindebug "github.com/estuary/vitess/go/vt/vtadmin/debug"
 )
 
 var (

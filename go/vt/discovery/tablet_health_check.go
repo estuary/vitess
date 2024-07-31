@@ -25,20 +25,20 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/grpcclient"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
-	"github.com/mdibaiee/vitess/go/vt/topotools"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/queryservice"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletconn"
+	"github.com/estuary/vitess/go/vt/grpcclient"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/proto/vtrpc"
+	"github.com/estuary/vitess/go/vt/topo/topoproto"
+	"github.com/estuary/vitess/go/vt/topotools"
+	"github.com/estuary/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/vt/vttablet/queryservice"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletconn"
 
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/estuary/vitess/go/vt/proto/query"
+	"github.com/estuary/vitess/go/vt/proto/topodata"
 )
 
 // withDialerContextOnce ensures grpc.WithDialContext() is added once to the options.

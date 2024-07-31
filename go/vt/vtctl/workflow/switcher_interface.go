@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 )
 
 type iswitcher interface {

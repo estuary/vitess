@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/vt/vterrors"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/estuary/vitess/go/vt/proto/binlogdata"
 )
 
 const relayLogIOStalledMsg = "relay log I/O stalled"

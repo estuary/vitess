@@ -22,10 +22,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	"github.com/estuary/vitess/go/vt/topo/topoproto"
 
-	"github.com/mdibaiee/vitess/go/vt/vtctl/reparentutil/promotionrule"
+	"github.com/estuary/vitess/go/vt/vtctl/reparentutil/promotionrule"
 )
 
 func TestDurabilityNone(t *testing.T) {

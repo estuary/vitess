@@ -22,17 +22,17 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/vt/vtgate/evalengine"
+	"github.com/estuary/vitess/go/vt/vtgate/evalengine"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/test/utils"
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	. "github.com/mdibaiee/vitess/go/vt/vtgate/engine/opcode"
+	"github.com/estuary/vitess/go/mysql/collations"
+	"github.com/estuary/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/test/utils"
+	binlogdatapb "github.com/estuary/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	. "github.com/estuary/vitess/go/vt/vtgate/engine/opcode"
 )
 
 func TestOrderedAggregateExecute(t *testing.T) {

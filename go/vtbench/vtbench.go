@@ -23,10 +23,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/stats"
+	"github.com/estuary/vitess/go/vt/log"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
 )
 
 // ClientProtocol indicates how to connect

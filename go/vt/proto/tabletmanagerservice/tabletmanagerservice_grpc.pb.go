@@ -11,7 +11,7 @@ import (
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
-	tabletmanagerdata "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	tabletmanagerdata "github.com/estuary/vitess/go/vt/proto/tabletmanagerdata"
 )
 
 // This is a compile-time assertion to ensure that this generated file

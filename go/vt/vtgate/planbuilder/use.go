@@ -17,8 +17,8 @@ limitations under the License.
 package planbuilder
 
 import (
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/engine"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/vtgate/engine"
 )
 
 func buildUsePlan(stmt *sqlparser.Use) (*planResult, error) {

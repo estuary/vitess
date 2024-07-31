@@ -29,14 +29,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/constants/sidecar"
-	"github.com/mdibaiee/vitess/go/json2"
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
-	"github.com/mdibaiee/vitess/go/test/endtoend/utils"
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/constants/sidecar"
+	"github.com/estuary/vitess/go/json2"
+	"github.com/estuary/vitess/go/mysql"
+	"github.com/estuary/vitess/go/test/endtoend/cluster"
+	"github.com/estuary/vitess/go/test/endtoend/utils"
+	"github.com/estuary/vitess/go/vt/log"
 
-	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
+	vtctldatapb "github.com/estuary/vitess/go/vt/proto/vtctldata"
 )
 
 var (

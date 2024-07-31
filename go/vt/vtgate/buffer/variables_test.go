@@ -24,7 +24,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/estuary/vitess/go/stats"
 )
 
 func TestVariables(t *testing.T) {

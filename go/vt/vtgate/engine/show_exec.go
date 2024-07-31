@@ -19,9 +19,9 @@ package engine
 import (
 	"context"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/vt/proto/query"
+	"github.com/estuary/vitess/go/vt/sqlparser"
 )
 
 var _ Primitive = (*ShowExec)(nil)

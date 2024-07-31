@@ -22,10 +22,10 @@ package cli
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/mdibaiee/vitess/go/acl"
-	"github.com/mdibaiee/vitess/go/cmd/vtgateclienttest/services"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/vtgate"
+	"github.com/estuary/vitess/go/acl"
+	"github.com/estuary/vitess/go/cmd/vtgateclienttest/services"
+	"github.com/estuary/vitess/go/vt/servenv"
+	"github.com/estuary/vitess/go/vt/vtgate"
 )
 
 var Main = &cobra.Command{

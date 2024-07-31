@@ -17,8 +17,8 @@ limitations under the License.
 package vthash
 
 import (
-	"github.com/mdibaiee/vitess/go/vt/vthash/highway"
-	"github.com/mdibaiee/vitess/go/vt/vthash/metro"
+	"github.com/estuary/vitess/go/vt/vthash/highway"
+	"github.com/estuary/vitess/go/vt/vthash/metro"
 )
 
 type Hasher = metro.Metro128

@@ -30,14 +30,14 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/evalengine"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/evalengine/testcases"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/simplifier"
+	"github.com/estuary/vitess/go/mysql/collations"
+	"github.com/estuary/vitess/go/sqltypes"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/vtenv"
+	"github.com/estuary/vitess/go/vt/vtgate/evalengine"
+	"github.com/estuary/vitess/go/vt/vtgate/evalengine/testcases"
+	"github.com/estuary/vitess/go/vt/vtgate/simplifier"
 )
 
 type (

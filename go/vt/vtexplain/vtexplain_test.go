@@ -28,17 +28,17 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/estuary/vitess/go/stats"
+	"github.com/estuary/vitess/go/vt/topo/memorytopo"
+	"github.com/estuary/vitess/go/vt/vtenv"
 
-	"github.com/mdibaiee/vitess/go/test/utils"
+	"github.com/estuary/vitess/go/test/utils"
 
-	"github.com/mdibaiee/vitess/go/vt/key"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv/tabletenvtest"
+	"github.com/estuary/vitess/go/vt/key"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	"github.com/estuary/vitess/go/vt/proto/topodata"
+	"github.com/estuary/vitess/go/vt/topo"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver/tabletenv/tabletenvtest"
 )
 
 func defaultTestOpts() *Options {

@@ -20,17 +20,17 @@ import (
 	"context"
 	"sync"
 
-	"github.com/mdibaiee/vitess/go/vt/graph"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/schema"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/srvtopo"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/estuary/vitess/go/vt/graph"
+	"github.com/estuary/vitess/go/vt/log"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	"github.com/estuary/vitess/go/vt/schema"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/srvtopo"
+	"github.com/estuary/vitess/go/vt/topo"
+	"github.com/estuary/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/vt/vtgate/vindexes"
 
-	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
+	vschemapb "github.com/estuary/vitess/go/vt/proto/vschema"
 )
 
 var _ VSchemaOperator = (*VSchemaManager)(nil)

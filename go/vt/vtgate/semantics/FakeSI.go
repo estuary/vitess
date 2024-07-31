@@ -19,13 +19,13 @@ package semantics
 import (
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/vt/key"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/estuary/vitess/go/mysql/collations"
+	"github.com/estuary/vitess/go/vt/key"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	vschemapb "github.com/estuary/vitess/go/vt/proto/vschema"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/vtenv"
+	"github.com/estuary/vitess/go/vt/vtgate/vindexes"
 )
 
 var _ SchemaInformation = (*FakeSI)(nil)

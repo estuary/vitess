@@ -19,10 +19,10 @@ package http
 import (
 	"context"
 
-	"github.com/mdibaiee/vitess/go/vt/concurrency"
+	"github.com/estuary/vitess/go/vt/concurrency"
 
-	vtadminpb "github.com/mdibaiee/vitess/go/vt/proto/vtadmin"
-	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
+	vtadminpb "github.com/estuary/vitess/go/vt/proto/vtadmin"
+	vtctldatapb "github.com/estuary/vitess/go/vt/proto/vtctldata"
 )
 
 // GetBackups implements the http wrapper for /backups[?cluster_id=[&cluster_id=]].

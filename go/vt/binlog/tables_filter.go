@@ -19,10 +19,10 @@ package binlog
 import (
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/log"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	binlogdatapb "github.com/estuary/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
 )
 
 const (

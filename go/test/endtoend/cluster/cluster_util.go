@@ -28,19 +28,19 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/mdibaiee/vitess/go/vt/grpcclient"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
+	"github.com/estuary/vitess/go/vt/grpcclient"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/vtgate/grpcvtgateconn"
 
 	"github.com/buger/jsonparser"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/estuary/vitess/go/mysql"
+	"github.com/estuary/vitess/go/vt/vtgate/vtgateconn"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	tmc "github.com/mdibaiee/vitess/go/vt/vttablet/grpctmclient"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	tmc "github.com/estuary/vitess/go/vt/vttablet/grpctmclient"
 )
 
 var (

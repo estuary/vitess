@@ -23,9 +23,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/estuary/vitess/go/stats"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/estuary/vitess/go/vt/proto/binlogdata"
 )
 
 func TestVDiffStats(t *testing.T) {

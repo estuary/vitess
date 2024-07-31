@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/constants/sidecar"
-	"github.com/mdibaiee/vitess/go/vt/discovery"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/constants/sidecar"
+	"github.com/estuary/vitess/go/vt/discovery"
+	"github.com/estuary/vitess/go/vt/sqlparser"
 )
 
 // controllerPlan is the plan for vreplication control statements.

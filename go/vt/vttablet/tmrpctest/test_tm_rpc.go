@@ -28,20 +28,20 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/mdibaiee/vitess/go/mysql/replication"
+	"github.com/estuary/vitess/go/mysql/replication"
 
-	"github.com/mdibaiee/vitess/go/protoutil"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/hook"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	"github.com/mdibaiee/vitess/go/vt/mysqlctl/tmutils"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/estuary/vitess/go/protoutil"
+	"github.com/estuary/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/vt/hook"
+	"github.com/estuary/vitess/go/vt/logutil"
+	"github.com/estuary/vitess/go/vt/mysqlctl/tmutils"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletmanager"
+	"github.com/estuary/vitess/go/vt/vttablet/tmclient"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	replicationdatapb "github.com/mdibaiee/vitess/go/vt/proto/replicationdata"
-	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	replicationdatapb "github.com/estuary/vitess/go/vt/proto/replicationdata"
+	tabletmanagerdatapb "github.com/estuary/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 )
 
 // fakeRPCTM implements tabletmanager.RPCTM and fills in all

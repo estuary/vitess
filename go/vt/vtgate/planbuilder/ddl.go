@@ -5,13 +5,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/vt/key"
-	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/engine"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/estuary/vitess/go/vt/key"
+	vschemapb "github.com/estuary/vitess/go/vt/proto/vschema"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/vt/vtgate/engine"
+	"github.com/estuary/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/estuary/vitess/go/vt/vtgate/vindexes"
 )
 
 // Error messages for CreateView queries

@@ -26,10 +26,10 @@ DEFAULT_BUILD_GIT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 DEFAULT_BUILD_TIME=$(LC_ALL=C date)
 
 echo "\
-  -X 'github.com/mdibaiee/vitess/go/vt/servenv.buildHost=$(hostname)' \
-  -X 'github.com/mdibaiee/vitess/go/vt/servenv.buildUser=$(whoami)' \
-  -X 'github.com/mdibaiee/vitess/go/vt/servenv.buildGitRev=${BUILD_GIT_REV:-$DEFAULT_BUILD_GIT_REV}' \
-  -X 'github.com/mdibaiee/vitess/go/vt/servenv.buildGitBranch=${BUILD_GIT_BRANCH:-$DEFAULT_BUILD_GIT_BRANCH}' \
-  -X 'github.com/mdibaiee/vitess/go/vt/servenv.buildTime=${BUILD_TIME:-$DEFAULT_BUILD_TIME}' \
-  -X 'github.com/mdibaiee/vitess/go/vt/servenv.jenkinsBuildNumberStr=${BUILD_NUMBER}' \
+  -X 'github.com/estuary/vitess/go/vt/servenv.buildHost=$(hostname)' \
+  -X 'github.com/estuary/vitess/go/vt/servenv.buildUser=$(whoami)' \
+  -X 'github.com/estuary/vitess/go/vt/servenv.buildGitRev=${BUILD_GIT_REV:-$DEFAULT_BUILD_GIT_REV}' \
+  -X 'github.com/estuary/vitess/go/vt/servenv.buildGitBranch=${BUILD_GIT_BRANCH:-$DEFAULT_BUILD_GIT_BRANCH}' \
+  -X 'github.com/estuary/vitess/go/vt/servenv.buildTime=${BUILD_TIME:-$DEFAULT_BUILD_TIME}' \
+  -X 'github.com/estuary/vitess/go/vt/servenv.jenkinsBuildNumberStr=${BUILD_NUMBER}' \
 "

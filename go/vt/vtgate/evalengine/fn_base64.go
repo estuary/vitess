@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"encoding/base64"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/mysql/collations"
+	"github.com/estuary/vitess/go/sqltypes"
 )
 
 type (

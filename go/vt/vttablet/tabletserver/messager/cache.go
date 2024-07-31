@@ -20,9 +20,9 @@ import (
 	"container/heap"
 	"sync"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/log"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/sqltypes"
 )
 
 //_______________________________________________

@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/protoutil"
-	"github.com/mdibaiee/vitess/go/race"
-	logutilpb "github.com/mdibaiee/vitess/go/vt/proto/logutil"
+	"github.com/estuary/vitess/go/protoutil"
+	"github.com/estuary/vitess/go/race"
+	logutilpb "github.com/estuary/vitess/go/vt/proto/logutil"
 )
 
 func TestLogEvent(t *testing.T) {

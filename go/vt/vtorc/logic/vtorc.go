@@ -27,15 +27,15 @@ import (
 	"github.com/patrickmn/go-cache"
 	"github.com/sjmudd/stopwatch"
 
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/collection"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/config"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/discovery"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/inst"
-	ometrics "github.com/mdibaiee/vitess/go/vt/vtorc/metrics"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/util"
+	"github.com/estuary/vitess/go/stats"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/servenv"
+	"github.com/estuary/vitess/go/vt/vtorc/collection"
+	"github.com/estuary/vitess/go/vt/vtorc/config"
+	"github.com/estuary/vitess/go/vt/vtorc/discovery"
+	"github.com/estuary/vitess/go/vt/vtorc/inst"
+	ometrics "github.com/estuary/vitess/go/vt/vtorc/metrics"
+	"github.com/estuary/vitess/go/vt/vtorc/util"
 )
 
 const (

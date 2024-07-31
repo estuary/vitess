@@ -23,7 +23,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/log"
 )
 
 func pprofInit() {

@@ -17,8 +17,8 @@ limitations under the License.
 package cli
 
 import (
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/vtctl/grpcvtctldserver"
+	"github.com/estuary/vitess/go/vt/servenv"
+	"github.com/estuary/vitess/go/vt/vtctl/grpcvtctldserver"
 )
 
 func init() {

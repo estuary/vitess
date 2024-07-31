@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/proto/vttest"
-	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/estuary/vitess/go/vt/log"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	"github.com/estuary/vitess/go/vt/proto/vttest"
+	"github.com/estuary/vitess/go/vt/topo"
 )
 
 // TopoManager is an interface to manage things in a remote topology server for local cluster

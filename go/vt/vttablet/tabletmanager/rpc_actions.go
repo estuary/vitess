@@ -21,15 +21,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/mysql"
+	"github.com/estuary/vitess/go/vt/vterrors"
 
-	"github.com/mdibaiee/vitess/go/vt/hook"
-	"github.com/mdibaiee/vitess/go/vt/mysqlctl"
-	"github.com/mdibaiee/vitess/go/vt/topotools"
+	"github.com/estuary/vitess/go/vt/hook"
+	"github.com/estuary/vitess/go/vt/mysqlctl"
+	"github.com/estuary/vitess/go/vt/topotools"
 
-	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	tabletmanagerdatapb "github.com/estuary/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 )
 
 // DBAction is used to tell ChangeTabletType whether to call SetReadOnly on change to

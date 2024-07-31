@@ -22,10 +22,10 @@ import (
 	"math/rand/v2"
 	"testing"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	tableaclpb "github.com/mdibaiee/vitess/go/vt/proto/tableacl"
-	"github.com/mdibaiee/vitess/go/vt/tableacl"
-	"github.com/mdibaiee/vitess/go/vt/tableacl/acl"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	tableaclpb "github.com/estuary/vitess/go/vt/proto/tableacl"
+	"github.com/estuary/vitess/go/vt/tableacl"
+	"github.com/estuary/vitess/go/vt/tableacl/acl"
 )
 
 // TestSuite tests a concrete acl.Factory implementation.

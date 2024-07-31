@@ -23,7 +23,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql/decimal"
+	"github.com/estuary/vitess/go/mysql/decimal"
 )
 
 func TestParseDate(t *testing.T) {

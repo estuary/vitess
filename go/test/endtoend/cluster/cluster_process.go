@@ -37,25 +37,25 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/constants/sidecar"
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/syscallutil"
-	"github.com/mdibaiee/vitess/go/test/endtoend/filelock"
-	"github.com/mdibaiee/vitess/go/vt/grpcclient"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vtgateconn"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletconn"
+	"github.com/estuary/vitess/go/constants/sidecar"
+	"github.com/estuary/vitess/go/mysql"
+	"github.com/estuary/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/syscallutil"
+	"github.com/estuary/vitess/go/test/endtoend/filelock"
+	"github.com/estuary/vitess/go/vt/grpcclient"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/estuary/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletconn"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	vtrpcpb "github.com/estuary/vitess/go/vt/proto/vtrpc"
 
 	// Ensure dialers are registered (needed by ExecOnTablet and ExecOnVTGate).
-	_ "github.com/mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
-	_ "github.com/mdibaiee/vitess/go/vt/vttablet/grpctabletconn"
+	_ "github.com/estuary/vitess/go/vt/vtgate/grpcvtgateconn"
+	_ "github.com/estuary/vitess/go/vt/vttablet/grpctabletconn"
 )
 
 // DefaultCell : If no cell name is passed, then use following

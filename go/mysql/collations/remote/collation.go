@@ -24,13 +24,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mdibaiee/vitess/go/bytes2"
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/mysql/collations/charset"
-	"github.com/mdibaiee/vitess/go/mysql/collations/colldata"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/vthash"
+	"github.com/estuary/vitess/go/bytes2"
+	"github.com/estuary/vitess/go/mysql"
+	"github.com/estuary/vitess/go/mysql/collations"
+	"github.com/estuary/vitess/go/mysql/collations/charset"
+	"github.com/estuary/vitess/go/mysql/collations/colldata"
+	"github.com/estuary/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/vt/vthash"
 )
 
 // Collation is a generic implementation of the Collation interface

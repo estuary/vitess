@@ -21,15 +21,15 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/vt/vtgate/evalengine"
+	"github.com/estuary/vitess/go/vt/vtgate/evalengine"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
+	"github.com/estuary/vitess/go/mysql/collations"
 
-	"github.com/mdibaiee/vitess/go/test/utils"
+	"github.com/estuary/vitess/go/test/utils"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/sqltypes"
 )
 
 func TestDistinct(t *testing.T) {

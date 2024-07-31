@@ -19,7 +19,7 @@ package zk2topo
 import (
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/estuary/vitess/go/vt/topo"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/vt/sidecardb"
+	"github.com/estuary/vitess/go/vt/sidecardb"
 
 	"github.com/stretchr/testify/require"
 	"github.com/tidwall/gjson"

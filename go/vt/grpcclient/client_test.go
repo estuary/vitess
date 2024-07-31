@@ -29,8 +29,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
-	vtgateservicepb "github.com/mdibaiee/vitess/go/vt/proto/vtgateservice"
+	vtgatepb "github.com/estuary/vitess/go/vt/proto/vtgate"
+	vtgateservicepb "github.com/estuary/vitess/go/vt/proto/vtgateservice"
 )
 
 func TestDialErrors(t *testing.T) {

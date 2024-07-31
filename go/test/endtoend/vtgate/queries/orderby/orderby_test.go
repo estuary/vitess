@@ -19,11 +19,11 @@ package orderby
 import (
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/test/endtoend/utils"
+	"github.com/estuary/vitess/go/test/endtoend/utils"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
+	"github.com/estuary/vitess/go/test/endtoend/cluster"
 )
 
 func start(t *testing.T) (utils.MySQLCompare, func()) {

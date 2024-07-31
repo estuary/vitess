@@ -23,7 +23,7 @@ import (
 	"io"
 	"syscall"
 
-	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
+	"github.com/estuary/vitess/go/mysql/sqlerror"
 )
 
 // ConnCheck ensures that this connection to the MySQL server hasn't been broken.

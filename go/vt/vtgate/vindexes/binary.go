@@ -21,8 +21,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/key"
+	"github.com/estuary/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/vt/key"
 )
 
 var (

@@ -22,8 +22,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/z-division/go-zookeeper/zk"
 
-	"github.com/mdibaiee/vitess/go/cmd/zk/internal/zkfilepath"
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/cmd/zk/internal/zkfilepath"
+	"github.com/estuary/vitess/go/vt/log"
 )
 
 var Watch = &cobra.Command{

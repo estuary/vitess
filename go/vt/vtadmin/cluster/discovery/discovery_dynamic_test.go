@@ -23,7 +23,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	vtadminpb "github.com/mdibaiee/vitess/go/vt/proto/vtadmin"
+	vtadminpb "github.com/estuary/vitess/go/vt/proto/vtadmin"
 )
 
 func TestDynamicDiscoverVTGate(t *testing.T) {

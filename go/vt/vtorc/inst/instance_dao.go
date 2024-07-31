@@ -31,20 +31,20 @@ import (
 	"github.com/patrickmn/go-cache"
 	"github.com/sjmudd/stopwatch"
 
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/tb"
-	"github.com/mdibaiee/vitess/go/vt/external/golib/sqlutils"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/collection"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/config"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/db"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/metrics/query"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/util"
+	"github.com/estuary/vitess/go/mysql/replication"
+	"github.com/estuary/vitess/go/stats"
+	"github.com/estuary/vitess/go/tb"
+	"github.com/estuary/vitess/go/vt/external/golib/sqlutils"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/topo/topoproto"
+	"github.com/estuary/vitess/go/vt/vtorc/collection"
+	"github.com/estuary/vitess/go/vt/vtorc/config"
+	"github.com/estuary/vitess/go/vt/vtorc/db"
+	"github.com/estuary/vitess/go/vt/vtorc/metrics/query"
+	"github.com/estuary/vitess/go/vt/vtorc/util"
 
-	replicationdatapb "github.com/mdibaiee/vitess/go/vt/proto/replicationdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	replicationdatapb "github.com/estuary/vitess/go/vt/proto/replicationdata"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 )
 
 const (

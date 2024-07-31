@@ -30,8 +30,8 @@ import (
 	"github.com/spf13/pflag"
 	"golang.org/x/tools/go/packages"
 
-	"github.com/mdibaiee/vitess/go/hack"
-	"github.com/mdibaiee/vitess/go/tools/codegen"
+	"github.com/estuary/vitess/go/hack"
+	"github.com/estuary/vitess/go/tools/codegen"
 )
 
 const licenseFileHeader = `Copyright 2021 The Vitess Authors.
@@ -323,7 +323,7 @@ func (sizegen *sizegen) sizeStmtForMap(fieldName *jen.Statement, m *types.Map) [
 
 func mallocsize(sizeStmt *jen.Statement) func(*jen.Statement) {
 	return func(parent *jen.Statement) {
-		parent.Qual("github.com/mdibaiee/vitess/go/hack", "RuntimeAllocSize").Call(sizeStmt)
+		parent.Qual("github.com/estuary/vitess/go/hack", "RuntimeAllocSize").Call(sizeStmt)
 	}
 }
 
@@ -488,11 +488,11 @@ func (sizegen *sizegen) sizeStmtForType(fieldName *jen.Statement, field types.Ty
 }
 
 var defaultGenTypes = []string{
-	"github.com/mdibaiee/vitess/go/pools/smartconnpool.Setting",
-	"github.com/mdibaiee/vitess/go/vt/schema.DDLStrategySetting",
-	"github.com/mdibaiee/vitess/go/vt/vtgate/engine.Plan",
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver.TabletPlan",
-	"github.com/mdibaiee/vitess/go/sqltypes.Result",
+	"github.com/estuary/vitess/go/pools/smartconnpool.Setting",
+	"github.com/estuary/vitess/go/vt/schema.DDLStrategySetting",
+	"github.com/estuary/vitess/go/vt/vtgate/engine.Plan",
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver.TabletPlan",
+	"github.com/estuary/vitess/go/sqltypes.Result",
 }
 
 func main() {

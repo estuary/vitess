@@ -24,8 +24,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	"github.com/estuary/vitess/go/mysql"
+	binlogdatapb "github.com/estuary/vitess/go/vt/proto/binlogdata"
 )
 
 func insertInitialDataIntoExternalCluster(t *testing.T, conn *mysql.Conn) {

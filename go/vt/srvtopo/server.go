@@ -23,9 +23,9 @@ package srvtopo
 import (
 	"context"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
-	"github.com/mdibaiee/vitess/go/vt/topo"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	vschemapb "github.com/estuary/vitess/go/vt/proto/vschema"
+	"github.com/estuary/vitess/go/vt/topo"
 )
 
 // Server is a subset of the topo.Server API that only contains

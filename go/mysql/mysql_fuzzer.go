@@ -31,11 +31,11 @@ import (
 
 	gofuzzheaders "github.com/AdaLogics/go-fuzz-headers"
 
-	"github.com/mdibaiee/vitess/go/mysql/config"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/tlstest"
-	"github.com/mdibaiee/vitess/go/vt/vttls"
+	"github.com/estuary/vitess/go/mysql/config"
+	"github.com/estuary/vitess/go/sqltypes"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	"github.com/estuary/vitess/go/vt/tlstest"
+	"github.com/estuary/vitess/go/vt/vttls"
 )
 
 func createFuzzingSocketPair() (net.Listener, *Conn, *Conn) {

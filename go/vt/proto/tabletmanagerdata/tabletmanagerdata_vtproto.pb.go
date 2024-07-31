@@ -12,13 +12,13 @@ import (
 	io "io"
 	math "math"
 	bits "math/bits"
-	binlogdata "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	logutil "github.com/mdibaiee/vitess/go/vt/proto/logutil"
-	query "github.com/mdibaiee/vitess/go/vt/proto/query"
-	replicationdata "github.com/mdibaiee/vitess/go/vt/proto/replicationdata"
-	topodata "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtrpc "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	vttime "github.com/mdibaiee/vitess/go/vt/proto/vttime"
+	binlogdata "github.com/estuary/vitess/go/vt/proto/binlogdata"
+	logutil "github.com/estuary/vitess/go/vt/proto/logutil"
+	query "github.com/estuary/vitess/go/vt/proto/query"
+	replicationdata "github.com/estuary/vitess/go/vt/proto/replicationdata"
+	topodata "github.com/estuary/vitess/go/vt/proto/topodata"
+	vtrpc "github.com/estuary/vitess/go/vt/proto/vtrpc"
+	vttime "github.com/estuary/vitess/go/vt/proto/vttime"
 )
 
 const (

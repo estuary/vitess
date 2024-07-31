@@ -29,9 +29,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
+	"github.com/estuary/vitess/go/mysql"
+	"github.com/estuary/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/test/endtoend/cluster"
 )
 
 // AssertContains ensures the given query result contains the expected results.

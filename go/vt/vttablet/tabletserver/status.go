@@ -25,7 +25,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 )
 
 // This file contains the status web page export for tabletserver

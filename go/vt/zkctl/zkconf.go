@@ -31,9 +31,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/mdibaiee/vitess/go/netutil"
-	"github.com/mdibaiee/vitess/go/vt/env"
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/netutil"
+	"github.com/estuary/vitess/go/vt/env"
+	"github.com/estuary/vitess/go/vt/log"
 )
 
 type zkServerAddr struct {

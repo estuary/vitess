@@ -23,19 +23,19 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/mdibaiee/vitess/go/json2"
-	"github.com/mdibaiee/vitess/go/vt/grpcclient"
-	"github.com/mdibaiee/vitess/go/vt/key"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/queryservice"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/sandboxconn"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletconn"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletconntest"
+	"github.com/estuary/vitess/go/json2"
+	"github.com/estuary/vitess/go/vt/grpcclient"
+	"github.com/estuary/vitess/go/vt/key"
+	"github.com/estuary/vitess/go/vt/topo"
+	"github.com/estuary/vitess/go/vt/topo/memorytopo"
+	"github.com/estuary/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/vt/vttablet/queryservice"
+	"github.com/estuary/vitess/go/vt/vttablet/sandboxconn"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletconn"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletconntest"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	vschemapb "github.com/estuary/vitess/go/vt/proto/vschema"
 )
 
 // sandbox_test.go provides a sandbox for unit testing VTGate.

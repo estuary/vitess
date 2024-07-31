@@ -23,12 +23,12 @@ import (
 	"os"
 	"testing"
 
-	_flag "github.com/mdibaiee/vitess/go/internal/flag"
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
-	vttestpb "github.com/mdibaiee/vitess/go/vt/proto/vttest"
-	"github.com/mdibaiee/vitess/go/vt/vttest"
+	_flag "github.com/estuary/vitess/go/internal/flag"
+	"github.com/estuary/vitess/go/mysql"
+	"github.com/estuary/vitess/go/sqltypes"
+	vschemapb "github.com/estuary/vitess/go/vt/proto/vschema"
+	vttestpb "github.com/estuary/vitess/go/vt/proto/vttest"
+	"github.com/estuary/vitess/go/vt/vttest"
 )
 
 var (

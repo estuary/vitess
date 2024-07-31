@@ -21,7 +21,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/mdibaiee/vitess/go/sets"
+	"github.com/estuary/vitess/go/sets"
 )
 
 var _ pflag.Value = (*StringSetFlag)(nil)

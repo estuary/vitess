@@ -23,7 +23,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/mdibaiee/vitess/go/vt/mysqlctl"
+	"github.com/estuary/vitess/go/vt/mysqlctl"
 )
 
 var Init = &cobra.Command{

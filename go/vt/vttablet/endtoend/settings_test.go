@@ -23,7 +23,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/vt/vttablet/endtoend/framework"
+	"github.com/estuary/vitess/go/vt/vttablet/endtoend/framework"
 )
 
 func TestSelectNoConnectionReservationOnSettings(t *testing.T) {

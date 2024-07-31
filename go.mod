@@ -1,4 +1,4 @@
-module github.com/mdibaiee/vitess
+module github.com/estuary/vitess
 
 go 1.22.4
 

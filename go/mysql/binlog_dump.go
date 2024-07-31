@@ -20,9 +20,9 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/mysql/replication"
+	vtrpcpb "github.com/estuary/vitess/go/vt/proto/vtrpc"
+	"github.com/estuary/vitess/go/vt/vterrors"
 )
 
 var (

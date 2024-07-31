@@ -21,9 +21,9 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/mdibaiee/vitess/go/cmd/zk/command"
-	"github.com/mdibaiee/vitess/go/exit"
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/cmd/zk/command"
+	"github.com/estuary/vitess/go/exit"
+	"github.com/estuary/vitess/go/vt/log"
 )
 
 func main() {

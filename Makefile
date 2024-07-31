@@ -178,11 +178,11 @@ demo:
 sizegen:
 	go run ./go/tools/sizegen/sizegen.go \
 		--in ./go/... \
-		--gen github.com/mdibaiee/vitess/go/pools/smartconnpool.Setting \
-		--gen github.com/mdibaiee/vitess/go/vt/schema.DDLStrategySetting \
-		--gen github.com/mdibaiee/vitess/go/vt/vtgate/engine.Plan \
-		--gen github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver.TabletPlan \
-		--gen github.com/mdibaiee/vitess/go/sqltypes.Result
+		--gen github.com/estuary/vitess/go/pools/smartconnpool.Setting \
+		--gen github.com/estuary/vitess/go/vt/schema.DDLStrategySetting \
+		--gen github.com/estuary/vitess/go/vt/vtgate/engine.Plan \
+		--gen github.com/estuary/vitess/go/vt/vttablet/tabletserver.TabletPlan \
+		--gen github.com/estuary/vitess/go/sqltypes.Result
 
 # To pass extra flags, run test.go manually.
 # For example: go run test.go -docker=false -- --extra-flag
@@ -216,7 +216,7 @@ e2e_test: build
 # Run the code coverage tools, compute aggregate.
 unit_test_cover: build dependency_check demo
 	source build.env
-	go test $(VT_GO_PARALLEL) -count=1 -failfast -covermode=atomic -coverpkg=github.com/mdibaiee/vitess/go/... -coverprofile=coverage.out ./go/...
+	go test $(VT_GO_PARALLEL) -count=1 -failfast -covermode=atomic -coverpkg=github.com/estuary/vitess/go/... -coverprofile=coverage.out ./go/...
 	# Handle go tool cover failures due to not handling `//line` directives, which
 	# the goyacc compiler adds to the generated parser in sql.go. See:
 	# https://github.com/golang/go/issues/41222
@@ -269,12 +269,12 @@ $(PROTO_GO_OUTS): minimaltools install_protoc-gen-go proto/*.proto
 		--go-grpc_out=. --plugin protoc-gen-go-grpc="${VTROOTBIN}/protoc-gen-go-grpc" \
 		--go-vtproto_out=. --plugin protoc-gen-go-vtproto="${VTROOTBIN}/protoc-gen-go-vtproto" \
 		--go-vtproto_opt=features=marshal+unmarshal+size+pool+clone \
-		--go-vtproto_opt=pool=github.com/mdibaiee/vitess/go/vt/proto/query.Row \
-		--go-vtproto_opt=pool=github.com/mdibaiee/vitess/go/vt/proto/binlogdata.VStreamRowsResponse \
-		--go-vtproto_opt=pool=github.com/mdibaiee/vitess/go/vt/proto/binlogdata.VStreamTablesResponse \
+		--go-vtproto_opt=pool=github.com/estuary/vitess/go/vt/proto/query.Row \
+		--go-vtproto_opt=pool=github.com/estuary/vitess/go/vt/proto/binlogdata.VStreamRowsResponse \
+		--go-vtproto_opt=pool=github.com/estuary/vitess/go/vt/proto/binlogdata.VStreamTablesResponse \
 		-I${PWD}/dist/vt-protoc-21.3/include:proto $(PROTO_SRCS)
-	cp -Rf github.com/mdibaiee/vitess/go/vt/proto/* go/vt/proto
-	rm -rf github.com/mdibaiee/vitess/go/vt/proto/
+	cp -Rf github.com/estuary/vitess/go/vt/proto/* go/vt/proto
+	rm -rf github.com/estuary/vitess/go/vt/proto/
 
 # Helper targets for building Docker images.
 # Please read docker/README.md to understand the different available images.

@@ -65,21 +65,21 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/mdibaiee/vitess/go/constants/sidecar"
-	"github.com/mdibaiee/vitess/go/test/endtoend/encryption"
+	"github.com/estuary/vitess/go/constants/sidecar"
+	"github.com/estuary/vitess/go/test/endtoend/encryption"
 
-	"github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/vt/proto/vtrpc"
+	"github.com/estuary/vitess/go/vt/vterrors"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
-	"github.com/mdibaiee/vitess/go/vt/grpcclient"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
-	vtgateservicepb "github.com/mdibaiee/vitess/go/vt/proto/vtgateservice"
+	"github.com/estuary/vitess/go/test/endtoend/cluster"
+	"github.com/estuary/vitess/go/vt/grpcclient"
+	"github.com/estuary/vitess/go/vt/log"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	vtgatepb "github.com/estuary/vitess/go/vt/proto/vtgate"
+	vtgateservicepb "github.com/estuary/vitess/go/vt/proto/vtgateservice"
 )
 
 var (

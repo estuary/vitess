@@ -29,11 +29,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
+	"github.com/estuary/vitess/go/mysql"
+	"github.com/estuary/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/test/endtoend/cluster"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/estuary/vitess/go/vt/proto/binlogdata"
 )
 
 var (
@@ -112,7 +112,7 @@ take a yaml config that defines these external sources. it will look like this:
 externalConnections:
 
 	product:
-	  socket: /home/sougou/dev/src/github.com/mdibaiee/vitess/vtdataroot/vtroot_15201/vt_0000000622/mysql.sock
+	  socket: /home/sougou/dev/src/github.com/estuary/vitess/vtdataroot/vtroot_15201/vt_0000000622/mysql.sock
 	  dbName: vt_product
 	  app:
 	    user: vt_app
@@ -120,7 +120,7 @@ externalConnections:
 	    user: vt_dba
 	customer:
 	  flavor: FilePos
-	  socket: /home/sougou/dev/src/github.com/mdibaiee/vitess/vtdataroot/vtroot_15201/vt_0000000620/mysql.sock
+	  socket: /home/sougou/dev/src/github.com/estuary/vitess/vtdataroot/vtroot_15201/vt_0000000620/mysql.sock
 	  dbName: vt_customer
 	  app:
 	    user: vt_app

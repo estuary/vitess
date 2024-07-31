@@ -25,9 +25,9 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/mdibaiee/vitess/go/acl"
-	"github.com/mdibaiee/vitess/go/slice"
-	"github.com/mdibaiee/vitess/go/viperutil/internal/registry"
+	"github.com/estuary/vitess/go/acl"
+	"github.com/estuary/vitess/go/slice"
+	"github.com/estuary/vitess/go/viperutil/internal/registry"
 )
 
 // HandlerFunc provides an http.HandlerFunc that renders the combined config

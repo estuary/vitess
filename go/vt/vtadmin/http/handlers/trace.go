@@ -21,7 +21,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/mdibaiee/vitess/go/trace"
+	"github.com/estuary/vitess/go/trace"
 )
 
 // TraceHandler is a mux.MiddlewareFunc which creates a span with the route's

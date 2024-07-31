@@ -12,8 +12,8 @@ import (
 	io "io"
 	math "math"
 	bits "math/bits"
-	topodata "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtrpc "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	topodata "github.com/estuary/vitess/go/vt/proto/topodata"
+	vtrpc "github.com/estuary/vitess/go/vt/proto/vtrpc"
 	sync "sync"
 )
 

@@ -24,24 +24,24 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/estuary/vitess/go/mysql"
 
-	"github.com/mdibaiee/vitess/go/test/utils"
+	"github.com/estuary/vitess/go/test/utils"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
-	"github.com/mdibaiee/vitess/go/vt/topotools/events"
-	"github.com/mdibaiee/vitess/go/vt/vtctl/grpcvtctldserver/testutil"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/estuary/vitess/go/vt/logutil"
+	"github.com/estuary/vitess/go/vt/topo"
+	"github.com/estuary/vitess/go/vt/topo/memorytopo"
+	"github.com/estuary/vitess/go/vt/topotools/events"
+	"github.com/estuary/vitess/go/vt/vtctl/grpcvtctldserver/testutil"
+	"github.com/estuary/vitess/go/vt/vttablet/tmclient"
 
-	replicationdatapb "github.com/mdibaiee/vitess/go/vt/proto/replicationdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
-	"github.com/mdibaiee/vitess/go/vt/proto/vttime"
+	replicationdatapb "github.com/estuary/vitess/go/vt/proto/replicationdata"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	vtctldatapb "github.com/estuary/vitess/go/vt/proto/vtctldata"
+	"github.com/estuary/vitess/go/vt/proto/vttime"
 )
 
 func TestNewPlannedReparenter(t *testing.T) {

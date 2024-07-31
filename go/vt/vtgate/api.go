@@ -22,9 +22,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/vt/discovery"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/estuary/vitess/go/vt/discovery"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/servenv"
 )
 
 // This file implements a REST-style API for the vtgate web interface.

@@ -26,16 +26,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/estuary/vitess/go/vt/topo/topoproto"
 
-	"github.com/mdibaiee/vitess/go/vt/key"
+	"github.com/estuary/vitess/go/vt/key"
 
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/trace"
+	"github.com/estuary/vitess/go/stats"
+	"github.com/estuary/vitess/go/trace"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/proto/topodata"
+	"github.com/estuary/vitess/go/vt/topo"
 )
 
 const (

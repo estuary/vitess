@@ -17,7 +17,7 @@ limitations under the License.
 
 package smartconnpool
 
-import hack "github.com/mdibaiee/vitess/go/hack"
+import hack "github.com/estuary/vitess/go/hack"
 
 func (cached *Setting) CachedSize(alloc bool) int64 {
 	if cached == nil {

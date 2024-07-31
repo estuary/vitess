@@ -19,10 +19,10 @@ package reshard
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/mdibaiee/vitess/go/cmd/vtctldclient/cli"
-	"github.com/mdibaiee/vitess/go/cmd/vtctldclient/command/vreplication/common"
+	"github.com/estuary/vitess/go/cmd/vtctldclient/cli"
+	"github.com/estuary/vitess/go/cmd/vtctldclient/command/vreplication/common"
 
-	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
+	vtctldatapb "github.com/estuary/vitess/go/vt/proto/vtctldata"
 )
 
 var (

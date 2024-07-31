@@ -20,7 +20,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/sqltypes"
 
 	"github.com/olekukonko/tablewriter"
 )

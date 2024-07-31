@@ -25,7 +25,7 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/log"
 )
 
 var (

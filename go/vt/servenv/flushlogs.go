@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/estuary/vitess/go/vt/logutil"
 )
 
 func init() {

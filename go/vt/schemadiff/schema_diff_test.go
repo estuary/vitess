@@ -24,8 +24,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/estuary/vitess/go/mysql/collations"
+	"github.com/estuary/vitess/go/vt/vtenv"
 )
 
 func TestPermutations(t *testing.T) {

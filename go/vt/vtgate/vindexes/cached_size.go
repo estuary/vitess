@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	hack "github.com/mdibaiee/vitess/go/hack"
+	hack "github.com/estuary/vitess/go/hack"
 )
 
 type cachedObject interface {
@@ -75,9 +75,9 @@ func (cached *CFC) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(16)
 	}
-	// field cfcCommon *github.com/mdibaiee/vitess/go/vt/vtgate/vindexes.cfcCommon
+	// field cfcCommon *github.com/estuary/vitess/go/vt/vtgate/vindexes.cfcCommon
 	size += cached.cfcCommon.CachedSize(true)
-	// field prefixCFC *github.com/mdibaiee/vitess/go/vt/vtgate/vindexes.prefixCFC
+	// field prefixCFC *github.com/estuary/vitess/go/vt/vtgate/vindexes.prefixCFC
 	size += cached.prefixCFC.CachedSize(true)
 	return size
 }
@@ -89,7 +89,7 @@ func (cached *ColumnVindex) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(112)
 	}
-	// field Columns []github.com/mdibaiee/vitess/go/vt/sqlparser.IdentifierCI
+	// field Columns []github.com/estuary/vitess/go/vt/sqlparser.IdentifierCI
 	{
 		size += hack.RuntimeAllocSize(int64(cap(cached.Columns)) * int64(32))
 		for _, elem := range cached.Columns {
@@ -100,7 +100,7 @@ func (cached *ColumnVindex) CachedSize(alloc bool) int64 {
 	size += hack.RuntimeAllocSize(int64(len(cached.Type)))
 	// field Name string
 	size += hack.RuntimeAllocSize(int64(len(cached.Name)))
-	// field Vindex github.com/mdibaiee/vitess/go/vt/vtgate/vindexes.Vindex
+	// field Vindex github.com/estuary/vitess/go/vt/vtgate/vindexes.Vindex
 	if cc, ok := cached.Vindex.(cachedObject); ok {
 		size += cc.CachedSize(true)
 	}
@@ -114,7 +114,7 @@ func (cached *ConsistentLookup) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(32)
 	}
-	// field clCommon *github.com/mdibaiee/vitess/go/vt/vtgate/vindexes.clCommon
+	// field clCommon *github.com/estuary/vitess/go/vt/vtgate/vindexes.clCommon
 	size += cached.clCommon.CachedSize(true)
 	// field unknownParams []string
 	{
@@ -133,7 +133,7 @@ func (cached *ConsistentLookupUnique) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(32)
 	}
-	// field clCommon *github.com/mdibaiee/vitess/go/vt/vtgate/vindexes.clCommon
+	// field clCommon *github.com/estuary/vitess/go/vt/vtgate/vindexes.clCommon
 	size += cached.clCommon.CachedSize(true)
 	// field unknownParams []string
 	{
@@ -185,7 +185,7 @@ func (cached *LookupHash) CachedSize(alloc bool) int64 {
 	}
 	// field name string
 	size += hack.RuntimeAllocSize(int64(len(cached.name)))
-	// field lkp github.com/mdibaiee/vitess/go/vt/vtgate/vindexes.lookupInternal
+	// field lkp github.com/estuary/vitess/go/vt/vtgate/vindexes.lookupInternal
 	size += cached.lkp.CachedSize(false)
 	// field unknownParams []string
 	{
@@ -206,7 +206,7 @@ func (cached *LookupHashUnique) CachedSize(alloc bool) int64 {
 	}
 	// field name string
 	size += hack.RuntimeAllocSize(int64(len(cached.name)))
-	// field lkp github.com/mdibaiee/vitess/go/vt/vtgate/vindexes.lookupInternal
+	// field lkp github.com/estuary/vitess/go/vt/vtgate/vindexes.lookupInternal
 	size += cached.lkp.CachedSize(false)
 	// field unknownParams []string
 	{
@@ -227,7 +227,7 @@ func (cached *LookupNonUnique) CachedSize(alloc bool) int64 {
 	}
 	// field name string
 	size += hack.RuntimeAllocSize(int64(len(cached.name)))
-	// field lkp github.com/mdibaiee/vitess/go/vt/vtgate/vindexes.lookupInternal
+	// field lkp github.com/estuary/vitess/go/vt/vtgate/vindexes.lookupInternal
 	size += cached.lkp.CachedSize(false)
 	// field unknownParams []string
 	{
@@ -248,7 +248,7 @@ func (cached *LookupUnicodeLooseMD5Hash) CachedSize(alloc bool) int64 {
 	}
 	// field name string
 	size += hack.RuntimeAllocSize(int64(len(cached.name)))
-	// field lkp github.com/mdibaiee/vitess/go/vt/vtgate/vindexes.lookupInternal
+	// field lkp github.com/estuary/vitess/go/vt/vtgate/vindexes.lookupInternal
 	size += cached.lkp.CachedSize(false)
 	// field unknownParams []string
 	{
@@ -269,7 +269,7 @@ func (cached *LookupUnicodeLooseMD5HashUnique) CachedSize(alloc bool) int64 {
 	}
 	// field name string
 	size += hack.RuntimeAllocSize(int64(len(cached.name)))
-	// field lkp github.com/mdibaiee/vitess/go/vt/vtgate/vindexes.lookupInternal
+	// field lkp github.com/estuary/vitess/go/vt/vtgate/vindexes.lookupInternal
 	size += cached.lkp.CachedSize(false)
 	// field unknownParams []string
 	{
@@ -290,7 +290,7 @@ func (cached *LookupUnique) CachedSize(alloc bool) int64 {
 	}
 	// field name string
 	size += hack.RuntimeAllocSize(int64(len(cached.name)))
-	// field lkp github.com/mdibaiee/vitess/go/vt/vtgate/vindexes.lookupInternal
+	// field lkp github.com/estuary/vitess/go/vt/vtgate/vindexes.lookupInternal
 	size += cached.lkp.CachedSize(false)
 	// field unknownParams []string
 	{
@@ -313,7 +313,7 @@ func (cached *MultiCol) CachedSize(alloc bool) int64 {
 	}
 	// field name string
 	size += hack.RuntimeAllocSize(int64(len(cached.name)))
-	// field columnVdx map[int]github.com/mdibaiee/vitess/go/vt/vtgate/vindexes.Hashing
+	// field columnVdx map[int]github.com/estuary/vitess/go/vt/vtgate/vindexes.Hashing
 	if cached.columnVdx != nil {
 		size += int64(48)
 		hmap := reflect.ValueOf(cached.columnVdx)
@@ -392,11 +392,11 @@ func (cached *NumericStaticMap) CachedSize(alloc bool) int64 {
 	}
 	// field name string
 	size += hack.RuntimeAllocSize(int64(len(cached.name)))
-	// field hashVdx github.com/mdibaiee/vitess/go/vt/vtgate/vindexes.Hashing
+	// field hashVdx github.com/estuary/vitess/go/vt/vtgate/vindexes.Hashing
 	if cc, ok := cached.hashVdx.(cachedObject); ok {
 		size += cc.CachedSize(true)
 	}
-	// field lookup github.com/mdibaiee/vitess/go/vt/vtgate/vindexes.NumericLookupTable
+	// field lookup github.com/estuary/vitess/go/vt/vtgate/vindexes.NumericLookupTable
 	if cached.lookup != nil {
 		size += int64(48)
 		hmap := reflect.ValueOf(cached.lookup)
@@ -447,7 +447,7 @@ func (cached *RegionJSON) CachedSize(alloc bool) int64 {
 	}
 	// field name string
 	size += hack.RuntimeAllocSize(int64(len(cached.name)))
-	// field regionMap github.com/mdibaiee/vitess/go/vt/vtgate/vindexes.RegionMap
+	// field regionMap github.com/estuary/vitess/go/vt/vtgate/vindexes.RegionMap
 	if cached.regionMap != nil {
 		size += int64(48)
 		hmap := reflect.ValueOf(cached.regionMap)
@@ -579,7 +579,7 @@ func (cached *clCommon) CachedSize(alloc bool) int64 {
 	}
 	// field name string
 	size += hack.RuntimeAllocSize(int64(len(cached.name)))
-	// field lkp github.com/mdibaiee/vitess/go/vt/vtgate/vindexes.lookupInternal
+	// field lkp github.com/estuary/vitess/go/vt/vtgate/vindexes.lookupInternal
 	size += cached.lkp.CachedSize(false)
 	// field keyspace string
 	size += hack.RuntimeAllocSize(int64(len(cached.keyspace)))
@@ -641,7 +641,7 @@ func (cached *prefixCFC) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(8)
 	}
-	// field cfcCommon *github.com/mdibaiee/vitess/go/vt/vtgate/vindexes.cfcCommon
+	// field cfcCommon *github.com/estuary/vitess/go/vt/vtgate/vindexes.cfcCommon
 	size += cached.cfcCommon.CachedSize(true)
 	return size
 }

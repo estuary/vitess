@@ -19,11 +19,11 @@ package planbuilder
 import (
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/engine"
+	"github.com/estuary/vitess/go/mysql/collations"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/vt/vtgate/engine"
 )
 
 // SupplyProjection pushes the given aliased expression into the fields and cols slices of the

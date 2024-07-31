@@ -24,19 +24,19 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/mdibaiee/vitess/go/event"
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/vt/concurrency"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	logutilpb "github.com/mdibaiee/vitess/go/vt/proto/logutil"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
-	"github.com/mdibaiee/vitess/go/vt/topotools/events"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/estuary/vitess/go/event"
+	"github.com/estuary/vitess/go/mysql/replication"
+	"github.com/estuary/vitess/go/stats"
+	"github.com/estuary/vitess/go/vt/concurrency"
+	"github.com/estuary/vitess/go/vt/logutil"
+	logutilpb "github.com/estuary/vitess/go/vt/proto/logutil"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	"github.com/estuary/vitess/go/vt/proto/vtrpc"
+	"github.com/estuary/vitess/go/vt/topo"
+	"github.com/estuary/vitess/go/vt/topo/topoproto"
+	"github.com/estuary/vitess/go/vt/topotools/events"
+	"github.com/estuary/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/vt/vttablet/tmclient"
 )
 
 // counters for Planned Reparent Shard

@@ -17,8 +17,8 @@ limitations under the License.
 package sqlparser
 
 import (
-	"github.com/mdibaiee/vitess/go/mysql/datetime"
-	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/mysql/datetime"
+	"github.com/estuary/vitess/go/sqltypes"
 )
 
 /*

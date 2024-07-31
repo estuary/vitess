@@ -21,8 +21,8 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/mdibaiee/vitess/go/tools/asthelpergen"
-	"github.com/mdibaiee/vitess/go/tools/codegen"
+	"github.com/estuary/vitess/go/tools/asthelpergen"
+	"github.com/estuary/vitess/go/tools/codegen"
 )
 
 func main() {

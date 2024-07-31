@@ -19,7 +19,7 @@ package http
 import (
 	"context"
 
-	vtadminpb "github.com/mdibaiee/vitess/go/vt/proto/vtadmin"
+	vtadminpb "github.com/estuary/vitess/go/vt/proto/vtadmin"
 )
 
 // GetWorkflow implements the http wrapper for the VTAdminServer.GetWorkflow

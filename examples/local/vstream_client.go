@@ -23,13 +23,13 @@ import (
 	"log"
 	"time"
 
-	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
+	vtgatepb "github.com/estuary/vitess/go/vt/proto/vtgate"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	_ "github.com/mdibaiee/vitess/go/vt/vtctl/grpcvtctlclient"
-	_ "github.com/mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vtgateconn"
+	binlogdatapb "github.com/estuary/vitess/go/vt/proto/binlogdata"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	_ "github.com/estuary/vitess/go/vt/vtctl/grpcvtctlclient"
+	_ "github.com/estuary/vitess/go/vt/vtgate/grpcvtgateconn"
+	"github.com/estuary/vitess/go/vt/vtgate/vtgateconn"
 )
 
 /*

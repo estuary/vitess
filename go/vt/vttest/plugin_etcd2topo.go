@@ -19,5 +19,5 @@ package vttest
 // This plugin imports etcd2topo to register the etcd2 implementation of TopoServer.
 
 import (
-	_ "github.com/mdibaiee/vitess/go/vt/topo/etcd2topo" // nolint:revive
+	_ "github.com/estuary/vitess/go/vt/topo/etcd2topo" // nolint:revive
 )

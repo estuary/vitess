@@ -26,7 +26,7 @@ package logutil
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	vttime "github.com/mdibaiee/vitess/go/vt/proto/vttime"
+	vttime "github.com/estuary/vitess/go/vt/proto/vttime"
 	reflect "reflect"
 	sync "sync"
 )

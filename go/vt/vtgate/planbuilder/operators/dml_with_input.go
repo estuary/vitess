@@ -19,9 +19,9 @@ package operators
 import (
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/slice"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/estuary/vitess/go/slice"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/vtgate/planbuilder/plancontext"
 )
 
 // DMLWithInput is used to represent a DML Operator taking input from a Source Operator

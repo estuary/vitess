@@ -32,9 +32,9 @@ package logic
 import (
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/vt/external/golib/sqlutils"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/db"
+	"github.com/estuary/vitess/go/vt/external/golib/sqlutils"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/vtorc/db"
 )
 
 // IsRecoveryDisabled returns true if Recoveries are disabled globally

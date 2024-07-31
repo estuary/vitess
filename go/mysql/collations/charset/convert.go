@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	"github.com/mdibaiee/vitess/go/hack"
+	"github.com/estuary/vitess/go/hack"
 )
 
 func failedConversionError(from, to Charset, input []byte) error {

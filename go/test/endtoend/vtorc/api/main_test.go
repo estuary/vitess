@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
-	"github.com/mdibaiee/vitess/go/test/endtoend/vtorc/utils"
+	"github.com/estuary/vitess/go/test/endtoend/cluster"
+	"github.com/estuary/vitess/go/test/endtoend/vtorc/utils"
 )
 
 var clusterInfo *utils.VTOrcClusterInfo

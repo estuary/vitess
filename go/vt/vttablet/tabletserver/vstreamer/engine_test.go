@@ -24,12 +24,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql/fakesqldb"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/schema"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"github.com/estuary/vitess/go/mysql/fakesqldb"
+	"github.com/estuary/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/vt/dbconfigs"
+	binlogdatapb "github.com/estuary/vitess/go/vt/proto/binlogdata"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver/schema"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 )
 
 var (

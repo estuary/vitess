@@ -16,7 +16,7 @@ limitations under the License.
 
 package backupstats
 
-import "github.com/mdibaiee/vitess/go/stats"
+import "github.com/estuary/vitess/go/stats"
 
 var (
 	// DeprecatedBackupDurationS is a deprecated statistic that will be removed

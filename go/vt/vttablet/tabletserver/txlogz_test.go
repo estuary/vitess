@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tx"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver/tx"
 
-	"github.com/mdibaiee/vitess/go/vt/callerid"
+	"github.com/estuary/vitess/go/vt/callerid"
 
-	"github.com/mdibaiee/vitess/go/streamlog"
+	"github.com/estuary/vitess/go/streamlog"
 )
 
 func testNotRedacted(t *testing.T, r *httptest.ResponseRecorder) {

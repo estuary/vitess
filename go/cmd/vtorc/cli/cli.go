@@ -19,13 +19,13 @@ package cli
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/mdibaiee/vitess/go/acl"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/config"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/inst"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/logic"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/server"
+	"github.com/estuary/vitess/go/acl"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/servenv"
+	"github.com/estuary/vitess/go/vt/vtorc/config"
+	"github.com/estuary/vitess/go/vt/vtorc/inst"
+	"github.com/estuary/vitess/go/vt/vtorc/logic"
+	"github.com/estuary/vitess/go/vt/vtorc/server"
 )
 
 var (

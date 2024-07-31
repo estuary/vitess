@@ -19,5 +19,5 @@ package vttest
 // Imports and register the gRPC tabletmanager client
 
 import (
-	_ "github.com/mdibaiee/vitess/go/vt/vttablet/grpctmclient" // nolint:revive
+	_ "github.com/estuary/vitess/go/vt/vttablet/grpctmclient" // nolint:revive
 )
