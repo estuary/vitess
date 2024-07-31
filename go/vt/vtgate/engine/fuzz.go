@@ -44,8 +44,8 @@ package engine
 import (
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 )
 
 // FuzzEngine implements the fuzzer

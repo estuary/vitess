@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/estuary/vitess/go/vt/proto/binlogdata"
 )
 
 // SortBinlogSourceTables sorts the table related contents of the

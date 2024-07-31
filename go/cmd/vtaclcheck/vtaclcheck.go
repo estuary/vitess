@@ -19,9 +19,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/cmd/vtaclcheck/cli"
-	"github.com/mdibaiee/vitess/go/exit"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/estuary/vitess/go/cmd/vtaclcheck/cli"
+	"github.com/estuary/vitess/go/exit"
+	"github.com/estuary/vitess/go/vt/logutil"
 )
 
 func init() {

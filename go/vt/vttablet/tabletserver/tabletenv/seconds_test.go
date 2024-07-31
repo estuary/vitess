@@ -23,7 +23,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/yaml2"
+	"github.com/estuary/vitess/go/yaml2"
 )
 
 func TestSecondsYaml(t *testing.T) {

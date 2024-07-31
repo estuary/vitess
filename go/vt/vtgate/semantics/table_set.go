@@ -19,7 +19,7 @@ package semantics
 import (
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/vt/vtgate/semantics/bitset"
+	"github.com/estuary/vitess/go/vt/vtgate/semantics/bitset"
 )
 
 // TableSet is how a set of tables is expressed.

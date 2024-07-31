@@ -29,9 +29,9 @@ import (
 
 	vaultapi "github.com/aquarapid/vaultlib"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/mysql"
+	"github.com/estuary/vitess/go/mysql/sqlerror"
+	"github.com/estuary/vitess/go/vt/log"
 )
 
 // AuthServerVault implements AuthServer with a config loaded from Vault.

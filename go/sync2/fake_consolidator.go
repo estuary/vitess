@@ -17,7 +17,7 @@ limitations under the License.
 package sync2
 
 import (
-	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/sqltypes"
 )
 
 // FakeConsolidator satisfies the Consolidator interface and can be used to mock

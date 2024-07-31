@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"log"
 
-	vtctlservicepb "github.com/mdibaiee/vitess/go/vt/proto/vtctlservice"
+	vtctlservicepb "github.com/estuary/vitess/go/vt/proto/vtctlservice"
 )
 
 type VtctldClient interface {

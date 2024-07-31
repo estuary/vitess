@@ -33,11 +33,11 @@ import (
 	"golang.org/x/net/nettest"
 	"google.golang.org/grpc"
 
-	"github.com/mdibaiee/vitess/go/vt/vttablet/grpctmserver"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tmrpctest"
+	"github.com/estuary/vitess/go/vt/vttablet/grpctmserver"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletmanager"
+	"github.com/estuary/vitess/go/vt/vttablet/tmrpctest"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 )
 
 func grpcTestServer(t testing.TB, tm tabletmanager.RPCTM) (*net.TCPAddr, func()) {

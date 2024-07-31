@@ -22,10 +22,10 @@ package vstreamer
 import (
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
+	binlogdatapb "github.com/estuary/vitess/go/vt/proto/binlogdata"
+	vschemapb "github.com/estuary/vitess/go/vt/proto/vschema"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/vtgate/vindexes"
 )
 
 // Fuzz implements the fuzzer

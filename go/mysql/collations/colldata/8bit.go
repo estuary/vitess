@@ -19,9 +19,9 @@ package colldata
 import (
 	"encoding/binary"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/mysql/collations/charset"
-	"github.com/mdibaiee/vitess/go/vt/vthash"
+	"github.com/estuary/vitess/go/mysql/collations"
+	"github.com/estuary/vitess/go/mysql/collations/charset"
+	"github.com/estuary/vitess/go/vt/vthash"
 )
 
 var sortOrderIdentity [256]byte

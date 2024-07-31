@@ -19,5 +19,5 @@ package cli
 // Imports and register the file custom rule source
 
 import (
-	_ "github.com/mdibaiee/vitess/go/vt/vttablet/customrule/filecustomrule"
+	_ "github.com/estuary/vitess/go/vt/vttablet/customrule/filecustomrule"
 )

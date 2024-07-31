@@ -58,7 +58,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/mdibaiee/vitess/go/tools/codegen"
+	"github.com/estuary/vitess/go/tools/codegen"
 )
 
 // the following are adjustable

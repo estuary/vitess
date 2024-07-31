@@ -21,16 +21,16 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vtgateservice"
+	"github.com/estuary/vitess/go/vt/vtgate/vtgateservice"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/tb"
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/tb"
+	"github.com/estuary/vitess/go/vt/log"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
+	binlogdatapb "github.com/estuary/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	vtgatepb "github.com/estuary/vitess/go/vt/proto/vtgate"
 )
 
 var errTerminal = errors.New("vtgate test client, errTerminal")

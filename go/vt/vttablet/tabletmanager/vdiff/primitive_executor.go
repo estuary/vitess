@@ -19,10 +19,10 @@ package vdiff
 import (
 	"context"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	vtgateEngine "github.com/mdibaiee/vitess/go/vt/vtgate/engine"
+	"github.com/estuary/vitess/go/sqltypes"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	"github.com/estuary/vitess/go/vt/vterrors"
+	vtgateEngine "github.com/estuary/vitess/go/vt/vtgate/engine"
 )
 
 /*

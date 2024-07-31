@@ -17,7 +17,7 @@ limitations under the License.
 package logutil
 
 import (
-	logutilpb "github.com/mdibaiee/vitess/go/vt/proto/logutil"
+	logutilpb "github.com/estuary/vitess/go/vt/proto/logutil"
 )
 
 // This file contains a few functions to help with proto3.

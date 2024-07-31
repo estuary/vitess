@@ -19,5 +19,5 @@ package cli
 // Imports and register the topo custom rule source
 
 import (
-	_ "github.com/mdibaiee/vitess/go/vt/vttablet/customrule/topocustomrule"
+	_ "github.com/estuary/vitess/go/vt/vttablet/customrule/topocustomrule"
 )

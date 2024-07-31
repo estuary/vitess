@@ -17,9 +17,9 @@ limitations under the License.
 package main
 
 import (
-	"github.com/mdibaiee/vitess/go/cmd/zkctl/command"
-	"github.com/mdibaiee/vitess/go/exit"
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/cmd/zkctl/command"
+	"github.com/estuary/vitess/go/exit"
+	"github.com/estuary/vitess/go/vt/log"
 )
 
 func main() {

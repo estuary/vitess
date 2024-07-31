@@ -24,11 +24,11 @@ package uprops
 import (
 	"slices"
 
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/normalizer"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/ubidi"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/ucase"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/uchar"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/uemoji"
+	"github.com/estuary/vitess/go/mysql/icuregex/internal/normalizer"
+	"github.com/estuary/vitess/go/mysql/icuregex/internal/ubidi"
+	"github.com/estuary/vitess/go/mysql/icuregex/internal/ucase"
+	"github.com/estuary/vitess/go/mysql/icuregex/internal/uchar"
+	"github.com/estuary/vitess/go/mysql/icuregex/internal/uemoji"
 )
 
 type binaryProperty struct {

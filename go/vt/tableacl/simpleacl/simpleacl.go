@@ -17,8 +17,8 @@ limitations under the License.
 package simpleacl
 
 import (
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/tableacl/acl"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	"github.com/estuary/vitess/go/vt/tableacl/acl"
 )
 
 // SimpleACL keeps all entries in a unique in-memory list

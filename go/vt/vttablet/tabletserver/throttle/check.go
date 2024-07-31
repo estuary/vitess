@@ -48,10 +48,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/textutil"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/base"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"github.com/estuary/vitess/go/stats"
+	"github.com/estuary/vitess/go/textutil"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver/throttle/base"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 )
 
 const (

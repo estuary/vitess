@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/estuary/vitess/go/stats"
 )
 
 var (

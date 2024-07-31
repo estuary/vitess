@@ -19,7 +19,7 @@ package fuzzing
 import (
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/sqlparser"
 )
 
 // FuzzEqualsSQLNode implements the fuzzer

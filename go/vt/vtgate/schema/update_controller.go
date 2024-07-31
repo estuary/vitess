@@ -20,11 +20,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
+	"github.com/estuary/vitess/go/mysql/sqlerror"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 
-	"github.com/mdibaiee/vitess/go/vt/discovery"
+	"github.com/estuary/vitess/go/vt/discovery"
 )
 
 type (

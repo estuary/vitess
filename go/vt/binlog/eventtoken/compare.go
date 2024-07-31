@@ -19,8 +19,8 @@ limitations under the License.
 package eventtoken
 
 import (
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	"github.com/estuary/vitess/go/mysql/replication"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
 )
 
 // Fresher compares two event tokens.  It returns a negative number if

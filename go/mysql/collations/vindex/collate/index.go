@@ -4,7 +4,7 @@
 
 package collate
 
-import "github.com/mdibaiee/vitess/go/mysql/collations/vindex/internal/colltab"
+import "github.com/estuary/vitess/go/mysql/collations/vindex/internal/colltab"
 
 const blockSize = 64
 

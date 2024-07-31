@@ -17,8 +17,8 @@ limitations under the License.
 package testutil
 
 import (
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtadminpb "github.com/mdibaiee/vitess/go/vt/proto/vtadmin"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	vtadminpb "github.com/estuary/vitess/go/vt/proto/vtadmin"
 )
 
 // TopodataTabletsFromVTAdminTablets returns a slice of topodatapb.Tablet

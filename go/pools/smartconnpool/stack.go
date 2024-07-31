@@ -19,7 +19,7 @@ package smartconnpool
 import (
 	"runtime"
 
-	"github.com/mdibaiee/vitess/go/atomic2"
+	"github.com/estuary/vitess/go/atomic2"
 )
 
 // connStack is a lock-free stack for Connection objects. It is safe to

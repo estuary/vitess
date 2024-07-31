@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
+	vtgatepb "github.com/estuary/vitess/go/vt/proto/vtgate"
 
 	"github.com/stretchr/testify/require"
 )

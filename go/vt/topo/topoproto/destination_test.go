@@ -21,9 +21,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/vt/key"
+	"github.com/estuary/vitess/go/vt/key"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 )
 
 func TestParseDestination(t *testing.T) {

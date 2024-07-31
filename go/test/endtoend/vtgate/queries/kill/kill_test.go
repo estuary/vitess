@@ -25,8 +25,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/test/endtoend/utils"
+	"github.com/estuary/vitess/go/mysql"
+	"github.com/estuary/vitess/go/test/endtoend/utils"
 )
 
 // TestKillConnection kills its own connection and checks the error message received.

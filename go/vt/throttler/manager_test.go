@@ -26,7 +26,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	throttlerdatapb "github.com/mdibaiee/vitess/go/vt/proto/throttlerdata"
+	throttlerdatapb "github.com/estuary/vitess/go/vt/proto/throttlerdata"
 )
 
 // We base our test data on these defaults.

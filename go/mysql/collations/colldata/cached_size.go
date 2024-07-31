@@ -17,7 +17,7 @@ limitations under the License.
 
 package colldata
 
-import hack "github.com/mdibaiee/vitess/go/hack"
+import hack "github.com/estuary/vitess/go/hack"
 
 type cachedObject interface {
 	CachedSize(alloc bool) int64
@@ -63,7 +63,7 @@ func (cached *unicodeWildcard) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(48)
 	}
-	// field charset github.com/mdibaiee/vitess/go/mysql/collations/charset/types.Charset
+	// field charset github.com/estuary/vitess/go/mysql/collations/charset/types.Charset
 	if cc, ok := cached.charset.(cachedObject); ok {
 		size += cc.CachedSize(true)
 	}

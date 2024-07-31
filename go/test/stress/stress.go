@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/estuary/vitess/go/mysql"
 )
 
 const (

@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/vt/schema"
+	"github.com/estuary/vitess/go/vt/schema"
 )
 
 // expandedDataTypes maps some known and difficult-to-compute by INFORMATION_SCHEMA data types which expand other data types.

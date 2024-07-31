@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/vt/servenv/testutils"
+	"github.com/estuary/vitess/go/vt/servenv/testutils"
 )
 
 func TestLivenessHandler(t *testing.T) {

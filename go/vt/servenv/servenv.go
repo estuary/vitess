@@ -40,19 +40,19 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/mdibaiee/vitess/go/event"
-	"github.com/mdibaiee/vitess/go/netutil"
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/trace"
-	"github.com/mdibaiee/vitess/go/viperutil"
-	viperdebug "github.com/mdibaiee/vitess/go/viperutil/debug"
-	"github.com/mdibaiee/vitess/go/vt/grpccommon"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/event"
+	"github.com/estuary/vitess/go/netutil"
+	"github.com/estuary/vitess/go/stats"
+	"github.com/estuary/vitess/go/trace"
+	"github.com/estuary/vitess/go/viperutil"
+	viperdebug "github.com/estuary/vitess/go/viperutil/debug"
+	"github.com/estuary/vitess/go/vt/grpccommon"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/logutil"
+	"github.com/estuary/vitess/go/vt/vterrors"
 
 	// Include deprecation warnings for soon-to-be-unsupported flag invocations.
-	_flag "github.com/mdibaiee/vitess/go/internal/flag"
+	_flag "github.com/estuary/vitess/go/internal/flag"
 )
 
 var (

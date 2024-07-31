@@ -3,7 +3,7 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/mdibaiee/vitess/go/cmd/rulesctl/common"
+	"github.com/estuary/vitess/go/cmd/rulesctl/common"
 )
 
 func List() *cobra.Command {

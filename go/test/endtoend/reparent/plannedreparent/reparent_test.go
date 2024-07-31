@@ -28,11 +28,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
-	"github.com/mdibaiee/vitess/go/test/endtoend/reparent/utils"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	replicationdatapb "github.com/mdibaiee/vitess/go/vt/proto/replicationdata"
+	"github.com/estuary/vitess/go/mysql/replication"
+	"github.com/estuary/vitess/go/test/endtoend/cluster"
+	"github.com/estuary/vitess/go/test/endtoend/reparent/utils"
+	"github.com/estuary/vitess/go/vt/log"
+	replicationdatapb "github.com/estuary/vitess/go/vt/proto/replicationdata"
 )
 
 func TestPrimaryToSpareStateChangeImpossible(t *testing.T) {

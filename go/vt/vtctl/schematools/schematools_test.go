@@ -19,7 +19,7 @@ package schematools
 import (
 	"testing"
 
-	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
+	vtctldatapb "github.com/estuary/vitess/go/vt/proto/vtctldata"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/vt/tableacl"
-	"github.com/mdibaiee/vitess/go/vt/tableacl/simpleacl"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/endtoend/framework"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
-	"github.com/mdibaiee/vitess/go/vt/vttest"
+	"github.com/estuary/vitess/go/mysql"
+	"github.com/estuary/vitess/go/vt/tableacl"
+	"github.com/estuary/vitess/go/vt/tableacl/simpleacl"
+	"github.com/estuary/vitess/go/vt/vttablet/endtoend/framework"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/estuary/vitess/go/vt/vttest"
 
-	vttestpb "github.com/mdibaiee/vitess/go/vt/proto/vttest"
+	vttestpb "github.com/estuary/vitess/go/vt/proto/vttest"
 )
 
 var (

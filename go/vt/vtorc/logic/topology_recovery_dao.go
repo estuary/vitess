@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/vt/external/golib/sqlutils"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/config"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/db"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/inst"
+	"github.com/estuary/vitess/go/vt/external/golib/sqlutils"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/vtorc/config"
+	"github.com/estuary/vitess/go/vt/vtorc/db"
+	"github.com/estuary/vitess/go/vt/vtorc/inst"
 )
 
 // InsertRecoveryDetection inserts the recovery analysis that has been detected.

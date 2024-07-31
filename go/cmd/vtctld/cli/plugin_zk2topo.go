@@ -19,5 +19,5 @@ package cli
 // Imports and register the 'zk2' topo.Server.
 
 import (
-	_ "github.com/mdibaiee/vitess/go/vt/topo/zk2topo"
+	_ "github.com/estuary/vitess/go/vt/topo/zk2topo"
 )

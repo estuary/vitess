@@ -24,10 +24,10 @@ import (
 
 	"github.com/google/safehtml/template"
 
-	"github.com/mdibaiee/vitess/go/acl"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/logz"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/engine"
+	"github.com/estuary/vitess/go/acl"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/logz"
+	"github.com/estuary/vitess/go/vt/vtgate/engine"
 )
 
 var (

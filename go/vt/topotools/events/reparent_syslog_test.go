@@ -22,10 +22,10 @@ import (
 	"log/syslog"
 	"testing"
 
-	base "github.com/mdibaiee/vitess/go/vt/events"
-	"github.com/mdibaiee/vitess/go/vt/topo"
+	base "github.com/estuary/vitess/go/vt/events"
+	"github.com/estuary/vitess/go/vt/topo"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 )
 
 func TestReparentSyslog(t *testing.T) {

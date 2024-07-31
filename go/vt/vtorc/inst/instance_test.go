@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/vt/vtorc/config"
+	"github.com/estuary/vitess/go/vt/vtorc/config"
 )
 
 func init() {

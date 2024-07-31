@@ -25,7 +25,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/log"
 )
 
 const (

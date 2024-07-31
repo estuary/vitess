@@ -20,10 +20,10 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/key"
-	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/estuary/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/vt/key"
+	vtgatepb "github.com/estuary/vitess/go/vt/proto/vtgate"
+	"github.com/estuary/vitess/go/vt/vtgate/vindexes"
 )
 
 // hashIndex is a functional, unique Vindex.

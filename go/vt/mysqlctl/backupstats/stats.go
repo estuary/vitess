@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/estuary/vitess/go/stats"
 )
 
 // Stats is a reporting interface meant to be shared among backup and restore

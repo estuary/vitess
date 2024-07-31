@@ -43,7 +43,7 @@ package colldata
 import (
 	"unicode/utf8"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations/charset"
+	"github.com/estuary/vitess/go/mysql/collations/charset"
 )
 
 type match byte

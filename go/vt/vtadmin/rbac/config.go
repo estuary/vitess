@@ -22,9 +22,9 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/mdibaiee/vitess/go/sets"
-	"github.com/mdibaiee/vitess/go/vt/concurrency"
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/sets"
+	"github.com/estuary/vitess/go/vt/concurrency"
+	"github.com/estuary/vitess/go/vt/log"
 )
 
 // Config is the RBAC configuration representation. The public fields are

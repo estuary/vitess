@@ -19,6 +19,6 @@ package cli
 // Imports and register the gRPC vtgateservice server
 
 import (
-	_ "github.com/mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
-	_ "github.com/mdibaiee/vitess/go/vt/vtgate/grpcvtgateservice"
+	_ "github.com/estuary/vitess/go/vt/vtgate/grpcvtgateconn"
+	_ "github.com/estuary/vitess/go/vt/vtgate/grpcvtgateservice"
 )

@@ -25,7 +25,7 @@ import (
 
 	"context"
 
-	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/estuary/vitess/go/vt/topo"
 )
 
 // backendExplorer is a class that uses the Backend interface of a

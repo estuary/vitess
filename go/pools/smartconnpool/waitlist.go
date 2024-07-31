@@ -20,7 +20,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/mdibaiee/vitess/go/list"
+	"github.com/estuary/vitess/go/list"
 )
 
 // waiter represents a client waiting for a connection in the waitlist

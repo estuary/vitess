@@ -27,12 +27,12 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/mdibaiee/vitess/go/pools"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/vtadmin/cache"
-	"github.com/mdibaiee/vitess/go/vt/vtadmin/errors"
-	"github.com/mdibaiee/vitess/go/vt/vtadmin/vtctldclient"
-	"github.com/mdibaiee/vitess/go/vt/vtadmin/vtsql"
+	"github.com/estuary/vitess/go/pools"
+	"github.com/estuary/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/vtadmin/cache"
+	"github.com/estuary/vitess/go/vt/vtadmin/errors"
+	"github.com/estuary/vitess/go/vt/vtadmin/vtctldclient"
+	"github.com/estuary/vitess/go/vt/vtadmin/vtsql"
 )
 
 var (

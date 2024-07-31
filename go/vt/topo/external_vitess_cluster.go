@@ -20,10 +20,10 @@ import (
 	"context"
 	"path"
 
-	"github.com/mdibaiee/vitess/go/event"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/topo/events"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/estuary/vitess/go/event"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
+	"github.com/estuary/vitess/go/vt/topo/events"
+	"github.com/estuary/vitess/go/vt/vterrors"
 )
 
 // ExternalVitessClusterInfo is a meta struct that contains metadata to give the

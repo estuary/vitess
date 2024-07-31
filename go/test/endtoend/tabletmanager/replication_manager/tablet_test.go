@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/sidecardb"
+	"github.com/estuary/vitess/go/vt/sidecardb"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
-	replicationdatapb "github.com/mdibaiee/vitess/go/vt/proto/replicationdata"
-	tabletpb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	tmc "github.com/mdibaiee/vitess/go/vt/vttablet/grpctmclient"
+	"github.com/estuary/vitess/go/test/endtoend/cluster"
+	replicationdatapb "github.com/estuary/vitess/go/vt/proto/replicationdata"
+	tabletpb "github.com/estuary/vitess/go/vt/proto/topodata"
+	tmc "github.com/estuary/vitess/go/vt/vttablet/grpctmclient"
 )
 
 var (

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/sqlescape"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/sqlescape"
+	"github.com/estuary/vitess/go/vt/sqlparser"
 )
 
 var (

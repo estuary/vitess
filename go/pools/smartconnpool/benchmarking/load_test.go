@@ -33,8 +33,8 @@ import (
 	"gonum.org/v1/gonum/floats"
 	"gonum.org/v1/gonum/stat/distuv"
 
-	"github.com/mdibaiee/vitess/go/pools/smartconnpool"
-	pools "github.com/mdibaiee/vitess/go/pools/smartconnpool/benchmarking/legacy"
+	"github.com/estuary/vitess/go/pools/smartconnpool"
+	pools "github.com/estuary/vitess/go/pools/smartconnpool/benchmarking/legacy"
 )
 
 type Request struct {

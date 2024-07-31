@@ -19,8 +19,8 @@ package planbuilder
 import (
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/tableacl"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/tableacl"
 )
 
 // Permission associates the required access permission

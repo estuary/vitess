@@ -3,8 +3,8 @@ package schemadiff
 import (
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/mysql/capabilities"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/mysql/capabilities"
+	"github.com/estuary/vitess/go/vt/sqlparser"
 )
 
 const (

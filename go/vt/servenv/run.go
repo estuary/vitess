@@ -25,8 +25,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/event"
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/event"
+	"github.com/estuary/vitess/go/vt/log"
 )
 
 var (

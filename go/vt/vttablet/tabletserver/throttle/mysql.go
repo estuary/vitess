@@ -45,8 +45,8 @@ import (
 	"context"
 	"sort"
 
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/base"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/mysql"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver/throttle/base"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver/throttle/mysql"
 )
 
 func aggregateMySQLProbes(

@@ -27,7 +27,7 @@ package vtgateservice
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	vtgate "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
+	vtgate "github.com/estuary/vitess/go/vt/proto/vtgate"
 	reflect "reflect"
 )
 

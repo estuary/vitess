@@ -17,10 +17,10 @@ limitations under the License.
 package cli
 
 import (
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager/vreplication"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver"
+	"github.com/estuary/vitess/go/vt/servenv"
+	"github.com/estuary/vitess/go/vt/topo"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletmanager/vreplication"
+	"github.com/estuary/vitess/go/vt/vttablet/tabletserver"
 )
 
 var (

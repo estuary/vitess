@@ -27,8 +27,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/vt/tlstest"
-	"github.com/mdibaiee/vitess/go/vt/vttls"
+	"github.com/estuary/vitess/go/vt/tlstest"
+	"github.com/estuary/vitess/go/vt/vttls"
 )
 
 const clientCertUsername = "Client Cert"

@@ -21,18 +21,18 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/evalengine"
+	"github.com/estuary/vitess/go/vt/sqlparser"
+	"github.com/estuary/vitess/go/vt/vtgate/evalengine"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/estuary/vitess/go/sqltypes"
+	"github.com/estuary/vitess/go/vt/vtgate/vindexes"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
+	vschemapb "github.com/estuary/vitess/go/vt/proto/vschema"
 )
 
 func TestUpdateUnsharded(t *testing.T) {

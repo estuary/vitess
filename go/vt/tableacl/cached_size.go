@@ -17,7 +17,7 @@ limitations under the License.
 
 package tableacl
 
-import hack "github.com/mdibaiee/vitess/go/hack"
+import hack "github.com/estuary/vitess/go/hack"
 
 type cachedObject interface {
 	CachedSize(alloc bool) int64
@@ -31,7 +31,7 @@ func (cached *ACLResult) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(32)
 	}
-	// field ACL github.com/mdibaiee/vitess/go/vt/tableacl/acl.ACL
+	// field ACL github.com/estuary/vitess/go/vt/tableacl/acl.ACL
 	if cc, ok := cached.ACL.(cachedObject); ok {
 		size += cc.CachedSize(true)
 	}

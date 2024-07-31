@@ -19,7 +19,7 @@ package syslogger
 import (
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/log"
 )
 
 type loggerMsg struct {

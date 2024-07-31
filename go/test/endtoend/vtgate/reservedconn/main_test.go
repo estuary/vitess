@@ -22,13 +22,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/test/endtoend/utils"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	"github.com/estuary/vitess/go/test/endtoend/utils"
+	querypb "github.com/estuary/vitess/go/vt/proto/query"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
+	"github.com/estuary/vitess/go/mysql"
+	"github.com/estuary/vitess/go/test/endtoend/cluster"
 )
 
 var (

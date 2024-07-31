@@ -17,7 +17,7 @@ limitations under the License.
 package events
 
 import (
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/estuary/vitess/go/vt/proto/topodata"
 )
 
 // ExternalVitessClusterChange is an event that describes changes to a vitess cluster.

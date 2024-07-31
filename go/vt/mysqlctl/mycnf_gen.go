@@ -28,8 +28,8 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/mdibaiee/vitess/go/vt/env"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/estuary/vitess/go/vt/env"
+	"github.com/estuary/vitess/go/vt/servenv"
 )
 
 // This files handles the creation of Mycnf objects for the default 'vt'

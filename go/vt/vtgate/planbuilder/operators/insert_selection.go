@@ -17,7 +17,7 @@ limitations under the License.
 package operators
 
 import (
-	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/estuary/vitess/go/vt/vtgate/planbuilder/plancontext"
 )
 
 // InsertSelection operator represents an INSERT into SELECT FROM query.

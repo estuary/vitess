@@ -19,7 +19,7 @@ limitations under the License.
 package servenv
 
 import (
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/estuary/vitess/go/vt/log"
 )
 
 func pprofInit() {

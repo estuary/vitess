@@ -22,8 +22,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	vtadminpb "github.com/mdibaiee/vitess/go/vt/proto/vtadmin"
-	"github.com/mdibaiee/vitess/go/vt/vtadmin/errors"
+	vtadminpb "github.com/estuary/vitess/go/vt/proto/vtadmin"
+	"github.com/estuary/vitess/go/vt/vtadmin/errors"
 )
 
 // GetClusters implements the http wrapper for /clusters

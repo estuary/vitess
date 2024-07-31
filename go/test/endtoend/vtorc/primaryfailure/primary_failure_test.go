@@ -29,9 +29,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
-	"github.com/mdibaiee/vitess/go/test/endtoend/vtorc/utils"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/logic"
+	"github.com/estuary/vitess/go/test/endtoend/cluster"
+	"github.com/estuary/vitess/go/test/endtoend/vtorc/utils"
+	"github.com/estuary/vitess/go/vt/vtorc/logic"
 )
 
 // bring down primary, let orc promote replica

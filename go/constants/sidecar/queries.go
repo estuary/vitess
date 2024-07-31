@@ -16,7 +16,7 @@ limitations under the License.
 
 package sidecar
 
-import "github.com/mdibaiee/vitess/go/vt/sqlparser"
+import "github.com/estuary/vitess/go/vt/sqlparser"
 
 // region unit-test-only
 // This section uses helpers used in tests, but also in

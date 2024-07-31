@@ -10,12 +10,12 @@ For more information, visit www.vitess.io.
 
 For more information on this driver, please see its godoc page:
 
-https://godoc.org/github.com/mdibaiee/vitess/go/vt/vitessdriver
+https://godoc.org/github.com/estuary/vitess/go/vt/vitessdriver
 
 ## Installation
 
 ```sh
-go get github.com/mdibaiee/vitess/go/vt/vitessdriver
+go get github.com/estuary/vitess/go/vt/vitessdriver
 ```
 
 See the documentation link above for examples.

@@ -25,7 +25,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/udata"
+	"github.com/estuary/vitess/go/mysql/icuregex/internal/udata"
 )
 
 type UcpTrie struct {

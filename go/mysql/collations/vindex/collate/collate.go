@@ -8,12 +8,12 @@
 
 // Package collate contains types for comparing and sorting Unicode strings
 // according to a given collation order.
-package collate // import "github.com/mdibaiee/vitess/go/mysql/collations/vindex/collate"
+package collate // import "github.com/estuary/vitess/go/mysql/collations/vindex/collate"
 
 import (
 	"hash"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations/vindex/internal/colltab"
+	"github.com/estuary/vitess/go/mysql/collations/vindex/internal/colltab"
 )
 
 type Hasher struct {
