@@ -28,16 +28,16 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/mdibaiee/vitess/go/vt/external/golib/sqlutils"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/proto/vttime"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
-	"github.com/mdibaiee/vitess/go/vt/vtctl/grpcvtctldserver/testutil"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/db"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/inst"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/process"
+	"github.com/vitess/vitess/go/vt/external/golib/sqlutils"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	"github.com/vitess/vitess/go/vt/proto/vttime"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topo/memorytopo"
+	"github.com/vitess/vitess/go/vt/topo/topoproto"
+	"github.com/vitess/vitess/go/vt/vtctl/grpcvtctldserver/testutil"
+	"github.com/vitess/vitess/go/vt/vtorc/db"
+	"github.com/vitess/vitess/go/vt/vtorc/inst"
+	"github.com/vitess/vitess/go/vt/vtorc/process"
 )
 
 var (

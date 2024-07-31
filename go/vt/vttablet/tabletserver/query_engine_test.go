@@ -31,28 +31,28 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/cache/theine"
-	"github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/vitess/vitess/go/cache/theine"
+	"github.com/vitess/vitess/go/vt/proto/topodata"
+	"github.com/vitess/vitess/go/vt/vtenv"
 
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/sqlparser"
 
-	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/vitess/vitess/go/mysql"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql/fakesqldb"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/streamlog"
-	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
-	"github.com/mdibaiee/vitess/go/vt/tableacl"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/planbuilder"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/schema"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/schema/schematest"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/vitess/vitess/go/mysql/fakesqldb"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/streamlog"
+	"github.com/vitess/vitess/go/vt/dbconfigs"
+	"github.com/vitess/vitess/go/vt/tableacl"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/planbuilder"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/schema"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/schema/schematest"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/tabletenv"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
 )
 
 func TestStrictMode(t *testing.T) {

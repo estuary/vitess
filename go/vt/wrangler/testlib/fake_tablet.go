@@ -29,30 +29,30 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/mdibaiee/vitess/go/mysql/fakesqldb"
-	"github.com/mdibaiee/vitess/go/vt/binlog/binlogplayer"
-	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
-	"github.com/mdibaiee/vitess/go/vt/mysqlctl"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/grpctmserver"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletconntest"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager/vreplication"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletservermock"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclienttest"
-	"github.com/mdibaiee/vitess/go/vt/wrangler"
+	"github.com/vitess/vitess/go/mysql/fakesqldb"
+	"github.com/vitess/vitess/go/vt/binlog/binlogplayer"
+	"github.com/vitess/vitess/go/vt/dbconfigs"
+	"github.com/vitess/vitess/go/vt/mysqlctl"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topo/topoproto"
+	"github.com/vitess/vitess/go/vt/vtenv"
+	"github.com/vitess/vitess/go/vt/vttablet/grpctmserver"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletconntest"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletmanager"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletmanager/vreplication"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletservermock"
+	"github.com/vitess/vitess/go/vt/vttablet/tmclient"
+	"github.com/vitess/vitess/go/vt/vttablet/tmclienttest"
+	"github.com/vitess/vitess/go/vt/wrangler"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
 
 	// import the gRPC client implementation for tablet manager
-	_ "github.com/mdibaiee/vitess/go/vt/vttablet/grpctmclient"
+	_ "github.com/vitess/vitess/go/vt/vttablet/grpctmclient"
 
 	// import the gRPC client implementation for query service
-	_ "github.com/mdibaiee/vitess/go/vt/vttablet/grpctabletconn"
+	_ "github.com/vitess/vitess/go/vt/vttablet/grpctabletconn"
 )
 
 // This file contains utility methods for unit tests.

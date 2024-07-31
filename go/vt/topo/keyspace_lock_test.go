@@ -22,9 +22,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topo/memorytopo"
 )
 
 // TestTopoKeyspaceLock tests keyspace lock operations.

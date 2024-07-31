@@ -22,10 +22,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/test/vschemawrapper"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/engine"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/test/vschemawrapper"
+	"github.com/vitess/vitess/go/vt/vtenv"
+	"github.com/vitess/vitess/go/vt/vtgate/engine"
 )
 
 // collationInTable allows us to set a collation on a column

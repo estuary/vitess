@@ -23,8 +23,8 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/uber/jaeger-client-go/config"
 
-	"github.com/mdibaiee/vitess/go/viperutil"
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/viperutil"
+	"github.com/vitess/vitess/go/vt/log"
 )
 
 /*

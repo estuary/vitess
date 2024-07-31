@@ -39,20 +39,20 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tidwall/gjson"
 
-	"github.com/mdibaiee/vitess/go/json2"
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
-	"github.com/mdibaiee/vitess/go/sqlescape"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/schema"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"github.com/vitess/vitess/go/json2"
+	"github.com/vitess/vitess/go/mysql"
+	"github.com/vitess/vitess/go/mysql/sqlerror"
+	"github.com/vitess/vitess/go/sqlescape"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/test/endtoend/cluster"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/schema"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/topo/topoproto"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 const (

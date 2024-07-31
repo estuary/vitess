@@ -31,13 +31,13 @@ import (
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	vtopo "github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/log"
+	vtopo "github.com/vitess/vitess/go/vt/topo"
 
 	// Register topo server implementations
-	_ "github.com/mdibaiee/vitess/go/vt/topo/consultopo"
-	_ "github.com/mdibaiee/vitess/go/vt/topo/etcd2topo"
-	_ "github.com/mdibaiee/vitess/go/vt/topo/zk2topo"
+	_ "github.com/vitess/vitess/go/vt/topo/consultopo"
+	_ "github.com/vitess/vitess/go/vt/topo/etcd2topo"
+	_ "github.com/vitess/vitess/go/vt/topo/zk2topo"
 )
 
 // TopoProcess is a generic handle for a running Topo service .

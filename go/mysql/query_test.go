@@ -24,16 +24,16 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
+	"github.com/vitess/vitess/go/mysql/sqlerror"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/mysql/collations"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/sqltypes"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
 )
 
 // Utility function to write sql query as packets to test parseComPrepare

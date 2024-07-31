@@ -30,14 +30,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tidwall/gjson"
 
-	"github.com/mdibaiee/vitess/go/protoutil"
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
-	"github.com/mdibaiee/vitess/go/vt/concurrency"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/base"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"github.com/vitess/vitess/go/protoutil"
+	"github.com/vitess/vitess/go/test/endtoend/cluster"
+	"github.com/vitess/vitess/go/vt/concurrency"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/throttle/base"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 type Config struct {

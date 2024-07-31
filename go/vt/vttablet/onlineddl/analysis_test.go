@@ -26,8 +26,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/mysql"
+	"github.com/vitess/vitess/go/vt/sqlparser"
 )
 
 func TestAnalyzeInstantDDL(t *testing.T) {

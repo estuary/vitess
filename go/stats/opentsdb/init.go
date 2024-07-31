@@ -23,9 +23,9 @@ import (
 	"net/url"
 	"sort"
 
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/stats"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/servenv"
 )
 
 var singletonBackend stats.PushBackend

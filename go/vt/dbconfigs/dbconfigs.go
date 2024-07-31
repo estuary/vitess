@@ -26,14 +26,14 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vttls"
-	"github.com/mdibaiee/vitess/go/yaml2"
+	"github.com/vitess/vitess/go/mysql"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/vt/log"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
+	"github.com/vitess/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vttls"
+	"github.com/vitess/vitess/go/yaml2"
 )
 
 // config flags

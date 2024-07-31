@@ -19,12 +19,12 @@ package txlimiter
 import (
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/vt/callerid"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/vitess/vitess/go/vt/callerid"
+	"github.com/vitess/vitess/go/vt/vtenv"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/tabletenv"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
 )
 
 func resetVariables(txl *Impl) {

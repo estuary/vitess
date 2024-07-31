@@ -19,10 +19,10 @@ package vdiff
 import (
 	"context"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/engine"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/sqltypes"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	"github.com/vitess/vitess/go/vt/vtgate/engine"
 )
 
 // contextVCursor satisfies VCursor, but only implements Context().

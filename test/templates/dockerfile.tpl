@@ -6,8 +6,8 @@ FROM "${image}"
 USER root
 
 # Re-copy sources from working tree
-RUN rm -rf /vt/src/github.com/mdibaiee/vitess/*
-COPY . /vt/src/github.com/mdibaiee/vitess
+RUN rm -rf /vt/src/github.com/vitess/vitess/*
+COPY . /vt/src/github.com/vitess/vitess
 
 {{if .InstallXtraBackup}}
 # install XtraBackup
@@ -20,7 +20,7 @@ RUN apt-get install -y percona-xtrabackup-24
 {{end}}
 
 # Set the working directory
-WORKDIR /vt/src/github.com/mdibaiee/vitess
+WORKDIR /vt/src/github.com/vitess/vitess
 
 # Fix permissions
 RUN chown -R vitess:vitess /vt
@@ -28,7 +28,7 @@ RUN chown -R vitess:vitess /vt
 USER vitess
 
 # Set environment variables
-ENV VTROOT /vt/src/github.com/mdibaiee/vitess
+ENV VTROOT /vt/src/github.com/vitess/vitess
 # Set the vtdataroot such that it uses the volume mount
 ENV VTDATAROOT /vt/vtdataroot
 

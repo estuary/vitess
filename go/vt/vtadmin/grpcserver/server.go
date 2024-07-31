@@ -41,12 +41,12 @@ import (
 	"google.golang.org/grpc/health"
 	"google.golang.org/grpc/reflection"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/vterrors"
 
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
 )
 
 // Options defines the set of configurations for a gRPC server.

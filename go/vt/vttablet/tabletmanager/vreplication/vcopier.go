@@ -29,20 +29,20 @@ import (
 	"golang.org/x/exp/maps"
 	"google.golang.org/protobuf/encoding/prototext"
 
-	"github.com/mdibaiee/vitess/go/bytes2"
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	"github.com/mdibaiee/vitess/go/pools"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/binlog/binlogplayer"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vttablet"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"github.com/vitess/vitess/go/bytes2"
+	"github.com/vitess/vitess/go/mysql/replication"
+	"github.com/vitess/vitess/go/pools"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/binlog/binlogplayer"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vttablet"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
 )
 
 type vcopier struct {

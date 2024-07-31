@@ -33,18 +33,18 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/vitess/vitess/go/mysql"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/test/endtoend/cluster"
+	"github.com/vitess/vitess/go/vt/log"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topo/topoproto"
 
 	// Register topo implementations.
-	_ "github.com/mdibaiee/vitess/go/vt/topo/consultopo"
-	_ "github.com/mdibaiee/vitess/go/vt/topo/etcd2topo"
-	_ "github.com/mdibaiee/vitess/go/vt/topo/zk2topo"
+	_ "github.com/vitess/vitess/go/vt/topo/consultopo"
+	_ "github.com/vitess/vitess/go/vt/topo/etcd2topo"
+	_ "github.com/vitess/vitess/go/vt/topo/zk2topo"
 )
 
 const (

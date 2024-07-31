@@ -22,7 +22,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/mdibaiee/vitess/go/vt/mysqlctl"
+	"github.com/vitess/vitess/go/vt/mysqlctl"
 )
 
 var ReinitConfig = &cobra.Command{

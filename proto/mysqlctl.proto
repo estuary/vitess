@@ -18,7 +18,7 @@ limitations under the License.
 // calls to mysqlctld.
 
 syntax = "proto3";
-option go_package = "github.com/mdibaiee/vitess/go/vt/proto/mysqlctl";
+option go_package = "github.com/vitess/vitess/go/vt/proto/mysqlctl";
 
 package mysqlctl;
 

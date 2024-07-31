@@ -30,14 +30,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/test/utils"
-	"github.com/mdibaiee/vitess/go/trace"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/tlstest"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/vitess/vitess/go/mysql"
+	"github.com/vitess/vitess/go/mysql/replication"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/test/utils"
+	"github.com/vitess/vitess/go/trace"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	"github.com/vitess/vitess/go/vt/tlstest"
+	"github.com/vitess/vitess/go/vt/vtenv"
 )
 
 type testHandler struct {

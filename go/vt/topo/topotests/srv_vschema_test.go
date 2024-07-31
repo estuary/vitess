@@ -21,10 +21,10 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
+	"github.com/vitess/vitess/go/vt/topo/memorytopo"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	vschemapb "github.com/vitess/vitess/go/vt/proto/vschema"
 )
 
 func TestRebuildVSchema(t *testing.T) {

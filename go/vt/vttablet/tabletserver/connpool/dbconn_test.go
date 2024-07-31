@@ -28,16 +28,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql/fakesqldb"
-	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
-	"github.com/mdibaiee/vitess/go/pools/smartconnpool"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/vitess/vitess/go/mysql/fakesqldb"
+	"github.com/vitess/vitess/go/mysql/sqlerror"
+	"github.com/vitess/vitess/go/pools/smartconnpool"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/dbconfigs"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
+	"github.com/vitess/vitess/go/vt/vtenv"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 func compareTimingCounts(t *testing.T, op string, delta int64, before, after map[string]int64) {

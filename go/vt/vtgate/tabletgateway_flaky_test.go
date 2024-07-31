@@ -22,14 +22,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/test/utils"
-	"github.com/mdibaiee/vitess/go/vt/discovery"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/buffer"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/test/utils"
+	"github.com/vitess/vitess/go/vt/discovery"
+	"github.com/vitess/vitess/go/vt/vtgate/buffer"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 // TestGatewayBufferingWhenPrimarySwitchesServingState is used to test that the buffering mechanism buffers the queries when a primary goes to a non serving state and

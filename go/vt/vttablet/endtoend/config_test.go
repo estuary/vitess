@@ -26,14 +26,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/endtoend/framework"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/vitess/vitess/go/sqltypes"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vttablet/endtoend/framework"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 func TestPoolSize(t *testing.T) {

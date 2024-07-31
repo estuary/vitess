@@ -20,8 +20,8 @@ import (
 	"math"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/mysql/decimal"
-	"github.com/mdibaiee/vitess/go/mysql/fastparse"
+	"github.com/vitess/vitess/go/mysql/decimal"
+	"github.com/vitess/vitess/go/mysql/fastparse"
 )
 
 func parsetimeHours(tp *timeparts, in string) (string, TimeState) {

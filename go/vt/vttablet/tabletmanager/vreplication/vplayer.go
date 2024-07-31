@@ -26,15 +26,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/binlog/binlogplayer"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vttablet"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"github.com/vitess/vitess/go/mysql/replication"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/binlog/binlogplayer"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vttablet"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
 )
 
 const failedToRecordHeartbeatMsg = "failed to record heartbeat"

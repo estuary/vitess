@@ -19,13 +19,13 @@ package schema
 import (
 	"context"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/log"
 
-	"github.com/mdibaiee/vitess/go/constants/sidecar"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/connpool"
+	"github.com/vitess/vitess/go/constants/sidecar"
+	"github.com/vitess/vitess/go/sqltypes"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/connpool"
 )
 
 const (

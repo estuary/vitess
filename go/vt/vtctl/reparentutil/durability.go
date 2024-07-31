@@ -19,10 +19,10 @@ package reparentutil
 import (
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
-	"github.com/mdibaiee/vitess/go/vt/vtctl/reparentutil/promotionrule"
+	"github.com/vitess/vitess/go/vt/log"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	"github.com/vitess/vitess/go/vt/topo/topoproto"
+	"github.com/vitess/vitess/go/vt/vtctl/reparentutil/promotionrule"
 )
 
 //=======================================================================

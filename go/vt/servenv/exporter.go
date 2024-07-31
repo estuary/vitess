@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/vitess/vitess/go/stats"
 )
 
 // varType is used to specify what type of var to create.

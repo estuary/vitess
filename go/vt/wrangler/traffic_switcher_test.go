@@ -28,15 +28,15 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topotools"
-	"github.com/mdibaiee/vitess/go/vt/vtctl/workflow"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/logutil"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topotools"
+	"github.com/vitess/vitess/go/vt/vtctl/workflow"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	vschemapb "github.com/vitess/vitess/go/vt/proto/vschema"
 )
 
 var (

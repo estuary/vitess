@@ -25,8 +25,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/udata"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/utf16"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/udata"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/utf16"
 )
 
 type UTrie2 struct {

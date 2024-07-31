@@ -28,10 +28,10 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/test/endtoend/utils"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/test/endtoend/utils"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/sqlparser"
 )
 
 type QueryFormat string

@@ -29,16 +29,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	"github.com/mdibaiee/vitess/go/netutil"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/hook"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/proto/replicationdata"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/mysql"
+	"github.com/vitess/vitess/go/mysql/replication"
+	"github.com/vitess/vitess/go/netutil"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/hook"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/proto/replicationdata"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/vterrors"
 )
 
 const (

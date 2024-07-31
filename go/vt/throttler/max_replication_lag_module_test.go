@@ -25,11 +25,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/vt/discovery"
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/discovery"
+	"github.com/vitess/vitess/go/vt/log"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 // The tests below tests the heuristic of the MaxReplicationLagModule.

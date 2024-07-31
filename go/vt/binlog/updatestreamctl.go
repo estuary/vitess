@@ -22,17 +22,17 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/tb"
-	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/schema"
+	"github.com/vitess/vitess/go/mysql/replication"
+	"github.com/vitess/vitess/go/stats"
+	"github.com/vitess/vitess/go/tb"
+	"github.com/vitess/vitess/go/vt/dbconfigs"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/schema"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 /* API and config for UpdateStream Service */

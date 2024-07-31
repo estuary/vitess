@@ -17,8 +17,8 @@
 package main
 
 import (
-	"github.com/mdibaiee/vitess/go/cmd/vtorc/cli"
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/cmd/vtorc/cli"
+	"github.com/vitess/vitess/go/vt/log"
 )
 
 // main is the application's entry point. It will spawn an HTTP interface.

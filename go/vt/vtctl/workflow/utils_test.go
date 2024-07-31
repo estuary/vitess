@@ -14,12 +14,12 @@ import (
 	"github.com/stretchr/testify/require"
 	clientv3 "go.etcd.io/etcd/client/v3"
 
-	"github.com/mdibaiee/vitess/go/testfiles"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/etcd2topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
-	"github.com/mdibaiee/vitess/go/vt/topotools"
+	"github.com/vitess/vitess/go/testfiles"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topo/etcd2topo"
+	"github.com/vitess/vitess/go/vt/topo/memorytopo"
+	"github.com/vitess/vitess/go/vt/topotools"
 )
 
 // TestUpdateKeyspaceRoutingRule confirms that the keyspace routing rules are updated correctly.

@@ -20,8 +20,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/stats"
+	"github.com/vitess/vitess/go/vt/topo"
 )
 
 type SrvKeyspaceNamesQuery struct {

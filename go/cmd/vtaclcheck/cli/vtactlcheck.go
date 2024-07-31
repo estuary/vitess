@@ -19,10 +19,10 @@ package cli
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/mdibaiee/vitess/go/acl"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/vtaclcheck"
+	"github.com/vitess/vitess/go/acl"
+	"github.com/vitess/vitess/go/vt/logutil"
+	"github.com/vitess/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/vtaclcheck"
 )
 
 var (

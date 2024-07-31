@@ -24,13 +24,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/mysql/datetime"
-	"github.com/mdibaiee/vitess/go/mysql/decimal"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/mysql/datetime"
+	"github.com/vitess/vitess/go/mysql/decimal"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/log"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
+	"github.com/vitess/vitess/go/vt/vterrors"
 )
 
 // Walk calls postVisit on every node.

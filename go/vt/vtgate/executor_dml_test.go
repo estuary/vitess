@@ -25,16 +25,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql/config"
-	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/test/utils"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	_ "github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/sandboxconn"
+	"github.com/vitess/vitess/go/mysql/config"
+	"github.com/vitess/vitess/go/mysql/sqlerror"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/test/utils"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	vtgatepb "github.com/vitess/vitess/go/vt/proto/vtgate"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	_ "github.com/vitess/vitess/go/vt/vtgate/vindexes"
+	"github.com/vitess/vitess/go/vt/vttablet/sandboxconn"
 )
 
 func TestUpdateEqual(t *testing.T) {

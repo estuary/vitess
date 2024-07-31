@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/sqltypes"
 )
 
 func TestToNative(t *testing.T) {

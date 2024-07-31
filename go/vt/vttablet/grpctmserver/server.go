@@ -22,19 +22,19 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/mdibaiee/vitess/go/vt/callerid"
-	"github.com/mdibaiee/vitess/go/vt/callinfo"
-	"github.com/mdibaiee/vitess/go/vt/hook"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	"github.com/mdibaiee/vitess/go/vt/mysqlctl/tmutils"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager"
+	"github.com/vitess/vitess/go/vt/callerid"
+	"github.com/vitess/vitess/go/vt/callinfo"
+	"github.com/vitess/vitess/go/vt/hook"
+	"github.com/vitess/vitess/go/vt/logutil"
+	"github.com/vitess/vitess/go/vt/mysqlctl/tmutils"
+	"github.com/vitess/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletmanager"
 
-	logutilpb "github.com/mdibaiee/vitess/go/vt/proto/logutil"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	tabletmanagerservicepb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerservice"
+	logutilpb "github.com/vitess/vitess/go/vt/proto/logutil"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	tabletmanagerdatapb "github.com/vitess/vitess/go/vt/proto/tabletmanagerdata"
+	tabletmanagerservicepb "github.com/vitess/vitess/go/vt/proto/tabletmanagerservice"
 )
 
 // server is the gRPC implementation of the RPC server

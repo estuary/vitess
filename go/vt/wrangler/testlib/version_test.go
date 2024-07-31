@@ -25,16 +25,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/discovery"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/vitess/vitess/go/vt/discovery"
+	"github.com/vitess/vitess/go/vt/topo/topoproto"
+	"github.com/vitess/vitess/go/vt/vtenv"
+	"github.com/vitess/vitess/go/vt/vttablet/tmclient"
 
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
-	"github.com/mdibaiee/vitess/go/vt/wrangler"
+	"github.com/vitess/vitess/go/vt/logutil"
+	"github.com/vitess/vitess/go/vt/topo/memorytopo"
+	"github.com/vitess/vitess/go/vt/wrangler"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 func expvarHandler(gitRev *string) func(http.ResponseWriter, *http.Request) {

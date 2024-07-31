@@ -7,7 +7,7 @@
 //go:generate go test -tags test
 
 // Package norm contains types and functions for normalizing Unicode strings.
-package norm // import "github.com/mdibaiee/vitess/go/mysql/collations/vindex/unicode/norm"
+package norm // import "github.com/vitess/vitess/go/mysql/collations/vindex/unicode/norm"
 
 import (
 	"unicode/utf8"

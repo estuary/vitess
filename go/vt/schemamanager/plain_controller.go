@@ -22,7 +22,7 @@ import (
 
 	"context"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/log"
 )
 
 // PlainController implements Controller interface.

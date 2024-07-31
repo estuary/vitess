@@ -26,19 +26,19 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"github.com/mdibaiee/vitess/go/protoutil"
-	"github.com/mdibaiee/vitess/go/vt/key"
+	"github.com/vitess/vitess/go/protoutil"
+	"github.com/vitess/vitess/go/vt/key"
 
-	"github.com/mdibaiee/vitess/go/event"
-	"github.com/mdibaiee/vitess/go/netutil"
-	"github.com/mdibaiee/vitess/go/trace"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/event"
+	"github.com/vitess/vitess/go/netutil"
+	"github.com/vitess/vitess/go/trace"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/proto/vtrpc"
+	"github.com/vitess/vitess/go/vt/vterrors"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/topo/events"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	"github.com/vitess/vitess/go/vt/topo/events"
+	"github.com/vitess/vitess/go/vt/topo/topoproto"
 )
 
 // IsTrivialTypeChange returns if this db type be trivially reassigned

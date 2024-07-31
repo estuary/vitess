@@ -20,12 +20,12 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/mdibaiee/vitess/go/mysql/capabilities"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/schema"
-	"github.com/mdibaiee/vitess/go/vt/schemadiff"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/mysql/capabilities"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
+	"github.com/vitess/vitess/go/vt/schema"
+	"github.com/vitess/vitess/go/vt/schemadiff"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/vterrors"
 )
 
 type specialAlterOperation string

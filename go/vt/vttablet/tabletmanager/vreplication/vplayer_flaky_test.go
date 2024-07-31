@@ -31,16 +31,16 @@ import (
 	"github.com/nsf/jsondiff"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/binlog/binlogplayer"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	"github.com/mdibaiee/vitess/go/vt/vttablet"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/vstreamer/testenv"
+	"github.com/vitess/vitess/go/mysql/replication"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/binlog/binlogplayer"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/logutil"
+	"github.com/vitess/vitess/go/vt/vttablet"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/vstreamer/testenv"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	qh "github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager/vreplication/queryhistory"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	qh "github.com/vitess/vitess/go/vt/vttablet/tabletmanager/vreplication/queryhistory"
 )
 
 // TestPlayerGeneratedInvisiblePrimaryKey confirms that the gipk column is replicated by vplayer, both for target

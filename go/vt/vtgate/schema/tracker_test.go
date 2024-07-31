@@ -26,18 +26,18 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/sqltypes"
 
-	"github.com/mdibaiee/vitess/go/test/utils"
-	"github.com/mdibaiee/vitess/go/vt/discovery"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/sidecardb"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/sandboxconn"
+	"github.com/vitess/vitess/go/test/utils"
+	"github.com/vitess/vitess/go/vt/discovery"
+	"github.com/vitess/vitess/go/vt/log"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	"github.com/vitess/vitess/go/vt/sidecardb"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/topo/memorytopo"
+	"github.com/vitess/vitess/go/vt/vtgate/vindexes"
+	"github.com/vitess/vitess/go/vt/vttablet/sandboxconn"
 )
 
 var (

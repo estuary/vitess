@@ -19,12 +19,12 @@ package endtoend
 import (
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/test/utils"
+	"github.com/vitess/vitess/go/test/utils"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/endtoend/framework"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/vttablet/endtoend/framework"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
 )
 
 func getAndSetup(t *testing.T) *framework.QueryClient {

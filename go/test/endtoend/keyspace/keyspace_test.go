@@ -25,13 +25,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/constants/sidecar"
-	"github.com/mdibaiee/vitess/go/json2"
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
-	"github.com/mdibaiee/vitess/go/vt/key"
+	"github.com/vitess/vitess/go/constants/sidecar"
+	"github.com/vitess/vitess/go/json2"
+	"github.com/vitess/vitess/go/test/endtoend/cluster"
+	"github.com/vitess/vitess/go/vt/key"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	vtctldatapb "github.com/vitess/vitess/go/vt/proto/vtctldata"
 )
 
 var (

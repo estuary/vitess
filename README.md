@@ -1,6 +1,6 @@
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.vitess/vitess-jdbc/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.vitess/vitess-jdbc)
 [![Coverage Status](https://codecov.io/gh/vitessio/vitess/branch/main/graph/badge.svg)](https://app.codecov.io/gh/vitessio/vitess/tree/main)
-[![Go Report Card](https://goreportcard.com/badge/github.com/mdibaiee/vitess)](https://goreportcard.com/report/github.com/mdibaiee/vitess)
+[![Go Report Card](https://goreportcard.com/badge/github.com/vitess/vitess)](https://goreportcard.com/report/github.com/vitess/vitess)
 [![FOSSA Status](https://app.fossa.com/api/projects/custom%2B162%2Fvitess.svg?type=shield&issueType=license)](https://app.fossa.com/projects/custom%2B162%2Fvitess?ref=badge_shield&issueType=license)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1724/badge)](https://bestpractices.coreinfrastructure.org/projects/1724)
 

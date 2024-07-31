@@ -24,19 +24,19 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/mdibaiee/vitess/go/event"
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/vt/concurrency"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	logutilpb "github.com/mdibaiee/vitess/go/vt/proto/logutil"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
-	"github.com/mdibaiee/vitess/go/vt/topotools/events"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/vitess/vitess/go/event"
+	"github.com/vitess/vitess/go/mysql/replication"
+	"github.com/vitess/vitess/go/stats"
+	"github.com/vitess/vitess/go/vt/concurrency"
+	"github.com/vitess/vitess/go/vt/logutil"
+	logutilpb "github.com/vitess/vitess/go/vt/proto/logutil"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	"github.com/vitess/vitess/go/vt/proto/vtrpc"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topo/topoproto"
+	"github.com/vitess/vitess/go/vt/topotools/events"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vttablet/tmclient"
 )
 
 // counters for Planned Reparent Shard

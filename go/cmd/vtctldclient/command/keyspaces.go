@@ -24,15 +24,15 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
-	"github.com/mdibaiee/vitess/go/protoutil"
+	"github.com/vitess/vitess/go/mysql/sqlerror"
+	"github.com/vitess/vitess/go/protoutil"
 
-	"github.com/mdibaiee/vitess/go/cmd/vtctldclient/cli"
-	"github.com/mdibaiee/vitess/go/constants/sidecar"
-	"github.com/mdibaiee/vitess/go/mysql"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
-	"github.com/mdibaiee/vitess/go/vt/proto/vttime"
+	"github.com/vitess/vitess/go/cmd/vtctldclient/cli"
+	"github.com/vitess/vitess/go/constants/sidecar"
+	"github.com/vitess/vitess/go/mysql"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	vtctldatapb "github.com/vitess/vitess/go/vt/proto/vtctldata"
+	"github.com/vitess/vitess/go/vt/proto/vttime"
 )
 
 var (

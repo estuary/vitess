@@ -23,19 +23,19 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/mdibaiee/vitess/go/json2"
-	"github.com/mdibaiee/vitess/go/vt/grpcclient"
-	"github.com/mdibaiee/vitess/go/vt/key"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/queryservice"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/sandboxconn"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletconn"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletconntest"
+	"github.com/vitess/vitess/go/json2"
+	"github.com/vitess/vitess/go/vt/grpcclient"
+	"github.com/vitess/vitess/go/vt/key"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topo/memorytopo"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vttablet/queryservice"
+	"github.com/vitess/vitess/go/vt/vttablet/sandboxconn"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletconn"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletconntest"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	vschemapb "github.com/vitess/vitess/go/vt/proto/vschema"
 )
 
 // sandbox_test.go provides a sandbox for unit testing VTGate.

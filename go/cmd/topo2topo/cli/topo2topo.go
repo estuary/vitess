@@ -22,13 +22,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/mdibaiee/vitess/go/acl"
-	"github.com/mdibaiee/vitess/go/vt/grpccommon"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/helpers"
+	"github.com/vitess/vitess/go/acl"
+	"github.com/vitess/vitess/go/vt/grpccommon"
+	"github.com/vitess/vitess/go/vt/logutil"
+	"github.com/vitess/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topo/helpers"
 )
 
 var (

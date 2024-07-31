@@ -21,10 +21,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/protoutil"
-	"github.com/mdibaiee/vitess/go/vt/throttler"
+	"github.com/vitess/vitess/go/protoutil"
+	"github.com/vitess/vitess/go/vt/throttler"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
 )
 
 // InsertGenerator generates a vreplication insert statement.

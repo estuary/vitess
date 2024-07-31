@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	tabletpb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/endtoend/framework"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/log"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	tabletpb "github.com/vitess/vitess/go/vt/proto/topodata"
+	"github.com/vitess/vitess/go/vt/vttablet/endtoend/framework"
 )
 
 type test struct {

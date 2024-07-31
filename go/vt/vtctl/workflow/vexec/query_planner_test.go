@@ -23,8 +23,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vtctl/workflow/vexec/testutil"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/vtctl/workflow/vexec/testutil"
 )
 
 func TestVReplicationQueryPlanner_PlanQuery(t *testing.T) {

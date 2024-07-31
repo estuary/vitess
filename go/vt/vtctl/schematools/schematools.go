@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vttablet/tmclient"
 
-	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	tabletmanagerdatapb "github.com/vitess/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	vtctldatapb "github.com/vitess/vitess/go/vt/proto/vtctldata"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
 )
 
 // GetSchema makes an RPC to get the schema from a remote tablet, after

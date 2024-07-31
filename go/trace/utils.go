@@ -19,7 +19,7 @@ package trace
 import (
 	"io"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/log"
 )
 
 // LogErrorsWhenClosing will close the provided Closer, and log any errors it generates

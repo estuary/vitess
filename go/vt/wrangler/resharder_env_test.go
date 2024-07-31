@@ -26,17 +26,17 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/key"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/key"
+	"github.com/vitess/vitess/go/vt/logutil"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topo/memorytopo"
+	"github.com/vitess/vitess/go/vt/vtenv"
+	"github.com/vitess/vitess/go/vt/vttablet/tmclient"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	tabletmanagerdatapb "github.com/vitess/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 type testResharderEnv struct {

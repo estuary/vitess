@@ -19,5 +19,5 @@ package cli
 // Imports and register the gRPC binlog player
 
 import (
-	_ "github.com/mdibaiee/vitess/go/vt/binlog/grpcbinlogplayer"
+	_ "github.com/vitess/vitess/go/vt/binlog/grpcbinlogplayer"
 )

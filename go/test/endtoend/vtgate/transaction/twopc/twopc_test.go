@@ -27,11 +27,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
-	"github.com/mdibaiee/vitess/go/test/endtoend/utils"
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	"github.com/vitess/vitess/go/mysql"
+	"github.com/vitess/vitess/go/test/endtoend/cluster"
+	"github.com/vitess/vitess/go/test/endtoend/utils"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
 )
 
 // TestDTCommit tests distributed transaction commit for insert, update and delete operations

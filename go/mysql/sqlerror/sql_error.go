@@ -22,9 +22,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vterrors"
 
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
 )
 
 // SQLError is the error structure returned from calling a db library function

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/log"
 )
 
 var pidFile string // registered in RegisterFlags as --pid_file

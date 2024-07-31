@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topo"
 )
 
 // checkFile tests the file part of the Conn API.

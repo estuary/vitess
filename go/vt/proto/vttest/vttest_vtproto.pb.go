@@ -10,7 +10,7 @@ import (
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	io "io"
 	bits "math/bits"
-	vschema "github.com/mdibaiee/vitess/go/vt/proto/vschema"
+	vschema "github.com/vitess/vitess/go/vt/proto/vschema"
 )
 
 const (

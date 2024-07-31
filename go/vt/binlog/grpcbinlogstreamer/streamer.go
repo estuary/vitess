@@ -19,11 +19,11 @@ limitations under the License.
 package grpcbinlogstreamer
 
 import (
-	"github.com/mdibaiee/vitess/go/vt/binlog"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/binlog"
+	"github.com/vitess/vitess/go/vt/servenv"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	binlogservicepb "github.com/mdibaiee/vitess/go/vt/proto/binlogservice"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	binlogservicepb "github.com/vitess/vitess/go/vt/proto/binlogservice"
 )
 
 // UpdateStream is the gRPC UpdateStream server

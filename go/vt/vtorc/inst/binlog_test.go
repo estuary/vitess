@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/vt/vtorc/config"
+	"github.com/vitess/vitess/go/vt/vtorc/config"
 )
 
 var testCoordinates = BinlogCoordinates{LogFile: "mysql-bin.000010", LogPos: 108}

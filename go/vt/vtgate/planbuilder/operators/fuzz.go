@@ -19,8 +19,8 @@ package operators
 import (
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/semantics"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/vtgate/semantics"
 )
 
 // FuzzAnalyse implements the fuzzer

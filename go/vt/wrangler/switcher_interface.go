@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/vtctl/workflow"
+	"github.com/vitess/vitess/go/vt/vtctl/workflow"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 type iswitcher interface {

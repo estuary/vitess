@@ -27,9 +27,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	vterrors "github.com/mdibaiee/vitess/go/errors"
+	vterrors "github.com/vitess/vitess/go/errors"
 
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/sqlparser"
 )
 
 var schemaTestCreateQueries = []string{

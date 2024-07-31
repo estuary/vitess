@@ -15,26 +15,26 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/binlog/binlogplayer"
-	"github.com/mdibaiee/vitess/go/vt/discovery"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/vtctl/vtctlclient"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/vitess/vitess/go/mysql/replication"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/binlog/binlogplayer"
+	"github.com/vitess/vitess/go/vt/discovery"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/logutil"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/vtctl/vtctlclient"
+	"github.com/vitess/vitess/go/vt/vtgate/vtgateconn"
 
-	_ "github.com/mdibaiee/vitess/go/vt/topo/etcd2topo" // TODO: after #11394, add rowlog to this https://github.com/vitessio/vitess/pull/11394/files#diff-ee3c1b94c587244ea0645a8ee10187e1112167725f752d58cf17bab6e6d1047cR85
-	_ "github.com/mdibaiee/vitess/go/vt/vtctl/grpcvtctlclient"
-	_ "github.com/mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
-	_ "github.com/mdibaiee/vitess/go/vt/vttablet/grpctabletconn"
+	_ "github.com/vitess/vitess/go/vt/topo/etcd2topo" // TODO: after #11394, add rowlog to this https://github.com/vitessio/vitess/pull/11394/files#diff-ee3c1b94c587244ea0645a8ee10187e1112167725f752d58cf17bab6e6d1047cR85
+	_ "github.com/vitess/vitess/go/vt/vtctl/grpcvtctlclient"
+	_ "github.com/vitess/vitess/go/vt/vtgate/grpcvtgateconn"
+	_ "github.com/vitess/vitess/go/vt/vttablet/grpctabletconn"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	logutilpb "github.com/mdibaiee/vitess/go/vt/proto/logutil"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	logutilpb "github.com/vitess/vitess/go/vt/proto/logutil"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	vtgatepb "github.com/vitess/vitess/go/vt/proto/vtgate"
 )
 
 type RowLogConfig struct {

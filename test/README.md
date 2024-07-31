@@ -26,7 +26,7 @@ Each test is of the form:
 ```javascript
 "vtgate": {
 			"File": "unused.go",
-			"Args": ["github.com/mdibaiee/vitess/go/test/endtoend/vtgate"],
+			"Args": ["github.com/vitess/vitess/go/test/endtoend/vtgate"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 17,

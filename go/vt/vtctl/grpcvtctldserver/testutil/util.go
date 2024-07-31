@@ -28,13 +28,13 @@ import (
 	"golang.org/x/net/nettest"
 	"google.golang.org/grpc"
 
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
-	"github.com/mdibaiee/vitess/go/vt/vtctl/vtctldclient"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topo/topoproto"
+	"github.com/vitess/vitess/go/vt/vtctl/vtctldclient"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
-	vtctlservicepb "github.com/mdibaiee/vitess/go/vt/proto/vtctlservice"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	vtctldatapb "github.com/vitess/vitess/go/vt/proto/vtctldata"
+	vtctlservicepb "github.com/vitess/vitess/go/vt/proto/vtctlservice"
 )
 
 // WithTestServer creates a gRPC server listening locally with the given RPC

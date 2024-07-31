@@ -29,18 +29,18 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	_flag "github.com/mdibaiee/vitess/go/internal/flag"
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/vstreamer/testenv"
+	_flag "github.com/vitess/vitess/go/internal/flag"
+	"github.com/vitess/vitess/go/mysql"
+	"github.com/vitess/vitess/go/mysql/replication"
+	"github.com/vitess/vitess/go/vt/dbconfigs"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/vtenv"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/vstreamer/testenv"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
 )
 
 var (

@@ -22,7 +22,7 @@ import (
 
 	"github.com/z-division/go-zookeeper/zk"
 
-	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topo"
 )
 
 // Error codes returned by the zookeeper Go client:

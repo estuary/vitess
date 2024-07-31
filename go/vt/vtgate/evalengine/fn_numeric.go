@@ -22,12 +22,12 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/mysql/decimal"
-	"github.com/mdibaiee/vitess/go/mysql/fastparse"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/mysql/decimal"
+	"github.com/vitess/vitess/go/mysql/fastparse"
+	"github.com/vitess/vitess/go/sqltypes"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
+	"github.com/vitess/vitess/go/vt/vterrors"
 )
 
 type builtinCeil struct {

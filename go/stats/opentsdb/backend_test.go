@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/vitess/vitess/go/stats"
 )
 
 type mockWriter struct {

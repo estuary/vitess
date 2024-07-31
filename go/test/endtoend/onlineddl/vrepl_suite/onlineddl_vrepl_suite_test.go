@@ -27,15 +27,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/mysql/config"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/schema"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/mysql"
+	"github.com/vitess/vitess/go/mysql/config"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/schema"
+	"github.com/vitess/vitess/go/vt/sqlparser"
 
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
-	"github.com/mdibaiee/vitess/go/test/endtoend/onlineddl"
-	"github.com/mdibaiee/vitess/go/test/endtoend/throttler"
+	"github.com/vitess/vitess/go/test/endtoend/cluster"
+	"github.com/vitess/vitess/go/test/endtoend/onlineddl"
+	"github.com/vitess/vitess/go/test/endtoend/throttler"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

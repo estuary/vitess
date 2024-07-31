@@ -27,18 +27,18 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/timer"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/schema"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"github.com/vitess/vitess/go/mysql/replication"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/stats"
+	"github.com/vitess/vitess/go/timer"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/schema"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
 )
 
 var (

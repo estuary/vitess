@@ -17,9 +17,9 @@ limitations under the License.
 package cli
 
 import (
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/vitess/vitess/go/vt/topo/topoproto"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 // TabletAliasesFromPosArgs takes a list of positional (non-flag) arguments and

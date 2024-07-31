@@ -17,14 +17,14 @@ limitations under the License.
 package schemadiff
 
 import (
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/vt/key"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/semantics"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/vt/key"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	vschemapb "github.com/vitess/vitess/go/vt/proto/vschema"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/vtenv"
+	"github.com/vitess/vitess/go/vt/vtgate/semantics"
+	"github.com/vitess/vitess/go/vt/vtgate/vindexes"
 )
 
 // semanticKS is a bogus keyspace, used for consistency purposes. The name is not important

@@ -5,11 +5,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/test/utils"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/vitess/vitess/go/test/utils"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	vschemapb "github.com/vitess/vitess/go/vt/proto/vschema"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/vtgate/vindexes"
 )
 
 func TestVSchemaUpdate(t *testing.T) {

@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/timer"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/stats"
+	"github.com/vitess/vitess/go/timer"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/topo"
 )
 
 type watchState int

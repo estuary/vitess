@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/log"
 )
 
 // ThrottledLogger will allow logging of messages but won't spam the

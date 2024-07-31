@@ -33,17 +33,17 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slices"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
-	"github.com/mdibaiee/vitess/go/test/endtoend/onlineddl"
-	"github.com/mdibaiee/vitess/go/test/endtoend/utils"
-	"github.com/mdibaiee/vitess/go/textutil"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/schema"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/mysql"
+	"github.com/vitess/vitess/go/mysql/replication"
+	"github.com/vitess/vitess/go/mysql/sqlerror"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/test/endtoend/cluster"
+	"github.com/vitess/vitess/go/test/endtoend/onlineddl"
+	"github.com/vitess/vitess/go/test/endtoend/utils"
+	"github.com/vitess/vitess/go/textutil"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/schema"
+	"github.com/vitess/vitess/go/vt/sqlparser"
 )
 
 // This endtoend test is designd to validate VTGate's FOREIGN KEY implementation for unsharded/single-sharded/shard-scope, meaning

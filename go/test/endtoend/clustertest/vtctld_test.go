@@ -26,12 +26,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/log"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
+	"github.com/vitess/vitess/go/test/endtoend/cluster"
 )
 
 var (

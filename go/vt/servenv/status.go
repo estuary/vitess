@@ -34,8 +34,8 @@ import (
 	"github.com/google/safehtml/template"
 	"github.com/google/safehtml/template/uncheckedconversions"
 
-	"github.com/mdibaiee/vitess/go/acl"
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/acl"
+	"github.com/vitess/vitess/go/vt/log"
 )
 
 // AddStatusPart adds a new section to status. fragment is used as a

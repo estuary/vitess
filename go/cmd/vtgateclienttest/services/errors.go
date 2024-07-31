@@ -20,13 +20,13 @@ import (
 	"context"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vtgateservice"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vtgate/vtgateservice"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	vtgatepb "github.com/vitess/vitess/go/vt/proto/vtgate"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
 )
 
 // errorClient implements vtgateservice.VTGateService

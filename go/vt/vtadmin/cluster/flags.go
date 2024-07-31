@@ -21,8 +21,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/vtadmin/cache"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/vtadmin/cache"
 )
 
 // FlagsByImpl groups a set of flags by discovery implementation. Its mapping is

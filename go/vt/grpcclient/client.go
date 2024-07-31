@@ -32,11 +32,11 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/mdibaiee/vitess/go/trace"
-	"github.com/mdibaiee/vitess/go/vt/grpccommon"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/vttls"
+	"github.com/vitess/vitess/go/trace"
+	"github.com/vitess/vitess/go/vt/grpccommon"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/vttls"
 )
 
 var (

@@ -31,15 +31,15 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/vstreamer/testenv"
+	"github.com/vitess/vitess/go/mysql"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/vstreamer/testenv"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
 )
 
 type testcase struct {

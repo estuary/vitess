@@ -26,18 +26,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	"github.com/vitess/vitess/go/mysql/replication"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
 
-	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
-	"github.com/mdibaiee/vitess/go/vt/key"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/schema"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
+	"github.com/vitess/vitess/go/vt/dbconfigs"
+	"github.com/vitess/vitess/go/vt/key"
+	"github.com/vitess/vitess/go/vt/log"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/schema"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/throttle/throttlerapp"
 )
 
 var uvstreamerTestMode = false // Only used for testing

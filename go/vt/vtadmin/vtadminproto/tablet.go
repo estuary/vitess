@@ -17,9 +17,9 @@ limitations under the License.
 package vtadminproto
 
 import (
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/vitess/vitess/go/vt/topo/topoproto"
 
-	vtadminpb "github.com/mdibaiee/vitess/go/vt/proto/vtadmin"
+	vtadminpb "github.com/vitess/vitess/go/vt/proto/vtadmin"
 )
 
 // Tablets is a list of Tablet protobuf objects.

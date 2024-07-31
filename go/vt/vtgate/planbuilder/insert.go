@@ -17,14 +17,14 @@ limitations under the License.
 package planbuilder
 
 import (
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/engine"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/operators"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/semantics"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vtgate/engine"
+	"github.com/vitess/vitess/go/vt/vtgate/planbuilder/operators"
+	"github.com/vitess/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/vitess/vitess/go/vt/vtgate/semantics"
+	"github.com/vitess/vitess/go/vt/vtgate/vindexes"
 )
 
 func gen4InsertStmtPlanner(version querypb.ExecuteOptions_PlannerVersion, insStmt *sqlparser.Insert, reservedVars *sqlparser.ReservedVars, vschema plancontext.VSchema) (*planResult, error) {

@@ -3,15 +3,15 @@ package evalengine
 import (
 	"time"
 
-	"github.com/mdibaiee/vitess/go/hack"
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/mysql/datetime"
-	"github.com/mdibaiee/vitess/go/mysql/decimal"
-	"github.com/mdibaiee/vitess/go/mysql/json"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vthash"
+	"github.com/vitess/vitess/go/hack"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/mysql/datetime"
+	"github.com/vitess/vitess/go/mysql/decimal"
+	"github.com/vitess/vitess/go/mysql/json"
+	"github.com/vitess/vitess/go/sqltypes"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vthash"
 )
 
 type evalTemporal struct {

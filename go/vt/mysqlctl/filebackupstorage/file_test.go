@@ -21,7 +21,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/vt/mysqlctl/backupstorage"
+	"github.com/vitess/vitess/go/vt/mysqlctl/backupstorage"
 )
 
 // This file tests the file BackupStorage engine.

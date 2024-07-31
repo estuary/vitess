@@ -29,13 +29,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/textutil"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/textutil"
+	"github.com/vitess/vitess/go/vt/logutil"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	tabletmanagerdatapb "github.com/vitess/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	"github.com/vitess/vitess/go/vt/vtenv"
 )
 
 var (

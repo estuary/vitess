@@ -27,10 +27,10 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/mdibaiee/vitess/go/hack"
-	"github.com/mdibaiee/vitess/go/unicode2"
-	"github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/hack"
+	"github.com/vitess/vitess/go/unicode2"
+	"github.com/vitess/vitess/go/vt/proto/vtrpc"
+	"github.com/vitess/vitess/go/vt/vterrors"
 )
 
 type jpKind uint32

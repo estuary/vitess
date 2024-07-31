@@ -25,13 +25,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/mysql/capabilities"
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
-	"github.com/mdibaiee/vitess/go/vt/proto/replicationdata"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/mysql/capabilities"
+	"github.com/vitess/vitess/go/mysql/replication"
+	"github.com/vitess/vitess/go/mysql/sqlerror"
+	"github.com/vitess/vitess/go/vt/proto/replicationdata"
+	"github.com/vitess/vitess/go/vt/vterrors"
 
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
 )
 
 // mariadbFlavor implements the Flavor interface for MariaDB.

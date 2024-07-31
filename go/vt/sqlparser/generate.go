@@ -19,5 +19,5 @@ package sqlparser
 // Generate all the AST helpers using the tooling in `go/tools`
 
 //go:generate go run ./goyacc -fo sql.go sql.y
-//go:generate go run ../../tools/asthelpergen/main  --in . --iface github.com/mdibaiee/vitess/go/vt/sqlparser.SQLNode --clone_exclude "*ColName" --equals_custom "*ColName"
-//go:generate go run ../../tools/astfmtgen github.com/mdibaiee/vitess/go/vt/sqlparser/...
+//go:generate go run ../../tools/asthelpergen/main  --in . --iface github.com/vitess/vitess/go/vt/sqlparser.SQLNode --clone_exclude "*ColName" --equals_custom "*ColName"
+//go:generate go run ../../tools/astfmtgen github.com/vitess/vitess/go/vt/sqlparser/...

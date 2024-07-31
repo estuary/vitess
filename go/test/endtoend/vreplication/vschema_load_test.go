@@ -26,11 +26,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/vitess/vitess/go/vt/log"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	vtgatepb "github.com/vitess/vitess/go/vt/proto/vtgate"
+	"github.com/vitess/vitess/go/vt/vtgate/vtgateconn"
 )
 
 // TestVSchemaChangesUnderLoad tests vstreamer under a load of high binlog events and simultaneous multiple vschema changes

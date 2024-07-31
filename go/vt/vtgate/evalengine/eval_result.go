@@ -19,12 +19,12 @@ package evalengine
 import (
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/mysql/collations/charset"
-	"github.com/mdibaiee/vitess/go/mysql/collations/colldata"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/mysql/collations/charset"
+	"github.com/vitess/vitess/go/mysql/collations/colldata"
+	"github.com/vitess/vitess/go/sqltypes"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
+	"github.com/vitess/vitess/go/vt/vterrors"
 )
 
 type EvalResult struct {

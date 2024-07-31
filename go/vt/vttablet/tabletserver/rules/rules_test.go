@@ -27,13 +27,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/planbuilder"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/planbuilder"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
 )
 
 func TestQueryRules(t *testing.T) {

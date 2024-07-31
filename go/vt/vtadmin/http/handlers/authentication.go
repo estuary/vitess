@@ -19,7 +19,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/mdibaiee/vitess/go/vt/vtadmin/rbac"
+	"github.com/vitess/vitess/go/vt/vtadmin/rbac"
 )
 
 // NewAuthenticationHandler returns an http middleware that invokes the given

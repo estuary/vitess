@@ -31,8 +31,8 @@ import (
 
 	"google.golang.org/protobuf/encoding/prototext"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/servenv"
 )
 
 // HealthChecker is a callback that impements a service-specific health check

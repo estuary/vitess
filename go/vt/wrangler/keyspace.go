@@ -23,15 +23,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/concurrency"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
-	"github.com/mdibaiee/vitess/go/vt/topotools"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/concurrency"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topo/topoproto"
+	"github.com/vitess/vitess/go/vt/topotools"
+	"github.com/vitess/vitess/go/vt/vterrors"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 const (

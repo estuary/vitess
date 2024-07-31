@@ -27,12 +27,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/mdibaiee/vitess/go/test/utils"
+	"github.com/vitess/vitess/go/test/utils"
 
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
+	"github.com/vitess/vitess/go/vt/logutil"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topo/memorytopo"
 )
 
 func checkOpCounts(t *testing.T, prevCounts, deltas map[string]int64) map[string]int64 {

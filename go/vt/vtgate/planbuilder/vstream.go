@@ -20,12 +20,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/vt/key"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/engine"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/vitess/vitess/go/vt/key"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vtgate/engine"
+	"github.com/vitess/vitess/go/vt/vtgate/planbuilder/plancontext"
 )
 
 const defaultLimit = 100

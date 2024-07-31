@@ -20,14 +20,14 @@ import (
 	"context"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/timer"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	"github.com/mdibaiee/vitess/go/vt/schemamanager"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/vtctl/grpcvtctldserver"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
-	"github.com/mdibaiee/vitess/go/vt/wrangler"
+	"github.com/vitess/vitess/go/timer"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/logutil"
+	"github.com/vitess/vitess/go/vt/schemamanager"
+	"github.com/vitess/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/vtctl/grpcvtctldserver"
+	"github.com/vitess/vitess/go/vt/vttablet/tmclient"
+	"github.com/vitess/vitess/go/vt/wrangler"
 )
 
 var (

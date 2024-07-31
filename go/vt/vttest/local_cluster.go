@@ -35,23 +35,23 @@ import (
 	"google.golang.org/protobuf/encoding/prototext"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/vitess/vitess/go/vt/vtenv"
 
-	"github.com/mdibaiee/vitess/go/constants/sidecar"
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/proto/logutil"
-	"github.com/mdibaiee/vitess/go/vt/sidecardb"
-	"github.com/mdibaiee/vitess/go/vt/vtctl/vtctlclient"
+	"github.com/vitess/vitess/go/constants/sidecar"
+	"github.com/vitess/vitess/go/mysql"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/proto/logutil"
+	"github.com/vitess/vitess/go/vt/sidecardb"
+	"github.com/vitess/vitess/go/vt/vtctl/vtctlclient"
 
-	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
-	vttestpb "github.com/mdibaiee/vitess/go/vt/proto/vttest"
+	vschemapb "github.com/vitess/vitess/go/vt/proto/vschema"
+	vttestpb "github.com/vitess/vitess/go/vt/proto/vttest"
 
 	// we need to import the grpcvtctlclient library so the gRPC
 	// vtctl client is registered and can be used.
-	_ "github.com/mdibaiee/vitess/go/vt/vtctl/grpcvtctlclient"
+	_ "github.com/vitess/vitess/go/vt/vtctl/grpcvtctlclient"
 )
 
 // Config are the settings used to configure the self-contained Vitess cluster.

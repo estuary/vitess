@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/mysql/format"
+	"github.com/vitess/vitess/go/mysql/format"
 )
 
 func TestWeightStrings(t *testing.T) {

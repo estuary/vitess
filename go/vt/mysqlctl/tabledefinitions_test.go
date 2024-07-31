@@ -20,7 +20,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/test/utils"
+	"github.com/vitess/vitess/go/test/utils"
 )
 
 func TestTableDefinitionsAreSorted(t *testing.T) {

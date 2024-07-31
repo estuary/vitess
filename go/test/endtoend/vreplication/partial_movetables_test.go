@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
 
 	"github.com/stretchr/testify/require"
 	"github.com/tidwall/gjson"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/log"
 )
 
 // testCancel() starts and cancels a partial MoveTables for one of the shards which will be actually moved later on.

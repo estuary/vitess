@@ -34,9 +34,9 @@ import (
 	vaultapi "github.com/aquarapid/vaultlib"
 	"github.com/spf13/pflag"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/mysql"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/servenv"
 )
 
 var (

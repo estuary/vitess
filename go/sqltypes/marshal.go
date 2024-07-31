@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/protoutil"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/protoutil"
+	"github.com/vitess/vitess/go/vt/vterrors"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/proto/vttime"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
+	"github.com/vitess/vitess/go/vt/proto/vttime"
 )
 
 // ResultMarshaller knows how to marshal itself into a Result.
@@ -254,7 +254,7 @@ func fieldType(field reflect.StructField) (querypb.Type, error) {
 		switch ptr.Kind() {
 		case reflect.Struct:
 			switch ptr.PkgPath() {
-			case "github.com/mdibaiee/vitess/go/vt/proto/vttime":
+			case "github.com/vitess/vitess/go/vt/proto/vttime":
 				switch ptr.Name() {
 				case "Time":
 					typeName = "timestamp"
@@ -280,7 +280,7 @@ func fieldType(field reflect.StructField) (querypb.Type, error) {
 		}
 	case reflect.Struct:
 		switch field.Type.PkgPath() {
-		case "github.com/mdibaiee/vitess/go/vt/proto/vttime":
+		case "github.com/vitess/vitess/go/vt/proto/vttime":
 			switch field.Type.Name() {
 			case "Time":
 				typeName = "timestamp"

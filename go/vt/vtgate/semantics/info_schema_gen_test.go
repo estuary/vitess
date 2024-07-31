@@ -27,9 +27,9 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/sqlparser"
 )
 
 func TestGenerateInfoSchemaMap(t *testing.T) {

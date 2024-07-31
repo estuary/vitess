@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/callerid"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/callerid"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
 )
 
 // QueryClient provides a convenient wrapper for TabletServer's query service.

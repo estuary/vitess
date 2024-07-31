@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mdibaiee/vitess/go/mysql/replication"
+	"github.com/vitess/vitess/go/mysql/replication"
 )
 
 func TestMysql8SetReplicationSourceCommand(t *testing.T) {

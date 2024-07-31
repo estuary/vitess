@@ -23,13 +23,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/log"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
-	vttestpb "github.com/mdibaiee/vitess/go/vt/proto/vttest"
-	"github.com/mdibaiee/vitess/go/vt/vttest"
+	"github.com/vitess/vitess/go/mysql"
+	"github.com/vitess/vitess/go/sqltypes"
+	vschemapb "github.com/vitess/vitess/go/vt/proto/vschema"
+	vttestpb "github.com/vitess/vitess/go/vt/proto/vttest"
+	"github.com/vitess/vitess/go/vt/vttest"
 )
 
 var (

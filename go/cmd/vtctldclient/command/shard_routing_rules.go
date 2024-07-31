@@ -24,11 +24,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/mdibaiee/vitess/go/cmd/vtctldclient/cli"
-	"github.com/mdibaiee/vitess/go/json2"
+	"github.com/vitess/vitess/go/cmd/vtctldclient/cli"
+	"github.com/vitess/vitess/go/json2"
 
-	vschemapb "github.com/mdibaiee/vitess/go/vt/proto/vschema"
-	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
+	vschemapb "github.com/vitess/vitess/go/vt/proto/vschema"
+	vtctldatapb "github.com/vitess/vitess/go/vt/proto/vtctldata"
 )
 
 var (

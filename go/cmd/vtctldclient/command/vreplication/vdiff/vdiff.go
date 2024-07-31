@@ -31,17 +31,17 @@ import (
 	"github.com/google/uuid"
 	"github.com/spf13/cobra"
 
-	"github.com/mdibaiee/vitess/go/cmd/vtctldclient/cli"
-	"github.com/mdibaiee/vitess/go/cmd/vtctldclient/command/vreplication/common"
-	"github.com/mdibaiee/vitess/go/protoutil"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager/vdiff"
+	"github.com/vitess/vitess/go/cmd/vtctldclient/cli"
+	"github.com/vitess/vitess/go/cmd/vtctldclient/command/vreplication/common"
+	"github.com/vitess/vitess/go/protoutil"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletmanager/vdiff"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	topoprotopb "github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	vtctldatapb "github.com/vitess/vitess/go/vt/proto/vtctldata"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
+	topoprotopb "github.com/vitess/vitess/go/vt/topo/topoproto"
 )
 
 var (

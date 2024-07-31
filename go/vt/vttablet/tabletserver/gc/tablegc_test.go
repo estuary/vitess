@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/schema"
+	"github.com/vitess/vitess/go/vt/schema"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

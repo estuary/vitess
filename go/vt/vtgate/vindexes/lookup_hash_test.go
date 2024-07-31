@@ -23,9 +23,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/key"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/key"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 func lookupHashCreateVindexTestCase(

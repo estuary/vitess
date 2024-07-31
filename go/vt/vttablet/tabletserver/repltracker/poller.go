@@ -21,11 +21,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/vt/mysqlctl"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/stats"
+	"github.com/vitess/vitess/go/vt/mysqlctl"
+	"github.com/vitess/vitess/go/vt/vterrors"
 
-	vtrpcpb "github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/vitess/vitess/go/vt/proto/vtrpc"
 )
 
 var replicationLagSeconds = stats.NewGauge("replicationLagSec", "replication lag in seconds")

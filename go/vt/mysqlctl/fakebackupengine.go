@@ -20,8 +20,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/mysqlctl/backupstorage"
-	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
+	"github.com/vitess/vitess/go/vt/mysqlctl/backupstorage"
+	tabletmanagerdatapb "github.com/vitess/vitess/go/vt/proto/tabletmanagerdata"
 )
 
 type FakeBackupEngine struct {

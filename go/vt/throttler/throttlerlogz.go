@@ -26,8 +26,8 @@ import (
 
 	"github.com/google/safehtml/template"
 
-	"github.com/mdibaiee/vitess/go/vt/logz"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/logz"
+	"github.com/vitess/vitess/go/vt/servenv"
 )
 
 const logHeaderHTML = `

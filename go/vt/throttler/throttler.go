@@ -33,11 +33,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/discovery"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/vitess/vitess/go/vt/discovery"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/proto/topodata"
 
-	throttlerdatapb "github.com/mdibaiee/vitess/go/vt/proto/throttlerdata"
+	throttlerdatapb "github.com/vitess/vitess/go/vt/proto/throttlerdata"
 )
 
 const (

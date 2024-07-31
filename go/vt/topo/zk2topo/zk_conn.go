@@ -32,8 +32,8 @@ import (
 	"github.com/z-division/go-zookeeper/zk"
 	"golang.org/x/sync/semaphore"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/servenv"
 )
 
 const (

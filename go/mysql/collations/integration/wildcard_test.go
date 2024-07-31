@@ -20,10 +20,10 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/mysql/collations/charset"
-	"github.com/mdibaiee/vitess/go/mysql/collations/colldata"
-	"github.com/mdibaiee/vitess/go/mysql/collations/remote"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/mysql/collations/charset"
+	"github.com/vitess/vitess/go/mysql/collations/colldata"
+	"github.com/vitess/vitess/go/mysql/collations/remote"
 )
 
 func TestRemoteWildcardMatches(t *testing.T) {

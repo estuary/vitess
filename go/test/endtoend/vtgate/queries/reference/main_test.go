@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/vitess/vitess/go/mysql"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vtgateconn"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	"github.com/vitess/vitess/go/vt/vtgate/vtgateconn"
 
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
+	"github.com/vitess/vitess/go/test/endtoend/cluster"
 )
 
 var (

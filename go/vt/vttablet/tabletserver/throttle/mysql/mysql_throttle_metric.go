@@ -48,7 +48,7 @@ import (
 
 	"github.com/patrickmn/go-cache"
 
-	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/vitess/vitess/go/stats"
 )
 
 // MetricsQueryType indicates the type of metrics query on MySQL backend. See following.

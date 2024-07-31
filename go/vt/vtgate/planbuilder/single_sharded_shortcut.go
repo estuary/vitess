@@ -20,12 +20,12 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/engine"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/operators"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/semantics"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/vtgate/engine"
+	"github.com/vitess/vitess/go/vt/vtgate/planbuilder/operators"
+	"github.com/vitess/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/vitess/vitess/go/vt/vtgate/semantics"
+	"github.com/vitess/vitess/go/vt/vtgate/vindexes"
 )
 
 func selectUnshardedShortcut(ctx *plancontext.PlanningContext, stmt sqlparser.SelectStatement, ks *vindexes.Keyspace) (engine.Primitive, []string, error) {

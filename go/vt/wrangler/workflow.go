@@ -8,18 +8,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/discovery"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topotools"
-	"github.com/mdibaiee/vitess/go/vt/vtctl/workflow"
-	vdiff2 "github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager/vdiff"
+	"github.com/vitess/vitess/go/mysql/sqlerror"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/discovery"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topotools"
+	"github.com/vitess/vitess/go/vt/vtctl/workflow"
+	vdiff2 "github.com/vitess/vitess/go/vt/vttablet/tabletmanager/vdiff"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	tabletmanagerdatapb "github.com/vitess/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 // VReplicationWorkflowType specifies whether workflow is MoveTables or Reshard

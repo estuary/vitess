@@ -21,8 +21,8 @@ import (
 	"context"
 	"crypto/md5"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/key"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/key"
 )
 
 var (

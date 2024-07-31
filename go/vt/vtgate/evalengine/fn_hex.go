@@ -17,10 +17,10 @@ limitations under the License.
 package evalengine
 
 import (
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/mysql/hex"
-	"github.com/mdibaiee/vitess/go/mysql/json"
-	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/mysql/hex"
+	"github.com/vitess/vitess/go/mysql/json"
+	"github.com/vitess/vitess/go/sqltypes"
 )
 
 type builtinHex struct {

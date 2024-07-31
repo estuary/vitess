@@ -28,15 +28,15 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	queryservicepb "github.com/mdibaiee/vitess/go/vt/proto/queryservice"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/grpcqueryservice"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletconntest"
+	"github.com/vitess/vitess/go/sqltypes"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	queryservicepb "github.com/vitess/vitess/go/vt/proto/queryservice"
+	"github.com/vitess/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/vttablet/grpcqueryservice"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletconntest"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 // This test makes sure the go rpc service works

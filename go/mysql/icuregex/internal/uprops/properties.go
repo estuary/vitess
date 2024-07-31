@@ -26,17 +26,17 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/errors"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/normalizer"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/pattern"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/ubidi"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/ucase"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/uchar"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/uemoji"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/ulayout"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/unames"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/uset"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/utrie"
+	"github.com/vitess/vitess/go/mysql/icuregex/errors"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/normalizer"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/pattern"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/ubidi"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/ucase"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/uchar"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/uemoji"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/ulayout"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/unames"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/uset"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/utrie"
 )
 
 var inclusionsMu sync.Mutex

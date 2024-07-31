@@ -26,12 +26,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tidwall/gjson"
 
-	"github.com/mdibaiee/vitess/go/json2"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	vdiff2 "github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager/vdiff"
+	"github.com/vitess/vitess/go/json2"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/log"
+	vdiff2 "github.com/vitess/vitess/go/vt/vttablet/tabletmanager/vdiff"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
 )
 
 const (

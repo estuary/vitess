@@ -20,13 +20,13 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/mdibaiee/vitess/go/sets"
-	"github.com/mdibaiee/vitess/go/trace"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/vtadmin/cache"
-	"github.com/mdibaiee/vitess/go/vt/vtadmin/rbac"
+	"github.com/vitess/vitess/go/sets"
+	"github.com/vitess/vitess/go/trace"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/vtadmin/cache"
+	"github.com/vitess/vitess/go/vt/vtadmin/rbac"
 
-	vtadminpb "github.com/mdibaiee/vitess/go/vt/proto/vtadmin"
+	vtadminpb "github.com/vitess/vitess/go/vt/proto/vtadmin"
 )
 
 // Options defines the set of configurations for an HTTP API server.

@@ -25,9 +25,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/ucase"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/uchar"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/uprops"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/ucase"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/uchar"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/uprops"
 )
 
 const timerInitialValue = 10000

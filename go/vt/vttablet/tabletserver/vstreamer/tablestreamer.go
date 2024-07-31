@@ -23,16 +23,16 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/mdibaiee/vitess/go/sqlescape"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/mysqlctl/tmutils"
-	"github.com/mdibaiee/vitess/go/vt/vttablet"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/schema"
+	"github.com/vitess/vitess/go/sqlescape"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/dbconfigs"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/mysqlctl/tmutils"
+	"github.com/vitess/vitess/go/vt/vttablet"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/schema"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	schema2 "github.com/mdibaiee/vitess/go/vt/schema"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	schema2 "github.com/vitess/vitess/go/vt/schema"
 )
 
 /*

@@ -27,7 +27,7 @@ import (
 	"google.golang.org/grpc/credentials"
 	pb "google.golang.org/grpc/examples/helloworld/helloworld"
 
-	"github.com/mdibaiee/vitess/go/vt/tlstest"
+	"github.com/vitess/vitess/go/vt/tlstest"
 )
 
 // server is used to implement helloworld.GreeterServer.

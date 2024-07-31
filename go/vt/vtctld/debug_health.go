@@ -23,9 +23,9 @@ import (
 
 	"context"
 
-	"github.com/mdibaiee/vitess/go/acl"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/acl"
+	"github.com/vitess/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/topo"
 )
 
 // RegisterDebugHealthHandler register a debug health http endpoint for a vtcld server

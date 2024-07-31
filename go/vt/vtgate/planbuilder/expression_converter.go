@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/engine"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/evalengine"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/vtenv"
+	"github.com/vitess/vitess/go/vt/vtgate/engine"
+	"github.com/vitess/vitess/go/vt/vtgate/evalengine"
+	"github.com/vitess/vitess/go/vt/vtgate/planbuilder/plancontext"
 )
 
 type expressionConverter struct {

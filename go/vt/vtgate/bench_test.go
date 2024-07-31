@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
+	vtgatepb "github.com/vitess/vitess/go/vt/proto/vtgate"
 )
 
 // Benchmark run on 6/27/17, with optimized byte-level operations

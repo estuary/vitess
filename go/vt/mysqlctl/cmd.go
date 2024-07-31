@@ -23,8 +23,8 @@ package mysqlctl
 import (
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/vt/dbconfigs"
 )
 
 // CreateMysqldAndMycnf returns a Mysqld and a Mycnf object to use for working with a MySQL

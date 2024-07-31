@@ -25,7 +25,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/vitess/vitess/go/mysql"
 )
 
 var ctx = context.Background()

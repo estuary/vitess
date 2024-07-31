@@ -23,7 +23,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
+	"github.com/vitess/vitess/go/test/endtoend/cluster"
 )
 
 var (

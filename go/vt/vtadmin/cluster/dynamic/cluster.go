@@ -5,7 +5,7 @@ import (
 	"encoding/base64"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/vt/vtadmin/cluster"
+	"github.com/vitess/vitess/go/vt/vtadmin/cluster"
 )
 
 // ClusterFromString returns a cluster ID and possibly fully-usable Cluster

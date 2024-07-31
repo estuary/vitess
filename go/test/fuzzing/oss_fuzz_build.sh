@@ -51,52 +51,52 @@ grep -r ') Unmarshal' .>>/tmp/marshal_targets.txt
 cd $SRC/vitess/go/test/fuzzing/autogenerate
 go run convert_grep_to_fuzzer.go
 mv api_marshal_fuzzer.go $SRC/vitess/go/test/fuzzing/
-compile_go_fuzzer github.com/mdibaiee/vitess/go/test/fuzzing FuzzAPIMarshal api_marshal_fuzzer
+compile_go_fuzzer github.com/vitess/vitess/go/test/fuzzing FuzzAPIMarshal api_marshal_fuzzer
 
 # collation fuzzer
 mv ./go/mysql/collations/uca_test.go \
    ./go/mysql/collations/uca_test_fuzz.go
 
-compile_go_fuzzer github.com/mdibaiee/vitess/go/mysql/collations FuzzCollations fuzz_collations
+compile_go_fuzzer github.com/vitess/vitess/go/mysql/collations FuzzCollations fuzz_collations
 
 
-compile_go_fuzzer github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder FuzzTestBuilder fuzz_test_builder gofuzz
-compile_go_fuzzer github.com/mdibaiee/vitess/go/vt/vtgate/vindexes FuzzVindex fuzz_vindex
-compile_go_fuzzer github.com/mdibaiee/vitess/go/vt/vttablet/tabletmanager/vreplication FuzzEngine fuzz_replication_engine
-compile_go_fuzzer github.com/mdibaiee/vitess/go/vt/vtgate/engine FuzzEngine engine_fuzzer
+compile_go_fuzzer github.com/vitess/vitess/go/vt/vtgate/planbuilder FuzzTestBuilder fuzz_test_builder gofuzz
+compile_go_fuzzer github.com/vitess/vitess/go/vt/vtgate/vindexes FuzzVindex fuzz_vindex
+compile_go_fuzzer github.com/vitess/vitess/go/vt/vttablet/tabletmanager/vreplication FuzzEngine fuzz_replication_engine
+compile_go_fuzzer github.com/vitess/vitess/go/vt/vtgate/engine FuzzEngine engine_fuzzer
 
 
-compile_go_fuzzer github.com/mdibaiee/vitess/go/test/fuzzing Fuzz vtctl_fuzzer
-compile_go_fuzzer github.com/mdibaiee/vitess/go/test/fuzzing FuzzIsDML is_dml_fuzzer
-compile_go_fuzzer github.com/mdibaiee/vitess/go/test/fuzzing FuzzNormalizer normalizer_fuzzer
-compile_go_fuzzer github.com/mdibaiee/vitess/go/test/fuzzing FuzzParser parser_fuzzer
-compile_go_fuzzer github.com/mdibaiee/vitess/go/test/fuzzing FuzzNodeFormat fuzz_node_format
-compile_go_fuzzer github.com/mdibaiee/vitess/go/test/fuzzing FuzzGRPCTMServer fuzz_grpc_tm_server
-compile_go_fuzzer github.com/mdibaiee/vitess/go/test/fuzzing FuzzOnlineDDLFromCommentedStatement fuzz_online_ddl_from_commented_statement
-compile_go_fuzzer github.com/mdibaiee/vitess/go/test/fuzzing FuzzNewOnlineDDLs fuzz_new_online_ddls
-compile_go_fuzzer github.com/mdibaiee/vitess/go/test/fuzzing FuzzEqualsSQLNode fuzz_equals_sql_node
-compile_go_fuzzer github.com/mdibaiee/vitess/go/test/fuzzing FuzzSplitStatementToPieces fuzz_split_statement_to_pieces
-compile_go_fuzzer github.com/mdibaiee/vitess/go/test/fuzzing FuzzTabletManager_ExecuteFetchAsDba fuzz_tablet_manager_execute_fetch_as_dba
-compile_go_fuzzer github.com/mdibaiee/vitess/go/test/fuzzing FuzzUnmarshalJSON fuzz_tabletserver_rules_unmarshal_json
-compile_go_fuzzer github.com/mdibaiee/vitess/go/test/fuzzing FuzzLoadTable fuzz_load_table
+compile_go_fuzzer github.com/vitess/vitess/go/test/fuzzing Fuzz vtctl_fuzzer
+compile_go_fuzzer github.com/vitess/vitess/go/test/fuzzing FuzzIsDML is_dml_fuzzer
+compile_go_fuzzer github.com/vitess/vitess/go/test/fuzzing FuzzNormalizer normalizer_fuzzer
+compile_go_fuzzer github.com/vitess/vitess/go/test/fuzzing FuzzParser parser_fuzzer
+compile_go_fuzzer github.com/vitess/vitess/go/test/fuzzing FuzzNodeFormat fuzz_node_format
+compile_go_fuzzer github.com/vitess/vitess/go/test/fuzzing FuzzGRPCTMServer fuzz_grpc_tm_server
+compile_go_fuzzer github.com/vitess/vitess/go/test/fuzzing FuzzOnlineDDLFromCommentedStatement fuzz_online_ddl_from_commented_statement
+compile_go_fuzzer github.com/vitess/vitess/go/test/fuzzing FuzzNewOnlineDDLs fuzz_new_online_ddls
+compile_go_fuzzer github.com/vitess/vitess/go/test/fuzzing FuzzEqualsSQLNode fuzz_equals_sql_node
+compile_go_fuzzer github.com/vitess/vitess/go/test/fuzzing FuzzSplitStatementToPieces fuzz_split_statement_to_pieces
+compile_go_fuzzer github.com/vitess/vitess/go/test/fuzzing FuzzTabletManager_ExecuteFetchAsDba fuzz_tablet_manager_execute_fetch_as_dba
+compile_go_fuzzer github.com/vitess/vitess/go/test/fuzzing FuzzUnmarshalJSON fuzz_tabletserver_rules_unmarshal_json
+compile_go_fuzzer github.com/vitess/vitess/go/test/fuzzing FuzzLoadTable fuzz_load_table
 
 
-compile_go_fuzzer github.com/mdibaiee/vitess/go/mysql FuzzWritePacket write_packet_fuzzer
-compile_go_fuzzer github.com/mdibaiee/vitess/go/mysql FuzzHandleNextCommand handle_next_command_fuzzer
-compile_go_fuzzer github.com/mdibaiee/vitess/go/mysql FuzzReadQueryResults read_query_results_fuzzer
-compile_go_fuzzer github.com/mdibaiee/vitess/go/mysql FuzzTLSServer fuzz_tls
+compile_go_fuzzer github.com/vitess/vitess/go/mysql FuzzWritePacket write_packet_fuzzer
+compile_go_fuzzer github.com/vitess/vitess/go/mysql FuzzHandleNextCommand handle_next_command_fuzzer
+compile_go_fuzzer github.com/vitess/vitess/go/mysql FuzzReadQueryResults read_query_results_fuzzer
+compile_go_fuzzer github.com/vitess/vitess/go/mysql FuzzTLSServer fuzz_tls
 
-compile_go_fuzzer github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/vstreamer Fuzz vstreamer_planbuilder_fuzzer
-compile_go_fuzzer github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver FuzzGetPlan fuzz_get_plan
+compile_go_fuzzer github.com/vitess/vitess/go/vt/vttablet/tabletserver/vstreamer Fuzz vstreamer_planbuilder_fuzzer
+compile_go_fuzzer github.com/vitess/vitess/go/vt/vttablet/tabletserver FuzzGetPlan fuzz_get_plan
 
 # Several test utils are needed from suite_test.go:
 mv ./go/vt/vtgate/grpcvtgateconn/suite_test.go \
    ./go/vt/vtgate/grpcvtgateconn/suite_test_fuzz.go
 mv ./go/vt/vtgate/grpcvtgateconn/fuzz_flaky_test.go \
    ./go/vt/vtgate/grpcvtgateconn/fuzz.go
-compile_go_fuzzer github.com/mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn Fuzz grpc_vtgate_fuzzer
+compile_go_fuzzer github.com/vitess/vitess/go/vt/vtgate/grpcvtgateconn Fuzz grpc_vtgate_fuzzer
 
-compile_go_fuzzer github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/abstract FuzzAnalyse fuzz_analyse gofuzz
+compile_go_fuzzer github.com/vitess/vitess/go/vt/vtgate/planbuilder/abstract FuzzAnalyse fuzz_analyse gofuzz
 
 
 

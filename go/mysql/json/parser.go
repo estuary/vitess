@@ -27,12 +27,12 @@ import (
 	"time"
 	"unicode/utf16"
 
-	"github.com/mdibaiee/vitess/go/mysql/fastparse"
+	"github.com/vitess/vitess/go/mysql/fastparse"
 
-	"github.com/mdibaiee/vitess/go/hack"
-	"github.com/mdibaiee/vitess/go/mysql/datetime"
-	"github.com/mdibaiee/vitess/go/mysql/decimal"
-	"github.com/mdibaiee/vitess/go/mysql/format"
+	"github.com/vitess/vitess/go/hack"
+	"github.com/vitess/vitess/go/mysql/datetime"
+	"github.com/vitess/vitess/go/mysql/decimal"
+	"github.com/vitess/vitess/go/mysql/format"
 )
 
 // Parser parses JSON.

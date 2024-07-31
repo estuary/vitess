@@ -34,12 +34,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vtgateconn"
-	"github.com/mdibaiee/vitess/go/vt/vttest"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/vitess/vitess/go/vt/vttest"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	vttestpb "github.com/mdibaiee/vitess/go/vt/proto/vttest"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	vttestpb "github.com/vitess/vitess/go/vt/proto/vttest"
 )
 
 var (

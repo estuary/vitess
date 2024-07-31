@@ -19,10 +19,10 @@ limitations under the License.
 package tabletenv
 
 import (
-	"github.com/mdibaiee/vitess/go/tb"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
+	"github.com/vitess/vitess/go/tb"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/vtenv"
 )
 
 // Env defines the functions supported by TabletServer

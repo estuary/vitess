@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/sqlparser"
 )
 
 // ParentFKInfo contains the parent foreign key info for the table.

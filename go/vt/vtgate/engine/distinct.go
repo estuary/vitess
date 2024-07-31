@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/evalengine"
-	"github.com/mdibaiee/vitess/go/vt/vthash"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/sqltypes"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vtgate/evalengine"
+	"github.com/vitess/vitess/go/vt/vthash"
 )
 
 // Distinct Primitive is used to uniqueify results

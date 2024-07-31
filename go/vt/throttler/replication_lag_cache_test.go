@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/vt/discovery"
+	"github.com/vitess/vitess/go/vt/discovery"
 )
 
 // TestReplicationLagCache tests that the ring buffer in "replicationLagHistory"

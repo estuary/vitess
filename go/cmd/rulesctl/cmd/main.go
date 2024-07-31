@@ -3,8 +3,8 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	_flag "github.com/mdibaiee/vitess/go/internal/flag"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
+	_flag "github.com/vitess/vitess/go/internal/flag"
+	"github.com/vitess/vitess/go/vt/logutil"
 )
 
 var configFile string

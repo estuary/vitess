@@ -22,7 +22,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/logutil"
+	"github.com/vitess/vitess/go/vt/logutil"
 )
 
 // logCounterNegative is for throttling adding a negative value to a counter messages in logs

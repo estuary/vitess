@@ -32,10 +32,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
+	"github.com/vitess/vitess/go/mysql/sqlerror"
 
-	"github.com/mdibaiee/vitess/go/vt/tlstest"
-	"github.com/mdibaiee/vitess/go/vt/vttls"
+	"github.com/vitess/vitess/go/vt/tlstest"
+	"github.com/vitess/vitess/go/vt/vttls"
 )
 
 // assertSQLError makes sure we get the right error.

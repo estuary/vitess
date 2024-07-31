@@ -22,16 +22,16 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/mdibaiee/vitess/go/vt/hook"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	"github.com/mdibaiee/vitess/go/vt/mysqlctl/tmutils"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/hook"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/logutil"
+	"github.com/vitess/vitess/go/vt/mysqlctl/tmutils"
+	"github.com/vitess/vitess/go/vt/servenv"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	replicationdatapb "github.com/mdibaiee/vitess/go/vt/proto/replicationdata"
-	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	replicationdatapb "github.com/vitess/vitess/go/vt/proto/replicationdata"
+	tabletmanagerdatapb "github.com/vitess/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 // tabletManagerProtocol is the implementation to use for tablet

@@ -10,7 +10,7 @@ import (
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	io "io"
 	bits "math/bits"
-	query "github.com/mdibaiee/vitess/go/vt/proto/query"
+	query "github.com/vitess/vitess/go/vt/proto/query"
 )
 
 const (

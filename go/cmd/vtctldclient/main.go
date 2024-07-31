@@ -19,18 +19,18 @@ package main
 import (
 	"flag"
 
-	"github.com/mdibaiee/vitess/go/acl"
-	"github.com/mdibaiee/vitess/go/cmd/vtctldclient/command"
-	"github.com/mdibaiee/vitess/go/exit"
-	"github.com/mdibaiee/vitess/go/vt/grpcclient"
-	"github.com/mdibaiee/vitess/go/vt/grpccommon"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/vtctl/grpcclientcommon"
-	"github.com/mdibaiee/vitess/go/vt/vtctl/vtctlclient"
+	"github.com/vitess/vitess/go/acl"
+	"github.com/vitess/vitess/go/cmd/vtctldclient/command"
+	"github.com/vitess/vitess/go/exit"
+	"github.com/vitess/vitess/go/vt/grpcclient"
+	"github.com/vitess/vitess/go/vt/grpccommon"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/logutil"
+	"github.com/vitess/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/vtctl/grpcclientcommon"
+	"github.com/vitess/vitess/go/vt/vtctl/vtctlclient"
 
-	_flag "github.com/mdibaiee/vitess/go/internal/flag"
+	_flag "github.com/vitess/vitess/go/internal/flag"
 )
 
 func main() {

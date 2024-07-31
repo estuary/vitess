@@ -26,9 +26,9 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/streamlog"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/streamlog"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/servenv"
 )
 
 var (

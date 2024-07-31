@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math/rand/v2"
 
-	"github.com/mdibaiee/vitess/go/trace"
+	"github.com/vitess/vitess/go/trace"
 
-	vtadminpb "github.com/mdibaiee/vitess/go/vt/proto/vtadmin"
+	vtadminpb "github.com/vitess/vitess/go/vt/proto/vtadmin"
 )
 
 // JSONDiscovery implements the Discovery interface for "discovering"

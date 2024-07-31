@@ -25,20 +25,20 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/grpcclient"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/proto/vtrpc"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
-	"github.com/mdibaiee/vitess/go/vt/topotools"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/queryservice"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletconn"
+	"github.com/vitess/vitess/go/vt/grpcclient"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/proto/vtrpc"
+	"github.com/vitess/vitess/go/vt/topo/topoproto"
+	"github.com/vitess/vitess/go/vt/topotools"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vttablet/queryservice"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletconn"
 
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/vitess/vitess/go/vt/proto/query"
+	"github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 // withDialerContextOnce ensures grpc.WithDialContext() is added once to the options.

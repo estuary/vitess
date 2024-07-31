@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/test/endtoend/utils"
+	"github.com/vitess/vitess/go/test/endtoend/utils"
 )
 
 type testQuery struct {

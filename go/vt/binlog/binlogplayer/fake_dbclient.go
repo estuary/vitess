@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/sqltypes"
 )
 
 type fakeDBClient struct {

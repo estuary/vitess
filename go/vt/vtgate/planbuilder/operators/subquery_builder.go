@@ -17,10 +17,10 @@ limitations under the License.
 package operators
 
 import (
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/engine/opcode"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/semantics"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/vtgate/engine/opcode"
+	"github.com/vitess/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/vitess/vitess/go/vt/vtgate/semantics"
 )
 
 type SubQueryBuilder struct {

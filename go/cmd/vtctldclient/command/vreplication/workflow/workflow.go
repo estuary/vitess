@@ -19,8 +19,8 @@ package workflow
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/mdibaiee/vitess/go/cmd/vtctldclient/command/vreplication/common"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/vitess/vitess/go/cmd/vtctldclient/command/vreplication/common"
+	"github.com/vitess/vitess/go/vt/topo/topoproto"
 )
 
 var (

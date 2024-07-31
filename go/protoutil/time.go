@@ -19,7 +19,7 @@ package protoutil
 import (
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/proto/vttime"
+	"github.com/vitess/vitess/go/vt/proto/vttime"
 )
 
 // TimeFromProto converts a vttime.Time proto message into a time.Time object.

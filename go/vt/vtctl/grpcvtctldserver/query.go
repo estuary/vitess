@@ -20,16 +20,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/protoutil"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
-	"github.com/mdibaiee/vitess/go/vt/vtctl/schematools"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/protoutil"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/topo/topoproto"
+	"github.com/vitess/vitess/go/vt/vtctl/schematools"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
-	"github.com/mdibaiee/vitess/go/vt/proto/vttime"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	vtctldatapb "github.com/vitess/vitess/go/vt/proto/vtctldata"
+	"github.com/vitess/vitess/go/vt/proto/vttime"
 )
 
 const (

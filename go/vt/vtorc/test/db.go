@@ -19,9 +19,9 @@ package test
 import (
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/vt/external/golib/sqlutils"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/db"
+	"github.com/vitess/vitess/go/vt/external/golib/sqlutils"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/vtorc/db"
 )
 
 var _ db.DB = (*DB)(nil)

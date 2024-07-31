@@ -166,8 +166,8 @@ package trace
 import (
 	"github.com/spf13/pflag"
 
-	"github.com/mdibaiee/vitess/go/viperutil"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/viperutil"
+	"github.com/vitess/vitess/go/vt/servenv"
 )
 
 var (

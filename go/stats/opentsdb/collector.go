@@ -22,7 +22,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/mdibaiee/vitess/go/stats"
+	"github.com/vitess/vitess/go/stats"
 )
 
 // collector tracks state for a single pass of stats reporting / data collection.

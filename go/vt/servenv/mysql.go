@@ -21,7 +21,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/mdibaiee/vitess/go/mysql/config"
+	"github.com/vitess/vitess/go/mysql/config"
 )
 
 // mySQLServerVersion is what Vitess will present as it's version during the connection handshake,

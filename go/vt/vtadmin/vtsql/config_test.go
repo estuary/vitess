@@ -28,10 +28,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/backoff"
 
-	"github.com/mdibaiee/vitess/go/vt/grpcclient"
-	"github.com/mdibaiee/vitess/go/vt/vtadmin/cluster/resolver"
+	"github.com/vitess/vitess/go/vt/grpcclient"
+	"github.com/vitess/vitess/go/vt/vtadmin/cluster/resolver"
 
-	vtadminpb "github.com/mdibaiee/vitess/go/vt/proto/vtadmin"
+	vtadminpb "github.com/vitess/vitess/go/vt/proto/vtadmin"
 )
 
 func TestConfigParse(t *testing.T) {

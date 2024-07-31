@@ -20,8 +20,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/topo"
 )
 
 // GetShards returns a subset of shards in a keyspace. If no subset is provided, all shards are returned.

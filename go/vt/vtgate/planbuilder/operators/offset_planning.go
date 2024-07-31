@@ -19,11 +19,11 @@ package operators
 import (
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/engine/opcode"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/semantics"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vtgate/engine/opcode"
+	"github.com/vitess/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/vitess/vitess/go/vt/vtgate/semantics"
 )
 
 // planOffsets will walk the tree top down, adding offset information to columns in the tree for use in further optimization,

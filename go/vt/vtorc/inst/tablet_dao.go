@@ -22,15 +22,15 @@ import (
 
 	"google.golang.org/protobuf/encoding/prototext"
 
-	"github.com/mdibaiee/vitess/go/protoutil"
-	"github.com/mdibaiee/vitess/go/vt/external/golib/sqlutils"
+	"github.com/vitess/vitess/go/protoutil"
+	"github.com/vitess/vitess/go/vt/external/golib/sqlutils"
 
-	replicationdatapb "github.com/mdibaiee/vitess/go/vt/proto/replicationdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/db"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
+	replicationdatapb "github.com/vitess/vitess/go/vt/proto/replicationdata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topo/topoproto"
+	"github.com/vitess/vitess/go/vt/vtorc/db"
+	"github.com/vitess/vitess/go/vt/vttablet/tmclient"
 )
 
 // ErrTabletAliasNil is a fixed error message.

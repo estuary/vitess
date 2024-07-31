@@ -25,7 +25,7 @@ import (
 	"math/bits"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/mysql/fastparse"
+	"github.com/vitess/vitess/go/mysql/fastparse"
 )
 
 var errOverflow = errors.New("overflow")

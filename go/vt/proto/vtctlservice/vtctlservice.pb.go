@@ -27,7 +27,7 @@ package vtctlservice
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	vtctldata "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
+	vtctldata "github.com/vitess/vitess/go/vt/proto/vtctldata"
 	reflect "reflect"
 )
 

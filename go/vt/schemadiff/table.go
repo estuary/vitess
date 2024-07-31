@@ -26,8 +26,8 @@ import (
 
 	golcs "github.com/yudai/golcs"
 
-	"github.com/mdibaiee/vitess/go/ptr"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/ptr"
+	"github.com/vitess/vitess/go/vt/sqlparser"
 )
 
 type charsetCollate struct {

@@ -25,7 +25,7 @@ import (
 	"github.com/google/safehtml"
 	"github.com/google/safehtml/template"
 
-	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/vitess/vitess/go/mysql"
 )
 
 // MysqlCallInfo returns an augmented context with a CallInfo structure,

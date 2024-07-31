@@ -23,8 +23,8 @@ import (
 
 	"context"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	"github.com/vitess/vitess/go/vt/log"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
 )
 
 const (

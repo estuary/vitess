@@ -24,7 +24,7 @@ import (
 )
 
 func TestFullGeneration(t *testing.T) {
-	result, err := GenerateSizeHelpers([]string{"./integration/..."}, []string{"github.com/mdibaiee/vitess/go/tools/sizegen/integration.*"})
+	result, err := GenerateSizeHelpers([]string{"./integration/..."}, []string{"github.com/vitess/vitess/go/tools/sizegen/integration.*"})
 	require.NoError(t, err)
 
 	verifyErrors := VerifyFilesOnDisk(result)

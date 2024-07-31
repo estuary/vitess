@@ -26,9 +26,9 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations/charset"
-	"github.com/mdibaiee/vitess/go/mysql/collations/internal/uca"
-	"github.com/mdibaiee/vitess/go/mysql/collations/tools/makecolldata/codegen"
+	"github.com/vitess/vitess/go/mysql/collations/charset"
+	"github.com/vitess/vitess/go/mysql/collations/internal/uca"
+	"github.com/vitess/vitess/go/mysql/collations/tools/makecolldata/codegen"
 )
 
 type TailoringWeights map[string][]uint16
@@ -106,8 +106,8 @@ func (all AllMetadata) get(name string) *CollationMetadata {
 	return nil
 }
 
-const PkgCollationsData codegen.Package = "github.com/mdibaiee/vitess/go/mysql/collations/colldata"
-const PkgCharset codegen.Package = "github.com/mdibaiee/vitess/go/mysql/collations/charset"
+const PkgCollationsData codegen.Package = "github.com/vitess/vitess/go/mysql/collations/colldata"
+const PkgCharset codegen.Package = "github.com/vitess/vitess/go/mysql/collations/charset"
 
 func main() {
 	pflag.Parse()

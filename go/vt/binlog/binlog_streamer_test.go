@@ -27,14 +27,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/mdibaiee/vitess/go/mysql/replication"
-	"github.com/mdibaiee/vitess/go/mysql/sqlerror"
+	"github.com/vitess/vitess/go/mysql/replication"
+	"github.com/vitess/vitess/go/mysql/sqlerror"
 
-	"github.com/mdibaiee/vitess/go/mysql"
+	"github.com/vitess/vitess/go/mysql"
 
-	"github.com/mdibaiee/vitess/go/vt/dbconfigs"
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	"github.com/vitess/vitess/go/vt/dbconfigs"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
 )
 
 // fullBinlogTransaction is a helper type for tests.

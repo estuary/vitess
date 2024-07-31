@@ -24,8 +24,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/protoutil"
-	logutilpb "github.com/mdibaiee/vitess/go/vt/proto/logutil"
+	"github.com/vitess/vitess/go/protoutil"
+	logutilpb "github.com/vitess/vitess/go/vt/proto/logutil"
 )
 
 // Logger defines the interface to use for our logging interface.

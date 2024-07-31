@@ -20,8 +20,8 @@ import (
 	"encoding/binary"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/hack"
-	"github.com/mdibaiee/vitess/go/mysql/fastparse"
+	"github.com/vitess/vitess/go/hack"
+	"github.com/vitess/vitess/go/mysql/fastparse"
 )
 
 const (

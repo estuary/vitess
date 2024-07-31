@@ -26,17 +26,17 @@ import (
 	"io"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/hook"
-	"github.com/mdibaiee/vitess/go/vt/logutil"
-	"github.com/mdibaiee/vitess/go/vt/mysqlctl/tmutils"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/hook"
+	"github.com/vitess/vitess/go/vt/logutil"
+	"github.com/vitess/vitess/go/vt/mysqlctl/tmutils"
+	"github.com/vitess/vitess/go/vt/vttablet/tmclient"
 
-	logutilpb "github.com/mdibaiee/vitess/go/vt/proto/logutil"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	replicationdatapb "github.com/mdibaiee/vitess/go/vt/proto/replicationdata"
-	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	logutilpb "github.com/vitess/vitess/go/vt/proto/logutil"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	replicationdatapb "github.com/vitess/vitess/go/vt/proto/replicationdata"
+	tabletmanagerdatapb "github.com/vitess/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 // NewFakeTabletManagerClient should be used to create a new FakeTabletManagerClient.

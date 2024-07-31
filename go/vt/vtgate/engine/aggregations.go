@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/slice"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
-	. "github.com/mdibaiee/vitess/go/vt/vtgate/engine/opcode"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/evalengine"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/slice"
+	"github.com/vitess/vitess/go/sqltypes"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/vterrors"
+	. "github.com/vitess/vitess/go/vt/vtgate/engine/opcode"
+	"github.com/vitess/vitess/go/vt/vtgate/evalengine"
 )
 
 // AggregateParams specify the parameters for each aggregation.

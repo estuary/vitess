@@ -17,7 +17,7 @@ limitations under the License.
 package planbuilder
 
 import (
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/sqlparser"
 )
 
 // GenerateFullQuery generates the full query from the ast.

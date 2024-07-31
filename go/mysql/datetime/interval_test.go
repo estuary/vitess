@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mdibaiee/vitess/go/mysql/decimal"
+	"github.com/vitess/vitess/go/mysql/decimal"
 )
 
 func TestIntervalType(t *testing.T) {

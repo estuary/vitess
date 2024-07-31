@@ -17,7 +17,7 @@ limitations under the License.
 package operators
 
 import (
-	"github.com/mdibaiee/vitess/go/vt/vtgate/planbuilder/plancontext"
+	"github.com/vitess/vitess/go/vt/vtgate/planbuilder/plancontext"
 )
 
 // VerifyOp keeps the information about the foreign key verification operation.

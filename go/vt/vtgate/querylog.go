@@ -19,9 +19,9 @@ package vtgate
 import (
 	"net/http"
 
-	"github.com/mdibaiee/vitess/go/streamlog"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/logstats"
+	"github.com/vitess/vitess/go/streamlog"
+	"github.com/vitess/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/vtgate/logstats"
 )
 
 var (

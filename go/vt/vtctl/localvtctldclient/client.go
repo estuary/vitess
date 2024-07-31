@@ -21,9 +21,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/mdibaiee/vitess/go/vt/vtctl/vtctldclient"
+	"github.com/vitess/vitess/go/vt/vtctl/vtctldclient"
 
-	vtctlservicepb "github.com/mdibaiee/vitess/go/vt/proto/vtctlservice"
+	vtctlservicepb "github.com/vitess/vitess/go/vt/proto/vtctlservice"
 )
 
 var (

@@ -19,7 +19,7 @@ package sqltypes
 import (
 	"errors"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
 )
 
 var (

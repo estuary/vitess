@@ -25,9 +25,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/connectivity"
 
-	"github.com/mdibaiee/vitess/go/netutil"
-	tabletmanagerdatapb "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/vitess/vitess/go/netutil"
+	tabletmanagerdatapb "github.com/vitess/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 func TestDialDedicatedPool(t *testing.T) {

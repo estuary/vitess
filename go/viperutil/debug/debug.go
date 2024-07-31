@@ -17,7 +17,7 @@ limitations under the License.
 package debug
 
 import (
-	"github.com/mdibaiee/vitess/go/viperutil/internal/registry"
+	"github.com/vitess/vitess/go/viperutil/internal/registry"
 )
 
 // Debug provides the Debug functionality normally accessible to a given viper

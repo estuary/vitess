@@ -19,5 +19,5 @@ package cli
 // Imports and register the zk2 TopologyServer
 
 import (
-	_ "github.com/mdibaiee/vitess/go/vt/topo/zk2topo"
+	_ "github.com/vitess/vitess/go/vt/topo/zk2topo"
 )

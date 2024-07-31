@@ -24,15 +24,15 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/cmd/vtctldclient/command"
-	"github.com/mdibaiee/vitess/go/cmd/vtctldclient/command/vreplication/common"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/memorytopo"
-	"github.com/mdibaiee/vitess/go/vt/vtctl/grpcvtctldserver"
-	"github.com/mdibaiee/vitess/go/vt/vtctl/localvtctldclient"
-	"github.com/mdibaiee/vitess/go/vt/vtctl/vtctldclient"
-	"github.com/mdibaiee/vitess/go/vt/vtenv"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tmclient"
+	"github.com/vitess/vitess/go/cmd/vtctldclient/command"
+	"github.com/vitess/vitess/go/cmd/vtctldclient/command/vreplication/common"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topo/memorytopo"
+	"github.com/vitess/vitess/go/vt/vtctl/grpcvtctldserver"
+	"github.com/vitess/vitess/go/vt/vtctl/localvtctldclient"
+	"github.com/vitess/vitess/go/vt/vtctl/vtctldclient"
+	"github.com/vitess/vitess/go/vt/vtenv"
+	"github.com/vitess/vitess/go/vt/vttablet/tmclient"
 )
 
 func TestParseAndValidateCreateOptions(t *testing.T) {

@@ -31,12 +31,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
-	"github.com/mdibaiee/vitess/go/test/endtoend/utils"
-	vtorcutils "github.com/mdibaiee/vitess/go/test/endtoend/vtorc/utils"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	"github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	"github.com/vitess/vitess/go/mysql"
+	"github.com/vitess/vitess/go/test/endtoend/cluster"
+	"github.com/vitess/vitess/go/test/endtoend/utils"
+	vtorcutils "github.com/vitess/vitess/go/test/endtoend/vtorc/utils"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	"github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 func TestVtgateHealthCheck(t *testing.T) {

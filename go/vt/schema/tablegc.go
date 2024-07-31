@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/textutil"
+	"github.com/vitess/vitess/go/textutil"
 )
 
 // TableGCState provides a state for the type of GC table: HOLD? PURGE? EVAC? DROP? See details below

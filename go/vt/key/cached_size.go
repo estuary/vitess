@@ -25,7 +25,7 @@ func (cached *DestinationExactKeyRange) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(8)
 	}
-	// field KeyRange *github.com/mdibaiee/vitess/go/vt/proto/topodata.KeyRange
+	// field KeyRange *github.com/vitess/vitess/go/vt/proto/topodata.KeyRange
 	size += cached.KeyRange.CachedSize(true)
 	return size
 }
@@ -37,7 +37,7 @@ func (cached *DestinationKeyRange) CachedSize(alloc bool) int64 {
 	if alloc {
 		size += int64(8)
 	}
-	// field KeyRange *github.com/mdibaiee/vitess/go/vt/proto/topodata.KeyRange
+	// field KeyRange *github.com/vitess/vitess/go/vt/proto/topodata.KeyRange
 	size += cached.KeyRange.CachedSize(true)
 	return size
 }

@@ -26,16 +26,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/vitess/vitess/go/vt/topo/topoproto"
 
-	"github.com/mdibaiee/vitess/go/vt/key"
+	"github.com/vitess/vitess/go/vt/key"
 
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/trace"
+	"github.com/vitess/vitess/go/stats"
+	"github.com/vitess/vitess/go/trace"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/proto/topodata"
+	"github.com/vitess/vitess/go/vt/topo"
 )
 
 const (

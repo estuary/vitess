@@ -22,8 +22,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
-	_ "github.com/mdibaiee/vitess/go/vt/vtgate/grpcvtgateconn"
+	"github.com/vitess/vitess/go/test/endtoend/cluster"
+	_ "github.com/vitess/vitess/go/vt/vtgate/grpcvtgateconn"
 )
 
 var (

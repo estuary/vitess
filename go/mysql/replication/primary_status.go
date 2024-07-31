@@ -19,9 +19,9 @@ package replication
 import (
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	replicationdatapb "github.com/mdibaiee/vitess/go/vt/proto/replicationdata"
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/log"
+	replicationdatapb "github.com/vitess/vitess/go/vt/proto/replicationdata"
+	"github.com/vitess/vitess/go/vt/vterrors"
 )
 
 // PrimaryStatus holds replication information from SHOW BINARY LOG STATUS.

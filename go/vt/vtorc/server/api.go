@@ -24,13 +24,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/acl"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/collection"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/discovery"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/inst"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/logic"
-	"github.com/mdibaiee/vitess/go/vt/vtorc/process"
+	"github.com/vitess/vitess/go/acl"
+	"github.com/vitess/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/vtorc/collection"
+	"github.com/vitess/vitess/go/vt/vtorc/discovery"
+	"github.com/vitess/vitess/go/vt/vtorc/inst"
+	"github.com/vitess/vitess/go/vt/vtorc/logic"
+	"github.com/vitess/vitess/go/vt/vtorc/process"
 )
 
 // vtorcAPI struct is created to implement the Handler interface to register

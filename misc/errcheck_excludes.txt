@@ -34,16 +34,16 @@ os.Rename
 (*google.golang.org/grpc.ClientConn).Close
 (*google.golang.org/grpc.Server).Serve
 
-(*github.com/mdibaiee/vitess/go/bytes2.Buffer).Write
-(*github.com/mdibaiee/vitess/go/bytes2.Buffer).WriteByte
-(*github.com/mdibaiee/vitess/go/bytes2.Buffer).WriteString
+(*github.com/vitess/vitess/go/bytes2.Buffer).Write
+(*github.com/vitess/vitess/go/bytes2.Buffer).WriteByte
+(*github.com/vitess/vitess/go/bytes2.Buffer).WriteString
 
-(github.com/mdibaiee/vitess/go/sqltypes.BinWriter).Write
+(github.com/vitess/vitess/go/sqltypes.BinWriter).Write
 
-github.com/mdibaiee/vitess/go/vt/orchestrator/external/golib/log.Errore
-github.com/mdibaiee/vitess/go/vt/orchestrator/external/golib/log.Errorf
-github.com/mdibaiee/vitess/go/vt/orchestrator/external/golib/log.Fatal
-github.com/mdibaiee/vitess/go/vt/orchestrator/external/golib/log.Fatale
-github.com/mdibaiee/vitess/go/vt/orchestrator/external/golib/log.Fatalf
+github.com/vitess/vitess/go/vt/orchestrator/external/golib/log.Errore
+github.com/vitess/vitess/go/vt/orchestrator/external/golib/log.Errorf
+github.com/vitess/vitess/go/vt/orchestrator/external/golib/log.Fatal
+github.com/vitess/vitess/go/vt/orchestrator/external/golib/log.Fatale
+github.com/vitess/vitess/go/vt/orchestrator/external/golib/log.Fatalf
 
-(*github.com/mdibaiee/vitess/go/vt/vttest.LocalCluster).TearDown
+(*github.com/vitess/vitess/go/vt/vttest.LocalCluster).TearDown

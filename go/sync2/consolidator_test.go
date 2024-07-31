@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/sqltypes"
 )
 
 func TestConsolidator(t *testing.T) {

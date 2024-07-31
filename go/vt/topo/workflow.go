@@ -21,7 +21,7 @@ import (
 
 	"context"
 
-	workflowpb "github.com/mdibaiee/vitess/go/vt/proto/workflow"
+	workflowpb "github.com/vitess/vitess/go/vt/proto/workflow"
 )
 
 // This file provides the utility methods to save / retrieve workflows

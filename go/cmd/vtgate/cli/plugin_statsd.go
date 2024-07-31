@@ -16,7 +16,7 @@ limitations under the License.
 
 package cli
 
-import "github.com/mdibaiee/vitess/go/stats/statsd"
+import "github.com/vitess/vitess/go/stats/statsd"
 
 func init() {
 	statsd.Init("vtgate")

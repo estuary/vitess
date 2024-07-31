@@ -29,11 +29,11 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/rules"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/rules"
 )
 
 var (

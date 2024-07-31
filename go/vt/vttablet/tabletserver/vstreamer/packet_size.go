@@ -21,9 +21,9 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/servenv"
 
-	"github.com/mdibaiee/vitess/go/mathstats"
+	"github.com/vitess/vitess/go/mathstats"
 )
 
 var (

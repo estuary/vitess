@@ -17,9 +17,9 @@ limitations under the License.
 package evalengine
 
 import (
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/mysql/collations/colldata"
-	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/mysql/collations/colldata"
+	"github.com/vitess/vitess/go/sqltypes"
 )
 
 func typedCoercionCollation(typ sqltypes.Type, id collations.ID) collations.TypedCollation {

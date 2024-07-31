@@ -19,11 +19,11 @@ package cluster
 import (
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/trace"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
-	"github.com/mdibaiee/vitess/go/vt/vtadmin/vtadminproto"
+	"github.com/vitess/vitess/go/trace"
+	"github.com/vitess/vitess/go/vt/topo/topoproto"
+	"github.com/vitess/vitess/go/vt/vtadmin/vtadminproto"
 
-	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
+	vtctldatapb "github.com/vitess/vitess/go/vt/proto/vtctldata"
 )
 
 // AnnotateSpan adds the cluster_id and cluster_name to a span.

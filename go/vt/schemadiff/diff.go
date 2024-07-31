@@ -1,7 +1,7 @@
 package schemadiff
 
 import (
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/sqlparser"
 )
 
 // DDLActionStr returns the action implied by the given diff: CREATE", "DROP", "ALTER" or empty

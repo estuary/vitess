@@ -23,12 +23,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/binlog/binlogplayer"
+	"github.com/vitess/vitess/go/vt/binlog/binlogplayer"
 
-	"github.com/mdibaiee/vitess/go/stats"
-	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/stats"
+	"github.com/vitess/vitess/go/vt/servenv"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 var (

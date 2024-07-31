@@ -28,7 +28,7 @@ package binlogservice
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	binlogdata "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	binlogdata "github.com/vitess/vitess/go/vt/proto/binlogdata"
 	reflect "reflect"
 )
 

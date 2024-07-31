@@ -20,8 +20,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/topo/test"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topo/test"
 )
 
 func TestMemoryTopo(t *testing.T) {

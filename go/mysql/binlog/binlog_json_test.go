@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql/json"
+	"github.com/vitess/vitess/go/mysql/json"
 )
 
 func jsonObject(entries map[string]*json.Value) *json.Value {

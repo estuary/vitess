@@ -25,11 +25,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
-	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/test/endtoend/cluster"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
+	vtgatepb "github.com/vitess/vitess/go/vt/proto/vtgate"
+	"github.com/vitess/vitess/go/vt/vtgate/vtgateconn"
 )
 
 // TestTransactionsWithGRPCAPI test the transaction queries through vtgate grpc apis.

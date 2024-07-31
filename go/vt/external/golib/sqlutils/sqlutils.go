@@ -30,7 +30,7 @@ import (
 
 	_ "modernc.org/sqlite"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/log"
 )
 
 const DateTimeFormat = "2006-01-02 15:04:05.999999"

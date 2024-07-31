@@ -19,5 +19,5 @@ package cli
 // Imports and register the file-based query logger
 
 import (
-	_ "github.com/mdibaiee/vitess/go/vt/vttablet/filelogger"
+	_ "github.com/vitess/vitess/go/vt/vttablet/filelogger"
 )

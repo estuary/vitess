@@ -22,7 +22,7 @@ limitations under the License.
 package icuregex
 
 import (
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/uset"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/uset"
 )
 
 type Pattern struct {

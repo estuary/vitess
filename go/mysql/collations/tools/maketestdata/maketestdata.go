@@ -30,12 +30,12 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations/colldata"
-	"github.com/mdibaiee/vitess/go/mysql/collations/testutil"
+	"github.com/vitess/vitess/go/mysql/collations/colldata"
+	"github.com/vitess/vitess/go/mysql/collations/testutil"
 
-	"github.com/mdibaiee/vitess/go/internal/flag"
-	"github.com/mdibaiee/vitess/go/mysql/collations"
-	"github.com/mdibaiee/vitess/go/mysql/collations/charset"
+	"github.com/vitess/vitess/go/internal/flag"
+	"github.com/vitess/vitess/go/mysql/collations"
+	"github.com/vitess/vitess/go/mysql/collations/charset"
 )
 
 func wikiRequest(lang testutil.Lang, args map[string]string, output any) error {

@@ -26,9 +26,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	vttestpb "github.com/mdibaiee/vitess/go/vt/proto/vttest"
-	"github.com/mdibaiee/vitess/go/vt/vttest"
+	"github.com/vitess/vitess/go/mysql"
+	vttestpb "github.com/vitess/vitess/go/vt/proto/vttest"
+	"github.com/vitess/vitess/go/vt/vttest"
 )
 
 // This file contains various long-running tests for mysql.

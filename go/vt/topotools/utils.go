@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topo"
 
-	topodatapb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/vitess/vitess/go/vt/proto/topodata"
 )
 
 // FindTabletByHostAndPort searches within a tablet map for tablets.

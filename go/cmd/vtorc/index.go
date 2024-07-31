@@ -19,7 +19,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/servenv"
 )
 
 func init() {

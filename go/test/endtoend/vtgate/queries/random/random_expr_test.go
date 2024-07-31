@@ -19,8 +19,8 @@ package random
 import (
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/slice"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/slice"
+	"github.com/vitess/vitess/go/vt/sqlparser"
 )
 
 // This test tests that generating random expressions with a schema does not panic

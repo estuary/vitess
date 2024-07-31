@@ -20,18 +20,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/vtgate/engine"
+	"github.com/vitess/vitess/go/vt/vtgate/engine"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
 
-	binlogdatapb "github.com/mdibaiee/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/vitess/vitess/go/vt/proto/binlogdata"
 
-	vtgatepb "github.com/mdibaiee/vitess/go/vt/proto/vtgate"
+	vtgatepb "github.com/vitess/vitess/go/vt/proto/vtgate"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	_ "github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
+	"github.com/vitess/vitess/go/sqltypes"
+	_ "github.com/vitess/vitess/go/vt/vtgate/vindexes"
 )
 
 // TestVStreamSQLUnsharded tests the experimental 'vstream * from' vtgate olap query

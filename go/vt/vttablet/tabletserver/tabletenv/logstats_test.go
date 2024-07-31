@@ -27,11 +27,11 @@ import (
 
 	"github.com/google/safehtml/testconversions"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/streamlog"
-	"github.com/mdibaiee/vitess/go/vt/callinfo"
-	"github.com/mdibaiee/vitess/go/vt/callinfo/fakecallinfo"
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/streamlog"
+	"github.com/vitess/vitess/go/vt/callinfo"
+	"github.com/vitess/vitess/go/vt/callinfo/fakecallinfo"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
 )
 
 func TestLogStats(t *testing.T) {

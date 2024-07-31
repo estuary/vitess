@@ -20,8 +20,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/mdibaiee/vitess/go/cache"
-	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/cache"
+	"github.com/vitess/vitess/go/sqltypes"
 )
 
 // Consolidator consolidates duplicate queries from executing simulaneously

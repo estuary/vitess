@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/test/endtoend/cluster"
-	tabletpb "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	tmc "github.com/mdibaiee/vitess/go/vt/vttablet/grpctmclient"
+	"github.com/vitess/vitess/go/mysql"
+	"github.com/vitess/vitess/go/test/endtoend/cluster"
+	tabletpb "github.com/vitess/vitess/go/vt/proto/topodata"
+	tmc "github.com/vitess/vitess/go/vt/vttablet/grpctmclient"
 )
 
 var (

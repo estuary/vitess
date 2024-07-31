@@ -21,12 +21,12 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/mdibaiee/vitess/go/mysql/decimal"
-	"github.com/mdibaiee/vitess/go/mysql/fastparse"
-	"github.com/mdibaiee/vitess/go/mysql/format"
-	"github.com/mdibaiee/vitess/go/mysql/json"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/vthash"
+	"github.com/vitess/vitess/go/mysql/decimal"
+	"github.com/vitess/vitess/go/mysql/fastparse"
+	"github.com/vitess/vitess/go/mysql/format"
+	"github.com/vitess/vitess/go/mysql/json"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/vthash"
 )
 
 type (

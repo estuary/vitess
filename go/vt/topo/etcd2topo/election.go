@@ -22,8 +22,8 @@ import (
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/topo"
 )
 
 // NewLeaderParticipation is part of the topo.Server interface

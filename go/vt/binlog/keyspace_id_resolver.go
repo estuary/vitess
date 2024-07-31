@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/vt/key"
-	"github.com/mdibaiee/vitess/go/vt/sqlparser"
-	"github.com/mdibaiee/vitess/go/vt/topo"
-	"github.com/mdibaiee/vitess/go/vt/vtgate/vindexes"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/schema"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/vt/key"
+	"github.com/vitess/vitess/go/vt/sqlparser"
+	"github.com/vitess/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/vtgate/vindexes"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/schema"
 )
 
 // keyspaceIDResolver is constructed for a tableMap entry in RBR.  It

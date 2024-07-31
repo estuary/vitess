@@ -17,8 +17,8 @@ limitations under the License.
 package viperutil
 
 import (
-	"github.com/mdibaiee/vitess/go/viperutil/internal/sync"
-	"github.com/mdibaiee/vitess/go/viperutil/internal/value"
+	"github.com/vitess/vitess/go/viperutil/internal/sync"
+	"github.com/vitess/vitess/go/viperutil/internal/value"
 )
 
 var (

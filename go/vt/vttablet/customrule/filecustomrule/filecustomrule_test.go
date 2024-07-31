@@ -21,8 +21,8 @@ import (
 	"path"
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/rules"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletservermock"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/rules"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletservermock"
 )
 
 var customRule1 = `[

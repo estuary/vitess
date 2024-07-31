@@ -27,11 +27,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/vt/vttablet/endtoend/framework"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
-	"github.com/mdibaiee/vitess/go/vt/vttest"
+	"github.com/vitess/vitess/go/vt/vttablet/endtoend/framework"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/vitess/vitess/go/vt/vttest"
 
-	vttestpb "github.com/mdibaiee/vitess/go/vt/proto/vttest"
+	vttestpb "github.com/vitess/vitess/go/vt/proto/vttest"
 )
 
 var (

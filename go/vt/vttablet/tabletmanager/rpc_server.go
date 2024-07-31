@@ -19,14 +19,14 @@ package tabletmanager
 import (
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/vt/vterrors"
+	"github.com/vitess/vitess/go/vt/vterrors"
 
 	"context"
 
-	"github.com/mdibaiee/vitess/go/tb"
-	"github.com/mdibaiee/vitess/go/vt/callinfo"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/topo/topoproto"
+	"github.com/vitess/vitess/go/tb"
+	"github.com/vitess/vitess/go/vt/callinfo"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/topo/topoproto"
 )
 
 // This file contains the RPC method helpers for the tablet manager.

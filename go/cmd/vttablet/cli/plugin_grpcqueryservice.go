@@ -19,9 +19,9 @@ package cli
 // Imports and register the gRPC queryservice server
 
 import (
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/grpcqueryservice"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver"
+	"github.com/vitess/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/vttablet/grpcqueryservice"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver"
 )
 
 func init() {

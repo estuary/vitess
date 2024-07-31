@@ -27,13 +27,13 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/pattern"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/ucase"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/uchar"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/unames"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/uprops"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/uset"
-	"github.com/mdibaiee/vitess/go/mysql/icuregex/internal/utf16"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/pattern"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/ucase"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/uchar"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/unames"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/uprops"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/uset"
+	"github.com/vitess/vitess/go/mysql/icuregex/internal/utf16"
 )
 
 const BreakIteration = false

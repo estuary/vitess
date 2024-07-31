@@ -21,7 +21,7 @@ limitations under the License.
 
 package uprops
 
-import "github.com/mdibaiee/vitess/go/mysql/icuregex/internal/uchar"
+import "github.com/vitess/vitess/go/mysql/icuregex/internal/uchar"
 
 /**
  * Constants for ISO 15924 script codes.

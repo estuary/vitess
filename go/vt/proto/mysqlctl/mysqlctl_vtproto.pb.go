@@ -10,8 +10,8 @@ import (
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	io "io"
 	bits "math/bits"
-	topodata "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vttime "github.com/mdibaiee/vitess/go/vt/proto/vttime"
+	topodata "github.com/vitess/vitess/go/vt/proto/topodata"
+	vttime "github.com/vitess/vitess/go/vt/proto/vttime"
 )
 
 const (

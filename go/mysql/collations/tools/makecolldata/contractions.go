@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/mdibaiee/vitess/go/mysql/collations/internal/uca"
-	"github.com/mdibaiee/vitess/go/mysql/collations/tools/makecolldata/codegen"
+	"github.com/vitess/vitess/go/mysql/collations/internal/uca"
+	"github.com/vitess/vitess/go/mysql/collations/tools/makecolldata/codegen"
 )
 
 func sortContractionTrie(trie map[rune][]uca.Contraction) (sorted []rune) {

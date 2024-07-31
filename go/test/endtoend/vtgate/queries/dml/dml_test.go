@@ -19,9 +19,9 @@ package dml
 import (
 	"testing"
 
-	"github.com/mdibaiee/vitess/go/mysql"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/test/endtoend/utils"
+	"github.com/vitess/vitess/go/mysql"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/test/endtoend/utils"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

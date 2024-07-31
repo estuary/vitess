@@ -28,8 +28,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdibaiee/vitess/go/streamlog"
-	"github.com/mdibaiee/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/vitess/vitess/go/streamlog"
+	"github.com/vitess/vitess/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 // fakeWriter is a mock of the real syslog writer, to enable capturing and playing back of log messages in unit testing.

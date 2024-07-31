@@ -10,12 +10,12 @@ import (
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	io "io"
 	bits "math/bits"
-	logutil "github.com/mdibaiee/vitess/go/vt/proto/logutil"
-	mysqlctl "github.com/mdibaiee/vitess/go/vt/proto/mysqlctl"
-	tabletmanagerdata "github.com/mdibaiee/vitess/go/vt/proto/tabletmanagerdata"
-	topodata "github.com/mdibaiee/vitess/go/vt/proto/topodata"
-	vschema "github.com/mdibaiee/vitess/go/vt/proto/vschema"
-	vtctldata "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
+	logutil "github.com/vitess/vitess/go/vt/proto/logutil"
+	mysqlctl "github.com/vitess/vitess/go/vt/proto/mysqlctl"
+	tabletmanagerdata "github.com/vitess/vitess/go/vt/proto/tabletmanagerdata"
+	topodata "github.com/vitess/vitess/go/vt/proto/topodata"
+	vschema "github.com/vitess/vitess/go/vt/proto/vschema"
+	vtctldata "github.com/vitess/vitess/go/vt/proto/vtctldata"
 )
 
 const (

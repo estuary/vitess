@@ -23,11 +23,11 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/mdibaiee/vitess/go/vt/servenv"
-	"github.com/mdibaiee/vitess/go/vt/throttler"
+	"github.com/vitess/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/throttler"
 
-	throttlerdatapb "github.com/mdibaiee/vitess/go/vt/proto/throttlerdata"
-	throttlerservicepb "github.com/mdibaiee/vitess/go/vt/proto/throttlerservice"
+	throttlerdatapb "github.com/vitess/vitess/go/vt/proto/throttlerdata"
+	throttlerservicepb "github.com/vitess/vitess/go/vt/proto/throttlerservice"
 )
 
 // Server is the gRPC server implementation of the Throttler service.

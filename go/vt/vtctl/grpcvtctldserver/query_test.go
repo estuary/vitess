@@ -23,13 +23,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mdibaiee/vitess/go/protoutil"
-	"github.com/mdibaiee/vitess/go/sqltypes"
-	"github.com/mdibaiee/vitess/go/test/utils"
-	"github.com/mdibaiee/vitess/go/vt/vtctl/schematools"
+	"github.com/vitess/vitess/go/protoutil"
+	"github.com/vitess/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/test/utils"
+	"github.com/vitess/vitess/go/vt/vtctl/schematools"
 
-	vtctldatapb "github.com/mdibaiee/vitess/go/vt/proto/vtctldata"
-	vttimepb "github.com/mdibaiee/vitess/go/vt/proto/vttime"
+	vtctldatapb "github.com/vitess/vitess/go/vt/proto/vtctldata"
+	vttimepb "github.com/vitess/vitess/go/vt/proto/vttime"
 )
 
 var now = time.Now()

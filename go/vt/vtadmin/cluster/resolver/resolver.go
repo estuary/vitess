@@ -38,11 +38,11 @@ import (
 	grpcresolver "google.golang.org/grpc/resolver"
 	"google.golang.org/grpc/serviceconfig"
 
-	"github.com/mdibaiee/vitess/go/trace"
-	"github.com/mdibaiee/vitess/go/vt/log"
-	"github.com/mdibaiee/vitess/go/vt/vtadmin/cluster/discovery"
-	"github.com/mdibaiee/vitess/go/vt/vtadmin/debug"
-	"github.com/mdibaiee/vitess/go/vt/vtadmin/internal/backoff"
+	"github.com/vitess/vitess/go/trace"
+	"github.com/vitess/vitess/go/vt/log"
+	"github.com/vitess/vitess/go/vt/vtadmin/cluster/discovery"
+	"github.com/vitess/vitess/go/vt/vtadmin/debug"
+	"github.com/vitess/vitess/go/vt/vtadmin/internal/backoff"
 )
 
 const logPrefix = "[vtadmin.cluster.resolver]"

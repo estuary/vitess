@@ -20,7 +20,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/mdibaiee/vitess/go/vt/topo"
+	"github.com/vitess/vitess/go/vt/topo"
 )
 
 // convertError converts a context error into a topo error.

@@ -20,9 +20,9 @@ import (
 	"database/sql/driver"
 	"errors"
 
-	"github.com/mdibaiee/vitess/go/sqltypes"
+	"github.com/vitess/vitess/go/sqltypes"
 
-	querypb "github.com/mdibaiee/vitess/go/vt/proto/query"
+	querypb "github.com/vitess/vitess/go/vt/proto/query"
 )
 
 // streamingRows creates a database/sql/driver compliant Row iterator

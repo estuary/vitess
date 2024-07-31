@@ -19,7 +19,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/mdibaiee/vitess/go/vt/servenv"
+	"github.com/vitess/vitess/go/vt/servenv"
 )
 
 // This is a separate file so it can be selectively included/excluded from
